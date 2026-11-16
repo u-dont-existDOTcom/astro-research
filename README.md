@@ -4,7 +4,17 @@ The public side of an astrology research project: calculation code, method notes
 
 ## Status, 16 November 2026
 
-Empty. Material is being moved here from an older repository, file by file, after each file is checked for names, emails, birth data and other people's words.
+The Mastro Expert operating guide and research assessment are available in the
+[documentation index](docs/INDEX.md). They cover the training workflow, corrected
+research settings, exports, evaluation and the remaining reproduction checks.
+The new 282-chart source-level reproduction is still pending.
+
+Material is being moved here from an older repository, file by file, after each
+file is checked for names, emails, birth data and other people's words.
+
+- [Mastro Expert operating guide](docs/mastro/operating-guide.md)
+- [Usefulness for our research](docs/mastro/research-value.md)
+- [Current research state](state/CURRENT-STATE.md)
 
 ## What belongs here
 
