@@ -3,7 +3,10 @@
 Read `README.md`, `docs/INDEX.md` and `state/CURRENT-STATE.md` before work.
 For Mastro work, read the operating guide, research assessment and completed
 reanalysis under `docs/mastro/` before changing
-settings, exporting keywords or describing what has been reproduced.
+settings, exporting keywords or describing what has been reproduced. For
+method selection or combining systems, also read
+`docs/mastro/inversion-use-policy.md`; keep its evidence scope and conditional
+adoption rule attached to reuse.
 
 This repository is public. Follow the data rules in the README. Keep source
 recordings, databases, correspondence, birth records, interview responses,

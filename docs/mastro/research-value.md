@@ -68,6 +68,14 @@ questionnaire and forecast experiments need their own external outcome tests.
 The built-in chatbot portrait is a generated presentation of selected inputs;
 its apparent specificity is not an independent validation of those inputs.
 
+## Conditional use of inversion
+
+The [inversion use policy](inversion-use-policy.md) preserves the method as a
+research option for Southern tropical natal comparisons. Generate both variants
+under frozen inputs; adoption for a new task depends on a blinded held-out
+comparison. The current cohort does not supply a forecast confidence weight or
+a reason to change other systems automatically.
+
 ## Next research decisions
 
 1. Resolve the remaining historical-input and build/corpus questions with the

@@ -2,6 +2,7 @@
 
 | Document | Purpose |
 | --- | --- |
+| [Conditional inversion use](mastro/inversion-use-policy.md) | Where inversion is a research option, exact paired procedure and evidence needed for future adoption. |
 | [Current-source reanalysis](mastro/reanalysis-results.md) | Completed 141-person results, historical/current comparisons, sensitivities, latitude and limits. |
 | [Mastro Expert operating guide](mastro/operating-guide.md) | Version, files, settings, keyword trees, inversion, CSV exports, evaluator workflow, checks and troubleshooting. |
 | [Mastro research value](mastro/research-value.md) | Where the program can help, evidence status, integration costs and the order of research tasks. |

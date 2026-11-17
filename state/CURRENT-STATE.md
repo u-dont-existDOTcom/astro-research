@@ -4,15 +4,16 @@ Updated: 17 November 2026. The 141-person current-source reanalysis is complete.
 
 ## Goal
 
-Complete the requested current-source calculation, preserve source uncertainty
-and prepare reviewable results and reusable repository instructions.
+Complete the requested current-source calculation, preserve source uncertainty,
+and retain the results and a conditional inversion procedure for future use.
 
 ## Authority / baseline
 
 The owner authorized the 141-person reanalysis, repository instructions and
 reviewable results. The retained eight attachments and technical demonstration
-define the baseline; current owner instructions take precedence. No outgoing
-result email is authorized by this calculation/publication closeout.
+define the baseline; current owner instructions take precedence. The owner
+explicitly authorized sending the reviewed results and recording conditional
+method use on 17 November 2026.
 
 ## Completed
 
@@ -32,8 +33,11 @@ Read the [results](../docs/mastro/reanalysis-results.md),
 ## Current checkpoint
 
 All source generation, frozen analyses and independent numeric review are
-complete. The selected public payload is under final pull-request verification.
-No pair or score is pending.
+complete. The original results and instructions are merged with passing hosted
+checks. The reviewed results reply was sent and independently read back; the
+approved body is preserved and the message has the sent label. No pair or
+score is pending. The conditional-use policy records where to test inversion
+and what new evidence would support adoption.
 
 ## Blockers / unresolved
 
@@ -90,9 +94,11 @@ cross-project guidance promotion is made.
 
 ## Next safe action
 
-A reviewable reply is prepared and has not been sent. Owner review may precede
-authorizing delivery. Ask the author for exact historical birth records/time
-conventions, archived executable/corpus/settings and the demonstrated evaluator
-to isolate remaining differences. A new blinded validation needs its own frozen
-protocol and controls. These are follow-up research questions, not missing
+The results reply was sent on 17 November 2026 and asks for exact historical
+birth records/time conventions, archived executable/corpus/settings and the
+demonstrated evaluator to isolate remaining differences. Follow
+[the conditional inversion policy](../docs/mastro/inversion-use-policy.md) for
+new comparisons and adoption decisions; retain standard and inverted variants
+until a specified independent comparison supports a task-specific choice.
+A new blinded validation needs its own frozen protocol and controls. These are follow-up research questions, not missing
 current-run outputs.

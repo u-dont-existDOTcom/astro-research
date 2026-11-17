@@ -11,6 +11,7 @@ The binary hemisphere pattern persists, while historical chart inputs and exact
 keyword-vector equality remain unresolved. The magnitude-based BIO reassignment
 diagnostic is borderline, and no new behavioral accuracy study was run.
 
+- [When and how to test inversion](docs/mastro/inversion-use-policy.md)
 - [Mastro operating guide](docs/mastro/operating-guide.md)
 - [Usefulness for our research](docs/mastro/research-value.md)
 - [Aggregate results](docs/mastro/reanalysis-aggregate.json)
