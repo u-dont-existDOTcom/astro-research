@@ -1,0 +1,8 @@
+{"_note": "An invented person, for trying the code. Not a real birth and not real events.",
+ "birth_local": "1975-06-15T14:20", "tz": "Europe/Paris", "lat": 45.764, "lon": 4.8357, "sex": "F",
+ "table_start": "2012-01-01", "table_days": 5433,
+ "events": [{"date": "2012-09-14", "area": "W"}, {"date": "2013-04-02", "area": "R"}, {"date": "2014-01-20", "area": "T"}, {"date": "2014-11-08", "area": "H"},
+            {"date": "2015-06-30", "area": "W"}, {"date": "2016-03-11", "area": "B"}, {"date": "2016-10-05", "area": "R"}, {"date": "2017-07-19", "area": "S"},
+            {"date": "2018-02-27", "area": "L"}, {"date": "2018-12-01", "area": "W"}, {"date": "2019-08-23", "area": "T"}, {"date": "2020-05-17", "area": "H"},
+            {"date": "2021-01-09", "area": "R"}, {"date": "2021-10-28", "area": "N"}, {"date": "2022-06-06", "area": "W"}, {"date": "2023-03-15", "area": "B"},
+            {"date": "2023-12-22", "area": "S"}, {"date": "2024-09-03", "area": "R"}, {"date": "2025-04-26", "area": "T"}, {"date": "2026-02-11", "area": "W"}]}

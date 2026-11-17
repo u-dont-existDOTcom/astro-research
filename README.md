@@ -18,6 +18,12 @@ diagnostic is borderline, and no new behavioral accuracy study was run.
 - [Analysis code and reproducibility](tools/mastro/README.md)
 - [Current research state](state/CURRENT-STATE.md)
 
+A first test of the forecasting side is also complete, on one person with 41 dated events:
+
+- [Forecast curves: the published method and a first test](docs/mastro/forecast-curves.md). By the published rule, 2 events of 41 fell near a peak of their theme where chance expects 3.2.
+- [Timing tests](docs/timing-tests/README.md): ninety techniques from seven traditions against the same dates, with four controls. All at chance; a system fitted to half of the dates did worse than chance on the other half.
+- [Calculation engine](engine) and the [test code](tools/timing_tests).
+
 ## What belongs here
 
 - Calculation engines and their tests, built on the Swiss Ephemeris: Western, Hellenistic, Jyotish, Human Design, BaZi, numerology and the Maya day-count.
@@ -29,6 +35,7 @@ diagnostic is borderline, and no new behavioral accuracy study was run.
 
 - Anyone's birth details, interview answers, readings or correspondence.
 - Extracts from books that are still in copyright.
+- Keyword databases or other licensed content of commercial programs.
 
 ## Rules
 
