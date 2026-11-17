@@ -123,7 +123,7 @@ def parse_standard_longitudes(text):
         if not (0 <= degrees < 360 and 0 <= minutes < 60 and 0 <= seconds <= 60):
             raise ValueError("Standard longitude out of range")
         # Mastro can round its last displayed second to 60 without carrying
-        # into minutes (observed N002 Saturn: 171°27'60"). Normalize only this
+        # into minutes. Normalize only this
         # presentation boundary; coordinate inputs retain strict <60 checks.
         positions[symbol] = ((degrees * 3600 + minutes * 60 + seconds) % (360 * 3600)) / 3600
     if set(positions) != set(BODY_NAMES):

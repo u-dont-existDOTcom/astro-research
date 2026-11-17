@@ -294,20 +294,20 @@ a personality trait or future event.
 
 | Check | Current status | Action |
 | --- | --- | --- |
-| Historical build versus 7.8.5 | Equivalence asserted by the author; current pilot vectors differ and the full source-output comparison is in progress | Record both versions where available and compare complete keyword vectors |
+| Historical build versus 7.8.5 | Equivalence asserted by the author; all 282 current outputs generated; complete vectors differ from retained historical vectors | Record both versions where available and compare complete keyword vectors |
 | Small weight differences | Differences of 0.1 appeared at approximately 01:23–01:24 and were attributed to rounding | Verify the cause; retain the observed values |
 | Larger weight difference | A standard-chart example differed by 1.3 at 01:31:26–01:32:28; an orb explanation was suggested | Compare actual inputs, orbs, signatures and build before attributing the cause |
 | Another unresolved weight | A later example remained unexplained at 02:04:49–02:06:37 | Retain as an unresolved reproduction check |
 | BIO/ASTRO identity | A wrong active BIO column caused a later mismatch and was corrected | Assert subject identity before comparing scores |
 | Complete original inputs | Coverage audited: 96 supplied candidates and 45 marked reconstructions; historical record equivalence remains unverified | Audit every original subject and mark reconstructions |
 | Evaluator workbook | All supplied workbooks inspected; none has the demonstrated interactive evaluator sheet set; verified scoring rule is implemented | Inspect retained sheets/formulas or implement the verified rule independently |
-| Large-run automation | Diverse pilot verified; four isolated current-build queues are in progress | Pilot a small labeled run with restart and export checks |
+| Large-run automation | All 141 pairs completed through four isolated current-build sessions; source-clock, complete-tree and rotation gates passed | Pilot a small labeled run with restart and export checks |
 
-Before scaling, reproduce one complete standard/inverted pair: coordinates,
+For future runs, first validate one complete standard/inverted pair: coordinates,
 keyword labels, weights, record counts, matched rows and both global scores.
 Then use a small sample covering both hemispheres and the known failure modes.
-Only after this validation should the full 282-output regeneration and
-statistical comparison be described as completed.
+The 17 November current-source run completed these gates and all 282 outputs;
+see the [full results and remaining equivalence limits](reanalysis-results.md).
 
 Keep the primary analysis distinct from alternative filters, duplicate
 policies, inversion approximations and continuous-score tests. Preserve both
@@ -393,3 +393,7 @@ The retained comparison BIO columns are the primary arithmetic input. The
 separate BIO workbook is a labeled sensitivity input: preserve both rather than
 silently substituting one. A successful spreadsheet reconciliation, an engine
 output comparison and a fresh blinded accuracy study are separate results.
+
+The completed 141-person run and its distinct binary/continuous findings are in
+the [current-source reanalysis](reanalysis-results.md). The original source
+databases were hash-checked unchanged after execution.
