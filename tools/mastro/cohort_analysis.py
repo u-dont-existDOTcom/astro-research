@@ -245,9 +245,17 @@ def analyze_person(subject, results_dir, expected_engine="7.8.5", expected_hash=
             text, digest, marker_time = snapshot(complete)
             marker = read_json(text)
             person["input_hashes"][complete.name] = digest
-            person["generation_completed_utc"] = marker.get("original_generation_completed_utc",marker.get("completed_utc"))
+            original_generation=marker.get("original_generation_completed_utc",marker.get("original_generation_time"))
+            for flag in ("retrospectively_rebound_pilot","reused_prior_pair"):
+                if flag in marker and type(marker[flag]) is not bool:
+                    raise ValueError("Completion marker "+flag+" must be a strict JSON boolean")
+            reused=marker.get("reused_prior_pair",False)
+            person["generation_completed_utc"] = original_generation or marker.get("completed_utc")
             person["binding_completed_utc"] = marker.get("completed_utc")
-            person["retrospectively_rebound_pilot"] = bool(marker.get("original_generation_completed_utc"))
+            person["retrospectively_rebound_pilot"] = marker.get("retrospectively_rebound_pilot",bool(original_generation))
+            person["reused_prior_pair"] = reused
+            person["output_reuse_kind"] = "reused_prior_pair" if reused else "newly_generated_pair"
+            person["retained_generation_completed_utc"] = original_generation if reused else None
             if marker.get("subject_id") != sid:
                 person["errors"].append("completion_marker_identity_mismatch")
             for arm in ("standard", "inverted"):
@@ -621,6 +629,8 @@ def analyze(manifest,results_dir,expected_engine="7.8.5",expected_hash=None,desc
         "operator_declared_engine_hash_counts":dict(hashes),"operator_declared_input_policy_counts":dict(policies),"overall_on_completed_subset":summarize(included),
         "evidence_quality":{"capture_validation_passed_count":sum(p.get("capture_validation_passed") is True for p in included),
              "retrospectively_rebound_pilot_count":sum(p.get("retrospectively_rebound_pilot",False) for p in included),
+             "reused_prior_pair_count":sum(p.get("reused_prior_pair",False) for p in included),
+             "newly_generated_pair_count":sum(not p.get("reused_prior_pair",False) for p in included),
              "completion_binding_counts":dict(Counter(p.get("completion_hash_binding") for p in included)),
              "operator_historical_equivalence_counts":dict(Counter(p["metadata"].get("historical_equivalence","unverified") for p in included)),
              "maximum_absolute_declared_rotation_residual_degrees":max(map(abs,residuals)) if residuals else None,
@@ -661,6 +671,7 @@ def write_report(report,out_prefix):
     columns=["subject_id","hemisphere","name","status","included_in_cohort","provenance","source_database","source_review_status",
         "source_quality_rating","source_quality_rating_raw","source_quality_rating_origin","source_quality_rating_status","clock_convention_review","capture_validation_status",
         "input_policy","engine_version","engine_sha256","capture_validation_passed","completion_hash_binding",
+        "retrospectively_rebound_pilot","reused_prior_pair","output_reuse_kind","generation_completed_utc","retained_generation_completed_utc","binding_completed_utc",
         "historical_standard","historical_inverted","current_standard","current_inverted","historical_winner","current_winner","winner_changed",
         "historical_delta","current_delta","standard_current_records","inverted_current_records","standard_changed_weights","inverted_changed_weights",
         "standard_historical_zero_rows","standard_current_zero_rows","inverted_historical_zero_rows","inverted_current_zero_rows",
@@ -673,7 +684,8 @@ def write_report(report,out_prefix):
             row={k:person.get(k) for k in columns[:5]}
             row.update({k:person["metadata"].get(k) for k in ("provenance","source_database","source_review_status","input_policy","engine_version","engine_sha256",
                 "source_quality_rating","source_quality_rating_raw","source_quality_rating_origin","source_quality_rating_status","clock_convention_review")})
-            row.update({k:person.get(k) for k in ("capture_validation_passed","completion_hash_binding","capture_validation_status")})
+            row.update({k:person.get(k) for k in ("capture_validation_passed","completion_hash_binding","capture_validation_status",
+                "retrospectively_rebound_pilot","reused_prior_pair","output_reuse_kind","generation_completed_utc","retained_generation_completed_utc","binding_completed_utc")})
             for era in ("historical","current","bio_source_current"):
                 for arm in ("standard","inverted"):
                     row[era+"_"+arm]=person["arms"][arm].get(era+"_global")
@@ -696,6 +708,8 @@ def write_report(report,out_prefix):
         "| --- | ---: | ---: | ---: | ---: | ---: |"]
     for name,group in report["groups"]["hemisphere"].items():
         lines.append(f"| {name} | {group['n']} | {group['current']['inverted_wins']} | {group['current']['standard_wins']} | {group['current']['ties']} | {group['historical']['inverted_wins']} |")
+    quality=report["evidence_quality"]
+    lines.extend(["",f"Included pairs: {quality['reused_prior_pair_count']} reused prior captures and {quality['newly_generated_pair_count']} newly generated captures. Original generation timestamps are retained separately from current evidence-binding timestamps. Retrospectively bound original pilots: {quality['retrospectively_rebound_pilot_count']}."])
     lines.extend(["", "| Input provenance | Complete pairs | Current inversion wins | Standard wins | Ties |",
                   "| --- | ---: | ---: | ---: | ---: |"])
     for name,group in report["groups"]["input_provenance"].items():

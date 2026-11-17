@@ -397,3 +397,13 @@ output comparison and a fresh blinded accuracy study are separate results.
 The completed 141-person run and its distinct binary/continuous findings are in
 the [current-source reanalysis](reanalysis-results.md). The original source
 databases were hash-checked unchanged after execution.
+
+## Source-verification correction
+
+The [source correction follow-up](source-corrections.md) distinguishes a
+position check at the observed application UTC from verification that UTC and
+location represent the birth source. Three supplied UTC values and two
+locations needed correction. Preserve original captures, then generate a
+separate source-standardized sensitivity with explicit source/copy uncertainty.
+Use the original one-sided workbook convention for its primary binary test;
+continuous and other tail conventions are additional diagnostics.

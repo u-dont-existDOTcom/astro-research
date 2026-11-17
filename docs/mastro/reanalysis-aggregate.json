@@ -494,5 +494,11 @@
     "Tests are unadjusted diagnostics; binary, continuous, sign-flip, hemisphere-allocation and BIO-reassignment tests address distinct nulls.",
     "Input policy was frozen before remaining outputs; current source ratings do not certify historical eligibility.",
     "No program settings or birth times were selected to improve agreement with historical keywords."
-  ]
+  ],
+  "interpretation_correction": {
+    "note": "First-run numeric values retained. Its primary binary tail should be interpreted using the author original one-sided convention; three UTC and location issues require the separately labeled follow-up.",
+    "followup": "source-corrections.md",
+    "original_workbook_one_sided_p": 1.626487309325242e-05,
+    "first_run_original_workbook_one_sided_p": 1.640831147949353e-06
+  }
 }

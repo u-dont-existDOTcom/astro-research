@@ -1,0 +1,240 @@
+{
+  "schema": 1,
+  "status": "Source-standardized sensitivity; exact historical birth-input and vector equivalence remains unverified.",
+  "original_protocol": {
+    "alternative": "South inversion-win probability greater than North",
+    "workbook_expression": "1-T.DIST(z,100000,TRUE)",
+    "df": 100000,
+    "original": {
+      "North": {
+        "n": 73,
+        "inverted_wins": 26,
+        "standard_wins": 47
+      },
+      "South": {
+        "n": 68,
+        "inverted_wins": 48,
+        "standard_wins": 20
+      },
+      "pooled_z": 4.155182751897065,
+      "original_workbook_one_sided_p": 1.6264873093273757e-05,
+      "normal_z_one_sided_p": 1.625138225187943e-05,
+      "normal_z_two_sided_p_supplementary": 3.250276450375886e-05
+    },
+    "first_run": {
+      "North": {
+        "n": 73,
+        "inverted_wins": 24,
+        "standard_wins": 49,
+        "ties": 0
+      },
+      "South": {
+        "n": 68,
+        "inverted_wins": 49,
+        "standard_wins": 19,
+        "ties": 0
+      },
+      "pooled_z": 4.652617920888145,
+      "original_workbook_one_sided_p": 1.640831147949353e-06,
+      "normal_z_one_sided_p": 1.6387359895419894e-06,
+      "normal_z_two_sided_p_supplementary": 3.2774719790839787e-06
+    },
+    "source_followup": {
+      "North": {
+        "n": 73,
+        "inverted_wins": 24,
+        "standard_wins": 49,
+        "ties": 0
+      },
+      "South": {
+        "n": 68,
+        "inverted_wins": 49,
+        "standard_wins": 19,
+        "ties": 0
+      },
+      "pooled_z": 4.652617920888145,
+      "original_workbook_one_sided_p": 1.640831147949353e-06,
+      "normal_z_one_sided_p": 1.6387359895419894e-06,
+      "normal_z_two_sided_p_supplementary": 3.2774719790839787e-06
+    }
+  },
+  "generation": {
+    "total_pairs": 141,
+    "newly_generated_pairs": 4,
+    "unchanged_reused_pairs": 137,
+    "original_pilots_with_retrospective_bindings": 4
+  },
+  "corrections": {
+    "utc_corrections": 3,
+    "substantive_location_corrections": 2,
+    "coordinate_precision_normalizations": 1,
+    "unchanged_input_positive_controls": 1,
+    "positive_control_exact_vectors_equal": true,
+    "changed_winners_versus_first_run": 0
+  },
+  "historical_reference_audit": {
+    "comparison_cells": 41940,
+    "scores": 282,
+    "winner_labels": 141
+  },
+  "source_roles": {
+    "first_run_supplied": 96,
+    "first_run_reconstructed": 45,
+    "followup_supplied_unchanged": 92,
+    "followup_published_source_entries": 49,
+    "historical_inputs_verified": 0
+  },
+  "first_reconstruction_source_note_cautions": 14,
+  "new_main_template_note_clock_conflicts": 1,
+  "vector_discrepancies_versus_original": {
+    "added_keyword_row_count": 424,
+    "removed_keyword_row_count": 259,
+    "changed_weight_row_count": 9477,
+    "literal_first_match_change_count": 10148
+  },
+  "zero_weight_rows": {
+    "historical": 23,
+    "current": 59
+  },
+  "supplementary_bio_reassignment": {
+    "label": "Our added diagnostic, not the author original endpoint",
+    "draws": 1000000,
+    "seed": 20261117,
+    "binary": {
+      "upper_tail_count": 0,
+      "draws": 1000000,
+      "plus_one_p": 9.99999000001e-07,
+      "raw_mc_tail_fraction": 0.0,
+      "mc_standard_error": 0.0,
+      "mc_tail_probability_95_wilson_interval": [
+        4.235164736271502e-22,
+        3.841444063944942e-06
+      ],
+      "p_resolution": 9.99999000001e-07
+    },
+    "continuous": {
+      "upper_tail_count": 53043,
+      "draws": 1000000,
+      "plus_one_p": 0.053043946956053044,
+      "raw_mc_tail_fraction": 0.053043,
+      "mc_standard_error": 0.00022411925430671948,
+      "mc_tail_probability_95_wilson_interval": [
+        0.0526054487817993,
+        0.05348398513882969
+      ],
+      "p_resolution": 9.99999000001e-07
+    },
+    "observed": {
+      "binary": 0.3918211120064464,
+      "continuous": 0.034380595562121426
+    }
+  },
+  "latitude": {
+    "schema": 1,
+    "status": "computed_after_all141_validated",
+    "protocol": "Four prespecified signed-latitude correlations; all score differences are inverted minus standard",
+    "validated_total_pairs": 141,
+    "current_southern_pairs": 68,
+    "original_latitude_pairs": 67,
+    "originally_missing_latitude_count": 1,
+    "newly_available_current_latitude_count": 1,
+    "analyses": [
+      {
+        "id": "historical_original67",
+        "label": "Historical reproduction: original 67 workbook latitudes and historical deltas",
+        "latitude_source": "original_signed_workbook_latitudes",
+        "score_source": "historical_inverted_minus_standard",
+        "n": 67,
+        "df": 65,
+        "status": "computed",
+        "r": -0.05393692144272446,
+        "t": -0.4354872821536159,
+        "two_sided_p": 0.6646515028479503,
+        "exact_normal_null_beta_p": 0.6646515028479517,
+        "method": "Centered Pearson sums; two-sided standard t with exact normal-null beta cross-check"
+      },
+      {
+        "id": "current_scores_original67",
+        "label": "Current scores on original 67 workbook latitudes: score changes isolated",
+        "latitude_source": "original_signed_workbook_latitudes",
+        "score_source": "current_inverted_minus_standard",
+        "n": 67,
+        "df": 65,
+        "status": "computed",
+        "r": -0.04039490989318657,
+        "t": -0.3259402101124181,
+        "two_sided_p": 0.7455166254639791,
+        "exact_normal_null_beta_p": 0.7455166254639782,
+        "method": "Centered Pearson sums; two-sided standard t with exact normal-null beta cross-check"
+      },
+      {
+        "id": "current_scores_current_latitudes68",
+        "label": "Current full 68: current captured latitudes and current deltas; not historical reproduction",
+        "latitude_source": "current_capture_validation_coordinates",
+        "score_source": "current_inverted_minus_standard",
+        "n": 68,
+        "df": 66,
+        "status": "computed",
+        "r": -0.03886258313328384,
+        "t": -0.31595980513952876,
+        "two_sided_p": 0.7530300550821009,
+        "exact_normal_null_beta_p": 0.753030055082101,
+        "method": "Centered Pearson sums; two-sided standard t with exact normal-null beta cross-check"
+      },
+      {
+        "id": "current_scores_current_latitudes_original67",
+        "label": "Sensitivity: original 67 identities with current captured latitudes and current deltas",
+        "latitude_source": "current_capture_validation_coordinates",
+        "score_source": "current_inverted_minus_standard",
+        "n": 67,
+        "df": 65,
+        "status": "computed",
+        "r": -0.05495713805074837,
+        "t": -0.44374924387332554,
+        "two_sided_p": 0.6586975864268444,
+        "exact_normal_null_beta_p": 0.6586975864268456,
+        "method": "Centered Pearson sums; two-sided standard t with exact normal-null beta cross-check"
+      }
+    ],
+    "source_and_time_uncertainty_counts": {
+      "input_provenance": {
+        "supplied_mastro_database": 20,
+        "official_adb_reconstruction": 48
+      },
+      "source_review_status": {
+        "not_recorded": 20,
+        "review_required": 14,
+        "verified_source": 34
+      },
+      "source_quality_rating": {
+        "XX": 3,
+        "B": 17,
+        "AA": 28,
+        "A": 19,
+        "DD": 1
+      },
+      "capture_validation_status": {
+        "position_consistency_verified": 68
+      },
+      "historical_equivalence": {
+        "unverified": 68
+      },
+      "subjects_with_recorded_source_uncertainty_flags": 22,
+      "recorded_source_uncertainty_flag_occurrences": 35,
+      "unresolved_application_clock_conventions": 0
+    },
+    "exclusions_based_on_outcomes_or_uncertainty": 0,
+    "limits": [
+      "Current full-68 coordinates are current captured inputs, not a historical 68-person reconstruction.",
+      "No source/time uncertainty is resolved by a passing numerical gate; all subjects remain included.",
+      "Two-sided p-values use the classical independent bivariate-normal zero-correlation null.",
+      "These four known-cohort reports are not new human validation and have no multiplicity adjustment."
+    ]
+  },
+  "limits": [
+    "A position check at displayed application UTC establishes calculation consistency, not correct birth time.",
+    "137 pairs were reused unchanged; this is not a fresh141-person generation or a new blinded human study.",
+    "Current published-source corrections are not recovered historical chart inputs. One main-template/source-note clock conflict remains explicit.",
+    "Continuous endpoints and additional null tests remain supplementary to the original directional binary endpoint."
+  ]
+}

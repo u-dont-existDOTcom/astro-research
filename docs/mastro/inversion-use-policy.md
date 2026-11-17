@@ -1,5 +1,7 @@
 # When and how to test zodiac inversion
 
+> **Source-check correction:** Consult the [follow-up](source-corrections.md). Positions matching the application’s UTC do not establish that the UTC is the correct birth instant. Three UTC and two source-location issues were addressed in a separate, labeled sensitivity; historical input equivalence remains open.
+
 Recorded: 17 November 2026. Status: available research option, with conditional
 adoption after a new comparison. This records the owner's request to retain
 the completed results so inversion can be used where it demonstrably helps.

@@ -1,5 +1,7 @@
 # Mastro current-source reanalysis, 17 November 2026
 
+> **17 November follow-up:** Three supplied UTC values and source locations required correction. The original tail was one-sided. Read the [source corrections and protocol clarification](source-corrections.md) before interpreting or reusing this first-run report.
+
 All **141 people and 282 current chart outputs** were generated and accepted under the frozen 7.8.5 workflow. The original spreadsheet arithmetic reconciles. The current run retains the hemisphere pattern in the binary endpoint, while individual keyword vectors differ and the magnitude-based BIO reassignment diagnostic is borderline. This is a reanalysis of the known cohort using currently available inputs; historical input equivalence remains unverified.
 
 ## Primary result
@@ -9,7 +11,7 @@ All **141 people and 282 current chart outputs** were generated and accepted und
 | North | 26/73 (35.6%) | 24/73 (32.9%) | 49 | 0 |
 | South | 48/68 (70.6%) | 49/68 (72.1%) | 19 | 0 |
 
-The current South-minus-North inversion-win difference is **39.18 percentage points**. The pooled two-proportion test gives **z=4.65262, two-sided p=0.00000327747**; Fisher's exact two-sided p=0.00000425030. Historical arithmetic gives z=4.15518, p=0.0000325028. All expected cells exceed five. Three people change winning condition: two toward standard in the North and one toward inversion in the South.
+The current South-minus-North inversion-win difference is **39.18 percentage points**. The first report used a supplementary two-sided calculation: **z=4.65262, p=0.00000327747**; Fisher's exact two-sided p=0.00000425030. A two-sided recalculation on the supplied counts gives z=4.15518, p=0.0000325028; the author’s original workbook instead uses a one-sided large-df approximation, p=0.0000162648731. All expected cells exceed five. Three people change winning condition: two toward standard in the North and one toward inversion in the South.
 
 These fractions describe which of two keyword comparisons is higher. They are not personality-identification success rates or forecast accuracy. The two-proportion endpoint was specified by the author in advance according to his retained clarification; this report does not characterize it as selected after seeing this rerun.
 
