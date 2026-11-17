@@ -6,7 +6,11 @@ reanalysis under `docs/mastro/` before changing
 settings, exporting keywords or describing what has been reproduced. For
 method selection or combining systems, also read
 `docs/mastro/inversion-use-policy.md`; keep its evidence scope and conditional
-adoption rule attached to reuse.
+adoption rule attached to reuse. Read `docs/mastro/source-corrections.md` before
+using the first-run counts or describing source verification. Application
+positions matching its displayed UTC establish calculation consistency; verify
+the birth-source UTC/date/location separately before calling inputs source-verified.
+Distinguish reused outputs, new generation and evidence rebinding explicitly.
 
 This repository is public. Follow the data rules in the README. Keep source
 recordings, databases, correspondence, birth records, interview responses,
@@ -34,7 +38,8 @@ Preserve literal matching, duplicate BIO occurrences, first ASTRO matches and
 all returned ASTRO rows, including displayed zeros, in the baseline denominator.
 Keep source-BIO, source-quality and clock-convention sensitivities separate.
 The analysis tools refuse cohort inference until all 141 expected pairs pass
-their source/build/policy, hash, capture and rotation checks. A current-source
+their recorded-input/build/policy, hash, capture and rotation checks. These
+gates alone do not certify every supplied birth source. A current-source
 reconstruction never silently becomes a verified historical input.
 
 Review correctness, evidence integrity, regressions and test adequacy before

@@ -48,12 +48,15 @@ generally reliable unattended service has not been verified.
 The selected input policy uses the numbered tutorial records for all 73
 Northern subjects, available supplied records for 23 Southern subjects, and
 45 explicitly marked Southern reconstructions from published Astro-Databank
-sources. Four supplied records retain unresolved application-clock conventions:
-the independently checked positions support the application's actually observed
-UTC, but simple civil-offset arithmetic does not explain it. Both the captured
-inputs and review flags are preserved. The analysis includes a separately
-labeled sensitivity excluding those flags; numerical consistency does not
-certify the true or historical birth clock.
+sources. Four supplied records triggered application-clock review in the first run.
+The [source-standardization follow-up](source-corrections.md) confirmed three
+incorrect UTC values and a correct fourth UTC, with two substantive location
+corrections and one precision normalization. It regenerated four pairs and
+reused 137 unchanged pairs; the binary counts persist. Matching positions to
+an application clock proves calculation consistency, not correct birth-source
+inputs. The first-run warning/exclusion analysis remains a separate result.
+One source-note clock conflict and all historical-input equivalence limits
+remain explicit.
 
 The input records and configuration matter. Different birth-time sources,
 ayanamsa reference years, filters, languages, scoring settings and export

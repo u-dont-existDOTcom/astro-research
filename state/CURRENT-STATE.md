@@ -1,5 +1,7 @@
 # Current research state
 
+> **Source-correction follow-up, 17 November:** The original arithmetic is verified; the first chart run was not a source-verified exact historical replication. The [follow-up](../docs/mastro/source-corrections.md) records three UTC corrections, two substantive location corrections, an unchanged control and the original one-sided convention. It uses four newly generated pairs and 137 explicitly reused pairs; binary counts remain 24/73 North and 49/68 South.
+
 Updated: 17 November 2026. The 141-person current-source reanalysis is complete.
 
 ## Goal
@@ -17,8 +19,9 @@ method use on 17 November 2026.
 
 ## Completed
 
-All 141 people and 282 current Mastro 7.8.5 outputs passed source-clock, planetary,
-rotation, complete-tree and hash-binding gates. Historical arithmetic reconciles
+The first 141-person run passed its recorded-instant planetary, rotation,
+complete-tree and hash-binding gates. Those checks did not certify the
+correctness of every supplied birth-source UTC or location. Historical arithmetic reconciles
 all 41,940 cells, 282 scores and 141 classifications. Current inversion wins are
 24/73 North and 49/68 South, versus historical 26/73 and 48/68, with no ties and
 three winner changes. Full numerical review independently reconstructed all
@@ -51,10 +54,11 @@ and what new evidence would support adoption.
 
 The frozen input policy uses 73 numbered Northern tutorial records, 23 supplied
 Southern records and 45 Southern reconstructions from pinned official sources.
-Fourteen reconstructions retain source cautions. Four supplied records retain
-unresolved time conventions: independently checked actual application UTC agrees
-with planetary positions, while birth-dialog offset arithmetic differs. Their
-exclusion is a separate sensitivity. Historical input equivalence remains
+Fourteen reconstructions retain source cautions. Four supplied records had first-run clock-readback discrepancies. Follow-up
+source checks identified three incorrect UTC values; the fourth effective UTC
+was correct. A separate published-main-entry sensitivity regenerated those four
+pairs, including location and precision changes. One source-note conflict
+remains; the original first-run exclusion analysis is preserved separately. Historical input equivalence remains
 unverified for all 141; no current rating certifies historical eligibility.
 
 Original and current vectors differ: 459 added rows, 304 removed rows, 9,624
@@ -120,3 +124,22 @@ For forecasting, the next step is a second person with dated events and a
 verified birth time, with themes sealed before the curves are read.
 A new blinded validation needs its own frozen protocol and controls. These are follow-up research questions, not missing
 current-run outputs.
+
+## Source-correction lesson and remaining questions
+
+The three source-time cases and unchanged control were regenerated from
+pinned official main entries with strict UTC/coordinate checks. One main
+entry still conflicts with its source note; preserve that uncertainty. The
+first supplied-database/ADB split meant 96 supplied and 45 reconstructed inputs,
+not only 45 entries available in ADB. The 14 cautions are conservative source-note
+labels, not demonstrated historical mismatches. An Excel comparison workbook
+was received; the exact reusable lookup-template filename/workflow remains
+to be reconciled. Ask for one concrete database-folder/display-label example
+rather than a nonexistent consolidated 141-chart file.
+
+Source-correction verification: the current declared suite passed 123 tests and
+the canonical audit had zero errors with four existing warnings. Independent
+checks rescored all 282 assembled arms, verified all baseline hashes unchanged,
+confirmed 137 reused/four fresh pairs and four original pilots, checked the
+unchanged-input control and replayed the fixed million-draw counts exactly.
+No source-input choice was made from keyword outcomes.

@@ -136,6 +136,51 @@ class CompletionTests(unittest.TestCase):
         self.assertEqual(sensitivity["excluded_subject_ids"],["N001"])
         self.assertEqual(sensitivity["tests"]["status"],"not_run_primary_gate_closed")
 
+    def test_explicit_pilot_and_reuse_flags_keep_capture_and_binding_times_separate(self):
+        a,b=subject(),subject("S001","South")
+        fa,fb=write_pair(self.root,a),write_pair(self.root,b)
+        for folder,pilot,reused in [(fa,False,True),(fb,True,False)]:
+            marker=json.loads((folder/"complete.json").read_text())
+            marker.update(original_generation_completed_utc="2001-01-01T01:00:00Z",completed_utc="2001-01-02T01:00:00Z",
+                          retrospectively_rebound_pilot=pilot,reused_prior_pair=reused)
+            (folder/"complete.json").write_text(json.dumps(marker))
+        report=analyze([a,b],self.root,descriptive_only=True)
+        first,second=report["people"]
+        self.assertFalse(first["retrospectively_rebound_pilot"])
+        self.assertTrue(first["reused_prior_pair"])
+        self.assertEqual(first["output_reuse_kind"],"reused_prior_pair")
+        self.assertEqual(first["retained_generation_completed_utc"],"2001-01-01T01:00:00Z")
+        self.assertEqual(first["generation_completed_utc"],"2001-01-01T01:00:00Z")
+        self.assertEqual(first["binding_completed_utc"],"2001-01-02T01:00:00Z")
+        self.assertTrue(second["retrospectively_rebound_pilot"])
+        self.assertFalse(second["reused_prior_pair"])
+        self.assertIsNone(second["retained_generation_completed_utc"])
+        self.assertEqual(report["evidence_quality"]["reused_prior_pair_count"],1)
+        self.assertEqual(report["evidence_quality"]["newly_generated_pair_count"],1)
+        self.assertEqual(report["evidence_quality"]["retrospectively_rebound_pilot_count"],1)
+
+    def test_legacy_original_pilot_time_still_marks_original_pilot(self):
+        p=subject();folder=write_pair(self.root,p)
+        marker=json.loads((folder/"complete.json").read_text())
+        marker["original_generation_completed_utc"]="2001-01-01T01:00:00Z"
+        (folder/"complete.json").write_text(json.dumps(marker))
+        result=analyze_person(p,self.root)
+        self.assertTrue(result["included_in_cohort"])
+        self.assertTrue(result["retrospectively_rebound_pilot"])
+        self.assertFalse(result["reused_prior_pair"])
+
+    def test_malformed_pilot_or_reuse_flags_fail_closed(self):
+        p=subject();folder=write_pair(self.root,p)
+        original=json.loads((folder/"complete.json").read_text())
+        for flag in ("retrospectively_rebound_pilot","reused_prior_pair"):
+            for value in ("false","true",0,1,None):
+                with self.subTest(flag=flag,value=value):
+                    marker=dict(original);marker[flag]=value
+                    (folder/"complete.json").write_text(json.dumps(marker))
+                    result=analyze_person(p,self.root)
+                    self.assertFalse(result["included_in_cohort"])
+                    self.assertTrue(any("strict JSON boolean" in e for e in result["errors"]))
+
     def test_missing_marker_never_enters_cohort_or_triggers_partial_tests(self):
         p=subject();folder=write_pair(self.root,p);(folder/"complete.json").unlink()
         result=analyze([p],self.root)
