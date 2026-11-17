@@ -1,60 +1,98 @@
 # Current research state
 
-Updated: 16 November 2026.
+Updated: 17 November 2026. The 141-person current-source reanalysis is complete.
 
-## Mastro preparation
+## Goal
 
-- The recorded technical demonstration has been reviewed and its operational
-  instructions are in [the Mastro guide](../docs/mastro/operating-guide.md).
-- The original reference email was checked again. Its eight attachments cover
-  the protocol, 141-person list, BIO-generation prompts, BIO keywords, ASTRO
-  keyword weights, comparisons, test results and latitude analysis.
-- Two additional application databases and the training recording are available
-  in the authorized private source collection. They supplement the program's
-  public database; coverage of every original birth record is not yet certified.
-- Earlier work reproduced the supplied spreadsheet comparisons and aggregate
-  classifications. The new source-level regeneration of all 282 Mastro chart
-  outputs has not yet been run.
-- No questionnaire-matching accuracy, forecast accuracy or unattended batch
-  throughput is claimed by this documentation update.
+Complete the requested current-source calculation, preserve source uncertainty
+and prepare reviewable results and reusable repository instructions.
 
-## Next action
+## Authority / baseline
 
-Inspect the private originals and configuration, then reproduce a complete
-standard/inverted chart pair. Compare every exported keyword weight and the
-ASTRO record counts with the historical reference, including the discrepancies
-listed in the guide. Only then scale to the full 141-person reproduction.
+The owner authorized the 141-person reanalysis, repository instructions and
+reviewable results. The retained eight attachments and technical demonstration
+define the baseline; current owner instructions take precedence. No outgoing
+result email is authorized by this calculation/publication closeout.
 
-Retain exact source hashes, actual birth-source quality, version/build,
-settings and per-person source database in the private run manifest. Check
-whether the retained workbook set includes the full interactive evaluator;
-the verified scoring rule can also be implemented independently.
+## Completed
 
-Newly reconstructed records from present-day external sources must carry that
-provenance. They do not silently become confirmed historical study inputs.
+All 141 people and 282 current Mastro 7.8.5 outputs passed source-clock, planetary,
+rotation, complete-tree and hash-binding gates. Historical arithmetic reconciles
+all 41,940 cells, 282 scores and 141 classifications. Current inversion wins are
+24/73 North and 49/68 South, versus historical 26/73 and 48/68, with no ties and
+three winner changes. Full numerical review independently reconstructed all
+scores and the fixed million-draw BIO reassignment result.
 
-## Public documentation boundary
+Read the [results](../docs/mastro/reanalysis-results.md),
+[operating guide](../docs/mastro/operating-guide.md),
+[research assessment](../docs/mastro/research-value.md) and
+[analysis tools](../tools/mastro/README.md). The durable task is the
+[source reanalysis](https://github.com/u-dont-existDOTcom/astro-research/issues/2).
 
-This repository stores authored procedures, non-identifying method notes and
-aggregate status. Source recordings, database contents, correspondence,
-interview responses and individual readings remain in their authorized private
-stores. No such source files were added by this documentation update.
+## Current checkpoint
 
-## Findings disposition
+All source generation, frozen analyses and independent numeric review are
+complete. The selected public payload is under final pull-request verification.
+No pair or score is pending.
 
-- Research filter correction, appending CSV exports, database aliasing,
-  evaluator normalization and identity checks: project-specific operating
-  lessons, incorporated into the guide.
-- Exact historical-build equivalence, explanation of remaining score
-  differences and large-run automation reliability: provisional, awaiting
-  direct tests.
-- No universal software or scientific rule is promoted from this single
-  demonstration.
+## Blockers / unresolved
 
-## Documentation verification
+The frozen input policy uses 73 numbered Northern tutorial records, 23 supplied
+Southern records and 45 Southern reconstructions from pinned official sources.
+Fourteen reconstructions retain source cautions. Four supplied records retain
+unresolved time conventions: independently checked actual application UTC agrees
+with planetary positions, while birth-dialog offset arithmetic differs. Their
+exclusion is a separate sensitivity. Historical input equivalence remains
+unverified for all 141; no current rating certifies historical eligibility.
 
-The publication payload was reviewed against the retained training notes and
-reference audit. Relative Markdown links and `git diff --check` were checked;
-the six authored Markdown files were also reviewed for identifying records,
-private correspondence, source transcripts, local personal paths and secrets.
-No software test suite or chart-generation run is implied by those checks.
+Original and current vectors differ: 459 added rows, 304 removed rows, 9,624
+changed shared-row weights. Displayed zero rows are retained in denominators.
+No exact historical vector-pair equality or cause of the mismatch is claimed.
+The binary contrast is strong, while the magnitude-based BIO reassignment
+p=0.05327595 warrants a narrower conclusion. Latitude associations are near
+zero. This known-cohort work contains no new blinded human or forecast test;
+all reported statistical diagnostics are unadjusted for multiple comparisons.
+
+## Evidence / artifacts
+
+The private owner package retains original attachments, accepted raw trees,
+source/clock/position evidence, completion hashes, source reconstructions,
+full results and private UI source. The original delivered databases were
+hash-checked unchanged. Four initial pilots were independently validated and
+bound retrospectively, with original generation timestamps retained. Public
+content is authored methods, analysis code, invented fixtures and aggregate
+findings; raw private inputs are not hosted CI fixtures.
+
+## Verification and review
+
+The local declared suite passed 118 tests; the canonical repository audit had
+zero errors. The hosted bootstrap, tests and deterministic audit passed on the
+code publication candidate. The final publication is reviewed and checked at
+its exact pull-request head. Independent numeric review used a separate parser,
+exact Fraction scorer, integer-tick BIO cross-scoring and SciPy references;
+all 282 current vectors, historical/source-BIO scores, evidence hashes,
+sensitivities, four latitude reports and million-draw counts reconcile.
+
+The profile keeps branch rules, secret scanning, push protection and code
+scanning unverified. Existing missing reuse-license and hosted-control warnings
+remain explicit; no license grant or hosted protection is inferred from files.
+
+## Lesson closeout
+
+Project-specific Wine automation requires effective-output checks in addition
+to field text: real typing/focus changes for numeric settings, actual menu
+popup targeting, exact record selection plus main date/time checks, cleared
+and stable complete trees, independent astronomy and atomic hash-bound pairs.
+Native checkbox-state messages did not establish the .NET state. Displayed
+zero rows belong in the scorer denominator. Keep these observations scoped to
+this tested application/build; no universal control reliability claim or
+cross-project guidance promotion is made.
+
+## Next safe action
+
+A reviewable reply is prepared and has not been sent. Owner review may precede
+authorizing delivery. Ask the author for exact historical birth records/time
+conventions, archived executable/corpus/settings and the demonstrated evaluator
+to isolate remaining differences. A new blinded validation needs its own frozen
+protocol and controls. These are follow-up research questions, not missing
+current-run outputs.

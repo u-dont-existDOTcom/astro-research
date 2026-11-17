@@ -1,0 +1,498 @@
+{
+  "schema": 1,
+  "completed_utc": "2026-11-17T03:49:27.755307+00:00",
+  "analysis_scope": "Current-source known-cohort reanalysis; historical birth-input and output equivalence unverified; no new behavioral accuracy study.",
+  "engine_version": "7.8.5",
+  "engine_sha256": "982572fba1cbb7fc094e9d3750a74bb2f51e1beb4e8efcdb9aa96b087643508c",
+  "validated_pairs": 141,
+  "chart_outputs": 282,
+  "historical_arithmetic": {
+    "comparison_cells": 41940,
+    "scores": 282,
+    "winner_labels": 141,
+    "maximum_rounding_error": 2.220446049250313e-16
+  },
+  "current_by_hemisphere": {
+    "North": {
+      "n": 73,
+      "inverted_wins": 24,
+      "standard_wins": 49,
+      "ties": 0
+    },
+    "South": {
+      "n": 68,
+      "inverted_wins": 49,
+      "standard_wins": 19,
+      "ties": 0
+    }
+  },
+  "historical_inversion_wins": {
+    "North": 26,
+    "South": 48
+  },
+  "winner_changes": 3,
+  "input_provenance": {
+    "official_adb_reconstruction": {
+      "n": 45,
+      "inverted_wins": 32,
+      "standard_wins": 13,
+      "ties": 0
+    },
+    "supplied_mastro_database": {
+      "n": 96,
+      "inverted_wins": 41,
+      "standard_wins": 55,
+      "ties": 0
+    }
+  },
+  "raw_source_rating_counts": {
+    "A": 26,
+    "AA": 80,
+    "B": 21,
+    "C": 5,
+    "DD": 3,
+    "XX": 6
+  },
+  "reconstructions_requiring_source_review": 14,
+  "supplied_clock_convention_flags": 4,
+  "historical_equivalence_verified": 0,
+  "vector_discrepancies": {
+    "added_keyword_row_count": 459,
+    "removed_keyword_row_count": 304,
+    "changed_weight_row_count": 9624,
+    "literal_first_match_change_count": 10375
+  },
+  "exact_vector_multiset_pairs": 0,
+  "zero_weight_rows": {
+    "historical": 23,
+    "current": 59
+  },
+  "primary_binary": {
+    "south_minus_north_inversion_win_fraction": 0.3918211120064464,
+    "north_non_tied_n": 73,
+    "south_non_tied_n": 68,
+    "excluded_ties": 0,
+    "tie_policy": "Conditional analysis excludes ties; ties remain reported separately. Original-protocol analog is directly comparable only when no ties occur.",
+    "pooled_two_proportion_z": 4.652617920888145,
+    "z_two_sided_p": 3.2774719790839787e-06,
+    "normal_approximation_expected_cells": [
+      37.79432624113475,
+      35.20567375886525,
+      35.205673758865245,
+      32.794326241134755
+    ],
+    "all_expected_cells_at_least_five": true,
+    "z_directional_south_greater_p": 1.6387359895419894e-06,
+    "fisher_exact_two_sided_p": 4.250302334079133e-06
+  },
+  "historical_binary": {
+    "south_minus_north_inversion_win_fraction": 0.3497179693795327,
+    "north_non_tied_n": 73,
+    "south_non_tied_n": 68,
+    "excluded_ties": 0,
+    "tie_policy": "Conditional analysis excludes ties; ties remain reported separately. Original-protocol analog is directly comparable only when no ties occur.",
+    "pooled_two_proportion_z": 4.155182751897065,
+    "z_two_sided_p": 3.250276450375886e-05,
+    "normal_approximation_expected_cells": [
+      38.31205673758865,
+      34.68794326241135,
+      35.687943262411345,
+      32.312056737588655
+    ],
+    "all_expected_cells_at_least_five": true,
+    "z_directional_south_greater_p": 1.625138225187943e-05,
+    "fisher_exact_two_sided_p": 4.490411849229981e-05
+  },
+  "continuous_hemisphere": {
+    "south_minus_north_mean_inversion_advantage": 0.034215989469535024,
+    "bootstrap_95_percentile_interval": [
+      0.007391902661861049,
+      0.05962548011580589
+    ],
+    "bootstrap_resamples": 5000,
+    "north_n": 73,
+    "south_n": 68,
+    "randomization": {
+      "method": "Monte Carlo hemisphere allocation of paired subject differences; absolute-tail plus-one p",
+      "draws": 9999,
+      "seed": 20264117,
+      "extreme": 98,
+      "p": 0.0099,
+      "comparison_epsilon": 1.8444206585384726e-13
+    },
+    "assumption": "Exchangeability of subject-level paired differences across hemispheres under the group null. This does not remove demographic/cohort confounding and is not the earlier within-hemisphere BIO reassignment null."
+  },
+  "within_hemisphere_current_effects": {
+    "North": {
+      "n": 73,
+      "mean_paired_difference": -0.011685573156295677,
+      "median_paired_difference": -0.024182194616977227,
+      "positive": 24,
+      "negative": 49,
+      "zero": 0,
+      "exact_sign_test_two_sided_p": 0.004626293921895511,
+      "paired_mean_randomization": {
+        "method": "Monte Carlo paired sign flips, absolute-statistic two-sided tail, plus-one p",
+        "nonzero_pairs": 73,
+        "permutations": 9999,
+        "seed": 20261217,
+        "extreme": 2255,
+        "p": 0.2256,
+        "comparison_epsilon": 9.778544372048147e-14
+      },
+      "bootstrap_mean_95_percentile_interval": [
+        -0.029643052707191402,
+        0.00706280912141508
+      ],
+      "paired_standardized_mean_difference_dz": -0.14310588797993817,
+      "bootstrap_resamples": 5000,
+      "assumption": "Paired sign-flip randomization assumes exchangeability of condition labels within subjects (symmetric paired null). Bootstrap resamples people; intervals describe cohort sampling variability, not calibrated trait probabilities."
+    },
+    "South": {
+      "n": 68,
+      "mean_paired_difference": 0.02253041631323935,
+      "median_paired_difference": 0.019662475392138182,
+      "positive": 49,
+      "negative": 19,
+      "zero": 0,
+      "exact_sign_test_two_sided_p": 0.0003579552716131653,
+      "paired_mean_randomization": {
+        "method": "Monte Carlo paired sign flips, absolute-statistic two-sided tail, plus-one p",
+        "nonzero_pairs": 68,
+        "permutations": 9999,
+        "seed": 20261317,
+        "extreme": 183,
+        "p": 0.0184,
+        "comparison_epsilon": 8.665662213336582e-14
+      },
+      "bootstrap_mean_95_percentile_interval": [
+        0.004065408252294389,
+        0.04037737661908442
+      ],
+      "paired_standardized_mean_difference_dz": 0.2962005214295562,
+      "bootstrap_resamples": 5000,
+      "assumption": "Paired sign-flip randomization assumes exchangeability of condition labels within subjects (symmetric paired null). Bootstrap resamples people; intervals describe cohort sampling variability, not calibrated trait probabilities."
+    }
+  },
+  "sensitivities": {
+    "raw_A_or_AA_subset": {
+      "n": 106,
+      "by_hemisphere": {
+        "North": {
+          "n": 60,
+          "inverted_wins": 18,
+          "standard_wins": 42,
+          "ties": 0
+        },
+        "South": {
+          "n": 46,
+          "inverted_wins": 34,
+          "standard_wins": 12,
+          "ties": 0
+        }
+      },
+      "tests": {
+        "status": "computed_separate_sensitivity",
+        "hemisphere_binary": {
+          "south_minus_north_inversion_win_fraction": 0.43913043478260866,
+          "north_non_tied_n": 60,
+          "south_non_tied_n": 46,
+          "excluded_ties": 0,
+          "tie_policy": "Conditional analysis excludes ties; ties remain reported separately. Original-protocol analog is directly comparable only when no ties occur.",
+          "pooled_two_proportion_z": 4.4823158862578145,
+          "z_two_sided_p": 7.38373381717918e-06,
+          "normal_approximation_expected_cells": [
+            29.433962264150942,
+            30.566037735849058,
+            22.566037735849058,
+            23.433962264150942
+          ],
+          "all_expected_cells_at_least_five": true,
+          "z_directional_south_greater_p": 3.69186690858959e-06,
+          "fisher_exact_two_sided_p": 1.1914698691452588e-05
+        },
+        "hemisphere_continuous": {
+          "south_minus_north_mean_inversion_advantage": 0.036777083253738116,
+          "bootstrap_95_percentile_interval": [
+            0.006016816835483131,
+            0.06850184958123166
+          ],
+          "bootstrap_resamples": 5000,
+          "north_n": 60,
+          "south_n": 46,
+          "randomization": {
+            "method": "Monte Carlo hemisphere allocation of paired subject differences; absolute-tail plus-one p",
+            "draws": 9999,
+            "seed": 20265217,
+            "extreme": 206,
+            "p": 0.0207,
+            "comparison_epsilon": 1.401501207418364e-13
+          },
+          "assumption": "Exchangeability of subject-level paired differences across hemispheres under the group null. This does not remove demographic/cohort confounding and is not the earlier within-hemisphere BIO reassignment null."
+        }
+      }
+    },
+    "exclude_clock_convention_review": {
+      "n": 137,
+      "by_hemisphere": {
+        "North": {
+          "n": 72,
+          "inverted_wins": 23,
+          "standard_wins": 49,
+          "ties": 0
+        },
+        "South": {
+          "n": 65,
+          "inverted_wins": 46,
+          "standard_wins": 19,
+          "ties": 0
+        }
+      },
+      "tests": {
+        "status": "computed_separate_sensitivity",
+        "hemisphere_binary": {
+          "south_minus_north_inversion_win_fraction": 0.3882478632478633,
+          "north_non_tied_n": 72,
+          "south_non_tied_n": 65,
+          "excluded_ties": 0,
+          "tie_policy": "Conditional analysis excludes ties; ties remain reported separately. Original-protocol analog is directly comparable only when no ties occur.",
+          "pooled_two_proportion_z": 4.538509853017765,
+          "z_two_sided_p": 5.665314916541933e-06,
+          "normal_approximation_expected_cells": [
+            36.26277372262774,
+            35.73722627737226,
+            32.737226277372265,
+            32.262773722627735
+          ],
+          "all_expected_cells_at_least_five": true,
+          "z_directional_south_greater_p": 2.8326574582709663e-06,
+          "fisher_exact_two_sided_p": 7.2099333085525614e-06
+        },
+        "hemisphere_continuous": {
+          "south_minus_north_mean_inversion_advantage": 0.03649830437159778,
+          "bootstrap_95_percentile_interval": [
+            0.010392526946534886,
+            0.0626016816742145
+          ],
+          "bootstrap_resamples": 5000,
+          "north_n": 72,
+          "south_n": 65,
+          "randomization": {
+            "method": "Monte Carlo hemisphere allocation of paired subject differences; absolute-tail plus-one p",
+            "draws": 9999,
+            "seed": 20265317,
+            "extreme": 64,
+            "p": 0.0065,
+            "comparison_epsilon": 1.786310219178453e-13
+          },
+          "assumption": "Exchangeability of subject-level paired differences across hemispheres under the group null. This does not remove demographic/cohort confounding and is not the earlier within-hemisphere BIO reassignment null."
+        }
+      }
+    },
+    "bio_source_variant": {
+      "changed_score_people": 1,
+      "changed_winner_people": 0,
+      "tests": {
+        "status": "computed_separate_sensitivity",
+        "hemisphere_binary": {
+          "south_minus_north_inversion_win_fraction": 0.3918211120064464,
+          "north_non_tied_n": 73,
+          "south_non_tied_n": 68,
+          "excluded_ties": 0,
+          "tie_policy": "Conditional analysis excludes ties; ties remain reported separately. Original-protocol analog is directly comparable only when no ties occur.",
+          "pooled_two_proportion_z": 4.652617920888145,
+          "z_two_sided_p": 3.2774719790839787e-06,
+          "normal_approximation_expected_cells": [
+            37.79432624113475,
+            35.20567375886525,
+            35.205673758865245,
+            32.794326241134755
+          ],
+          "all_expected_cells_at_least_five": true,
+          "z_directional_south_greater_p": 1.6387359895419894e-06,
+          "fisher_exact_two_sided_p": 4.250302334079133e-06
+        },
+        "hemisphere_continuous": {
+          "south_minus_north_mean_inversion_advantage": 0.033883385801612716,
+          "bootstrap_95_percentile_interval": [
+            0.007993754617566354,
+            0.059576647370226714
+          ],
+          "bootstrap_resamples": 5000,
+          "north_n": 73,
+          "south_n": 68,
+          "randomization": {
+            "method": "Monte Carlo hemisphere allocation of paired subject differences; absolute-tail plus-one p",
+            "draws": 9999,
+            "seed": 20265117,
+            "extreme": 114,
+            "p": 0.0115,
+            "comparison_epsilon": 1.8390294004855218e-13
+          },
+          "assumption": "Exchangeability of subject-level paired differences across hemispheres under the group null. This does not remove demographic/cohort confounding and is not the earlier within-hemisphere BIO reassignment null."
+        }
+      }
+    }
+  },
+  "bio_reassignment": {
+    "protocol": {
+      "version": "current-within-hemisphere-bio-reassignment-20261117-v1",
+      "frozen_before_real_null_results": true,
+      "cohort": "All 141 validated current pairs, exactly 73 North and 68 South; primary comparison_input BIOs only.",
+      "assignment": "Independently in each hemisphere, a uniform permutation without replacement assigns one whole BIO occurrence list to each intact standard/inverted chart pair. Self assignments are allowed.",
+      "binary_statistic": "South minus North inversion-win fraction; exact rational ties receive half credit; upper tail >= observed.",
+      "continuous_statistic": "South minus North mean(inverted minus standard weighted score); upper tail >= observed.",
+      "draws": 1000000,
+      "seed": 20261117,
+      "p_value": "(upper_tail_count + 1) / (draws + 1)",
+      "scope": "New conditional diagnostic using prior conventions, not an exact replay of a prior seed, not the primary endpoint and not new blinded validation.",
+      "assumption": "Within each hemisphere, BIO identities are exchangeable over these chart pairs under the reassignment null. This does not control demographic or source-quality confounding."
+    },
+    "observed": {
+      "binary": 0.3918211120064464,
+      "continuous": 0.034215989469535024
+    },
+    "binary": {
+      "upper_tail_count": 0,
+      "draws": 1000000,
+      "plus_one_p": 9.99999000001e-07,
+      "raw_mc_tail_fraction": 0.0,
+      "mc_standard_error": 0.0,
+      "mc_tail_probability_95_wilson_interval": [
+        4.235164736271502e-22,
+        3.841444063944942e-06
+      ],
+      "p_resolution": 9.99999000001e-07
+    },
+    "continuous": {
+      "upper_tail_count": 53275,
+      "draws": 1000000,
+      "plus_one_p": 0.05327594672405327,
+      "raw_mc_tail_fraction": 0.053275,
+      "mc_standard_error": 0.0002245813313145151,
+      "mc_tail_probability_95_wilson_interval": [
+        0.052836542248409814,
+        0.05371688988978913
+      ],
+      "p_resolution": 9.99999000001e-07
+    },
+    "draws": 1000000,
+    "seed": 20261117
+  },
+  "latitude": {
+    "schema": 1,
+    "status": "computed_after_all141_validated",
+    "protocol": "Four prespecified signed-latitude correlations; all score differences are inverted minus standard",
+    "validated_total_pairs": 141,
+    "current_southern_pairs": 68,
+    "original_latitude_pairs": 67,
+    "originally_missing_latitude_count": 1,
+    "newly_available_current_latitude_count": 1,
+    "analyses": [
+      {
+        "id": "historical_original67",
+        "label": "Historical reproduction: original 67 workbook latitudes and historical deltas",
+        "latitude_source": "original_signed_workbook_latitudes",
+        "score_source": "historical_inverted_minus_standard",
+        "n": 67,
+        "df": 65,
+        "status": "computed",
+        "r": -0.05393692144272446,
+        "t": -0.4354872821536159,
+        "two_sided_p": 0.6646515028479503,
+        "exact_normal_null_beta_p": 0.6646515028479517,
+        "method": "Centered Pearson sums; two-sided standard t with exact normal-null beta cross-check"
+      },
+      {
+        "id": "current_scores_original67",
+        "label": "Current scores on original 67 workbook latitudes: score changes isolated",
+        "latitude_source": "original_signed_workbook_latitudes",
+        "score_source": "current_inverted_minus_standard",
+        "n": 67,
+        "df": 65,
+        "status": "computed",
+        "r": -0.03669094742648246,
+        "t": -0.2960111912104099,
+        "two_sided_p": 0.7681651978607847,
+        "exact_normal_null_beta_p": 0.7681651978607849,
+        "method": "Centered Pearson sums; two-sided standard t with exact normal-null beta cross-check"
+      },
+      {
+        "id": "current_scores_current_latitudes68",
+        "label": "Current full 68: current captured latitudes and current deltas; not historical reproduction",
+        "latitude_source": "current_capture_validation_coordinates",
+        "score_source": "current_inverted_minus_standard",
+        "n": 68,
+        "df": 66,
+        "status": "computed",
+        "r": -0.03554156415395879,
+        "t": -0.28892357434428534,
+        "two_sided_p": 0.773545428511317,
+        "exact_normal_null_beta_p": 0.7735454285113189,
+        "method": "Centered Pearson sums; two-sided standard t with exact normal-null beta cross-check"
+      },
+      {
+        "id": "current_scores_current_latitudes_original67",
+        "label": "Sensitivity: original 67 identities with current captured latitudes and current deltas",
+        "latitude_source": "current_capture_validation_coordinates",
+        "score_source": "current_inverted_minus_standard",
+        "n": 67,
+        "df": 65,
+        "status": "computed",
+        "r": -0.05167262957583784,
+        "t": -0.4171553454549672,
+        "two_sided_p": 0.6779393733447923,
+        "exact_normal_null_beta_p": 0.6779393733447941,
+        "method": "Centered Pearson sums; two-sided standard t with exact normal-null beta cross-check"
+      }
+    ],
+    "source_and_time_uncertainty_counts": {
+      "input_provenance": {
+        "supplied_mastro_database": 23,
+        "official_adb_reconstruction": 45
+      },
+      "source_review_status": {
+        "not_recorded": 23,
+        "review_required": 14,
+        "verified_source": 31
+      },
+      "source_quality_rating": {
+        "XX": 3,
+        "B": 17,
+        "AA": 27,
+        "A": 19,
+        "DD": 2
+      },
+      "capture_validation_status": {
+        "position_consistency_verified": 65,
+        "reported_utc_verified_source_convention_unresolved": 3
+      },
+      "historical_equivalence": {
+        "unverified": 68
+      },
+      "subjects_with_recorded_source_uncertainty_flags": 19,
+      "recorded_source_uncertainty_flag_occurrences": 32,
+      "unresolved_application_clock_conventions": 3
+    },
+    "exclusions_based_on_outcomes_or_uncertainty": 0,
+    "limits": [
+      "Current full-68 coordinates are current captured inputs, not a historical 68-person reconstruction.",
+      "No source/time uncertainty is resolved by a passing numerical gate; all subjects remain included.",
+      "Two-sided p-values use the classical independent bivariate-normal zero-correlation null.",
+      "These four known-cohort reports are not new human validation and have no multiplicity adjustment."
+    ]
+  },
+  "verification_scope": {
+    "capture_receipts_passed": 141,
+    "hash_bound_pairs": 141,
+    "retrospectively_validated_pilots": 4,
+    "maximum_planetary_rotation_residual_degrees": 0.018333333333373503,
+    "independently_checked_rotation_scope": "11 physical-planet/node longitudes; not every house, angle or proprietary factor."
+  },
+  "limits": [
+    "Known development cohort and retained LLM-generated BIOs; no fresh blinded personality matching or forecasts.",
+    "Tests are unadjusted diagnostics; binary, continuous, sign-flip, hemisphere-allocation and BIO-reassignment tests address distinct nulls.",
+    "Input policy was frozen before remaining outputs; current source ratings do not certify historical eligibility.",
+    "No program settings or birth times were selected to improve agreement with historical keywords."
+  ]
+}

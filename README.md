@@ -2,18 +2,19 @@
 
 The public side of an astrology research project: calculation code, method notes and source audits that contain no personal data.
 
-## Status, 16 November 2026
+## Status, 17 November 2026
 
-The Mastro Expert operating guide and research assessment are available in the
-[documentation index](docs/INDEX.md). They cover the training workflow, corrected
-research settings, exports, evaluation and the remaining reproduction checks.
-The new 282-chart source-level reproduction is still pending.
+The [completed Mastro current-source reanalysis](docs/mastro/reanalysis-results.md)
+contains all 141 paired people and 282 current chart outputs. Inversion wins are
+24/73 North and 49/68 South; historical arithmetic gives 26/73 and 48/68.
+The binary hemisphere pattern persists, while historical chart inputs and exact
+keyword-vector equality remain unresolved. The magnitude-based BIO reassignment
+diagnostic is borderline, and no new behavioral accuracy study was run.
 
-Material is being moved here from an older repository, file by file, after each
-file is checked for names, emails, birth data and other people's words.
-
-- [Mastro Expert operating guide](docs/mastro/operating-guide.md)
+- [Mastro operating guide](docs/mastro/operating-guide.md)
 - [Usefulness for our research](docs/mastro/research-value.md)
+- [Aggregate results](docs/mastro/reanalysis-aggregate.json)
+- [Analysis code and reproducibility](tools/mastro/README.md)
 - [Current research state](state/CURRENT-STATE.md)
 
 ## What belongs here
