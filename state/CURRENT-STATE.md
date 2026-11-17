@@ -1,60 +1,44 @@
 # Current research state
 
-Updated: 16 November 2026.
+Updated: 17 November 2026. Source generation is in progress.
 
-## Mastro preparation
+## Goal
 
-- The recorded technical demonstration has been reviewed and its operational
-  instructions are in [the Mastro guide](../docs/mastro/operating-guide.md).
-- The original reference email was checked again. Its eight attachments cover
-  the protocol, 141-person list, BIO-generation prompts, BIO keywords, ASTRO
-  keyword weights, comparisons, test results and latitude analysis.
-- Two additional application databases and the training recording are available
-  in the authorized private source collection. They supplement the program's
-  public database; coverage of every original birth record is not yet certified.
-- Earlier work reproduced the supplied spreadsheet comparisons and aggregate
-  classifications. The new source-level regeneration of all 282 Mastro chart
-  outputs has not yet been run.
-- No questionnaire-matching accuracy, forecast accuracy or unattended batch
-  throughput is claimed by this documentation update.
+Complete the requested 141-person Mastro re-analysis and prepare reviewable results for a later reply. Preserve source/build differences and uncertainty.
 
-## Next action
+## Authority / baseline
 
-Inspect the private originals and configuration, then reproduce a complete
-standard/inverted chart pair. Compare every exported keyword weight and the
-ASTRO record counts with the historical reference, including the discrepancies
-listed in the guide. Only then scale to the full 141-person reproduction.
+The owner authorized execution. The retained protocol, eight reference attachments and technical demonstration define the baseline. The selected current executable is Mastro Expert 7.8.5. Historical input equivalence is separate from numerical consistency and remains unverified.
 
-Retain exact source hashes, actual birth-source quality, version/build,
-settings and per-person source database in the private run manifest. Check
-whether the retained workbook set includes the full interactive evaluator;
-the verified scoring rule can also be implemented independently.
+Read [the operating guide](../docs/mastro/operating-guide.md) and [research assessment](../docs/mastro/research-value.md). The durable execution task is [the source re-analysis](https://github.com/u-dont-existDOTcom/astro-research/issues/2).
 
-Newly reconstructed records from present-day external sources must carry that
-provenance. They do not silently become confirmed historical study inputs.
+## Completed
 
-## Public documentation boundary
+- Independently reconciled 41,940 supplied comparison cells, 282 global scores and141 winner classifications. Historical inversion wins are26/73 North and48/68 South.
+- Preserved both retained BIO variants. Their word multisets differ for two people; historical winner classifications are unchanged.
+- Audited three supplied databases. Ninety-six identities have supplied candidates;45 Southern records were reconstructed from pinned official Astro-Databank revisions. Fourteen reconstructions retain source cautions.
+- Verified complete extraction and timing/rotation checks on a diverse pilot. Current and historical weights differ; exact output parity is not claimed.
+- Audited the latitude workbook: all67 included differences reconcile. One intended Southern record has no supplied latitude. The original correlation is close to zero.
+- Prepared authored analysis tools and invented-data tests without distributing birth inputs, correspondence, databases or licensed keyword corpora.
 
-This repository stores authored procedures, non-identifying method notes and
-aggregate status. Source recordings, database contents, correspondence,
-interview responses and individual readings remain in their authorized private
-stores. No such source files were added by this documentation update.
+## Current checkpoint
 
-## Findings disposition
+Four private Wine sessions are generating source outputs. At the preparation checkpoint,95/141 pairs were accepted. Failed or provisional captures do not enter cohort inference. The selected input policy uses the numbered tutorial set for73 Northern subjects, supplied Southern candidates and45 explicitly marked official-source reconstructions.
 
-- Research filter correction, appending CSV exports, database aliasing,
-  evaluator normalization and identity checks: project-specific operating
-  lessons, incorporated into the guide.
-- Exact historical-build equivalence, explanation of remaining score
-  differences and large-run automation reliability: provisional, awaiting
-  direct tests.
-- No universal software or scientific rule is promoted from this single
-  demonstration.
+## Remaining
 
-## Documentation verification
+Finish all282 outputs, run the full scoring and prespecified sensitivities, review the complete evidence, publish aggregate findings and save the private result package. The optional BIO/person reassignment diagnostic remains separate from the primary endpoint. No outgoing result email has been sent.
 
-The publication payload was reviewed against the retained training notes and
-reference audit. Relative Markdown links and `git diff --check` were checked;
-the six authored Markdown files were also reviewed for identifying records,
-private correspondence, source transcripts, local personal paths and secrets.
-No software test suite or chart-generation run is implied by those checks.
+## Blockers / unresolved
+
+The historical birth inputs and corpus/build equivalence are not certified. Three supplied records have reported application UTC values that are not explained by simple civil-offset arithmetic. Their observed clocks are independently verified and retain time-convention review flags. Reconstructed records retain strict source-clock checks. No fresh blinded personality or forecast validation is implied.
+
+The profile records hosted GitHub controls as unverified. The existing public repository has no declared reuse license; this change does not add a license grant or infer hosted security settings from files.
+
+## Evidence / artifacts
+
+The owner's private run retains original source hashes, exact input provenance, full trees, source-time and planetary checks, completion bindings and analysis reports. This repository contains authored procedures, code with invented tests and aggregate findings. Private files are not hosted CI fixtures.
+
+## Next safe action
+
+Verify actual queue progress and complete the missing pairs. Then run full-run analysis, the declared local/hosted checks and final disclosure review before merging the selected publication payload.

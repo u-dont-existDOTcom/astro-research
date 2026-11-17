@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "repository_kind": "research",
+  "active": true,
+  "long_running": true,
+  "visibility": "public",
+  "risk": "normal",
+  "commands": {
+    "bootstrap": "python3 scripts/bootstrap_mastro.py",
+    "test": "python3 -m unittest discover -s tests -v",
+    "audit": "python3 scripts/audit_codex_github.py --root . --fail-on error"
+  },
+  "current_state": "state/CURRENT-STATE.md",
+  "github_controls": {
+    "default_branch_rules": "unverified",
+    "secret_scanning": "unverified",
+    "push_protection": "unverified",
+    "code_scanning": "unverified"
+  }
+}

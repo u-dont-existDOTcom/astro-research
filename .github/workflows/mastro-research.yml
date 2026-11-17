@@ -1,0 +1,36 @@
+name: Universal repository compliance
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: mastro-research-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  analysis-checks:
+    name: Deterministic repository audit
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out candidate
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Set up Python
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.12'
+      - name: Bootstrap research environment
+        run: python3 scripts/bootstrap_mastro.py
+      - name: Run invented-data analysis tests
+        run: |
+          source .venv/bin/activate
+          python3 -m unittest discover -s tests -v
+      - name: Audit repository
+        run: python3 scripts/audit_codex_github.py --root . --fail-on error

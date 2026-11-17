@@ -1,8 +1,8 @@
 # Mastro Expert operating guide
 
-Reviewed: 16 November 2026. Observed application: Mastro Expert 7.8.5 running
+Reviewed: 17 November 2026. Observed application: Mastro Expert 7.8.5 running
 under Windows/Wine. The source is an owner-provided technical demonstration
-recorded that day, with elapsed timestamps below. These are newly written
+recorded on 16 November 2026, with elapsed timestamps below. These are newly written
 operating notes. The recording, database contents, correspondence and individual
 records are held privately.
 
@@ -53,7 +53,11 @@ that a record is absent.
 If a record must be recreated from an external birth-data source, record its
 provenance and source-quality rating. A present-day reconstruction is not a
 confirmed copy of the original study input. The missing-record lookup example
-is at 02:18:44–02:24:48. Database coverage for all 141 people remains unchecked.
+is at 02:18:44–02:24:48. The subsequent inventory found supplied-database
+candidates for 96 people and recovered published records for the remaining 45.
+The numbered tutorial set covers all 73 Northern subjects. The current-run
+selection policy uses that numbered set, the supplied Southern candidates and
+explicitly marked reconstructions. Historical input equivalence remains open.
 
 ## 2. Freeze the research configuration
 
@@ -104,6 +108,12 @@ scoring and regenerated the list. That Admin control is not an ordinary-user
 requirement. Also, the cutoff of 1 shown earlier in the call was superseded by
 the research-specific above-zero instruction. Removing low-scoring keywords
 changes both the available matches and the evaluator's denominator.
+
+Set the application's research cutoff to zero and preserve **every returned
+row**, including a displayed score of `0.0`. Such rows occur in the historical
+workbooks and the current UI. Removing them after extraction changes the
+denominator. The displayed precision does not establish the hidden unrounded
+value or the exact filter comparison operator.
 
 Translate prose separately if needed. Translating keyword labels before the
 reproduction changes the literal matching problem.
@@ -157,6 +167,12 @@ The export buttons use French initials (01:25:01–01:29:20):
 | --- | --- | --- |
 | A | *Avec*: with supporting astrological factors/signatures | Optional factor-level audit |
 | S | *Sans*: without those factors | Keyword/score export used for the study |
+
+These two buttons were visible in the demonstration but are absent from the
+ordinary installation used for the current run. Check the actual interface.
+A complete scored one-level tree can also be read through ordinary Windows
+TreeView messages, preserving exact labels, weights, duplicates and node counts.
+This reads the application's visible controls; it does not decode its databases.
 
 In the English interface the file is `Trees.csv` on the Windows Desktop.
 Successive exports **append** to that file (01:26:40–01:27:45). Move or rename
@@ -278,14 +294,14 @@ a personality trait or future event.
 
 | Check | Current status | Action |
 | --- | --- | --- |
-| Historical build versus 7.8.5 | Equivalence asserted by the author; full source-output comparison remains pending | Record both versions where available and compare complete keyword vectors |
+| Historical build versus 7.8.5 | Equivalence asserted by the author; current pilot vectors differ and the full source-output comparison is in progress | Record both versions where available and compare complete keyword vectors |
 | Small weight differences | Differences of 0.1 appeared at approximately 01:23–01:24 and were attributed to rounding | Verify the cause; retain the observed values |
 | Larger weight difference | A standard-chart example differed by 1.3 at 01:31:26–01:32:28; an orb explanation was suggested | Compare actual inputs, orbs, signatures and build before attributing the cause |
 | Another unresolved weight | A later example remained unexplained at 02:04:49–02:06:37 | Retain as an unresolved reproduction check |
 | BIO/ASTRO identity | A wrong active BIO column caused a later mismatch and was corrected | Assert subject identity before comparing scores |
-| Complete original inputs | Supplementary databases are available; exact coverage and historical record identity remain unchecked | Audit every original subject and mark reconstructions |
-| Evaluator workbook | Original comparison/reference workbooks are available; full interactive evaluator structure still needs inspection | Inspect retained sheets/formulas or implement the verified rule independently |
-| Large-run automation | GUI workflow demonstrated; no unattended full-list run or throughput benchmark completed | Pilot a small labeled run with restart and export checks |
+| Complete original inputs | Coverage audited: 96 supplied candidates and 45 marked reconstructions; historical record equivalence remains unverified | Audit every original subject and mark reconstructions |
+| Evaluator workbook | All supplied workbooks inspected; none has the demonstrated interactive evaluator sheet set; verified scoring rule is implemented | Inspect retained sheets/formulas or implement the verified rule independently |
+| Large-run automation | Diverse pilot verified; four isolated current-build queues are in progress | Pilot a small labeled run with restart and export checks |
 
 Before scaling, reproduce one complete standard/inverted pair: coordinates,
 keyword labels, weights, record counts, matched rows and both global scores.
@@ -332,3 +348,48 @@ The manual is a general reference and may describe a different build. A later
 verified correction should update this guide and the current state together,
 retaining the evidence and distinguishing demonstrated behaviour from proposed
 automation or research.
+
+## 9. Verified execution notes from 17 November
+
+Use private working copies for automation. Record replacement, application
+startup and build changes can write database files. Keep the delivered files
+unchanged and record working-copy provenance separately.
+
+**New-card OK can insert a record into the selected working database.** Later
+sorted row indices can therefore move. Select by a unique exact display label,
+then inspect the birth fields. Preserve the original inventory row and the
+resolved current row. A similar name is insufficient when the exact label is
+absent or duplicated.
+
+For the user ayanamsa, setting a text property programmatically did not reliably
+update the calculation. Real keyboard input followed by focus change did.
+The degree field can reopen with its default value even after a prior applied
+inversion. Enter and verify the intended value for each person, then check the
+actual planetary rotation. Native checkbox-state messages were also unreliable
+for these .NET controls; use visible state and effective output checks.
+
+Menus, database loading and synthesis are asynchronous under Wine. Wait for the
+actual dropdown or dialog to exist before acting. Directing Return to the
+observed menu-popup window proved more reliable than sending it to the desktop.
+Verify that the previous tree clears, regenerate the aspects, and require a
+complete stable one-level tree with its declared node count. Preserve raw
+captures and bind completed pairs to their input, settings and output hashes.
+
+Independently check the chart's time convention and planetary positions.
+A supplied record can contain a displayed offset that does not explain the
+application's reported UTC. Preserve and investigate that disagreement. An
+engine reproduction may retain the supplied record and verify the **actually
+observed application UTC**, with an explicit unresolved-convention flag. This
+does not establish the true or historical birth time. A reconstructed record
+must still match its documented source-derived UTC and coordinates exactly;
+do not search for a time that produces preferred scores.
+
+The planetary table can round seconds to `60` without carrying them in the
+display. Normalize that representation arithmetically for the independent
+position check while retaining the raw text. Keep source-coordinate validation
+strict. Display-format handling does not justify a wider astronomy tolerance.
+
+The retained comparison BIO columns are the primary arithmetic input. The
+separate BIO workbook is a labeled sensitivity input: preserve both rather than
+silently substituting one. A successful spreadsheet reconciliation, an engine
+output comparison and a fresh blinded accuracy study are separate results.
