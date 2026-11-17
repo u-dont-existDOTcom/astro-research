@@ -7,3 +7,13 @@ local-results/
 *.exe
 *.mp4
 Trees.csv
+.cache/
+*.npz
+results*.json
+decoys*.json
+kinds*.json
+scan*.json
+person*.json
+!tools/timing_tests/example_person.json
+maximums*.json
+events*.json

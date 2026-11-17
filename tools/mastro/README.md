@@ -44,3 +44,16 @@ The optional reassignment diagnostic uses a separately fixed protocol and must
 not be substituted for the primary hemisphere contrast. Test fixtures are
 invented; successful unit tests do not certify an actual chart run or human
 predictive accuracy.
+
+## Forecast-curve rule test
+
+`forecast_rule_test.py` counts how many dated events fall near one of the
+year's five highest points of the curve for their theme, and computes chance
+from the actual windows instead of assuming one in ten. Its inputs are private:
+the Maximums tables read from the program and the list of events with the
+theme fixed for each in advance. The method and the first result are in
+[forecast curves](../../docs/mastro/forecast-curves.md).
+
+```bash
+python3 tools/mastro/forecast_rule_test.py private/maximums.json private/events.json local-results/forecast-rule.json
+```

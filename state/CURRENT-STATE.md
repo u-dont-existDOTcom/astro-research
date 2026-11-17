@@ -24,6 +24,14 @@ all 41,940 cells, 282 scores and 141 classifications. Current inversion wins are
 three winner changes. Full numerical review independently reconstructed all
 scores and the fixed million-draw BIO reassignment result.
 
+A first forecast-curve test is also complete (17 November 2026, a separate
+line of work on the same 7.8.5 build): one person, 41 dated events, one theme
+per event sealed in advance, the published rule of the year's five highest
+points. Result: 2 hits where chance expects 3.2. The same dates were scored
+with ninety other timing techniques under four controls; all came out at
+chance. See [forecast curves](../docs/mastro/forecast-curves.md) and
+[timing tests](../docs/timing-tests/README.md).
+
 Read the [results](../docs/mastro/reanalysis-results.md),
 [operating guide](../docs/mastro/operating-guide.md),
 [research assessment](../docs/mastro/research-value.md) and
@@ -57,6 +65,10 @@ p=0.05327595 warrants a narrower conclusion. Latitude associations are near
 zero. This known-cohort work contains no new blinded human or forecast test;
 all reported statistical diagnostics are unadjusted for multiple comparisons.
 
+The forecast-curve test covers one person with an estimated birth time; it is
+not a cohort result. The Maximums tables have no export and were read by OCR
+from screenshots (three readings, majority kept, 22 of 7,455 cells disputed).
+
 ## Evidence / artifacts
 
 The private owner package retains original attachments, accepted raw trees,
@@ -81,6 +93,10 @@ The profile keeps branch rules, secret scanning, push protection and code
 scanning unverified. Existing missing reuse-license and hosted-control warnings
 remain explicit; no license grant or hosted protection is inferred from files.
 
+The forecast and timing code was checked by reproducing the private results
+exactly from the published code (89 of 89 technique scores) and by an
+invented-data test of the rule counter.
+
 ## Lesson closeout
 
 Project-specific Wine automation requires effective-output checks in addition
@@ -100,5 +116,7 @@ demonstrated evaluator to isolate remaining differences. Follow
 [the conditional inversion policy](../docs/mastro/inversion-use-policy.md) for
 new comparisons and adoption decisions; retain standard and inverted variants
 until a specified independent comparison supports a task-specific choice.
+For forecasting, the next step is a second person with dated events and a
+verified birth time, with themes sealed before the curves are read.
 A new blinded validation needs its own frozen protocol and controls. These are follow-up research questions, not missing
 current-run outputs.
