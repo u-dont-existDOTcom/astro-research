@@ -2,6 +2,9 @@
 
 | Document | Purpose |
 | --- | --- |
+| [AstroHD public research and migration](astrohd/README.md) | Canonical destination, privacy-safe recovered research, legacy methods and source evidence limits. |
+| [Gemini/current-agent onboarding](astrohd/GEMINI_ONBOARDING.md) | Read the active public repository and explicitly request private chart/profile inputs rather than guessing. |
+| [Historical migration inventory](astrohd/MIGRATION_INVENTORY_20261121.json) | SHA-indexed disposition of each post-migration private-repository file; no personal source data published. |
 | [Source corrections and protocol](mastro/source-corrections.md) | Source-standardized follow-up, original one-sided endpoint, provenance reuse and clarified warnings. |
 | [Conditional inversion use](mastro/inversion-use-policy.md) | Where inversion is a research option, exact paired procedure and evidence needed for future adoption. |
 | [Forecast curves](mastro/forecast-curves.md) | What is published about the forecast curves, the rule of the five highest peaks, how the Maximums tables were read, and the first test on one person's dated events. |

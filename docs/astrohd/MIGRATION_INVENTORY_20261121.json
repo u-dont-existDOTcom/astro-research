@@ -1,0 +1,892 @@
+{
+  "schema": "public_astrohd_recovery_inventory_v01",
+  "source_observed_utc": "2026-11-21",
+  "source_repository": "PRIVATE_PREDECESSOR_RETAINED_FOR_RECOVERY_ONLY",
+  "source_git_parent": "d79488d64b61b357a3e7b995d0e599b98bcc77a0",
+  "source_git_head": "beb8e1fefeb35944521f5961359e6fe2b6e89d43",
+  "target_public_repository": "u-dont-existDOTcom/astro-research",
+  "source_changed_file_count": 123,
+  "public_ported_file_count": 86,
+  "retained_private_file_count": 37,
+  "private_archive_sha256": "260080ce386b144aaf66c17b7f4cbd7f146f11759d0201cb466cbbc20aa32e22",
+  "policy": "Public-safe original machine-readable methods and tests were copied with identical bytes. Other original documents, programs and source-specific profile evaluations remain intact in an owner-private verified recovery archive; no private source is automatically promoted into public Git. Their methodological outcomes are synthesized separately.",
+  "files": [
+    {
+      "historical_path": "AGENTS.md",
+      "sha256": "ddccd5953c7f5f6da5937721864cc33fc1562b5bc32910c8b8bb347ae3319568",
+      "bytes": 16142,
+      "status": "PRIVATE_RECOVERY_EXACT_PUBLIC_METHOD_SUMMARY_ONLY",
+      "public_path": null
+    },
+    {
+      "historical_path": "docs/26_coverage_preserving_century_personality_search_20261119.md",
+      "sha256": "23c36ee7a42b96380e973b91d30d7fb9eb45e8c4eeb85c189978462b7abf2e6c",
+      "bytes": 14670,
+      "status": "PRIVATE_RECOVERY_EXACT_PUBLIC_METHOD_SUMMARY_ONLY",
+      "public_path": null
+    },
+    {
+      "historical_path": "docs/27_western_hd_reuse_first_competitive_chart_workflow.md",
+      "sha256": "8e2712cde3d46743b49bb47d82b8fa3bac52b324ba56287c6ff7c493477e7145",
+      "bytes": 6944,
+      "status": "PRIVATE_RECOVERY_EXACT_PUBLIC_METHOD_SUMMARY_ONLY",
+      "public_path": null
+    },
+    {
+      "historical_path": "docs/GEMINI_ASTRO_RESEARCH_ONBOARDING_20261121.md",
+      "sha256": "3e8bb7a01c474e765c7080dcae034c62be0fa47bf5a452618ec6f954af7f7c77",
+      "bytes": 11612,
+      "status": "PRIVATE_RECOVERY_EXACT_PUBLIC_METHOD_SUMMARY_ONLY",
+      "public_path": null
+    },
+    {
+      "historical_path": "docs/suggested-fixes-ledger.md",
+      "sha256": "fe92abe4ebf5a19825ba5000606712b2fe8a3a636f6eb03fd4050b464b05b881",
+      "bytes": 2574,
+      "status": "PRIVATE_RECOVERY_EXACT_PUBLIC_METHOD_SUMMARY_ONLY",
+      "public_path": null
+    },
+    {
+      "historical_path": "reference/audits/behavioral_pattern_flex_ambition_pruning_correction_20261120.md",
+      "sha256": "cd7355072f55d52a0ca77841662a56eea36f2eb67b4010ee9504b968f2ad18cb",
+      "bytes": 12778,
+      "status": "PRIVATE_RECOVERY_EXACT_PUBLIC_METHOD_SUMMARY_ONLY",
+      "public_path": null
+    },
+    {
+      "historical_path": "reference/audits/combined_natal_grid_record_integration_20261119.md",
+      "sha256": "603d5fd6fb83847fd2cd8febcc4ee638204de95de8cf186a853394d24aebb830",
+      "bytes": 4781,
+      "status": "PRIVATE_RECOVERY_EXACT_PUBLIC_METHOD_SUMMARY_ONLY",
+      "public_path": null
+    },
+    {
+      "historical_path": "reference/audits/contextual_profile_splenic_source_20261120.md",
+      "sha256": "93ddc09d4057f55d008e4b4f1044d67d15f6c8b2c5b4f07837c8cb77bfeff83d",
+      "bytes": 13161,
+      "status": "PRIVATE_RECOVERY_EXACT_PUBLIC_METHOD_SUMMARY_ONLY",
+      "public_path": null
+    },
+    {
+      "historical_path": "reference/audits/cross_system_disputed_predictor_forum_pilot_20261121.md",
+      "sha256": "02bd2fee288d8df4f4249899da1e00f7e0e452a4b02303df915ee2e82f768937",
+      "bytes": 18227,
+      "status": "PRIVATE_RECOVERY_EXACT_PUBLIC_METHOD_SUMMARY_ONLY",
+      "public_path": null
+    },
+    {
+      "historical_path": "reference/audits/disputed_predictor_three_wave_closeout_20261121.md",
+      "sha256": "10ab4a2511b2e90c9b5327075d8ee0b1fb3b1409967a33aa2a4f40f4f462b954",
+      "bytes": 12115,
+      "status": "PRIVATE_RECOVERY_EXACT_PUBLIC_METHOD_SUMMARY_ONLY",
+      "public_path": null
+    },
+    {
+      "historical_path": "reference/audits/fast_century_grid_and_false_negative_pilot_20261119.md",
+      "sha256": "e186980ae4f4aa28b03a652c7b1b27d70e81972761ad6d80eb1d0f6df757a4de",
+      "bytes": 15785,
+      "status": "PRIVATE_RECOVERY_EXACT_PUBLIC_METHOD_SUMMARY_ONLY",
+      "public_path": null
+    },
+    {
+      "historical_path": "reference/audits/gemini_response_source_critique_20261121.md",
+      "sha256": "ac06679161cf5b3b5a1fd29fd19f4f0885d8ff67657b9dc89ffe0c76f652f85a",
+      "bytes": 9577,
+      "status": "PRIVATE_RECOVERY_EXACT_PUBLIC_METHOD_SUMMARY_ONLY",
+      "public_path": null
+    },
+    {
+      "historical_path": "reference/audits/hd_exact_100y_structural_cache_and_western_join_20261119.md",
+      "sha256": "19c4d674e0387963e71ecc91ae0314a4da495d33a23c674442f3c4baaecd254a",
+      "bytes": 12972,
+      "status": "PRIVATE_RECOVERY_EXACT_PUBLIC_METHOD_SUMMARY_ONLY",
+      "public_path": null
+    },
+    {
+      "historical_path": "reference/audits/hd_structural_range_query_20261119.md",
+      "sha256": "b9b3e2c1f139d00a1ab4b96fbe5e55783bf48cd1a05aa2430564ff7b72aa7e1c",
+      "bytes": 3289,
+      "status": "PRIVATE_RECOVERY_EXACT_PUBLIC_METHOD_SUMMARY_ONLY",
+      "public_path": null
+    },
+    {
+      "historical_path": "reference/audits/interview_v37_20261120_semantic_reconciliation_and_ptolemy_witness.md",
+      "sha256": "e7eaac5fee89b0e6bed62125e889235f9cb45e683dbdcd97a1d5b99d43a7a9e6",
+      "bytes": 11253,
+      "status": "PRIVATE_RECOVERY_EXACT_PUBLIC_METHOD_SUMMARY_ONLY",
+      "public_path": null
+    },
+    {
+      "historical_path": "reference/audits/legacy_western_hd_reuse_and_descriptive_rarity_20261119.md",
+      "sha256": "cc2be680b43fdd3281d988fdda956ebc63a7169714710cade5bf115bb5ed3311",
+      "bytes": 15362,
+      "status": "PRIVATE_RECOVERY_EXACT_PUBLIC_METHOD_SUMMARY_ONLY",
+      "public_path": null
+    },
+    {
+      "historical_path": "reference/audits/location_western_angles_100y_and_feature_gate_20261119.md",
+      "sha256": "373c65d05a836a317c70f2a8873496b0ba89eaa04f875cf6bcd0e53131f7f8d0",
+      "bytes": 7087,
+      "status": "PRIVATE_RECOVERY_EXACT_PUBLIC_METHOD_SUMMARY_ONLY",
+      "public_path": null
+    },
+    {
+      "historical_path": "reference/audits/multi_school_chart_to_behavior_contrast_20261121.md",
+      "sha256": "cf46219e0cd0051d025996a854ad2a9177f4a701c9c294b666eb5f0aa2350fcc",
+      "bytes": 13496,
+      "status": "PRIVATE_RECOVERY_EXACT_PUBLIC_METHOD_SUMMARY_ONLY",
+      "public_path": null
+    },
+    {
+      "historical_path": "reference/audits/nonbespoke_western_hd_rank1_baselines_20261120.md",
+      "sha256": "05e164ae25b577fdbf81bbc36e40760cb862a290e7c2ea441287d27efad2e3f7",
+      "bytes": 13884,
+      "status": "PRIVATE_RECOVERY_EXACT_PUBLIC_METHOD_SUMMARY_ONLY",
+      "public_path": null
+    },
+    {
+      "historical_path": "reference/audits/persuasion_clarification_and_hd_sensitivity_20261120.md",
+      "sha256": "2a41373a20ebee8a1d556c2a243329257838ed07df1a28bc4998470d3d87c8fa",
+      "bytes": 12241,
+      "status": "PRIVATE_RECOVERY_EXACT_PUBLIC_METHOD_SUMMARY_ONLY",
+      "public_path": null
+    },
+    {
+      "historical_path": "reference/audits/professional_style_western_hd_14_interval_deep_dive_20261120.md",
+      "sha256": "50b1ec4f181846e869cca3af48d17b1fcf3f4c75f6686d392b7aa8b5ca2b6079",
+      "bytes": 16255,
+      "status": "PRIVATE_RECOVERY_EXACT_PUBLIC_METHOD_SUMMARY_ONLY",
+      "public_path": null
+    },
+    {
+      "historical_path": "reference/audits/research_finishlines_and_gemini_disagreement_20261121.md",
+      "sha256": "0f0fe34aebf0a830850e7a2adf03a84cf3621dc9e3ed21a006e8240d6713be96",
+      "bytes": 12283,
+      "status": "PRIVATE_RECOVERY_EXACT_PUBLIC_METHOD_SUMMARY_ONLY",
+      "public_path": null
+    },
+    {
+      "historical_path": "reference/audits/somatic_drives_vs_splenic_source_nonbespoke_control_20261120.md",
+      "sha256": "dab37efbc55cc42a7f98e2199953b9d8bcef541979c60bc088490b3c36c2db1a",
+      "bytes": 12511,
+      "status": "PRIVATE_RECOVERY_EXACT_PUBLIC_METHOD_SUMMARY_ONLY",
+      "public_path": null
+    },
+    {
+      "historical_path": "reference/audits/splenic_and_nonsplenic_first_person_qualitative_comparison_20261120.md",
+      "sha256": "5c9da6b6b90f401a71b8723a42b3e8a0d97e9f2ca906e6ec17eb79b8851c8c1b",
+      "bytes": 10915,
+      "status": "PRIVATE_RECOVERY_EXACT_PUBLIC_METHOD_SUMMARY_ONLY",
+      "public_path": null
+    },
+    {
+      "historical_path": "reference/audits/v37_hd_legacy_replay_and_western_source_gate_20261119.md",
+      "sha256": "dea5008032339002e71c1dad03ceca6d9037f20166f5bfc2a23020b1a3d5a423",
+      "bytes": 11090,
+      "status": "PRIVATE_RECOVERY_EXACT_PUBLIC_METHOD_SUMMARY_ONLY",
+      "public_path": null
+    },
+    {
+      "historical_path": "reference/audits/western_hd_atomic_source_behavior_contrast_20261120.md",
+      "sha256": "e6f4c326268e16af0894745b158b99740abebaeb4a5beff1486ebb3a420aa7b7",
+      "bytes": 12646,
+      "status": "PRIVATE_RECOVERY_EXACT_PUBLIC_METHOD_SUMMARY_ONLY",
+      "public_path": null
+    },
+    {
+      "historical_path": "reference/audits/western_hd_user_simple_comparison_20261120.md",
+      "sha256": "9f858b7b70a9b9a7642fcc7c7ded800662e7f733b11bc6be5b663467a9a36422",
+      "bytes": 10887,
+      "status": "PRIVATE_RECOVERY_EXACT_PUBLIC_METHOD_SUMMARY_ONLY",
+      "public_path": null
+    },
+    {
+      "historical_path": "reference/research/astro_research_finishline_roadmap_v01.json",
+      "sha256": "92e14a59f502f0f11e9a1983c504a5c312017100b119478384d830a9e0430e16",
+      "bytes": 11265,
+      "status": "PUBLIC_PORTED_EXACT",
+      "public_path": "tools/astrohd/reference/research/astro_research_finishline_roadmap_v01.json"
+    },
+    {
+      "historical_path": "reference/research/astrohd_multi_school_contrast_question_bank_v04.json",
+      "sha256": "0158106c51530142c2ec2620bbfb0bf0dc3258aa18ef9150cf86b61cc0470e1d",
+      "bytes": 12542,
+      "status": "PRIVATE_RECOVERY_EXACT_PUBLIC_METHOD_SUMMARY_ONLY",
+      "public_path": null
+    },
+    {
+      "historical_path": "reference/research/behavioral_interview_precision_v03.json",
+      "sha256": "aa35c89f044a67494898b901c552cf9696ac5866cc22eca781c3de7d93f93b2d",
+      "bytes": 11627,
+      "status": "PUBLIC_PORTED_EXACT",
+      "public_path": "tools/astrohd/reference/research/behavioral_interview_precision_v03.json"
+    },
+    {
+      "historical_path": "reference/research/behavioral_pattern_confirmation_protocol_v01.json",
+      "sha256": "467aa7f66278ff3768f1af3c3198520df2bb7abc6a3cfd98137898d3da860dbc",
+      "bytes": 6940,
+      "status": "PUBLIC_PORTED_EXACT",
+      "public_path": "tools/astrohd/reference/research/behavioral_pattern_confirmation_protocol_v01.json"
+    },
+    {
+      "historical_path": "reference/research/contextual_behavior_and_authority_observation_contract_v01.json",
+      "sha256": "62d41d96beca7f25801fc099b8697ef450de4cdd091c478db13c33e37481a344",
+      "bytes": 7280,
+      "status": "PUBLIC_PORTED_EXACT",
+      "public_path": "tools/astrohd/reference/research/contextual_behavior_and_authority_observation_contract_v01.json"
+    },
+    {
+      "historical_path": "reference/research/disputed_predictor_forum_audit_protocol_v01.json",
+      "sha256": "c3e1ad5277ec491c2629cf1e5224e0c65f33e466fd3c54fcc1fd1dae7db53db2",
+      "bytes": 8036,
+      "status": "PUBLIC_PORTED_EXACT",
+      "public_path": "tools/astrohd/reference/research/disputed_predictor_forum_audit_protocol_v01.json"
+    },
+    {
+      "historical_path": "reference/research/disputed_predictor_forum_seed_v01.json",
+      "sha256": "9643769c997f4d33f2b7c11ec2bf2d66edc8d13a3515ad31b18e8ee5b9824d33",
+      "bytes": 25676,
+      "status": "PUBLIC_PORTED_EXACT",
+      "public_path": "tools/astrohd/reference/research/disputed_predictor_forum_seed_v01.json"
+    },
+    {
+      "historical_path": "reference/research/disputed_predictor_forum_wave2_v01.json",
+      "sha256": "12a470ead4af86a322904afc207d42c0d14a243dccdddbbd6974348428e1a846",
+      "bytes": 19097,
+      "status": "PUBLIC_PORTED_EXACT",
+      "public_path": "tools/astrohd/reference/research/disputed_predictor_forum_wave2_v01.json"
+    },
+    {
+      "historical_path": "reference/research/disputed_predictor_forum_wave3_v01.json",
+      "sha256": "4f3f7d2c6eb196301a891ff13cf99291182b753700a20c67d13a256e766c649b",
+      "bytes": 12977,
+      "status": "PUBLIC_PORTED_EXACT",
+      "public_path": "tools/astrohd/reference/research/disputed_predictor_forum_wave3_v01.json"
+    },
+    {
+      "historical_path": "reference/research/forward_scoring_predictor_admission_policy_v01.json",
+      "sha256": "0b6eaf4230dd1f65ac0491b99c86afd569007e71e9d3b9108a090f579de7ab75",
+      "bytes": 4149,
+      "status": "PUBLIC_PORTED_EXACT",
+      "public_path": "tools/astrohd/reference/research/forward_scoring_predictor_admission_policy_v01.json"
+    },
+    {
+      "historical_path": "reference/research/generic_prior_authority_probes_reuse_v01.json",
+      "sha256": "3b455cc4cd7eb5b0aef5556a5b165803e4318e8d3921ae1a9f8cb362e4efaba3",
+      "bytes": 2105,
+      "status": "PUBLIC_PORTED_EXACT",
+      "public_path": "tools/astrohd/reference/research/generic_prior_authority_probes_reuse_v01.json"
+    },
+    {
+      "historical_path": "reference/research/generic_somatic_decision_signal_disambiguation_v02.json",
+      "sha256": "fb51cdc4dfaf707e2194e9bfff182f500e41ffa26fda538bf3576efdc1e1c213",
+      "bytes": 4908,
+      "status": "PUBLIC_PORTED_EXACT",
+      "public_path": "tools/astrohd/reference/research/generic_somatic_decision_signal_disambiguation_v02.json"
+    },
+    {
+      "historical_path": "reference/research/hd_western_contrastive_behavior_questions_v01.json",
+      "sha256": "03dd21766894ce39ec9a086ea4b98f46d5278caa50f0580e06a05ac03b87bf3a",
+      "bytes": 4400,
+      "status": "PRIVATE_RECOVERY_EXACT_PUBLIC_METHOD_SUMMARY_ONLY",
+      "public_path": null
+    },
+    {
+      "historical_path": "reference/research/hd_western_contrastive_behavior_questions_v02.json",
+      "sha256": "80610dc2286094cb4334698b17fc3504d52143b757c60ad75e12072641abb547",
+      "bytes": 5392,
+      "status": "PRIVATE_RECOVERY_EXACT_PUBLIC_METHOD_SUMMARY_ONLY",
+      "public_path": null
+    },
+    {
+      "historical_path": "reference/research/prior_hd_mapping_reuse_ledger_20261119.json",
+      "sha256": "c920d8bf606a6eb6e3d16944133f0c338231a350ac88ef0920d0c9ea6e0ccd98",
+      "bytes": 38730,
+      "status": "PRIVATE_RECOVERY_EXACT_PUBLIC_METHOD_SUMMARY_ONLY",
+      "public_path": null
+    },
+    {
+      "historical_path": "reference/research/ptolemy_iii13_natal_character_claims_v1.json",
+      "sha256": "1a01bac447fbfef4d703f6a9f1ae9d8369c0bc0d4f2134e8f1202991f5823ce3",
+      "bytes": 11473,
+      "status": "PUBLIC_PORTED_EXACT",
+      "public_path": "tools/astrohd/reference/research/ptolemy_iii13_natal_character_claims_v1.json"
+    },
+    {
+      "historical_path": "reference/research/splenic_belief_vs_accuracy_asymmetry_v01.json",
+      "sha256": "59853ebba18bce170aba23b8df6c9dc47e0a238576df073be10cfb1f6a99bcef",
+      "bytes": 3339,
+      "status": "PUBLIC_PORTED_EXACT",
+      "public_path": "tools/astrohd/reference/research/splenic_belief_vs_accuracy_asymmetry_v01.json"
+    },
+    {
+      "historical_path": "reference/research/western_hd_source_behavior_contrast_v01.json",
+      "sha256": "421d8d9d1a33d6c435280c3183943c2bcb1f789a9248ab5e0cd2c82471930f52",
+      "bytes": 11907,
+      "status": "PRIVATE_RECOVERY_EXACT_PUBLIC_METHOD_SUMMARY_ONLY",
+      "public_path": null
+    },
+    {
+      "historical_path": "reference/research/whole_chart_feature_coverage_registry_dev_20261119.json",
+      "sha256": "c3e8acddfb8948eaaf162bc7172e4b4f262aaf20a545fd7b72195f24049af30a",
+      "bytes": 6084,
+      "status": "PUBLIC_PORTED_EXACT",
+      "public_path": "tools/astrohd/reference/research/whole_chart_feature_coverage_registry_dev_20261119.json"
+    },
+    {
+      "historical_path": "scripts/audit_astro_research_completion_v01.py",
+      "sha256": "3b6731000c6249ffbdfb85f285f694d6c4b0333a7985e2ed3946c33a10b31cd0",
+      "bytes": 4579,
+      "status": "PUBLIC_PORTED_EXACT",
+      "public_path": "tools/astrohd/scripts/audit_astro_research_completion_v01.py"
+    },
+    {
+      "historical_path": "scripts/audit_contextual_authority_episodes_v01.py",
+      "sha256": "ed1e93cd71c7389ffeea8013dcd717dc488a2f73b7a39a84325188b751ef2fa8",
+      "bytes": 8839,
+      "status": "PUBLIC_PORTED_EXACT",
+      "public_path": "tools/astrohd/scripts/audit_contextual_authority_episodes_v01.py"
+    },
+    {
+      "historical_path": "scripts/audit_disputed_predictor_corpus_v01.py",
+      "sha256": "6f3cb37c040440aa035ca78608a857c554af78bd3b205277420bcf77b0b63b71",
+      "bytes": 6288,
+      "status": "PUBLIC_PORTED_EXACT",
+      "public_path": "tools/astrohd/scripts/audit_disputed_predictor_corpus_v01.py"
+    },
+    {
+      "historical_path": "scripts/audit_disputed_predictor_three_wave_closeout_v01.py",
+      "sha256": "b6135fece315be6c0dfbc885896058378fe33c91ca425a2c9d6e17d72431172d",
+      "bytes": 5698,
+      "status": "PUBLIC_PORTED_EXACT",
+      "public_path": "tools/astrohd/scripts/audit_disputed_predictor_three_wave_closeout_v01.py"
+    },
+    {
+      "historical_path": "scripts/audit_disputed_predictor_wave2_v01.py",
+      "sha256": "b1a8fb4274f2d06c3c29cdeaaa1ad54bc8d102d442dea53d3e5d54a0c49e12ce",
+      "bytes": 6104,
+      "status": "PUBLIC_PORTED_EXACT",
+      "public_path": "tools/astrohd/scripts/audit_disputed_predictor_wave2_v01.py"
+    },
+    {
+      "historical_path": "scripts/audit_dual_system_pruning_scope_v1.py",
+      "sha256": "677f63781deab322487a4b02fdde6a1f2e655013a2075061de379d97f307169c",
+      "bytes": 6729,
+      "status": "PUBLIC_PORTED_UNINTEGRATED_LEGACY_METHOD",
+      "public_path": "tools/astrohd/scripts/audit_dual_system_pruning_scope_v1.py"
+    },
+    {
+      "historical_path": "scripts/audit_fast_hd_state_grid.py",
+      "sha256": "bae1eef64a60e00a67b73075c95b1c39a51196715ff80bcc1d2eccbde258ccc7",
+      "bytes": 5872,
+      "status": "PUBLIC_PORTED_UNINTEGRATED_LEGACY_METHOD",
+      "public_path": "tools/astrohd/scripts/audit_fast_hd_state_grid.py"
+    },
+    {
+      "historical_path": "scripts/audit_fast_hd_structural_intervals.py",
+      "sha256": "8b518a15d246d3026d6fee147cfb130a369fb81234123c34c9b612e2a8ff491d",
+      "bytes": 7538,
+      "status": "PUBLIC_PORTED_UNINTEGRATED_LEGACY_METHOD",
+      "public_path": "tools/astrohd/scripts/audit_fast_hd_structural_intervals.py"
+    },
+    {
+      "historical_path": "scripts/audit_forward_hd_predictor_admission_v01.py",
+      "sha256": "4fa7ef1b034c7ac6df75b15b1876f4514e16d820d9ede45bb7060d0fe5af6bb7",
+      "bytes": 4725,
+      "status": "PUBLIC_PORTED_EXACT",
+      "public_path": "tools/astrohd/scripts/audit_forward_hd_predictor_admission_v01.py"
+    },
+    {
+      "historical_path": "scripts/audit_full_channel_persuasion_hypothetical.py",
+      "sha256": "8c7deee3b76afda158fb54bc5a704687b57efd5b17ddbca2a6431681d523706e",
+      "bytes": 9975,
+      "status": "PUBLIC_PORTED_UNINTEGRATED_LEGACY_METHOD",
+      "public_path": "tools/astrohd/scripts/audit_full_channel_persuasion_hypothetical.py"
+    },
+    {
+      "historical_path": "scripts/audit_full_chart_feature_coverage.py",
+      "sha256": "0534823d1550877b67994a7c348a7283fdf9affe3280cdfdb26371cf50566f91",
+      "bytes": 5122,
+      "status": "PUBLIC_PORTED_UNINTEGRATED_LEGACY_METHOD",
+      "public_path": "tools/astrohd/scripts/audit_full_chart_feature_coverage.py"
+    },
+    {
+      "historical_path": "scripts/audit_generic_frozen_hd_identifiability_v01.py",
+      "sha256": "6cf1b7d54c18893127effd423ce716b5c5bc21b8231c5f4c8941ecfe7d621167",
+      "bytes": 8044,
+      "status": "PUBLIC_PORTED_UNINTEGRATED_LEGACY_METHOD",
+      "public_path": "tools/astrohd/scripts/audit_generic_frozen_hd_identifiability_v01.py"
+    },
+    {
+      "historical_path": "scripts/audit_generic_joint_hd_western_identifiability_v01.py",
+      "sha256": "4a8f6883113853d2fab666963684c9d08460de4e17cedfa0ff1c59c57a343eb8",
+      "bytes": 6678,
+      "status": "PUBLIC_PORTED_UNINTEGRATED_LEGACY_METHOD",
+      "public_path": "tools/astrohd/scripts/audit_generic_joint_hd_western_identifiability_v01.py"
+    },
+    {
+      "historical_path": "scripts/audit_interview_response_provenance_v1.py",
+      "sha256": "8922b163e25ffde59bb6e0f6df14cab4ac3d9498d50aacbbc8d885834b7bc556",
+      "bytes": 8751,
+      "status": "PUBLIC_PORTED_UNINTEGRATED_LEGACY_METHOD",
+      "public_path": "tools/astrohd/scripts/audit_interview_response_provenance_v1.py"
+    },
+    {
+      "historical_path": "scripts/audit_pattern_confirmation_gate_v1.py",
+      "sha256": "048a5286ef6ce9519b64be666c0016ec85fb94957ded84259326d1d9ab8c2e67",
+      "bytes": 4074,
+      "status": "PUBLIC_PORTED_EXACT",
+      "public_path": "tools/astrohd/scripts/audit_pattern_confirmation_gate_v1.py"
+    },
+    {
+      "historical_path": "scripts/audit_prior_hd_mapping_reuse.py",
+      "sha256": "7d60dd1954b3c9b4a7999d2186c6ae0343660b71d6ea629cb2c30c891d46a373",
+      "bytes": 3547,
+      "status": "PUBLIC_PORTED_UNINTEGRATED_LEGACY_METHOD",
+      "public_path": "tools/astrohd/scripts/audit_prior_hd_mapping_reuse.py"
+    },
+    {
+      "historical_path": "scripts/audit_ptolemy_mars_venus_conditional_witness_v01.py",
+      "sha256": "05607a67abf8d617184b46a8327fd60ac995bd619cc1de44abd10b0e4cbfc5e4",
+      "bytes": 4372,
+      "status": "PUBLIC_PORTED_EXACT",
+      "public_path": "tools/astrohd/scripts/audit_ptolemy_mars_venus_conditional_witness_v01.py"
+    },
+    {
+      "historical_path": "scripts/audit_ptolemy_sign_pair_grid_identifiability_v01.py",
+      "sha256": "5418bb73baf85ed7b7255f0b46c1dd15cfaa4e504ccfb50003cf7b86c99b8d90",
+      "bytes": 5136,
+      "status": "PUBLIC_PORTED_UNINTEGRATED_LEGACY_METHOD",
+      "public_path": "tools/astrohd/scripts/audit_ptolemy_sign_pair_grid_identifiability_v01.py"
+    },
+    {
+      "historical_path": "scripts/audit_reference_hd_western_rarity.py",
+      "sha256": "7459c805d9f947f22d38e1135e899d6519c3a530be27d194e8fa28cf70ae4880",
+      "bytes": 12407,
+      "status": "PUBLIC_PORTED_UNINTEGRATED_LEGACY_METHOD",
+      "public_path": "tools/astrohd/scripts/audit_reference_hd_western_rarity.py"
+    },
+    {
+      "historical_path": "scripts/audit_somatic_signal_confounds_v02.py",
+      "sha256": "b3db876f559bd2731f064c97113154eb7b455876fcc8c015126fcab559ab68bc",
+      "bytes": 6380,
+      "status": "PUBLIC_PORTED_EXACT",
+      "public_path": "tools/astrohd/scripts/audit_somatic_signal_confounds_v02.py"
+    },
+    {
+      "historical_path": "scripts/build_blind_practitioner_packets_v01.py",
+      "sha256": "daa063dee7ca4fc5c9ecc244facdb111306231959f6bbb60448dd4def3765eaf",
+      "bytes": 9147,
+      "status": "PUBLIC_PORTED_UNINTEGRATED_LEGACY_METHOD",
+      "public_path": "tools/astrohd/scripts/build_blind_practitioner_packets_v01.py"
+    },
+    {
+      "historical_path": "scripts/build_modern_western_overlay_v01.py",
+      "sha256": "d60a7b39e13a839b1ac0eb040599a83d5c8956bed01146351048b518e0ebc729",
+      "bytes": 6316,
+      "status": "PUBLIC_PORTED_UNINTEGRATED_LEGACY_METHOD",
+      "public_path": "tools/astrohd/scripts/build_modern_western_overlay_v01.py"
+    },
+    {
+      "historical_path": "scripts/build_practitioner_chart_inventory_v01.py",
+      "sha256": "9f722d44c450bb0956e76776a4357f31cccbf41f7b95fc5b842efbeb94528aa8",
+      "bytes": 11053,
+      "status": "PUBLIC_PORTED_UNINTEGRATED_LEGACY_METHOD",
+      "public_path": "tools/astrohd/scripts/build_practitioner_chart_inventory_v01.py"
+    },
+    {
+      "historical_path": "scripts/build_pre_response_multi_school_source_crosswalk_v04.py",
+      "sha256": "0fa7ec58f773960959d0c92ec7bd4b90965aeb25daaa3bc91f61e49de7a7485e",
+      "bytes": 7843,
+      "status": "PUBLIC_PORTED_UNINTEGRATED_LEGACY_METHOD",
+      "public_path": "tools/astrohd/scripts/build_pre_response_multi_school_source_crosswalk_v04.py"
+    },
+    {
+      "historical_path": "scripts/compare_source_authority_evidence_v01.py",
+      "sha256": "9de256e9232773fd9c1889f32f42dbfadf5222dff9f3c2ef0e10ed1f01dac410",
+      "bytes": 4296,
+      "status": "PUBLIC_PORTED_EXACT",
+      "public_path": "tools/astrohd/scripts/compare_source_authority_evidence_v01.py"
+    },
+    {
+      "historical_path": "scripts/compare_western_hd_behavior_contrast_v01.py",
+      "sha256": "a64ad7754c8f7e8435f53a3886cfac1490e2d07b13f72a8a4bd254a0547c9dbd",
+      "bytes": 22690,
+      "status": "PUBLIC_PORTED_UNINTEGRATED_LEGACY_METHOD",
+      "public_path": "tools/astrohd/scripts/compare_western_hd_behavior_contrast_v01.py"
+    },
+    {
+      "historical_path": "scripts/contrastive_chart_interview_queue.py",
+      "sha256": "8e2ea16c38f1e2ab7c8edcaba998a21019fae81a78929ad095ef0ceefd9d26c7",
+      "bytes": 5534,
+      "status": "PUBLIC_PORTED_UNINTEGRATED_LEGACY_METHOD",
+      "public_path": "tools/astrohd/scripts/contrastive_chart_interview_queue.py"
+    },
+    {
+      "historical_path": "scripts/join_western_grid_exact_hd_structures.py",
+      "sha256": "91eaa4c5bce1b227bd8bcb8fef0df7e164ee880da31a9b222226c23b2564d6f5",
+      "bytes": 10021,
+      "status": "PUBLIC_PORTED_UNINTEGRATED_LEGACY_METHOD",
+      "public_path": "tools/astrohd/scripts/join_western_grid_exact_hd_structures.py"
+    },
+    {
+      "historical_path": "scripts/lookup_combined_western_hd_grid_chart.py",
+      "sha256": "73e35179cf635f8e9fad9870e353244170df3a401bc9b21e75da6435c12f98c2",
+      "bytes": 11219,
+      "status": "PUBLIC_PORTED_UNINTEGRATED_LEGACY_METHOD",
+      "public_path": "tools/astrohd/scripts/lookup_combined_western_hd_grid_chart.py"
+    },
+    {
+      "historical_path": "scripts/orchestrate_existing_hd_century_segments.py",
+      "sha256": "07c486657e968f824faf5d22a3b9eac4ab281111a519fedfa382b947bb5ef48e",
+      "bytes": 10618,
+      "status": "PUBLIC_PORTED_UNINTEGRATED_LEGACY_METHOD",
+      "public_path": "tools/astrohd/scripts/orchestrate_existing_hd_century_segments.py"
+    },
+    {
+      "historical_path": "scripts/prepare_hd_source_contrastive_interview.py",
+      "sha256": "cda99d3251052a45b51573a228c44373b08889e0c60d80bc654a1e49f949d3c3",
+      "bytes": 7641,
+      "status": "PUBLIC_PORTED_UNINTEGRATED_LEGACY_METHOD",
+      "public_path": "tools/astrohd/scripts/prepare_hd_source_contrastive_interview.py"
+    },
+    {
+      "historical_path": "scripts/ptolemy_iii13_source_condition_witness.py",
+      "sha256": "e60279a3b2860680d2c9b81e40f9611ebaa41c987968655a9766a12ff95e3817",
+      "bytes": 11172,
+      "status": "PUBLIC_PORTED_UNINTEGRATED_LEGACY_METHOD",
+      "public_path": "tools/astrohd/scripts/ptolemy_iii13_source_condition_witness.py"
+    },
+    {
+      "historical_path": "scripts/query_exact_hd_structural_intervals.py",
+      "sha256": "485c662496e746cd4a711d8b8e18c2a79b5f69c11150f8557b6264648fe3cc21",
+      "bytes": 8712,
+      "status": "PUBLIC_PORTED_UNINTEGRATED_LEGACY_METHOD",
+      "public_path": "tools/astrohd/scripts/query_exact_hd_structural_intervals.py"
+    },
+    {
+      "historical_path": "scripts/replay_historical_v36_hd_on_verified_cache.py",
+      "sha256": "e92a13443c61e92b6d94aaf433fa4c50c795d67c5ac1712fffca69fb0737cdb9",
+      "bytes": 12254,
+      "status": "PRIVATE_RECOVERY_EXACT_PUBLIC_METHOD_SUMMARY_ONLY",
+      "public_path": null
+    },
+    {
+      "historical_path": "scripts/replay_v37_development_direct_hd_observables.py",
+      "sha256": "4f4669164f736ff3ab1734dc892a41de09186d3f54917136c92b07952882e2d9",
+      "bytes": 12711,
+      "status": "PRIVATE_RECOVERY_EXACT_PUBLIC_METHOD_SUMMARY_ONLY",
+      "public_path": null
+    },
+    {
+      "historical_path": "scripts/verify_western_hd_join_index.py",
+      "sha256": "380f35befcc2eb9b5e98e03cb0e26947ea5413455eea1756dae2e8b771b054a1",
+      "bytes": 4770,
+      "status": "PUBLIC_PORTED_UNINTEGRATED_LEGACY_METHOD",
+      "public_path": "tools/astrohd/scripts/verify_western_hd_join_index.py"
+    },
+    {
+      "historical_path": "scripts/western_grid_source_profile_query_pilot.py",
+      "sha256": "40b16cd21e1aff4a294db8b47c7377dd921f63c66559e5983dbab7c91b5eaccd",
+      "bytes": 15780,
+      "status": "PUBLIC_PORTED_UNINTEGRATED_LEGACY_METHOD",
+      "public_path": "tools/astrohd/scripts/western_grid_source_profile_query_pilot.py"
+    },
+    {
+      "historical_path": "scripts/western_location_angle_cache.py",
+      "sha256": "9ce67e91d9c5435d8b8f47ae0f715b36ce38eb02fdd447f9c7762ac433a85e44",
+      "bytes": 12208,
+      "status": "PUBLIC_PORTED_UNINTEGRATED_LEGACY_METHOD",
+      "public_path": "tools/astrohd/scripts/western_location_angle_cache.py"
+    },
+    {
+      "historical_path": "scripts/western_utc_grid_cache_pilot.py",
+      "sha256": "25b55eec42a51370431e2f13de2edeb0f7059c925e83b75e9225b43a6670ad1c",
+      "bytes": 10959,
+      "status": "PUBLIC_PORTED_UNINTEGRATED_LEGACY_METHOD",
+      "public_path": "tools/astrohd/scripts/western_utc_grid_cache_pilot.py"
+    },
+    {
+      "historical_path": "state/astrohd_western_hd_reuse_current_20261119.md",
+      "sha256": "70b94f405f34e4ff88352ede8b6c1789e7263bbb82e366dcc52dfec39d690c21",
+      "bytes": 86970,
+      "status": "PRIVATE_RECOVERY_EXACT_PUBLIC_METHOD_SUMMARY_ONLY",
+      "public_path": null
+    },
+    {
+      "historical_path": "state/century_profile_search_current_20261119.md",
+      "sha256": "92942939f868b20a13c75e4d4e127aa107436a31542b6218bafd72602d763947",
+      "bytes": 22871,
+      "status": "PRIVATE_RECOVERY_EXACT_PUBLIC_METHOD_SUMMARY_ONLY",
+      "public_path": null
+    },
+    {
+      "historical_path": "tests/test_century_grid_query_and_interview.py",
+      "sha256": "49a5d6a2e07ab4e1f6e8bfb3b57f1e5e2ce6f8ec62be7aad9956eecbee28188e",
+      "bytes": 4796,
+      "status": "PUBLIC_PORTED_VERIFIED_SYNTHETIC_QA",
+      "public_path": "tools/astrohd/tests/test_century_grid_query_and_interview.py"
+    },
+    {
+      "historical_path": "tests/test_western_utc_grid_cache_pilot.py",
+      "sha256": "9de0df1d487487a07ad048be5610d0cbb79e64e8cb07aa9f7f80a592594a1aee",
+      "bytes": 4605,
+      "status": "PUBLIC_PORTED_PORTABLE_DEPENDENCY_ENV_ADAPTATION",
+      "public_path": "tools/astrohd/tests/test_western_utc_grid_cache_pilot.py",
+      "public_sha256": "e350b2991e904fdc043bc0acbe554d73ce1fc652284ddfaba372020a46ccb7a4"
+    },
+    {
+      "historical_path": "tests/unit/test_astro_research_completion_and_belief_v01.py",
+      "sha256": "8713063438ee57925a5e21d4b251bb84c384b000afea738df7c0d466412edb2b",
+      "bytes": 3610,
+      "status": "PUBLIC_PORTED_EXACT",
+      "public_path": "tools/astrohd/tests/unit/test_astro_research_completion_and_belief_v01.py"
+    },
+    {
+      "historical_path": "tests/unit/test_atomic_persuasion_sensitivity.py",
+      "sha256": "4108d9ae1cfc1ddd580a1b39a3ed0f739ac1d20cf0a6fbefeda64cf12592b111",
+      "bytes": 3036,
+      "status": "PUBLIC_PORTED_VERIFIED_SYNTHETIC_QA",
+      "public_path": "tools/astrohd/tests/unit/test_atomic_persuasion_sensitivity.py"
+    },
+    {
+      "historical_path": "tests/unit/test_behavior_precision_and_pruning_scope_v03.py",
+      "sha256": "9c618bb6df8b17304d0844c3802c55b1e2113286c1a2bd25c9f5d5e519165bb7",
+      "bytes": 7802,
+      "status": "PUBLIC_PORTED_VERIFIED_SYNTHETIC_QA",
+      "public_path": "tools/astrohd/tests/unit/test_behavior_precision_and_pruning_scope_v03.py"
+    },
+    {
+      "historical_path": "tests/unit/test_combined_western_hd_grid_record.py",
+      "sha256": "b17cd5315f558650c6328c73271c16abd1fad4e33425af873ab5071d60fcba26",
+      "bytes": 2673,
+      "status": "PUBLIC_SOURCE_ONLY_REQUIRES_LEGACY_PRIVATE_MAPPERS_OR_UNPORTABLE_IMPORTS",
+      "public_path": "tools/astrohd/legacy_tests/unit/test_combined_western_hd_grid_record.py"
+    },
+    {
+      "historical_path": "tests/unit/test_contextual_authority_episodes_v01.py",
+      "sha256": "0467e3c845f2c83d94f8dd4142234dc114e365fc03991e35eb29915f2556a30c",
+      "bytes": 7069,
+      "status": "PUBLIC_PORTED_EXACT",
+      "public_path": "tools/astrohd/tests/unit/test_contextual_authority_episodes_v01.py"
+    },
+    {
+      "historical_path": "tests/unit/test_disputed_predictor_forum_audit_v01.py",
+      "sha256": "52acbb105d98804c9b3bc07d273f96b65386eab6b87042e6e590075b37f5d1c0",
+      "bytes": 3475,
+      "status": "PUBLIC_PORTED_EXACT",
+      "public_path": "tools/astrohd/tests/unit/test_disputed_predictor_forum_audit_v01.py"
+    },
+    {
+      "historical_path": "tests/unit/test_disputed_predictor_forum_wave2_v01.py",
+      "sha256": "ff8760d8f9b229603adc195fbc45b08fa32e802a06225f3ba6c0d8af33f4cf7e",
+      "bytes": 2872,
+      "status": "PUBLIC_PORTED_EXACT",
+      "public_path": "tools/astrohd/tests/unit/test_disputed_predictor_forum_wave2_v01.py"
+    },
+    {
+      "historical_path": "tests/unit/test_disputed_predictor_three_wave_closeout_v01.py",
+      "sha256": "f8b16322232ab4d42024bedfc1f89227700264e8fb90922d2576d3de4756ff5f",
+      "bytes": 2934,
+      "status": "PUBLIC_PORTED_EXACT",
+      "public_path": "tools/astrohd/tests/unit/test_disputed_predictor_three_wave_closeout_v01.py"
+    },
+    {
+      "historical_path": "tests/unit/test_exact_hd_structural_filter.py",
+      "sha256": "9addea0552b3eb5584e7e8b02f0fd2fb2957f703d5141ea3a43c55284fbd4eb1",
+      "bytes": 3164,
+      "status": "PUBLIC_SOURCE_ONLY_REQUIRES_LEGACY_PRIVATE_MAPPERS_OR_UNPORTABLE_IMPORTS",
+      "public_path": "tools/astrohd/legacy_tests/unit/test_exact_hd_structural_filter.py"
+    },
+    {
+      "historical_path": "tests/unit/test_fast_hd_interval_parity.py",
+      "sha256": "09ac45b10067b37306913a13178ed41a4eca249c5e978af28cc9c991935539ed",
+      "bytes": 3784,
+      "status": "PUBLIC_SOURCE_ONLY_REQUIRES_LEGACY_PRIVATE_MAPPERS_OR_UNPORTABLE_IMPORTS",
+      "public_path": "tools/astrohd/legacy_tests/unit/test_fast_hd_interval_parity.py"
+    },
+    {
+      "historical_path": "tests/unit/test_forward_hd_predictor_admission_v01.py",
+      "sha256": "81a1bc8a6a2d7abae69363d051079aa53f9ac623048ee9896cfb9776d60af4f8",
+      "bytes": 3366,
+      "status": "PUBLIC_SOURCE_ONLY_REQUIRES_LEGACY_PRIVATE_MAPPERS_OR_UNPORTABLE_IMPORTS",
+      "public_path": "tools/astrohd/legacy_tests/unit/test_forward_hd_predictor_admission_v01.py"
+    },
+    {
+      "historical_path": "tests/unit/test_full_chart_feature_coverage_gate.py",
+      "sha256": "c44deb54efdaed66b6e70460fb903460f0817a5a08c6babd7601071de59d65d1",
+      "bytes": 3801,
+      "status": "PUBLIC_PORTED_VERIFIED_SYNTHETIC_QA",
+      "public_path": "tools/astrohd/tests/unit/test_full_chart_feature_coverage_gate.py"
+    },
+    {
+      "historical_path": "tests/unit/test_gemini_research_onboarding_v01.py",
+      "sha256": "b4706980586485a5df29c0e254d91b24c2025c044bb3b07742fc997b4a77b008",
+      "bytes": 2718,
+      "status": "PRIVATE_RECOVERY_EXACT_PUBLIC_METHOD_SUMMARY_ONLY",
+      "public_path": null
+    },
+    {
+      "historical_path": "tests/unit/test_generic_frozen_hd_identifiability_v01.py",
+      "sha256": "17e7b6ec362727e0b32f32dee818279d328d28ac69b848e2e45b0f50e30bc87a",
+      "bytes": 3975,
+      "status": "PUBLIC_SOURCE_ONLY_REQUIRES_LEGACY_PRIVATE_MAPPERS_OR_UNPORTABLE_IMPORTS",
+      "public_path": "tools/astrohd/legacy_tests/unit/test_generic_frozen_hd_identifiability_v01.py"
+    },
+    {
+      "historical_path": "tests/unit/test_generic_joint_hd_western_identifiability_v01.py",
+      "sha256": "3dde7a98efcec80e536595c37a1919f3e5139da2cf6c08a6518390d850ab16df",
+      "bytes": 2484,
+      "status": "PUBLIC_SOURCE_ONLY_REQUIRES_LEGACY_PRIVATE_MAPPERS_OR_UNPORTABLE_IMPORTS",
+      "public_path": "tools/astrohd/legacy_tests/unit/test_generic_joint_hd_western_identifiability_v01.py"
+    },
+    {
+      "historical_path": "tests/unit/test_generic_prior_authority_probes_v01.py",
+      "sha256": "b9eee31ed16c683dac2cd14b20b321139cf43e54acb71004e9b690d348a99e86",
+      "bytes": 1969,
+      "status": "PUBLIC_SOURCE_ONLY_REQUIRES_LEGACY_PRIVATE_MAPPERS_OR_UNPORTABLE_IMPORTS",
+      "public_path": "tools/astrohd/legacy_tests/unit/test_generic_prior_authority_probes_v01.py"
+    },
+    {
+      "historical_path": "tests/unit/test_hd_source_contrastive_interview.py",
+      "sha256": "4918f285a9ea9324da3cf0ab8073066c75e5e0e7b1924c492442a8a4e281c983",
+      "bytes": 3387,
+      "status": "PUBLIC_SOURCE_ONLY_REQUIRES_LEGACY_PRIVATE_MAPPERS_OR_UNPORTABLE_IMPORTS",
+      "public_path": "tools/astrohd/legacy_tests/unit/test_hd_source_contrastive_interview.py"
+    },
+    {
+      "historical_path": "tests/unit/test_hd_structural_century_orchestrator.py",
+      "sha256": "e24e77c6ef7b69d19c9d2619df83a00a6efbfc9cac0af4ee6e6fba4955809227",
+      "bytes": 2239,
+      "status": "PUBLIC_SOURCE_ONLY_REQUIRES_LEGACY_PRIVATE_MAPPERS_OR_UNPORTABLE_IMPORTS",
+      "public_path": "tools/astrohd/legacy_tests/unit/test_hd_structural_century_orchestrator.py"
+    },
+    {
+      "historical_path": "tests/unit/test_interview_response_provenance.py",
+      "sha256": "e931a591ed9859d3bf20ffdfbf50d2034b0c8c4d24260606a7954913a4bc0904",
+      "bytes": 4176,
+      "status": "PUBLIC_PORTED_VERIFIED_SYNTHETIC_QA",
+      "public_path": "tools/astrohd/tests/unit/test_interview_response_provenance.py"
+    },
+    {
+      "historical_path": "tests/unit/test_pattern_confirmation_gate_v01.py",
+      "sha256": "511780fc3018bc9869e0fce23bc97ca10da577529b28e6f0723ab362b00fe29f",
+      "bytes": 3683,
+      "status": "PUBLIC_PORTED_EXACT",
+      "public_path": "tools/astrohd/tests/unit/test_pattern_confirmation_gate_v01.py"
+    },
+    {
+      "historical_path": "tests/unit/test_practitioner_full_chart_packets_v01.py",
+      "sha256": "3c8ca18f6768200ea091a2c3e193cdbcd9ba9ca18fcdcd5fb74c5e50cf679f09",
+      "bytes": 7882,
+      "status": "PUBLIC_PORTED_PORTABLE_DEPENDENCY_ENV_ADAPTATION",
+      "public_path": "tools/astrohd/legacy_tests/unit/test_practitioner_full_chart_packets_v01.py",
+      "public_sha256": "99b225682b8bedc459f47549a724387ca7abb4259abaf35fec5eb8d565802d8a"
+    },
+    {
+      "historical_path": "tests/unit/test_pre_response_multi_school_contrasts_v04.py",
+      "sha256": "6b87ecced0c06500d4bbd3bb5377b1e191ff7d4352a3c6415bcf38bc6365a4d6",
+      "bytes": 6028,
+      "status": "PUBLIC_SOURCE_ONLY_REQUIRES_LEGACY_PRIVATE_MAPPERS_OR_UNPORTABLE_IMPORTS",
+      "public_path": "tools/astrohd/legacy_tests/unit/test_pre_response_multi_school_contrasts_v04.py"
+    },
+    {
+      "historical_path": "tests/unit/test_prior_hd_mapping_reuse.py",
+      "sha256": "a6be7eb25568f778829e3bf70935d73eb21f4a1d4b90b8d5aa131a419e09c6e7",
+      "bytes": 2233,
+      "status": "PUBLIC_SOURCE_ONLY_REQUIRES_LEGACY_PRIVATE_MAPPERS_OR_UNPORTABLE_IMPORTS",
+      "public_path": "tools/astrohd/legacy_tests/unit/test_prior_hd_mapping_reuse.py"
+    },
+    {
+      "historical_path": "tests/unit/test_ptolemy_iii13_provenance_gate.py",
+      "sha256": "4bbe4d55bdd4a3b4ea1d5cb7fa03a5002caab83fc9716ef35eb0e0b4f78cf8c2",
+      "bytes": 2296,
+      "status": "PUBLIC_PORTED_VERIFIED_SYNTHETIC_QA",
+      "public_path": "tools/astrohd/tests/unit/test_ptolemy_iii13_provenance_gate.py"
+    },
+    {
+      "historical_path": "tests/unit/test_ptolemy_iii13_witness.py",
+      "sha256": "16e916eac9944c1f0a48f3f2e4dcc6a550037f5cf2961ae8b554eea61fcc68d4",
+      "bytes": 2668,
+      "status": "PUBLIC_PORTED_PORTABLE_DEPENDENCY_ENV_ADAPTATION",
+      "public_path": "tools/astrohd/tests/unit/test_ptolemy_iii13_witness.py",
+      "public_sha256": "6767d9bbe96a6988e0cffdbc12c3643c4a829d096048b0ef4408a6af43907948"
+    },
+    {
+      "historical_path": "tests/unit/test_ptolemy_mars_venus_conditional_witness_v01.py",
+      "sha256": "cd719198e8a0eaab63ffcdb0214f131bbdcb2e767b8081320acc84f4825db80e",
+      "bytes": 3292,
+      "status": "PUBLIC_PORTED_EXACT",
+      "public_path": "tools/astrohd/tests/unit/test_ptolemy_mars_venus_conditional_witness_v01.py"
+    },
+    {
+      "historical_path": "tests/unit/test_ptolemy_sign_pair_grid_identifiability_v01.py",
+      "sha256": "16ad990f147301bd3d1cbd74137c28f7127fcfc35f1dc216363b51f151cd9f42",
+      "bytes": 2640,
+      "status": "PUBLIC_PORTED_OPTIONAL_NUMPY_TEST_SOURCE_ONLY",
+      "public_path": "tools/astrohd/legacy_tests/unit/test_ptolemy_sign_pair_grid_identifiability_v01.py"
+    },
+    {
+      "historical_path": "tests/unit/test_reference_hd_western_rarity.py",
+      "sha256": "c3533aee3790f212cd0aa193cef26ed3392c1f94ead8367be1b837ec762bba6a",
+      "bytes": 2139,
+      "status": "PUBLIC_SOURCE_ONLY_REQUIRES_LEGACY_PRIVATE_MAPPERS_OR_UNPORTABLE_IMPORTS",
+      "public_path": "tools/astrohd/legacy_tests/unit/test_reference_hd_western_rarity.py"
+    },
+    {
+      "historical_path": "tests/unit/test_somatic_signal_confounds_v02.py",
+      "sha256": "1c8588031b00c576fa718d11f271a1f214f17a87c34850b4dbab4364c062a618",
+      "bytes": 5882,
+      "status": "PUBLIC_PORTED_EXACT",
+      "public_path": "tools/astrohd/tests/unit/test_somatic_signal_confounds_v02.py"
+    },
+    {
+      "historical_path": "tests/unit/test_source_authority_evidence_v01.py",
+      "sha256": "7794ccf8f24312ea438450c4cd5d9e0de92f93a3f3223b20b956c6b2721038d9",
+      "bytes": 3068,
+      "status": "PUBLIC_PORTED_EXACT",
+      "public_path": "tools/astrohd/tests/unit/test_source_authority_evidence_v01.py"
+    },
+    {
+      "historical_path": "tests/unit/test_v37_hd_semantic_reconciliation.py",
+      "sha256": "791fc9efb2c6da61e8199dc0ca3e758db209f093e1f3d662e76dbb7dc2e489c6",
+      "bytes": 3861,
+      "status": "PUBLIC_SOURCE_ONLY_REQUIRES_LEGACY_PRIVATE_MAPPERS_OR_UNPORTABLE_IMPORTS",
+      "public_path": "tools/astrohd/legacy_tests/unit/test_v37_hd_semantic_reconciliation.py"
+    },
+    {
+      "historical_path": "tests/unit/test_western_hd_grid_join.py",
+      "sha256": "b1a70395f156c0545cc27b9447f810561f83542a58edbac4e7722d3170f33a45",
+      "bytes": 2410,
+      "status": "PUBLIC_SOURCE_ONLY_REQUIRES_LEGACY_PRIVATE_MAPPERS_OR_UNPORTABLE_IMPORTS",
+      "public_path": "tools/astrohd/legacy_tests/unit/test_western_hd_grid_join.py"
+    },
+    {
+      "historical_path": "tests/unit/test_western_hd_source_behavior_contrast_v01.py",
+      "sha256": "42484c15278371a8c074e6403d4f759c887ffe62144a3e2f14cee55f68d5efb3",
+      "bytes": 12319,
+      "status": "PUBLIC_SOURCE_ONLY_REQUIRES_LEGACY_PRIVATE_MAPPERS_OR_UNPORTABLE_IMPORTS",
+      "public_path": "tools/astrohd/legacy_tests/unit/test_western_hd_source_behavior_contrast_v01.py"
+    },
+    {
+      "historical_path": "tests/unit/test_western_location_angle_cache.py",
+      "sha256": "35e87e797692c0740511dff52844cdd7012b8d6aaf910926246c9e7af2bdd88d",
+      "bytes": 3339,
+      "status": "PUBLIC_PORTED_PORTABLE_DEPENDENCY_ENV_ADAPTATION",
+      "public_path": "tools/astrohd/tests/unit/test_western_location_angle_cache.py",
+      "public_sha256": "4b195d27bee0b84dbe986146e6e5acef88ac564478663080b51311605a017619"
+    }
+  ],
+  "public_unit_test_verification": {
+    "repo_test_command": ".venv/bin/python -m unittest discover -s tests -v",
+    "repo_tests_run": 138,
+    "repo_test_pass": true,
+    "ported_unit_command": ".venv/bin/python -m unittest discover -s tools/astrohd/tests/unit -p test_*.py -q",
+    "ported_tests_run": 130,
+    "ported_tests_skip": 4,
+    "ported_test_pass": true,
+    "deterministic_repo_audit_errors": 0,
+    "pre_existing_warnings": 4,
+    "archival_source_not_promoted_to_behavioral_validation": true
+  }
+}

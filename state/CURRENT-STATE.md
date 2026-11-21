@@ -1,5 +1,45 @@
 # Current research state
 
+
+## Current canonical repository and AstroHD recovery (21 November 2026)
+
+**All new public astrology methods, research and Human Design work belong to
+`u-dont-existDOTcom/astro-research`.** The predecessor private HD repository
+is superseded, not an active destination. An older chat or repository-local
+handoff claiming otherwise is stale. Before any write, run
+`python3 scripts/verify_active_astrology_repository.py --root .`.
+
+A source-qualified migration audit indexed **123** additional old-repository
+branch files, of which **86** public-safe methods, protocols, scripts and test
+sources are ported under `tools/astrohd/`; **37** original files are retained
+in a verified owner-private recovery archive and **not** published. More
+details and the exact SHA manifest are in `docs/astrohd/README.md`.
+
+The bounded three-wave astro-forum source-screening phase produced **22**
+claim definitions and **59** purposively selected public-source observation
+units, **49** distinct discussions/pages, zero verified prospective natal
+prediction records and zero representative error-rate denominators. It is
+complete **with evidence gaps**, not scientific proof about chart accuracy.
+
+Source-specific Western + HD full character rules and a comprehensive neutral
+candidate ranking remain **uncompleted**. The recovered public code includes
+historical methods that require separate source/engine reconciliation; passing
+synthetic tests does not validate forecasts or personality claims.
+
+The existing Mastro source/reanalysis and timing-test history below remain
+valid and are preserved unchanged.
+
+**Migration test and publication review:** Using the destination's own
+Python 3.12 pinned research environment, 138 repository unit tests passed.
+The migrated AstroHD core unit suite passed 130 tests with four skips because
+the local external Swiss/grid assets were deliberately not provided.
+The canonical deterministic audit had **zero errors** and retained four
+pre-existing repository warnings (GitHub protections not verified and no
+license declared). This is code/data-contract verification only, **not**
+predictive accuracy for astrology in humans. Every one of the 123 predecessor
+branch changes is in the hash-indexed migration inventory and/or exact
+owner-private recovery archive.
+
 > **Source-correction follow-up, 17 November:** The original arithmetic is verified; the first chart run was not a source-verified exact historical replication. The [follow-up](../docs/mastro/source-corrections.md) records three UTC corrections, two substantive location corrections, an unchanged control and the original one-sided convention. It uses four newly generated pairs and 137 explicitly reused pairs; binary counts remain 24/73 North and 49/68 South.
 
 Updated: 17 November 2026. The 141-person current-source reanalysis is complete.

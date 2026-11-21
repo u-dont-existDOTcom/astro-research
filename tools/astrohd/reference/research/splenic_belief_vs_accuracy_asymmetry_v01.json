@@ -1,0 +1,63 @@
+{
+  "schema": "astrohd_splenic_signal_belief_vs_accuracy_source_policy_v01",
+  "date_utc": "2026-11-21",
+  "parent": "reference/research/forward_scoring_predictor_admission_policy_v01.json",
+  "purpose": "Distinguish a respondent's self-concept or belief in momentary internal guidance from any reliable physiological or birth-derived safety signal. Positive self-identification need not establish objective truth; missing/negative self-label alone is not evidence against predicted signal.",
+  "version": "NEW EXPLORATORY HYPOTHESIS NOT V1 HISTORICAL SCORE RULE",
+  "constructs": [
+    {
+      "id": "BELIEF_IN_INTUITIVE_CUE",
+      "meaning": "A participant believes a brief intuitive cue exists and may be worth following; respondent-reported psychological belief, not empirical accuracy of a cue",
+      "measured_as": "behaviorally neutral survey asked before any system/chart disclosure and checked on repetitions",
+      "status": "EXPLORATORY_UNSCORED_POSSIBLE_WEAK_ONE_SIDED_COMPATIBILITY"
+    },
+    {
+      "id": "EXPERIENCED_CUE",
+      "meaning": "A participant consciously noticed an event they interpreted as brief intuition; later recall and missed signals are unknown",
+      "measured_as": "predefined prospectively recorded events with clear initial time and signal",
+      "status": "UNVERIFIED_NON_EXCLUSIVE"
+    },
+    {
+      "id": "ACCURATE_SAFETY_PREDICTION",
+      "meaning": "A momentary cue reliably differentiates harmful from safe outcomes",
+      "measured_as": "predefined time-bounded verifiable outcome, false positives/negatives and matched control",
+      "status": "EXCLUDED_FROM_NEW_PERSONALITY_SCORE"
+    }
+  ],
+  "admission_logic": [
+    {
+      "if": "positive belief and chart not disclosed, no control rates",
+      "disposition": "DESCRIPTIVE_SELF_CONCEPT_COMPATIBILITY_NOT_NUMERIC_POINT"
+    },
+    {
+      "if": "positive belief after participant learned HD Splenic label",
+      "disposition": "POST_EXPOSURE_SELF_ATTRIBUTION_NO_INDEPENDENT_MATCH_EVIDENCE"
+    },
+    {
+      "if": "no explicit belief or cue recollection",
+      "disposition": "UNKNOWN_OR_NO_NATAL_CONTRA_EVIDENCE"
+    },
+    {
+      "if": "positive or negative belief with independently measured birth-group endorsement rates",
+      "disposition": "SEPARATELY_REGISTERED_EMPIRICAL_HYPOTHESIS_WITH_LIKELIHOOD_RATIO_ONLY_IF_VALIDATED"
+    },
+    {
+      "if": "subjective belief reported as factually infallible safety cue",
+      "disposition": "KEEP_BELIEF_SEPARATE_FROM_UNVERIFIED_OBJECTIVE_ACCURACY"
+    }
+  ],
+  "controls": {
+    "no_retroactive_source_substitution": true,
+    "not_original_hd_accuracy_rule": true,
+    "no_automatic_natal_score_points": true,
+    "no_default_penalty_for_absence": true,
+    "no_positive_score_for_post_exposure_endorsement": true,
+    "no_claim_that_nonendorsement_mathematically_never_informative": true,
+    "nonexclusive_beliefs_across_chart_classes": true,
+    "frequency_vs_non_splenic_groups_unknown": true,
+    "possible_source_interpretation_of_signal_not_proof": true,
+    "retains_splenic_accuracy_exclusion": true,
+    "do_not_reward_other_authority_claims_without_symmetric_support": true
+  },
+  "research_output": "Optional qualitative compatibility annotation with provenance and evidence-status, never primary model weight until prospective comparative human data."
+}

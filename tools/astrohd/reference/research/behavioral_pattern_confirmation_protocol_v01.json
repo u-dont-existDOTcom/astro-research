@@ -1,0 +1,159 @@
+{
+  "schema": "generic_behavior_pattern_confirmation_protocol_v1",
+  "date_utc": "2026-11-20",
+  "owner_request": "Examples are probes that reveal nuanced context. They are not proof of a stable trait unless an appropriately qualified, general behavioral hypothesis is explicitly confirmed or corrected by the person.",
+  "scope": "Reusable protocol independent of respondent identity and chart; no respondent private answers or birth information in this artifact.",
+  "scientific_distinction": "Confirmation of a personality self-description is a self-report, not independent observational or predictive evidence. A chart→trait prediction must be frozen before a separate person supplies answers for prospective validity.",
+  "workflows": [
+    {
+      "id": "STEP0_FREEZE_RESEARCH_CONSTRUCTS",
+      "required_inputs": [
+        "source-grounded chart-to-observable hypotheses",
+        "dependency clusters",
+        "existing survey items"
+      ],
+      "output": "Frozen researcher-side candidate hypotheses that do not encode the known respondent's natal chart",
+      "scoring_eligibility": "NONE_YET"
+    },
+    {
+      "id": "STEP1_BIDIRECTIONAL_EXAMPLES",
+      "required_inputs": [
+        "past ordinary examples",
+        "extreme or salient examples",
+        "counterexamples or misses",
+        "context and times",
+        "independent outcome when known",
+        "unknown cases"
+      ],
+      "output": "Episode-level evidence: observation versus inference versus verified outcome",
+      "scoring_eligibility": "NO_PATTERN_SCORE_FROM_SINGLE_EXAMPLE"
+    },
+    {
+      "id": "STEP2_INFER_GENERAL_PATTERN",
+      "required_inputs": [
+        "multiple episodes where possible",
+        "contextual qualifier",
+        "relative frequency",
+        "conditions of failure",
+        "alternative explanations",
+        "prior survey evidence"
+      ],
+      "output": "Explicit tentative generalized behavioral description as user-facing plain language, marked proposed not verified",
+      "scoring_eligibility": "NO_AUTOMATIC_SCORE"
+    },
+    {
+      "id": "STEP3_REQUIRE_OWNER_CONFIRMATION",
+      "prompt_template": "My tentative general picture is: {hypothesis} ... Is this generally accurate across your life, only in particular contexts, or incorrect? What important case, exception or change over time would modify it?",
+      "response_options": [
+        "generally_correct_with_scope",
+        "correct_only_in_some_contexts",
+        "partly_correct_needs_revision",
+        "mostly_incorrect",
+        "cannot_assess"
+      ],
+      "required_inputs": [
+        "user confirmation or correction",
+        "requested time periods and qualifiers",
+        "countercases"
+      ],
+      "output": "Explicit user-confirmed OR corrected OR abstained description with traceable version and original response",
+      "scoring_eligibility": "POTENTIAL_SELF_REPORT_ONLY_AFTER_SOURCE_MAP_REVIEW"
+    },
+    {
+      "id": "STEP4_FREEZE_PROFILE_FOR_MODEL",
+      "required_inputs": [
+        "source passage",
+        "semantic coding rationale",
+        "separate confirmations",
+        "all dependent pathways and opposing testimonies",
+        "recorded nonfits and unknowns",
+        "scorer version"
+      ],
+      "output": "Never mutate previous frozen profile/score; version a new development target, evaluate all eligible birth times under one fixed rule",
+      "scoring_eligibility": "DEVELOPMENT_ONLY_NO_BLIND_VALIDATION"
+    },
+    {
+      "id": "STEP5_TEST_UNTOUCHED_PEOPLE",
+      "required_inputs": [
+        "independent birth data",
+        "frozen chart→behavior models",
+        "blinded respondent evidence",
+        "non-HD comparators",
+        "preregistered evaluation and chart ranks"
+      ],
+      "output": "Out-of-sample validation score with chart-first predictions",
+      "scoring_eligibility": "VALIDATION_ONLY_IF_REAL_INDEPENDENCE"
+    }
+  ],
+  "evidence_protocol": {
+    "types": [
+      "directly_observed_episodic_action",
+      "respondent_interpretation_of_intent",
+      "self_reported_general_pattern",
+      "reported_other_person_perception",
+      "corroborated_external_outcome",
+      "uncertain_or_unverified"
+    ],
+    "never_infer_general_pattern_from": [
+      "one_salient_anecdote",
+      "leading_yes_no_ever_question",
+      "unverified_comparison_to_all_other_people",
+      "one_third_party_hidden_feeling",
+      "a_personality_trait_label_without_concrete_conditions"
+    ],
+    "separate_if_relevant": [
+      "opportunity_to_act",
+      "ability",
+      "motive",
+      "threshold_to_act",
+      "time_allocated",
+      "developmental_timing",
+      "relationship_context",
+      "concurrent_competing_goal",
+      "self_vs_other_reference_standard"
+    ],
+    "confirmation_not_same_as_accuracy": true,
+    "automatic_score_change_prohibited": true
+  },
+  "target_ambiguity_templates": [
+    {
+      "id": "PATTERN_TRUST",
+      "constructs": [
+        "recognition",
+        "self_deception_inference",
+        "dishonesty_inference",
+        "good_faith_prior",
+        "suspect_threshold",
+        "action",
+        "false_alarms"
+      ],
+      "generalization_question": "Across ordinary relationships and unfamiliar people, what pattern best describes your tendency to notice inconsistencies, trust the explanation, seek more evidence, change belief and act? How often, and when does it fail?",
+      "not_established": "actual accuracy versus other people; deliberate lies of third parties"
+    },
+    {
+      "id": "CONVICTION_METHOD",
+      "constructs": [
+        "strength_of_ideals",
+        "responsiveness_to_counterevidence",
+        "practical_compromise",
+        "reported_external_stubbornness"
+      ],
+      "generalization_question": "In general, are you firm about the underlying principle while flexible about methods, or is that true only in certain domains? What would change the principle itself?",
+      "not_established": "actual propensity to revise core views in response to strong contrary evidence"
+    },
+    {
+      "id": "AMBITION_REFERENCE",
+      "constructs": [
+        "scale_of_worldly_aims",
+        "spiritual_aspiration",
+        "status_desire",
+        "actual_effort",
+        "self_evaluated_sufficiency"
+      ],
+      "generalization_question": "Across the last several years, are your goals typically far-reaching while your interest in conventional status is low, with spiritual goals sometimes taking priority? When has this not described you?",
+      "not_established": "peer normed goal magnitude; stable effort independent of health/resources"
+    }
+  ],
+  "question_sampling": "Select only relevant hypotheses and high-value contrasting unknowns; do not treat answering all questions as mandatory, and never reask clearly answered episodes.",
+  "privacy": "Keep verbatim personal anecdotes and confirmation responses in owner-private source storage, not in public/source-safe Git artifacts."
+}

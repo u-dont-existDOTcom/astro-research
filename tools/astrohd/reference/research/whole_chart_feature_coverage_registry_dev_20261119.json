@@ -1,0 +1,185 @@
+{
+  "schema": "astrohd_complete_chart_feature_coverage_register/0.1.0",
+  "status": "DEVELOPMENT_MECHANICS_SCOPE_NOT_AN_ASTROLOGICAL_PERSONALITY_MODEL",
+  "origin": "2026-11-19 source-neutral engineering progression; no participant-specific data",
+  "horizon_utc": {
+    "start_inclusive": "1926-11-19T00:00:00Z",
+    "end_exclusive": "2026-11-19T00:00:00Z"
+  },
+  "source_register": {
+    "western_planets": {
+      "manifest_sha256": "da8a2164b0133599ea71a9c55b2a894c64b89a3ab39c9b3bc278478f0fcadbed",
+      "scope": "FINITE_UTC_15M_GRID_ONLY",
+      "fields": "Seven tropical geocentric planet longitudes and Mercury longitudinal speed",
+      "privacy": "source-neutral"
+    },
+    "hd_structural": {
+      "manifest_sha256": "a7bec3c4e855d286bbdb93737a58043119cd11ae908c36e73ee118d7d467c746",
+      "scope": "EXACT_STRUCTURAL_STABLE_INTERVALS_SUBSECOND_BOUNDARY_TOLERANCE",
+      "fields": "Personality/Design gate activations, Sun line/Profile, Type/Authority/Strategy/Channels/Centers/Definition",
+      "privacy": "source-neutral"
+    },
+    "western_hd_join": {
+      "manifest_sha256": "b4426125ea94165ad198f6864f8a690b415f77de68560ea6b8a2435bd417ff85",
+      "scope": "FINITE_UTC_15M_GRID_ONLY",
+      "fields": "signed int32 HD state index; -1 for unresolved near exact HD transition",
+      "unresolved_count": 125,
+      "privacy": "source-neutral"
+    },
+    "location_angles": {
+      "manifest_sha256": "c1d1e513d2384f8a735c0806f96c987ba351373ccaa443beda945723ed58739b",
+      "scope": "LOCATION_CONDITIONED_FINITE_UTC_15M_GRID_ONLY",
+      "fields": "ASC, MC, ARMC, true obliquity, solar altitude and Placidus 12 cusps",
+      "status": "FULL_100Y_15MIN_GRID_GENERATED_AND_VERIFIED",
+      "privacy": "coordinate-conditioned, no respondent"
+    }
+  },
+  "features": [
+    {
+      "id": "TROPICAL_7_LONGITUDES",
+      "src": "western_planets",
+      "scope": "GRID_15M",
+      "status": "ready"
+    },
+    {
+      "id": "MERCURY_LONGITUDINAL_SPEED",
+      "src": "western_planets",
+      "scope": "GRID_15M",
+      "status": "ready"
+    },
+    {
+      "id": "FULL_PLANET_LONGITUDINAL_SPEED",
+      "src": null,
+      "scope": "NONE",
+      "status": "missing"
+    },
+    {
+      "id": "TRADITIONAL_DOMICILE_EXALTATION_DETRIMENT_FALL",
+      "src": "western_planets",
+      "scope": "DERIVED_GRID_15M",
+      "status": "derivable"
+    },
+    {
+      "id": "TRADITIONAL_21_MAJOR_ASPECTS_WITH_EXACT_ORBS",
+      "src": "western_planets",
+      "scope": "DERIVED_GRID_15M",
+      "status": "derivable"
+    },
+    {
+      "id": "MOON_SOLAR_PHASE",
+      "src": "western_planets",
+      "scope": "DERIVED_GRID_15M",
+      "status": "derivable"
+    },
+    {
+      "id": "SIGN_DISPOSITORS_AND_MUTUAL_RECEPTION",
+      "src": "western_planets",
+      "scope": "DERIVED_GRID_15M",
+      "status": "derivable"
+    },
+    {
+      "id": "ASCENDANT_AND_MIDHEAVEN",
+      "src": "location_angles",
+      "scope": "GRID_15M_AT_FIXED_LAT_LON",
+      "status": "ready"
+    },
+    {
+      "id": "WHOLE_SIGN_12_HOUSES",
+      "src": "location_angles",
+      "scope": "DERIVED_GRID_15M_AT_FIXED_LAT_LON",
+      "status": "ready"
+    },
+    {
+      "id": "PLACIDUS_12_CUSPS",
+      "src": "location_angles",
+      "scope": "GRID_15M_AT_FIXED_LAT_LON",
+      "status": "ready"
+    },
+    {
+      "id": "PLACIDUS_PLANET_HOUSE_POSITION",
+      "src": null,
+      "scope": "NONE",
+      "status": "not_precomputed"
+    },
+    {
+      "id": "SECT_DAY_NIGHT_SOLAR_ALTITUDE",
+      "src": "location_angles",
+      "scope": "GRID_15M_AT_FIXED_LAT_LON",
+      "status": "ready"
+    },
+    {
+      "id": "SUN_BEAMS_COMBUSTION_CAZIMI",
+      "src": "western_planets",
+      "scope": "DERIVED_GRID_15M",
+      "status": "derivable"
+    },
+    {
+      "id": "SEVEN_PLANET_LATITUDES_DECLINATION",
+      "src": null,
+      "scope": "NONE",
+      "status": "missing"
+    },
+    {
+      "id": "PTOL_EMPOWERED_MERCURY_MOON_SOUL_LORDSHIP",
+      "src": null,
+      "scope": "NONE",
+      "status": "needs_primary_source_compiler"
+    },
+    {
+      "id": "HD_TYPE_AUTHORITY_PROFILE_STRATEGY",
+      "src": "hd_structural",
+      "scope": "EXACT_STRUCTURAL_INTERVALS",
+      "status": "ready"
+    },
+    {
+      "id": "HD_DEFINITION_CENTERS_COMPLETE_CHANNELS",
+      "src": "hd_structural",
+      "scope": "EXACT_STRUCTURAL_INTERVALS",
+      "status": "ready"
+    },
+    {
+      "id": "HD_PERSONALITY_DESIGN_ALL_GATE_CARRIERS",
+      "src": "hd_structural",
+      "scope": "EXACT_STRUCTURAL_INTERVALS",
+      "status": "ready"
+    },
+    {
+      "id": "HD_PERSONALITY_DESIGN_ALL_NON_SUN_LINES",
+      "src": null,
+      "scope": "NONE",
+      "status": "not_in_structural_v1"
+    },
+    {
+      "id": "HD_COLOR_TONE_BASE",
+      "src": null,
+      "scope": "NONE",
+      "status": "source_unvalidated"
+    },
+    {
+      "id": "FULL_TIME_CONTRADICTION_AWARE_BEHAVIOR_MAP",
+      "src": null,
+      "scope": "NONE",
+      "status": "not_frozen"
+    },
+    {
+      "id": "VALID_FINAL_SCORE_UPPER_BOUNDS_ALL_FEATURES",
+      "src": null,
+      "scope": "NONE",
+      "status": "not_proven"
+    }
+  ],
+  "rules": {
+    "grid_completeness": "only features available on all sampled timestamps; excludes 125 unresolved HD transition-near samples unless explicitly resolved",
+    "interval_completeness": "only exact structural HD gate / Sun-line states are continuously represented; do not promote Western 15m grid as continuous",
+    "source_meaning": "astronomical calculation coverage does not establish that any feature predicts personality",
+    "mechanics_only": "Do not give a model a full-match certification without a frozen source-to-behavior mapping that explicitly declares every required feature and its confidence, contradictions and abstentions",
+    "fail_closed": "unknown, missing, pilot-unverified or unsupported feature fails certification",
+    "specifically_unmapped": [
+      "COOKING_EXHAUSTION_VS_OTHER_LABOR",
+      "HEAT_TOLERANCE_VS_SLEEP_TEMPERATURE",
+      "SWEET_SAVORY_MIXING_AVERSION",
+      "EXACT_RELATIONSHIP_LEARNING_EVENTS",
+      "CHILDHOOD_CONTEMPLATIVE_EPISODES"
+    ]
+  }
+}

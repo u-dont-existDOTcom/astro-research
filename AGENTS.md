@@ -1,5 +1,33 @@
 # Working instructions
 
+
+## Canonical astrology repository routing — mandatory preflight
+
+`ASTRO_RESEARCH_CANONICAL=u-dont-existDOTcom/astro-research`
+
+**Do not use the older private `humandesign` repository for new public research,
+code, issues, PRs, handoffs or source-of-truth updates.** That repository was
+superseded; older chats, assistant/project instructions and historical handoffs
+can be stale. All new public work belongs to this `astro-research` repository,
+including Human Design, Western, Hellenistic, Vedic, Chinese and Gene Keys
+research methods. Private natal inputs and interview responses belong only in
+the existing authorized private evidence store, never here.
+
+Before writing, run `python3 scripts/verify_active_astrology_repository.py --root .`;
+it must refuse a checkout whose GitHub origin is not `astro-research`.
+Read `docs/astrohd/README.md`, the privacy/portability manifest and the latest
+`state/CURRENT-STATE.md` before resuming AstroHD work. Treat references to old
+HD research branches as **archival evidence**, not current writing destinations.
+If instructions conflict, verify the current owner routing and canonical
+GitHub repository metadata rather than continuing a superseded prompt.
+
+The 21 November 2026 recovery ledger inventories 123 changed historical
+branch files: 86 publicly ported and 37 exact private-recovery-only. No public
+file may disclose private chart records, user/third-party biographical reports,
+correspondence or exact birth data. The original private source remains
+available only through separately authorized private access.
+
+
 Read `README.md`, `docs/INDEX.md` and `state/CURRENT-STATE.md` before work.
 For Mastro work, read the operating guide, research assessment and completed
 reanalysis under `docs/mastro/` before changing

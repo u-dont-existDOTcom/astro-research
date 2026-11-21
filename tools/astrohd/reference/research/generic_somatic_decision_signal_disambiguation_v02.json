@@ -1,0 +1,138 @@
+{
+  "schema": "generic_somatic_decision_signal_disambiguation_v02",
+  "date_utc": "2026-11-20",
+  "scope": "Reusable cross-person measurement adaptation, not a model that identifies a known natal date",
+  "method_basis": [
+    {
+      "domain": "behavioral decision theory",
+      "name": "Loewenstein 1996 Out of Control: Visceral Influences on Behavior",
+      "doi": "10.1006/obhd.1996.0028",
+      "claim": "Drive states, e.g. sexual desire, can shift decision preference and attentional priority; not a diagnostic or natal property"
+    },
+    {
+      "domain": "experimental choice",
+      "name": "Ariely & Loewenstein 2006 Heat of the Moment",
+      "doi": "10.1002/bdm.501",
+      "claim": "In male student experiment sexual arousal altered hypothetical judgments; not a personal inference or a universal effect size"
+    },
+    {
+      "domain": "self-control",
+      "name": "Duckworth et al. 2016 Situational Strategies for Self-Control",
+      "pmcid": "PMC4736542",
+      "claim": "People can intentionally select or change situations to reduce temptations; a high impulse and deliberate avoidance are not contradictory"
+    },
+    {
+      "domain": "HD source doctrine",
+      "name": "Jovian Archive Splenic Authority",
+      "url": "https://jovianarchive.com/pages/splenic-authority-in-human-design-the-bodys-quiet-instant-knowing",
+      "claim": "Quiet, momentary, nonrepeating awareness of immediate safety/appropriateness is the specific original source claim. Erotic appetite or an intense sustained pull is not by itself this signal."
+    }
+  ],
+  "record_fields": {
+    "episode_id": "opaque text unique",
+    "context": [
+      "romantic_interaction",
+      "nonromantic_trust",
+      "neutral_decision",
+      "professional_scrutiny",
+      "advice_for_other",
+      "unknown"
+    ],
+    "signal_type": [
+      "sexual_or_romantic_drive",
+      "rapport_or_good_feeling",
+      "quiet_safety_instinct",
+      "answer_certainty",
+      "none_reported",
+      "unknown"
+    ],
+    "signal_intensity": [
+      "quiet",
+      "moderate",
+      "powerful",
+      "unknown"
+    ],
+    "signal_duration": [
+      "brief_once",
+      "repeated_or_sustained",
+      "unknown"
+    ],
+    "initial_reasoning_conflict": [
+      "red_flags_or_value_conflict",
+      "none_reported",
+      "unknown"
+    ],
+    "action_type": [
+      "acted_toward",
+      "avoided_situation",
+      "directed_to_check_values",
+      "withheld_action",
+      "mixed_actions",
+      "not_reported"
+    ],
+    "action_completed": "true/false/null",
+    "self_regulation": [
+      "anticipatory_situation_selection",
+      "in_the_moment_boundary",
+      "no_override_reported",
+      "override_attempt_unsuccessful",
+      "mixed",
+      "unknown"
+    ],
+    "outcome_independently_checked": "true/false/null",
+    "generality": [
+      "single_case",
+      "self_reported_general_pattern",
+      "unknown"
+    ],
+    "origin": "first_person_self_report or other source enum"
+  },
+  "classification_rules": [
+    {
+      "id": "R1",
+      "name": "Powerful attraction is not proof of HD Splenic decision guidance",
+      "if_signal": "sexual_or_romantic_drive",
+      "result": "VISCERAL_DRIVE_EXPLANATION_CANDIDATE",
+      "source": "Ariely/Loewenstein + HD quiet source",
+      "automatic_natal_score": false
+    },
+    {
+      "id": "R2",
+      "name": "Feeling good about someone is not a verified trustworthiness check",
+      "if_signal": "rapport_or_good_feeling",
+      "result": "AFFECTIVE_SOCIAL_IMPRESSION",
+      "source": "Loewenstein visceral/affective influences + no independently observed truth claim",
+      "automatic_natal_score": false
+    },
+    {
+      "id": "R3",
+      "name": "Quiet momentary cue may be source-compatible only when both intensity and timing recorded",
+      "if_signal": "quiet_safety_instinct",
+      "required": [
+        "signal_intensity=quiet",
+        "signal_duration=brief_once"
+      ],
+      "result": "POTENTIALLY_SPLENIC_LIKE_PHENOMENOLOGY_NOT_AUTHORITY_PROOF",
+      "automatic_natal_score": false
+    },
+    {
+      "id": "R4",
+      "name": "Sudden answer is distinct from sustained drive and from proof of HD source",
+      "if_signal": "answer_certainty",
+      "result": "COGNITIVE_OR_INTUITIVE_CERTAINTY_UNRESOLVED",
+      "automatic_natal_score": false
+    }
+  ],
+  "rules": {
+    "no_score_or_chart_rank_output": true,
+    "no_inference_from_known_chart_type": true,
+    "sustained_strong_drive_not_independent_splenic_support": true,
+    "desire_and_quiet_instinct_may_cooccur_do_not_infer_absence": true,
+    "actual_outcome_does_not_imply_choice_was_good": true,
+    "avoidance_and_strong_drive_can_coexist": true,
+    "unreported_duration_remains_unknown": true,
+    "patient_motivational_pulls_not_a_diagnosis": true,
+    "no_third_party_diagnoses_or_personal_names": true,
+    "no_projecting_long_term_pattern_from_one_illustration": true
+  }
+}

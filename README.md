@@ -1,5 +1,21 @@
 # astro-research
 
+
+## Active public home for all astrology and Human Design research
+
+**Canonical repository: `u-dont-existDOTcom/astro-research`.** The older private
+`humandesign` repository has been superseded and must not receive new work.
+The generic, source-safe AstroHD comparison methods, audit code, tests and
+migration inventory are now under [AstroHD research recovery](docs/astrohd/README.md).
+Its separate [Gemini onboarding](docs/astrohd/GEMINI_ONBOARDING.md) tells
+connected assistants to read this repository, not stale private branches.
+
+Before committing any AstroHD work, run
+`python3 scripts/verify_active_astrology_repository.py --root .`. This rejects
+the old repository as an active destination, even if a historical handoff
+still points to it. Original personal source records are **not public**.
+
+
 The public side of an astrology research project: calculation code, method notes and source audits that contain no personal data.
 
 ## Status, 17 November 2026
