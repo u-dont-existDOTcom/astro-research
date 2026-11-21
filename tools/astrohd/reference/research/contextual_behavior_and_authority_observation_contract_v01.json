@@ -1,0 +1,200 @@
+{
+  "schema": "astrohd_contextual_behavior_and_authority_observation_contract_v01",
+  "date_utc": "2026-11-20",
+  "origin": "Reusable source-defined observation contract, not tuned to one participant's known chart",
+  "task": "Represent cross-situation behavioral strategies; distinguish momentary experiences from repeated decision Authority; preserve prior self-report and counterexamples.",
+  "method_reuse": [
+    {
+      "kind": "academic",
+      "source": "Conner, Tennen, Fleeson, Barrett (2009) Experience Sampling Methods: A Modern Idiographic Approach to Personality Research",
+      "doi": "10.1111/j.1751-9004.2009.00170.x",
+      "use": "Within-person situation–behavior contingencies instead of single uncontextualized trait labels"
+    },
+    {
+      "kind": "academic",
+      "source": "Idiographic momentary profiles of personality facets, Journal of Personality and Social Psychology (2025)",
+      "doi": "10.1037/pspp0000568",
+      "use": "Multiple trait-state configurations within a single person across changing situations; academic evidence for measurement design, not HD"
+    },
+    {
+      "kind": "tradition",
+      "source": "Jovian Archive primary Human Design source: Splenic Authority instant knowing",
+      "url": "https://jovianarchive.com/pages/splenic-authority-in-human-design-the-bodys-quiet-instant-knowing",
+      "use": "Immediate body-level signal in present moment, non-repetition; HD source claim not independently verified human prediction"
+    },
+    {
+      "kind": "tradition",
+      "source": "Jovian Archive primary Human Design source: Self-Projected Authority",
+      "url": "https://jovianarchive.com/pages/self-projected-authority-in-human-design-the-projectors-voice",
+      "use": "Hearing one's OWN speaking to a trusted listener; hearing someone else's voice does not satisfy"
+    },
+    {
+      "kind": "tradition",
+      "source": "Jovian Archive primary Human Design source: Emotional Authority",
+      "url": "https://jovianarchive.com/pages/emotional-authority-in-human-design-waiting-through-the-wave",
+      "use": "Decision clarity from shifting emotional highs/lows; simply considering options over months does not satisfy"
+    },
+    {
+      "kind": "prior_frozen_rule",
+      "source": "mappings/mapping_library_v1.json prior HD D01 D02 D03 symbolic source mappings",
+      "sha256": "3424672432f7f071ec90ef9ddce52a67ff6794911e92b1a1e04f079262ea6200",
+      "use": "Preserve original behavior statements, not revise old scores"
+    }
+  ],
+  "generic_observation_fields": [
+    {
+      "key": "episode_id",
+      "type": "opaque_id",
+      "required": true
+    },
+    {
+      "key": "context",
+      "type": "enum",
+      "values": [
+        "supportive_personal",
+        "relationship",
+        "professional_screening",
+        "long_horizon_planning",
+        "communication_problem_solving",
+        "other"
+      ]
+    },
+    {
+      "key": "decision_or_impression",
+      "type": "enum",
+      "values": [
+        "person_impression",
+        "important_decision",
+        "insight_or_answer",
+        "preference",
+        "other"
+      ]
+    },
+    {
+      "key": "decision_completed",
+      "type": "nullable_bool",
+      "meaning": "Was an actual choice made, not merely a feeling or ongoing plan?"
+    },
+    {
+      "key": "instant_body_signal",
+      "type": "nullable_bool",
+      "meaning": "Was a felt, non-analytical signal perceived in the present moment?"
+    },
+    {
+      "key": "brief_nonrepeating_signal",
+      "type": "nullable_bool",
+      "meaning": "Was the felt signal brief and once-only rather than later repeatable?"
+    },
+    {
+      "key": "signal_decided_choice",
+      "type": "nullable_bool",
+      "meaning": "Did that signal materially settle an important decision?"
+    },
+    {
+      "key": "own_spoken_words_heard",
+      "type": "nullable_bool",
+      "meaning": "Did the respondent hear their OWN words while speaking with someone?"
+    },
+    {
+      "key": "trusted_listener_present",
+      "type": "nullable_bool",
+      "meaning": "Was the hearer a trusted listener?"
+    },
+    {
+      "key": "own_speech_decided_choice",
+      "type": "nullable_bool",
+      "meaning": "Did listening to their own voice determine the choice?"
+    },
+    {
+      "key": "emotional_wave_over_time",
+      "type": "nullable_bool",
+      "meaning": "Was there an observed rise and fall of emotional highs/lows?"
+    },
+    {
+      "key": "wave_settled_choice",
+      "type": "nullable_bool",
+      "meaning": "Did the waves themselves settle an important choice?"
+    },
+    {
+      "key": "prolonged_reasoning",
+      "type": "nullable_bool",
+      "meaning": "Was structured analysis used over time?"
+    },
+    {
+      "key": "information_missing",
+      "type": "nullable_bool",
+      "meaning": "Did insufficient environmental facts delay an important choice?"
+    },
+    {
+      "key": "result_independently_observable",
+      "type": "nullable_bool",
+      "meaning": "Was success or fit of the chosen action independently checkable?"
+    },
+    {
+      "key": "generality_assessment",
+      "type": "enum",
+      "values": [
+        "single_illustration",
+        "owner_generalization_pending_confirmation",
+        "owner_general_pattern_confirmed",
+        "unknown"
+      ]
+    },
+    {
+      "key": "evidence_type",
+      "type": "enum",
+      "values": [
+        "verbatim_first_person",
+        "third_party_report",
+        "independent_observation",
+        "none"
+      ]
+    },
+    {
+      "key": "context_qualifier",
+      "type": "string",
+      "meaning": "What activates or suppresses use of a mode; separates capacity, choice, and inertia"
+    }
+  ],
+  "source_pattern_conditions": {
+    "HD_SPLENIC_BRIEF_PRESENT": [
+      "instant_body_signal",
+      "brief_nonrepeating_signal"
+    ],
+    "HD_SPLENIC_IMPORTANT_CHOICE": [
+      "decision_or_impression=important_decision",
+      "decision_completed",
+      "instant_body_signal",
+      "brief_nonrepeating_signal",
+      "signal_decided_choice"
+    ],
+    "HD_SELF_PROJECTED_IMPORTANT_CHOICE": [
+      "decision_or_impression=important_decision",
+      "decision_completed",
+      "own_spoken_words_heard",
+      "trusted_listener_present",
+      "own_speech_decided_choice"
+    ],
+    "HD_EMOTIONAL_IMPORTANT_CHOICE": [
+      "decision_or_impression=important_decision",
+      "decision_completed",
+      "emotional_wave_over_time",
+      "wave_settled_choice"
+    ],
+    "long_reasoning_is_not_an_emotional_wave": true,
+    "someone_elses_voice_is_not_own_spoken_voice": true,
+    "future_intention_is_not_completed_choice": true,
+    "a_good_feeling_is_not_verified_outcome": true,
+    "instant_insight_after_analysis_has_rival_cognitive_incubation_explanation": true
+  },
+  "global_rules": {
+    "no_natal_score_from_source_familiarity": true,
+    "do_not_count_missing_fields_as_false": true,
+    "do_not_require_sole_decision_mode": true,
+    "no_hd_validation_from_one_person": true,
+    "no_new_qualification_of_an_existing_frozen_rule_without_versioning": true,
+    "no_suppression_of_context_or_counterexamples": true,
+    "across_context_generalization_requires_explicit_participant_confirmation": true,
+    "successful_choice_requires_independent_outcome_or_stays_unverified": true
+  }
+}

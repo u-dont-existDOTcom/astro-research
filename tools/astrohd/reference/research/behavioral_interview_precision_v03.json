@@ -1,0 +1,215 @@
+{
+  "schema": "astrohd_behavioral_precision_interview_v0.3",
+  "date_utc": "2026-11-20",
+  "status": "SOURCE_AWARE_POST_EXPOSURE_DEVELOPMENT_ONLY_NO_SCORED_RESPONSES",
+  "owner_change": "Clarifies behavioral pattern detection versus good-faith assumptions; principle conviction versus adaptive methods; societal/spiritual ambition versus status or effort.",
+  "purpose": "Obtain independent, falsifiable responses to narrow chart-related observable claims, not force user to endorse trait stereotypes",
+  "candidate_selection": "Use for genuine chart contrast only after predictions frozen for each compared chart; original user interview already disclosed so no independent validation",
+  "replaces_no_previous_answers": true,
+  "prior_answers_not_to_reask": [
+    "Q-HDB2",
+    "Q-HDB4",
+    "Q-HDB6",
+    "2026-11-20 persuasion ability clarification"
+  ],
+  "source_scope": "Historical HD channel 26–44 plus Ptolemy III.13 fixed-sign testimony, not empirically validated traits",
+  "note": "Do not call noticing a discrepancy proof that a third party consciously lied, was mentally ill or was unhappy. Do not claim uniqueness among observers without evidence.",
+  "dimensions": [
+    {
+      "id": "PATTERN_NOTICE",
+      "meaning": "Detecting regularities or mismatch between words/behavior; independent of inference about intent",
+      "measurement": "timing, evidence, counterexamples"
+    },
+    {
+      "id": "SELF_DECEPTION_INFERENCE",
+      "meaning": "Interpreting an inconsistency as someone's potentially mistaken self-understanding; not a diagnosis",
+      "measurement": "original cues, rival explanations, later external evidence"
+    },
+    {
+      "id": "DELIBERATE_DISHONESTY_INFERENCE",
+      "meaning": "Suspecting intention to mislead as opposed to incorrect self-report",
+      "measurement": "threshold, alternative explanations, later support or disconfirmation"
+    },
+    {
+      "id": "GOOD_FAITH_PRIOR",
+      "meaning": "Baseline assumption that people speak sincerely until sufficient contrary evidence",
+      "measurement": "initial belief/strength and revision"
+    },
+    {
+      "id": "SUSPICION_ACTION",
+      "meaning": "Whether and when the respondent challenges, investigates or ignores suspected problems",
+      "measurement": "time to action, constraints, consequences"
+    },
+    {
+      "id": "PATTERN_CALIBRATION",
+      "meaning": "Hits, misses, unresolved cases and false alarms; no accuracy rate without independently checkable outcome",
+      "measurement": "independent corroboration / unknown outcomes"
+    },
+    {
+      "id": "CONVICTION_STRENGTH",
+      "meaning": "Depth of adherence to principle when evidence seems strong",
+      "measurement": "strength and circumstances"
+    },
+    {
+      "id": "EVIDENCE_RESPONSIVENESS",
+      "meaning": "Whether stronger counterevidence changes belief; distinguish changing belief versus changing implementation",
+      "measurement": "actually revised examples"
+    },
+    {
+      "id": "PRACTICAL_FLEXIBILITY",
+      "meaning": "Use of imperfect systems as means despite opposing their ideal",
+      "measurement": "actual compromises and avoided alternatives"
+    },
+    {
+      "id": "PEER_PERCEPTION",
+      "meaning": "Other people's perceptions of stubbornness/ambition distinguished from self-perception and behavioral sample",
+      "measurement": "reports and examples, no objective rating assumed"
+    },
+    {
+      "id": "WORLD_FACING_SCOPE",
+      "meaning": "Scale of change one wishes to cause in society or work",
+      "measurement": "scope and goals"
+    },
+    {
+      "id": "SPIRITUAL_SCOPE",
+      "meaning": "Scope of contemplative/inner aspiration",
+      "measurement": "intent and actual priorities"
+    },
+    {
+      "id": "STATUS_AND_REWARD_MOTIVE",
+      "meaning": "Desire for recognition, hierarchy or personal wealth distinguished from scale of intended change",
+      "measurement": "preferences under choice"
+    },
+    {
+      "id": "EFFORT_AND_TRADEOFFS",
+      "meaning": "Time spent and sacrifices accepted given constraints and competing pursuits",
+      "measurement": "recent actions and opportunity cost"
+    },
+    {
+      "id": "SELF_EVALUATION_REFERENCE",
+      "meaning": "Self-judgment relative to ideals vs other people; not a single quantity",
+      "measurement": "relative standards"
+    }
+  ],
+  "questions": [
+    {
+      "id": "Q-PAT-01",
+      "domain": "recognition_vs_trust",
+      "respondent_prompt": "Think of three recent situations where you judged what another person was feeling, intending or describing about themselves. Include a case where nothing seemed suspicious. What did they say or do, what did you notice at the time, how certain were you, and what later information (if any) changed your view?",
+      "response_shape": "episodes with first cues, baseline assumption, confidence, follow-up, unknown",
+      "controls": [
+        "do not ask about deception first",
+        "do not count a later story as contemporaneous insight",
+        "record when no anomaly detected",
+        "leave truth of third-party inner state unknown"
+      ],
+      "researcher_source_ids": [
+        "CH_26_44_ENTERPRISE",
+        "SOURCE_ONLY_GATE44_PATTERN_MEMORY"
+      ],
+      "scoring_policy": "NO_AUTO_SCORE"
+    },
+    {
+      "id": "Q-PAT-02",
+      "domain": "pattern_vs_intention",
+      "respondent_prompt": "Recall a situation where someone's description of themselves differed from what you observed. At the time, what possible explanations occurred to you? Did you consider honest error, a different definition of their experience, intentional misrepresentation, or something else? What did you do, and what evidence eventually favored or weakened each explanation?",
+      "response_shape": "multiple interpretations, decision threshold, independent evidence or unresolved",
+      "controls": [
+        "do not presume a lie or self-deception",
+        "do not ask for identifiable third-party names",
+        "differentiate knowing from suspecting and from acting"
+      ],
+      "researcher_source_ids": [
+        "CH_26_44_ENTERPRISE",
+        "SOURCE_ONLY_GATE44_PATTERN_MEMORY"
+      ],
+      "scoring_policy": "NO_AUTO_SCORE"
+    },
+    {
+      "id": "Q-PAT-03",
+      "domain": "pattern_false_alarms_and_misses",
+      "respondent_prompt": "Think of examples over the last few years when your interpretation of someone's claims differed from other people's, agreed with theirs, or nobody else's view was known. Also consider a suspicion later explained innocently and a problem you missed. What did you notice at the time, what did others independently observe (if known), and what later evidence established the outcome? If you have no example for a category, say so.",
+      "response_shape": "hits, false alarms, misses and unverifiable cases; no forced example",
+      "controls": [
+        "avoid special-status or uniqueness wording",
+        "allow no example and unknown outcomes",
+        "do not infer frequency from a salient anecdote",
+        "compare like circumstances rather than self-ranking"
+      ],
+      "researcher_source_ids": [
+        "CH_26_44_ENTERPRISE",
+        "SOURCE_ONLY_GATE44_PATTERN_MEMORY"
+      ],
+      "scoring_policy": "NO_AUTO_SCORE"
+    },
+    {
+      "id": "Q-FLEX-01",
+      "domain": "firmness_vs_updating",
+      "respondent_prompt": "Choose two important beliefs you've defended strongly: one you have revised substantially, if there is one, and one you still hold. For each, what evidence originally convinced you, what would genuinely change your view, and what happened the last time you encountered serious contrary evidence?",
+      "response_shape": "belief examples, evidence standard, actual updates and unresolved alternatives",
+      "controls": [
+        "strong conviction not equated with failure to revise",
+        "not all opinions require reversal",
+        "separate core claim from peripheral detail"
+      ],
+      "researcher_source_ids": [
+        "PTOLEMY-III13-ZODIAC-MODES"
+      ],
+      "scoring_policy": "NO_AUTO_SCORE"
+    },
+    {
+      "id": "Q-FLEX-02",
+      "domain": "principle_vs_means",
+      "respondent_prompt": "Describe one occasion when you kept a principle but changed the practical method or made a compromise, and one occasion when you refused a compromise despite a real cost. What mattered in each decision? Have other people characterized either response differently from you?",
+      "response_shape": "moral goals versus means, costs, others' interpretation, contexts",
+      "controls": [
+        "permit both strongly principled and tactically flexible",
+        "do not assume compromise is moral weakness or rigidity"
+      ],
+      "researcher_source_ids": [
+        "PTOLEMY-III13-ZODIAC-MODES"
+      ],
+      "scoring_policy": "NO_AUTO_SCORE"
+    },
+    {
+      "id": "Q-AMB-01",
+      "domain": "ambition_goals_vs_reward",
+      "respondent_prompt": "Think of three goals that mattered most to you in the past year, whether personal, contemplative, relational or world-facing. For each, what scale of outcome did you want, what did you actually do, what did you postpone or give up, and what would count as success for you?",
+      "response_shape": "goals, scale, actual effort, opportunity cost and separate reward motives",
+      "controls": [
+        "do not equate vision with time investment",
+        "no forced spiritual/worldly split",
+        "do not assume financial/status motives"
+      ],
+      "researcher_source_ids": [
+        "PTOLEMY-III13-ZODIAC-MODES",
+        "PTOLEMY-III13-ANGULARITY"
+      ],
+      "scoring_policy": "NO_AUTO_SCORE"
+    },
+    {
+      "id": "Q-AMB-02",
+      "domain": "reference_standard_and_priority",
+      "respondent_prompt": "Recall a time when two meaningful goals competed for your time, and describe what you chose and why. How would people close to you describe the scale of your goals, and how would you evaluate your progress using your own standards? Describe any situation where you deliberately chose a smaller goal instead.",
+      "response_shape": "trade-offs, personal and peer reference frames, examples of restraint",
+      "controls": [
+        "do not assume more ambition means wanting a prestigious job",
+        "measure scale separately from perceived achievement and satisfaction"
+      ],
+      "researcher_source_ids": [
+        "PTOLEMY-III13-ZODIAC-MODES"
+      ],
+      "scoring_policy": "NO_AUTO_SCORE"
+    }
+  ],
+  "researcher_rules": {
+    "separate_source_conditions": "A carrier's symbolism does not establish a behavior. Ptolemy's fixed sign character list is conditional on moon/mercury and governors; 26–44 does not imply perfect lie detection.",
+    "avoid_leading_yes_no": "Questions about whether a person has ever detected deception will receive easy positive answers; request multiple episodes including false positives and misses.",
+    "no_false_verification": "Do not count claiming someone was lying, changed mood or closed social media as verified fact absent external evidence.",
+    "nonindependent_facets": "PATTERN_NOTICE, SELF_DECEPTION_INFERENCE and DELIBERATE_DISHONESTY_INFERENCE share 26–44 conceptual family; FIRMNESS and AMBITION can arise from the same Ptolemaic fixed-sign source testimony.",
+    "score_version": "V3.7+interview-dev-20261120-003 is SEMANTIC RESEARCH EPOCH ONLY. No numeric difference or rank recomputed."
+  },
+  "unscored_source_concepts": {
+    "SOURCE_ONLY_GATE44_PATTERN_MEMORY": "Source concept only from Gate44 interpretation; NOT a registered prior 44-rule mapping or independently scored predictor."
+  }
+}

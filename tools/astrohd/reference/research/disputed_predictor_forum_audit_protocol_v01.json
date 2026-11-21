@@ -1,0 +1,149 @@
+{
+  "schema": "astrohd_disputed_predictor_forum_audit_protocol_v01",
+  "date_utc": "2026-11-21",
+  "goal": "Rank high-priority chart-derived claims that real participants challenge or practitioners disagree about, then adjudicate whether their alleged falsifications are specific, whether pre-existing source exceptions resolve them, and whether any demonstrated predictive advantage remains over ordinary explanations.",
+  "status": "REUSABLE_SEARCH_AND_VALIDATION_PLAN_NOT_A_COMPLETED_SYSTEMATIC_REVIEW",
+  "source_eligibility_order": [
+    "first-person self-report with original public forum URL and dated chart/prediction",
+    "commentator reporting independently observed prediction and outcome with date",
+    "practitioner forum disagreement with clear rule/source and preexisting qualification",
+    "original tradition documentation that defines disputed rule",
+    "nonforum software/practice technical note (never count as person-level prediction failure)"
+  ],
+  "frozen_strata": [
+    {
+      "id": "human_design",
+      "sampling_topics": [
+        "Splenic safe/correct once-only instant",
+        "Sacral response yes/no or silence",
+        "Projector wait for invitation",
+        "Emotional authority decision waves",
+        "Profile/line/center claims"
+      ],
+      "breadth_goal": "At least 2 independent discussions with contrary reports plus positive controls and competing HD doctrinal interpretations for any candidate declared system-level top predictor"
+    },
+    {
+      "id": "western_modern",
+      "sampling_topics": [
+        "Sun/Moon/rising stereotypes",
+        "Venus Mars relationship claims",
+        "outer-planet effects and strong aspects",
+        "12th-house isolation",
+        "benefic/exaltation promises"
+      ],
+      "breadth_goal": "Different planets and houses, plus ascendant ruler/whole chart qualification, no single-sign strawman"
+    },
+    {
+      "id": "western_hellenistic_renaissance",
+      "sampling_topics": [
+        "Annual profection timing (TIMING LANE)",
+        "Ascendant/sect/ruler versus Moon character",
+        "dignity interpretations",
+        "manners ruler selection"
+      ],
+      "breadth_goal": "Separate natal personality predictions from annual timing; source-first Lilly/Ptolemy qualifications"
+    },
+    {
+      "id": "vedic_jyotish",
+      "sampling_topics": [
+        "Vimshottari Dasha predictions (TIMING LANE)",
+        "Manglik dosha marriage compatibility",
+        "Moon vs Lagna horoscopes",
+        "D9 Navamsa",
+        "nakshatra personality"
+      ],
+      "breadth_goal": "Vedic different methods and birthtime/ayanamsa/house rules must be logged before any interpretation disagreement"
+    },
+    {
+      "id": "chinese_bazi",
+      "sampling_topics": [
+        "Day Master personality",
+        "10 Gods roles",
+        "Ten-year Luck Pillars timing",
+        "marriage compatibility",
+        "beneficial-useful element"
+      ],
+      "breadth_goal": "Day boundary, solar-term and true solar-time verified independently; do not conflate reading skill with rule"
+    },
+    {
+      "id": "chinese_ziwei",
+      "sampling_topics": [
+        "Main palace star personality",
+        "decade luck and transformation timing",
+        "star placement and time calculations"
+      ],
+      "breadth_goal": "No direct firsthand counterexamples yet verified; implementation bugs are NOT proof of method failure"
+    },
+    {
+      "id": "gene_keys",
+      "sampling_topics": [
+        "Shadow Gift Siddhi/lines",
+        "Hologenetic profile software parity",
+        "purpose/pathway themes"
+      ],
+      "breadth_goal": "Official Gene Keys is contemplative, not conventional predictive profile; only score if proponent provides preregistered observable prediction"
+    },
+    {
+      "id": "other_astro_traditions_uncovered",
+      "sampling_topics": [
+        "Maya and Tzolkin",
+        "Chinese numerology/Nine Star Ki",
+        "additional earlier 16-tradition project map"
+      ],
+      "breadth_goal": "Inventory only at this stage; do NOT claim coverage or top dissents"
+    }
+  ],
+  "sampling_design": {
+    "freeze_claim_first": "A pre-existing text must specify exact chart predicate, human phenomenon, time/context, allowed exceptions and prediction direction before observing a participant's dispute.",
+    "two_search_lanes": [
+      "find explicit first-person mismatch / prediction failure",
+      "find independent first-person matches / objective outcomes / strongest preexisting source qualification"
+    ],
+    "forum_platforms": [
+      "reddit.com/r/humandesign",
+      "reddit.com/r/AskAstrologers",
+      "reddit.com/r/astrology",
+      "reddit.com/r/Advancedastrology",
+      "astrologyweekly.com",
+      "astro.com forum archive",
+      "reddit.com/r/vedicastrology",
+      "reddit.com/r/asksg and other BaZi/Chinese forums",
+      "specialist Gene Keys official/community resources"
+    ],
+    "stratify_by_school_and_feature": true,
+    "evidence_units": "one independently identifiable experiencer per predictor, deduplicate repeated comments and quotes by same person",
+    "provisional_seed_limit": "A screening pilot from accessible original thread excerpts; it is NOT a count of all comments, users, charts, events or prevalence.",
+    "source_read_modes": [
+      "full_original_page",
+      "original_forum_search_excerpt",
+      "secondary_summary",
+      "unopened_link"
+    ],
+    "report_both_signs": "Record positive/negative/mixed/unverifiable and explicit contrary examples; no positivity/negativity extrapolation without a denominator",
+    "time_window": "initial cross-era seed coverage; only add 2026 recency when relevant",
+    "prior_authority_verification": "Verify user's claimed HD Authority or actual natal birth data if voluntarily provided and permitted; without this classify as self-identified only",
+    "outcome_separation": "Prediction of current trait vs event forecast vs operational advice vs calculation difference vs practitioner interpretation",
+    "adjudication": "Do not accept 'your real chart is different', 'you haven't deconditioned', 'you are too young', 'the prophecy is spiritual', etc. as exemptions unless exact rule and trigger were predeclared BEFORE outcome; preserve genuine source-qualified exceptions.",
+    "false_positive_controls": "Ordinary psychology, trait distributions, personality measures, coincidence, broad Barnum phrases, general timing patterns and selection bias.",
+    "human_scoring": "Prospective blind matching with sufficient independent respondents, preregistered event/trait definitions, condition-specific calibration and a chart-free baseline; report failure rates and uncertainty.",
+    "safe_stop": "An unresolved or nonfalsifiable prediction remains SOURCE_ONLY with no chart score. Do not silently promote."
+  },
+  "triage_dimensions": {
+    "outcome_operational_clarity": "0 vague/no disconfirming observation; 1 definable with major missing protocol; 2 explicit falsifiable event or trait",
+    "directness_of_negative_report": "0 no mismatch; 1 disagreement or retrospective interpretation; 2 firstperson definite contrast; 3 dated prospective claimed prediction and explicit failure",
+    "qualification_source_status": "PREDECLARED_APPLICABLE or PREDECLARED_NOT_ESTABLISHED or POST_HOC_RESCUE or UNKNOWN",
+    "impact_on_development": "0 no owner-relevant rule; 1 affects symbolic interpretation; 2 currently scored or sharply impacts decisions"
+  },
+  "disposition_labels": [
+    "REMOVE_FROM_NEW_SCORE_OWNER_DIRECTIVE",
+    "QUARANTINE_SOURCE_ONLY",
+    "CONDITIONAL_SOURCE_ADJUDICATION",
+    "EMPIRICAL_VALIDATION_NEEDED",
+    "CALCULATION_PARITY_ONLY",
+    "NOT_A_PREDICTION",
+    "INSUFFICIENT_FORUM_COVERAGE",
+    "ELIGIBLE_IF_INDEPENDENTLY_VALIDATED"
+  ],
+  "no_statistical_popularity_claim": true,
+  "priority_key": "Decision-sensitive but PROVISIONAL: high impact plus direct first-person contradiction and operational ambiguity. Use labels rather than numerical prevalence until a denominator exists."
+}

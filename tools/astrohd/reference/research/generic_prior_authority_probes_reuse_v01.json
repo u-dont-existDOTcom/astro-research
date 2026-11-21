@@ -1,0 +1,48 @@
+{
+  "schema": "generic_prior_authority_probes_reuse_v01",
+  "date_utc": "2026-11-20",
+  "source": "mappings/mapping_library_v1.json",
+  "source_sha256": "3424672432f7f071ec90ef9ddce52a67ff6794911e92b1a1e04f079262ea6200",
+  "status": "SOURCE_ONLY_UNRESOLVED_NO_CHART_MAPPING",
+  "purpose": "Reuse existing general-person observation questions rather than generating ad-hoc body-feeling prompts around a known natal chart.",
+  "questions": [
+    {
+      "id": "R03",
+      "mapping_id": "MAP-UNRESOLVED-R03",
+      "concept": "retrospective_signal_access",
+      "recommendation": "Investigate whether respondent recognizes an initial signal only after action, with later recall bias marked",
+      "scored": false
+    },
+    {
+      "id": "R06",
+      "mapping_id": "MAP-UNRESOLVED-R06",
+      "concept": "cognitive_override",
+      "recommendation": "Investigate when reason revises or overrides an initial bodily response, including cases where the change was later viewed as right or wrong",
+      "scored": false
+    },
+    {
+      "id": "R07",
+      "mapping_id": "MAP-UNRESOLVED-R07",
+      "concept": "state_dependence",
+      "recommendation": "Investigate how physiological, interpersonal and affective context changes the clarity or prevalence of felt signals; do not suggest any substances or risky experiments",
+      "scored": false
+    },
+    {
+      "id": "R08",
+      "mapping_id": "MAP-UNRESOLVED-R08",
+      "concept": "reversible_low_stakes_calibration",
+      "recommendation": "Observe low-stakes choices where both the immediate signal and action can be recorded before the result, not retrospectively inferred",
+      "scored": false
+    }
+  ],
+  "requirements": {
+    "source_status": "unresolved",
+    "chart_feature_predicate": null,
+    "contradiction_rule": null,
+    "do_not_claim_splenic_authority_if_reported_yes": true,
+    "new_frozen_chart_mapping_added": false,
+    "use_existing_question_wording_until_explicit_new_version": true,
+    "single_owner_case_not_predictive_validation": true,
+    "select_in_response_to_genuine_unanswered_question_not_full_form": true
+  }
+}

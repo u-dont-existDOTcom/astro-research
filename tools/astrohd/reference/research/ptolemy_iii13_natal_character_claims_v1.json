@@ -1,0 +1,226 @@
+{
+  "schema": "western_ptolemy_III13_claim_provenance_register_v1",
+  "date_utc": "2026-11-19",
+  "status": "SOURCE_ADJUDICATION_INCOMPLETE_NO_WESTERN_PROFILE_SCORING",
+  "source": {
+    "author": "Claudius Ptolemy",
+    "title": "Tetrabiblos",
+    "chapter": "Book III section 13 Of the Quality of the Soul",
+    "edition": "F. E. Robbins, Loeb Classical Library English translation (1940)",
+    "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Ptolemy/Tetrabiblos/3D%2A.html",
+    "primary_page": "LacusCurtius digitization, source lines 21–64",
+    "language": "English; original Greek source-collation not yet verified",
+    "prior_research_index": "tasks/astro-source-audit-multipass-20261005/PTOLEMY_ENGLISH_EXTRACTION_INDEX_V1.json (October research worktree)",
+    "prior_source_records": 1066,
+    "prior_status": "ENGLISH_READING_AND_EXTRACTION_COMPLETE_UNRESOLVED_INTERPRETATION_AND_IMPLEMENTATION_OPEN",
+    "original_language_collated": false,
+    "independent_predictions": 0,
+    "runtime_promotions": 0
+  },
+  "rules": [
+    {
+      "id": "PTOLEMY-III13-MERCURY-MOON",
+      "source_derived_concept": "Mercury and Moon jointly govern rational and sensory character inquiry",
+      "source_locator": "III.13, Loeb 333–335",
+      "source_lines": "lines 21–24",
+      "required_conditions": [
+        "Mercury/Moon longitude",
+        "governing planets and dignities",
+        "Moon applying/separating aspects"
+      ],
+      "eligibility": "MISSING_PTOLEMAIC_DOMINATOR_SELECTION",
+      "automatically_scored": false,
+      "empirical_validation": "none_in_source",
+      "historical_conditionality": "Dignity, rulership, sect and angle conditions may reverse the description; mere pairwise aspect is not evidence of sole or joint soul dominion."
+    },
+    {
+      "id": "PTOLEMY-III13-ZODIAC-MODES",
+      "source_derived_concept": "Solstitial, bicorporeal and fixed signs carry different mixed character lists",
+      "source_locator": "III.13, Loeb 335",
+      "source_lines": "lines 25–26",
+      "required_conditions": [
+        "Mercury/Moon sign modality",
+        "confirmatory or contradictory testimony"
+      ],
+      "eligibility": "DIRECT_SIGN_GEOMETRY_BUT_BEHAVIOR_NONUNIQUE",
+      "automatically_scored": false,
+      "empirical_validation": "none_in_source",
+      "historical_conditionality": "Dignity, rulership, sect and angle conditions may reverse the description; mere pairwise aspect is not evidence of sole or joint soul dominion."
+    },
+    {
+      "id": "PTOLEMY-III13-ANGULARITY",
+      "source_derived_concept": "Angular and oriental placements condition openness, industry and practical ability",
+      "source_locator": "III.13, Loeb 335–337",
+      "source_lines": "lines 27–30",
+      "required_conditions": [
+        "Ascendant/MC/IC/DSC",
+        "planet stations",
+        "planet sect",
+        "planet faces"
+      ],
+      "eligibility": "PARTIALLY_GRID_ONLY",
+      "automatically_scored": false,
+      "empirical_validation": "none_in_source",
+      "historical_conditionality": "Dignity, rulership, sect and angle conditions may reverse the description; mere pairwise aspect is not evidence of sole or joint soul dominion."
+    },
+    {
+      "id": "PTOLEMY-III13-DIGNIFIED-GOVERNORS",
+      "source_derived_concept": "The governor planets' sect and dignity change expression of their assigned traits",
+      "source_locator": "III.13, Loeb 337–339",
+      "source_lines": "lines 30–33",
+      "required_conditions": [
+        "Ptolemaic soul ruler selection",
+        "full sect/dignity",
+        "receptions",
+        "angularity"
+      ],
+      "eligibility": "MISSING_PTOLEMAIC_DOMINATOR_SELECTION",
+      "automatically_scored": false,
+      "empirical_validation": "none_in_source",
+      "historical_conditionality": "Dignity, rulership, sect and angle conditions may reverse the description; mere pairwise aspect is not evidence of sole or joint soul dominion."
+    },
+    {
+      "id": "PTOLEMY-III13-SATURN-JUPITER",
+      "source_derived_concept": "Saturn allied with Jupiter may signify patience/helpfulness or caution and misjudgment, conditioned by honorability",
+      "source_locator": "III.13, Loeb 341–343",
+      "source_lines": "line 35",
+      "required_conditions": [
+        "rulership/familiarity",
+        "honorable vs adverse placement",
+        "other simultaneous testimonies"
+      ],
+      "eligibility": "UNRESOLVED_CONDITIONAL_GOVERNANCE",
+      "automatically_scored": false,
+      "empirical_validation": "none_in_source",
+      "historical_conditionality": "Dignity, rulership, sect and angle conditions may reverse the description; mere pairwise aspect is not evidence of sole or joint soul dominion."
+    },
+    {
+      "id": "PTOLEMY-III13-SATURN-VENUS",
+      "source_derived_concept": "Saturn and Venus association includes devotional/philosophical and restrictive social possibilities",
+      "source_locator": "III.13, Loeb 345",
+      "source_lines": "lines 38–39",
+      "required_conditions": [
+        "actual soul governors",
+        "sector placement",
+        "honorable vs adverse classification"
+      ],
+      "eligibility": "UNRESOLVED_CONDITIONAL_GOVERNANCE",
+      "automatically_scored": false,
+      "empirical_validation": "none_in_source",
+      "historical_conditionality": "Dignity, rulership, sect and angle conditions may reverse the description; mere pairwise aspect is not evidence of sole or joint soul dominion."
+    },
+    {
+      "id": "PTOLEMY-III13-SATURN-MERCURY",
+      "source_derived_concept": "Saturn allied with Mercury includes technical/practical inquiry but also adverse contrary descriptions",
+      "source_locator": "III.13, Loeb 347",
+      "source_lines": "lines 40–41",
+      "required_conditions": [
+        "relationship to governing planets",
+        "honorability",
+        "angularity/sect"
+      ],
+      "eligibility": "UNRESOLVED_CONDITIONAL_GOVERNANCE",
+      "automatically_scored": false,
+      "empirical_validation": "none_in_source",
+      "historical_conditionality": "Dignity, rulership, sect and angle conditions may reverse the description; mere pairwise aspect is not evidence of sole or joint soul dominion."
+    },
+    {
+      "id": "PTOLEMY-III13-JUPITER-VENUS",
+      "source_derived_concept": "Jupiter allied with Venus may emphasize compassion and sociability under honorable conditions",
+      "source_locator": "III.13, Loeb 349–351",
+      "source_lines": "lines 46–47",
+      "required_conditions": [
+        "actual planetary alliance/governance",
+        "honorability and sect",
+        "contrary descriptions"
+      ],
+      "eligibility": "UNRESOLVED_CONDITIONAL_GOVERNANCE",
+      "automatically_scored": false,
+      "empirical_validation": "none_in_source",
+      "historical_conditionality": "Dignity, rulership, sect and angle conditions may reverse the description; mere pairwise aspect is not evidence of sole or joint soul dominion."
+    },
+    {
+      "id": "PTOLEMY-III13-JUPITER-MERCURY",
+      "source_derived_concept": "Jupiter allied with Mercury may indicate learned/philosophical discussion and organizational skill when favorable",
+      "source_locator": "III.13, Loeb 353",
+      "source_lines": "lines 48–49",
+      "required_conditions": [
+        "actual planetary alliance/governance",
+        "dignity/sect",
+        "contrary descriptions"
+      ],
+      "eligibility": "UNRESOLVED_CONDITIONAL_GOVERNANCE",
+      "automatically_scored": false,
+      "empirical_validation": "none_in_source",
+      "historical_conditionality": "Dignity, rulership, sect and angle conditions may reverse the description; mere pairwise aspect is not evidence of sole or joint soul dominion."
+    },
+    {
+      "id": "PTOLEMY-III13-MARS-VENUS",
+      "source_derived_concept": "Mars allied with Venus can be described as cheerful/pleasure-seeking yet passionate or jealous, depending on condition",
+      "source_locator": "III.13, Loeb 355",
+      "source_lines": "lines 52–53",
+      "required_conditions": [
+        "actual planetary alliance/governance",
+        "honorable or contrary status",
+        "simultaneous rulers"
+      ],
+      "eligibility": "UNRESOLVED_CONDITIONAL_GOVERNANCE",
+      "automatically_scored": false,
+      "empirical_validation": "none_in_source",
+      "historical_conditionality": "Dignity, rulership, sect and angle conditions may reverse the description; mere pairwise aspect is not evidence of sole or joint soul dominion."
+    },
+    {
+      "id": "PTOLEMY-III13-VENUS-MERCURY",
+      "source_derived_concept": "Venus allied with Mercury may combine artistic/communicative talents with different contrary outcomes",
+      "source_locator": "III.13, Loeb 359",
+      "source_lines": "lines 58–59",
+      "required_conditions": [
+        "actual planetary alliance/governance",
+        "honorability",
+        "other active rules"
+      ],
+      "eligibility": "UNRESOLVED_CONDITIONAL_GOVERNANCE",
+      "automatically_scored": false,
+      "empirical_validation": "none_in_source",
+      "historical_conditionality": "Dignity, rulership, sect and angle conditions may reverse the description; mere pairwise aspect is not evidence of sole or joint soul dominion."
+    },
+    {
+      "id": "PTOLEMY-III13-SOLE-MERCURY",
+      "source_derived_concept": "Mercury's solitary governance carries learned/inventive traits only when the dominance and honor conditions hold",
+      "source_locator": "III.13, Loeb 361",
+      "source_lines": "lines 60–61",
+      "required_conditions": [
+        "sole dominator",
+        "honorability",
+        "Mercury condition"
+      ],
+      "eligibility": "MISSING_PTOLEMAIC_DOMINATOR_SELECTION",
+      "automatically_scored": false,
+      "empirical_validation": "none_in_source",
+      "historical_conditionality": "Dignity, rulership, sect and angle conditions may reverse the description; mere pairwise aspect is not evidence of sole or joint soul dominion."
+    },
+    {
+      "id": "PTOLEMY-III13-MOON-PHASE",
+      "source_derived_concept": "Moon waxing/waning modifies firmness, frankness and caution among other indications",
+      "source_locator": "III.13, Loeb 361–363",
+      "source_lines": "lines 62–64",
+      "required_conditions": [
+        "Sun longitude",
+        "Moon longitude",
+        "lunar illumination phase"
+      ],
+      "eligibility": "GEOMETRIC_WITNESS_ONLY_NOT_VALIDATED_BEHAVIOR",
+      "automatically_scored": false,
+      "empirical_validation": "none_in_source",
+      "historical_conditionality": "Dignity, rulership, sect and angle conditions may reverse the description; mere pairwise aspect is not evidence of sole or joint soul dominion."
+    }
+  ],
+  "source_limitations": [
+    "The source supplies contradictory and historically conditioned character lists; it cannot be directly converted into precise modern personality probabilities.",
+    "Do not infer governor of soul from simple square/trine or dignified planet alone.",
+    "Do not treat 13 source records as 13 independent pieces of predictive information.",
+    "A source record concerning astronomy or soul disorders is not a modern psychiatric diagnosis.",
+    "No claim of full original Greek collation."
+  ],
+  "next_gate": "Compile a validated Ptolemaic ruler/honorability algorithm from original passages; freeze a modern behavioral observable + contrary predicate and independent dependency family for each genuinely narrow source claim before scoring."
+}

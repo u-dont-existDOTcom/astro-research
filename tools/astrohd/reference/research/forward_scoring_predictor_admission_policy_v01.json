@@ -1,0 +1,65 @@
+{
+  "schema": "astrohd_forward_only_predictor_admission_policy_v01",
+  "date_utc": "2026-11-21",
+  "owner_directive": "Exclude Splenic Authority as a scored personality predictor in all NEW Human Design matching model versions. Preserve original calculations, doctrine and historical scores for audit and comparability. Audit similar constructs by comparable evidentiary standards.",
+  "model_boundary": "FORWARD_ONLY_NEW_PERSONALITY_SCORER; legacy frozen source models and old numerical receipts must remain unchanged, and this policy does not itself rewrite a live scoring runtime.",
+  "excluded": [
+    {
+      "feature": "HD_SPLENIC_AUTHORITY_CORRECTNESS_CUE",
+      "source_mapping_ids": [
+        "MAP-AUTH-SPLENIC-D01",
+        "MAP-AUTH-SPLENIC-D02",
+        "AUTH_SPLENIC_SIGNAL"
+      ],
+      "rule_feature": "authority",
+      "rule_value": "Splenic",
+      "disposition": "EXCLUDE_FROM_NEW_BEHAVIORAL_SCORE",
+      "reason": "No operationally established human prevalence, reliability, signal onset/duration, event definition, base-rate comparison, calibrated accuracy or shown independence from common intuition/anxiety. Infallibility language is not an empirically supportable user-scored trait.",
+      "preserve_as": "HISTORICAL_DOCTRINAL_SOURCE_ONLY_AND_CHART_METADATA",
+      "reentry_gate": "Independent, preregistered comparative evidence showing a reproducible, source-precise frequency/accuracy difference over validated non-HD baselines, with a stable positive and negative signal/outcome definition."
+    }
+  ],
+  "symmetry": [
+    {
+      "family": "HD_OTHER_AUTHORITY_SOMATIC_OR_EMOTIONAL_OR_VOCAL_PROCESSES",
+      "disposition": "SOURCE_ONLY_UNTIL_SAME_VALIDATION_STANDARD",
+      "reason": "Other authorities have the same risks of ambiguity, alternative ordinary explanations and missing between-group comparisons. Removing Splenic alone must not mechanically reward Self-Projected or Emotional candidates."
+    }
+  ],
+  "other_source_qualifications": [
+    {
+      "feature": "HD_GATE57_SOMATIC_ALT",
+      "disposition": "SOURCE_ONLY_IF_ASSUMES_ACCURATE_SAFETY_SIGNAL",
+      "reason": "Should not evade the Splenic exclusion through a hanging Gate or overlapping statement."
+    },
+    {
+      "feature": "ANY_ASTRO_PREDICTION",
+      "disposition": "REJECT_UNFALSIFIABLE_OR_POST_HOC_IN_SCORE",
+      "reason": "Retrospective tailoring and a result-proof 'something always happens' prediction cannot improve ranks."
+    },
+    {
+      "feature": "GENE_KEYS_SHADOW_GIFT_SIDDHI",
+      "disposition": "CONTEMPLATIVE_NOT_BIRTH_DERIVED_BEHAVIORAL_SCORE_WITHOUT_TESTABLE_PREDICTION",
+      "reason": "Source explicitly frames profile as contemplative not conventional empirical profiling."
+    }
+  ],
+  "criteria_for_new_score": [
+    "Mechanically calculate chart feature in a fixed source school and birth-time convention",
+    "Write a specific observable behavior including subject, reference class, frequency/context and possible disconfirming case",
+    "Freeze full conditions and exceptions from source BEFORE seeing participant answer or natal rank",
+    "Predefine outcome and plausible non-astrological rivals, baselines and null",
+    "Collect enough blind, independently sourced participant cases to estimate predictive advantage above baseline and calibration",
+    "Cap dependencies and correlated repeated claims, preserve missing information as unknown",
+    "Publish negative and null outcomes, do not select method because it improves exposed owner birth rank"
+  ],
+  "required_test_gate": "Any proposed new model scored mapping with source id from excluded list or chart feature authority Splenic is rejected; scores cannot silently reuse a historical mapping. This checker is not yet a live model integration.",
+  "historical_immutability": {
+    "old_23_pathway_HD_reference_rank": "16th, preserved",
+    "old_44_pathway_reference_rank": "20th, preserved",
+    "historical_meaning": "POST_EXPOSURE_DEVELOPMENT_HISTORICAL_NOT_NEW_ACCEPTED_SCORE",
+    "unchanged_sources": [
+      "mappings/mapping_library_v1.json",
+      "reference/core/profile_v3_6_v43_mapping_frozen_2026_08_22.json"
+    ]
+  }
+}

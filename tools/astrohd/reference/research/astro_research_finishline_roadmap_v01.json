@@ -1,0 +1,163 @@
+{
+  "schema": "astrohd_owner_chart_research_bounded_completion_roadmap_v01",
+  "date_utc": "2026-11-21",
+  "owner_outcomes": [
+    {
+      "id": "O1",
+      "outcome": "Compare the user's actual recorded HD + Western chart to better-fit candidates across specific traditions and evaluate disputed sources fairly",
+      "status": "OPEN",
+      "evidenced_by": "Recent owner requests and humandesign AGENTS"
+    },
+    {
+      "id": "O2",
+      "outcome": "Audit natal predictor claims challenged by forum participants across researched systems, with explicit completion criteria",
+      "status": "SATISFIED_BOUNDED_FORUM_SCREEN_ONLY_DEEP_VALIDATION_SEPARATE",
+      "evidenced_by": "2026-11-21 owner message"
+    },
+    {
+      "id": "O3",
+      "outcome": "Ask Gemini to respond to this assistant's reasons for caution and report its actual reply",
+      "status": "SATISFIED_BY_OWNER_PASTED_GEMINI_REPLY_AND_SOURCE_COMPARISON_NOT_DIRECT_OUTBOUND_CHAT",
+      "evidenced_by": "2026-11-21 owner message"
+    },
+    {
+      "id": "O4",
+      "outcome": "Do not turn unconfirmed source claims into empirically calibrated human predictive accuracy",
+      "status": "PERMANENT_SCIENTIFIC_INVARIANT_NOT_A_PROMISED_NEW_STUDY",
+      "evidenced_by": "Source protocol and owner requirement to avoid false claims"
+    }
+  ],
+  "model_status_now": {
+    "human_development_only": true,
+    "historical_hd_old_ranking": "16th in one 23-pathway scorer, older 20th in 44-pathway rubric, not validated person-likelihood",
+    "source_qualified_non_bespoke_combined_scorer_ready": false,
+    "full_human_predictive_validation": false,
+    "source_frozen_C01_C10_replies_collected": true,
+    "grouped_general_profile": "CONFIRMED_BY_OWNER_2026_11_21",
+    "fine_grained_C01_C10_patterns": "EXPLORATORY_NOT_ALL_INDEPENDENTLY_CONFIRMED",
+    "splenic_accuracy_claim": "EXCLUDED_FROM_NEW_NUMERIC_PERSONALITY_SCORE",
+    "splenic_belief_claim": "EXPLORATORY_QUALITATIVE_NO_NUMERIC_SCORE"
+  },
+  "tracks": [
+    {
+      "id": "F",
+      "name": "Bounded cross-system disputed-predictor forum audit",
+      "current": "AUDIT_REPORT_COMPLETE_WITH_RECORDED_EVIDENCE_GAPS",
+      "acceptance": [
+        "Recover and reconcile project's existing 16-tradition system catalog and classify each distinct method as natal traits, timing, compatibility, contemplation, or calculation only; no new unbounded re-invention",
+        "For all currently registered 16 candidate claims, record original positive assertion, pre-existing qualifications, real-world contrary and supporting evidence where obtainable, and read mode; unmapped/evidence gaps explicitly unknown",
+        "Make at most THREE documented, targeted broad search sweeps under the current owner-approved scope, with the present pilot as sweep one and two further independent balance/source-verification sweeps; a further major scope change requires a separately approved new phase",
+        "Require at least two distinct attributable first-person experiences for high-priority claims when discoverable; otherwise report insufficient evidence, never fabricate numerator or denominator",
+        "Cross-check high-impact literal source conditions against original tradition passages before calling an anecdote a source falsification",
+        "Deliver sortable triage of source claims by interpretability, clinical/high-impact consequence, source conflict and testability; report successes, failures, ambiguous cases, and unsearched systems",
+        "Do NOT assert true complaint frequency or empirical failure rates from purpose-selected posts"
+      ],
+      "terminal_outputs": [
+        "AUDIT_REPORT_COMPLETE_WITH_QUALIFIED_DISPOSITIONS",
+        "AUDIT_REPORT_COMPLETE_WITH_RECORDED_EVIDENCE_GAPS"
+      ],
+      "current_evidence": "Three bounded source-search passes saved and independently checked: 22 claims, 59 selected source observations, 49 normalized distinct source discussions/pages, 0 representative denominators or verified prospective natal forecasts; missing sources/counterconditions explicitly disclosed.",
+      "notes": "The count of three search sweeps is an ASSISTANT_INFERENCE reversible budget to prevent indefinite searching, not a hard scientific adequacy threshold."
+    },
+    {
+      "id": "P",
+      "name": "Private participant profile and disconfirming cases",
+      "current": "PROFILE_PARTIAL_UNCONFIRMED_ATOMIC_SUBDIMENSIONS",
+      "acceptance": [
+        "Preserve respondent's original C01–C10 answers privately with immutable hash",
+        "Record the owner's 2026-11-21 confirmation of the five-part generalized context-qualified description separately from detailed unconfirmed subtraits",
+        "Preserve observed self-reported exceptions, uncertainty, third-party allegations as allegations, and non-equivalence of respondent belief vs actual reliable cue",
+        "Build versioned profile features, source-neutral, before any new score; do not auto-promote anecdotes to hard general traits"
+      ],
+      "terminal_outputs": [
+        "PROFILE_DEVELOPMENT_FROZEN_SELF_REPORT_WITH_CONTEXT",
+        "PROFILE_PARTIAL_UNCONFIRMED_ATOMIC_SUBDIMENSIONS"
+      ]
+    },
+    {
+      "id": "S",
+      "name": "Multiple source-complete HD and Western personality interpretations",
+      "current": "OPEN_SOURCE_ADJUDICATION",
+      "acceptance": [
+        "Freeze separately original HD types/profiles/gates/channels/Cross and full source qualification, with exclusion/quarantine of unvalidated safety/Authority processes",
+        "Freeze separate Ptolemy III.13 governor, applying aspects, dignity/sect/angles and contrary testimony; if incomplete, label school rule not score-eligible",
+        "Freeze separate Lilly Renaissance manners significator, ASC ruler vs manners ruler, sect and house conditions; if incomplete, label not score-eligible",
+        "Freeze modern psychological Western aspects/outer chart factors separately and name interpretive flexibility and observational specificity",
+        "Record rule scope, observable behavior, countercase, dependency cluster, opposing evidence and nonastrological baseline BEFORE seeing new model fit/rank",
+        "Any missing source condition stays unresolved rather than using a convenient simplification or alternate model after result"
+      ],
+      "terminal_outputs": [
+        "SOURCE_RULEBOOKS_VERSIONED_FROZEN_AND_QUALIFIED",
+        "MATERIAL_RULES_UNSCORABLE_WITH_REASONS"
+      ]
+    },
+    {
+      "id": "R",
+      "name": "Full candidate chart comparison and stop",
+      "current": "OPEN_FULL_CENTURY",
+      "acceptance": [
+        "Use verified Swiss Ephemeris and exact HD boundary engine/century cache, no undocumented 14-state pruning from old HD-only scorer",
+        "Compute every candidate in declared comparison universe or publish valid score upper bounds; for 15-min Western grid report sampling and exact near-HD boundary uncertainty instead of implying continuous completeness",
+        "Produce separate HD, Ptolemaic, Lilly and modern-psychological human-fit comparison reports with conflicts, dependence caps and zero-score quarantined predictors, plus optional explicitly labeled combined sensitivity analysis",
+        "Compare actual recorded chart against all material alternatives and show highest scoring as well as strong contradictory hypotheses",
+        "Release truthful rank if eligible complete source rules exist; else terminal no-defensible-unique-ranking report with exact missing dependencies and honest negative outcome rather than indefinite model-shopping",
+        "Verify outputs, immutability of historical scores and privacy-safe repository commit; independent reviewer where feasible but not a new arbitrary blocker"
+      ],
+      "terminal_outputs": [
+        "RANKED_FINITE_SCOPE_WITH_QUALIFICATIONS",
+        "NO_DEFENSIBLE_RANK_POSSIBLE_SOURCE_GAPS",
+        "COMPLETE_BOUNDED_REPORT_WITH_UNRESOLVED_UNCOVERED_STATES"
+      ]
+    },
+    {
+      "id": "G",
+      "name": "Gemini independent response and disagreement reconciliation",
+      "current": "GEMINI_RESPONSE_CAPTURED_AND_RECONCILED",
+      "acceptance": [
+        "Recover actual Gemini prompt/model/candidate set/result where available; distinguish earlier 10-chart Western-only result from full-HD century research",
+        "Send minimally disclosing explicit neutral objections and identical chart summaries to Gemini if an authorized connected route exists; capture exact returned text/model/turn time and raw status",
+        "If no Gemini route, save send-ready prompt and mark NOT_SENT_NO_GEMINI_RESPONSE, not fabricate agreement, not treat a route problem as a project-completion blocker",
+        "When Gemini replies, freeze its comparison before changing model, then juxtapose any point-by-point objections and revised predictions"
+      ],
+      "terminal_outputs": [
+        "GEMINI_RESPONSE_CAPTURED_AND_RECONCILED",
+        "NOT_SENT_NO_AUTHORIZED_ROUTE_READY_TO_SEND"
+      ],
+      "captured_route": "Owner pasted Gemini textual response in ChatGPT, NOT a direct writable ChatGPT->Gemini connection",
+      "source_audit": "reference/audits/gemini_response_source_critique_20261121.md"
+    },
+    {
+      "id": "V",
+      "name": "Optional separately scoped scientific chart-to-person predictive validation",
+      "current": "NOT_YET_REQUESTED_AS_COMPLETION_GATE",
+      "acceptance": [
+        "Pre-register blind question/score/candidate/endpoint/time and independent birth data, matched decoys and chart-free baseline",
+        "Evaluate untouched participants without knowing chart details or predicted answers; explicit matched and broad chance/null results",
+        "Report uncertainty, sample size and failures; do not promote old owner retrospective matches as prospective accuracy"
+      ],
+      "terminal_outputs": [
+        "HUMAN_PREDICTIVE_VALIDATION_REPORTED",
+        "UNVALIDATED_SYMBOLIC_REPORT_COMPLETED_NO_HUMAN_COHORT"
+      ],
+      "optional": true
+    }
+  ],
+  "end_definition": {
+    "core_owner_report_terminal_when": [
+      "F is one of its terminal outputs",
+      "P is one of its terminal outputs",
+      "S is one of its terminal outputs",
+      "R is one of its terminal outputs",
+      "G is one of its terminal outputs OR explicitly external route blocked and send-ready challenge delivered",
+      "Reproducibility and source privacy receipt verified"
+    ],
+    "empirical_validation_not_mandatory_to_close_descriptive_work": true,
+    "no_indefinite_source_search": true,
+    "no_promoting_unreproduced_better_rank_as_finished": true,
+    "report_end_whether_positive_negative_or_inconclusive": true,
+    "unanswered_user_choices_only_if_genuinely_required": true,
+    "extend_only_for_material_new_claim_evidence_or_owner_approval": true
+  },
+  "stop_status_now": "BOUNDED_FORUM_F_AND_PROFILE_P_AND_USER_PASTED_GEMINI_G_TERMINAL; SOURCE_ADJUDICATION_S_AND_CENTURY_RANKING_R_OPEN; V_PROSPECTIVE_HUMAN_STUDY_NOT_VALIDATED_OPTIONAL",
+  "non_accretion_note": "Search-wave cap and source-audit documentation are a bounded reversible experiment, not new requirements that redefine the owner's main comparison outcome. The independent prospective cohort is separately optional and cannot block closure of the current descriptive investigation."
+}
