@@ -14,6 +14,8 @@ This is the recovered **public-safe subset** of later HD + Western comparative r
 
 **Source-primary original edition and latitude follow-up (22 November):** Direct 1647 Lilly CVII p535–536 scans and original 1940 Loeb Greek/English I.24 verified in the [new source report](../../docs/astrohd/lilly_1647_ptolemy_i24_original_print_latitude_20261122.md); `scripts/ptolemy_iii13_latitude_certified_same_instant_century_v01.py` and historical register `reference/research/ptolemy_lilly_original_print_and_latitude_source_adjudication_v02.json` implement separate STRICT SWISS-geometric ecliptic-side qualification without licensing any human or historical final ruler score.
 
+**Lilly original moiety/partile ordered fallback (22 November):** `scripts/lilly_cvii_ptolemy_same_instant_ordered_fallback_v02.py` actually reproduces all 3.5 million source times, SHA-verifies original Western and HD indexes, and cross-reconciles the earlier frozen Ptolemy conditional candidate at the SAME UTC sample. Directly read original Lilly 1647 printed pp.106/107/110, not a later orb table. Source ledger `reference/research/lilly_cvii_original_moiety_source_variants_v01.json`, source-neutral aggregate `reference/research/lilly_cvii_ptolemy_same_instant_ordered_fallback_public_v02.json`, full report `../../docs/astrohd/lilly_1647_original_orb_moiety_partile_full_century_20261122.md`. All uncomputed historical strength/dignities and human chart-to-profile scores remain unknown.
+
 ## Contents and guarantee levels
 
 - `reference/research/`: source-qualification contracts, behavioural observation methods, triage policy, Western source registers, completion roadmap and dated forum search source observations. None claims empirical chart-to-person accuracy.

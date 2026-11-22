@@ -1,5 +1,7 @@
 # Research documentation
 
+- **AstroHD original source continuation, 22 Nov 2026:** [1647 Lilly planetary orb moieties, partile aspects, and full 3.5-million same-instant Ptolemy/HD fallback comparison](astrohd/lilly_1647_original_orb_moiety_partile_full_century_20261122.md). Preserves alternate source methods; no human prediction rank.
+
 - **AstroHD original sources, 22 Nov 2026:** [Lilly 1647 first edition, Ptolemy I.24 Greek/English, and latitude-verified same-instant century](astrohd/lilly_1647_ptolemy_i24_original_print_latitude_20261122.md). Historical interpretation gaps remain open; no natal personality validation.
 
 - **AstroHD 22 Nov 2026**: [Source-corrected Ptolemy–Lilly–HD full same-instant century structural comparison](astrohd/ptolemy_lilly_hd_same_instant_century_source_arbitration_20261122.md). Includes original rule ambiguities, SHA-verified 3,506,400 sample computation, no human predictive claims.

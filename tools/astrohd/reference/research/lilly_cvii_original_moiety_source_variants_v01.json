@@ -1,0 +1,149 @@
+{
+  "schema": "lilly_1647_original_moiety_partile_CVII_source_variants_v01",
+  "status": "DIRECT_1647_FIRST_PRINT_PAGE_IMAGES_VERIFIED_BUT_CVII_FULL_RULER_STILL_UNRESOLVED",
+  "research_date_utc": "2026-11-22",
+  "sources": [
+    {
+      "author": "William Lilly",
+      "title": "Christian Astrology",
+      "edition": "1647 first printing",
+      "original_print_pages": [
+        106,
+        107,
+        110,
+        535,
+        536
+      ],
+      "pdf_one_based_pages": {
+        "106": 140,
+        "107": 141,
+        "110": 144,
+        "535": 569,
+        "536": 570
+      },
+      "original_pdf_sha256": "2cb53e20e122ffc6e47917ba10241f6c49687cd7a4696f3b5db655a2a1aab28b",
+      "source_catalog": "https://wellcomecollection.org/works/s7z7c46y",
+      "read_mode": "Original engraved/typeset 1647 page images direct visual examination; not modern transcription",
+      "page_image_sha256": {
+        "106": "054938a61c832133ed21c960400caa05facdc2680fa71c625310568fc6d70870",
+        "107": "b68c57a5052c94ad80dfa39964a2209f0ccc7852b9ccc0c8c3de38889eb1423b",
+        "110": "a8bd42d8500dc8d97004df93e0fa6b15031a8ce777c55ee760d28df4a3115713",
+        "535": "49efe26a167fcdd6d0f1f08d3c7a69faaf87939b41cab02341ef6dc2500f4708",
+        "536": "4cdd11d5cf468e20f38fed7889e42f2e6298540e05f7f196c9b916e28bb57b24"
+      }
+    }
+  ],
+  "source_rules": [
+    {
+      "rule": "PARTILE",
+      "page": 106,
+      "source_summary": "Partill is when the actual planetary positions form the same number of degrees as a perfect traditional aspect; sign-degree examples include Venus at ninth degree Aries and Jupiter ninth degree Leo; and exact conjunction examples.",
+      "operationalization": "Matching integer numbered degree of signs separated by classical traditional non-conjunction aspect rays; source-language proxy, not automatically exact continuous angular residual.",
+      "missing": "minute-level boundary convention/forceful contact and whether 1 degree tolerance is warranted"
+    },
+    {
+      "rule": "PLATICK_MOIETY",
+      "page": 107,
+      "source_summary": "Platick aspects within the moities of the orbs of both involved planets, illustrated by Venus 10° and Saturn 18° in appropriate signs; p110 repeats half each orb example.",
+      "operationalization": "angular distance to nearest conjunction/ray must be at most half the sum of the two planets' printed orb widths. For joined Moon/Mercury use physical longitudinal conjunction; for seeing-by-ray, separately use sign aspect and orb-near exact ray.",
+      "missing": "Lilly's CVII p536 uses joined without declaring one table selection or luminosity fortification; do not silently replace with 3/5/10° engineering orbs."
+    },
+    {
+      "rule": "ORIGINAL_ORBS",
+      "page": 107,
+      "source_summary": "Lilly explicitly lists alternative orbs among authorities and notes that he himself sometimes uses different entries.",
+      "source_printed_options": {
+        "Saturn": [
+          9,
+          10
+        ],
+        "Jupiter": [
+          9,
+          12
+        ],
+        "Mars": [
+          7,
+          7.5
+        ],
+        "Sun": [
+          15,
+          17
+        ],
+        "Venus": [
+          7,
+          8
+        ],
+        "Mercury": [
+          7
+        ],
+        "Moon": [
+          12,
+          12.5
+        ]
+      },
+      "status": "Two componentwise extremes encoded; mixed combinations are bracketed but not individually enumerated.",
+      "source_labels": [
+        "1647_table_smaller_orbs",
+        "1647_table_larger_orbs"
+      ]
+    },
+    {
+      "rule": "FIRST_QUALIFICATION",
+      "page": 535,
+      "source_summary": "A planet occupying the sign ascending or an intercepted sign is principal significator and one with dignity there participates; more than one in the horoscope can be significators.",
+      "variants": [
+        "ascending_sign",
+        "regiomontanus_first_house",
+        "ascending_sign_or_intercepted_sign"
+      ],
+      "missing": "Difference between ascending sign and actual historical quadrant first house/horoscope remains."
+    },
+    {
+      "rule": "JOINED_FALLBACK",
+      "page": 536,
+      "source_summary": "In absence of planet in the ascendant seek planets joined to Moon or Mercury, giving special consideration if the same joined both and weighing comparative power.",
+      "variants": [
+        "four_externals_only",
+        "all_other_classical_planets"
+      ],
+      "missing": "What qualifies luminaries/Moon-Mercury mutual joining when unfortified and whether plurality governs; numerical priorities unresolved."
+    },
+    {
+      "rule": "DISPOSITOR_ASPECT",
+      "page": 536,
+      "source_summary": "When first two conditions fail, consider lord of ascendant conditional on its dispositor beholding it by some aspect.",
+      "variants": [
+        "dispositor_sign_ray",
+        "dispositor_orb_near_ray"
+      ],
+      "missing": "When Ascendant lord is in its own domicile, the dispositor is the same body; must not call its own self aspect qualified.",
+      "further_primary_text_qualification": "Lilly p536 immediately says If no Planet aspect him; this may be broader than only the dispositor and requires a distinct all-other-planets-beholding-ASC-lord source branch. That broader gate is NOT included in current R3→R4 threshold."
+    },
+    {
+      "rule": "FORCIBLE_PARTILE",
+      "page": 536,
+      "source_summary": "If aspect to Ascendant lord fails, seek a planet forcibly and partilely aspecting Moon and Mercury.",
+      "variants": [
+        "partile_Moon_or_Mercury",
+        "partile_same_planet_Moon_and_Mercury"
+      ],
+      "missing": "Ambiguity of and/or, which planet is forcibly strong, and whether source defines a numerical one-degree tolerance."
+    },
+    {
+      "rule": "ESSENTIAL_DIGNITY_LAST",
+      "page": 536,
+      "source_summary": "Last named fallback is whichever planet possesses most essential dignities at the Moon/Mercury places, followed by fixed stars.",
+      "status": "NOT_IMPLEMENTED; remaining unattributed circumstances counted only.",
+      "missing": "full source term/triplicity/dignity arbitration and competing planetary strength."
+    }
+  ],
+  "allowed_public_data": "Source-neutral full-century geometric aggregate count and distinct HD state coverage only; no personal source chart or respondent outcomes",
+  "source_specific_differences_not_independent_psychological_evidence": true,
+  "original_sources_preserved_unchanged": true,
+  "no_personality_ranking": true,
+  "source_neutral_runner": "tools/astrohd/scripts/lilly_cvii_ptolemy_same_instant_ordered_fallback_v02.py",
+  "source_neutral_numeric_aggregate": "tools/astrohd/reference/research/lilly_cvii_ptolemy_same_instant_ordered_fallback_public_v02.json",
+  "historical_first_full_source_run_v01": "PRIVATE_IMMUTABLE_ORIGINAL_CENSUS_RECEIPT_AND_SOURCE_SCRIPT_KEPT_OFF_PUBLIC_REPO",
+  "same_instant_ptolemy_conditional_four_mode_consensus": "4,553 timestamps as already source-verified; all historical variants and contested interpretation remain unresolved",
+  "historical_other_planets_aspecting_ASC_lord_status": "EXPLICIT_UNRESOLVED_BRANCH: preceding stage tests only whether specific dispositor sees ASC lord; other planets that aspect ASC lord might block the next fallback in some readings."
+}
