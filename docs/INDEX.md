@@ -1,5 +1,8 @@
 # Research documentation
 
+- **Ptolemy original-source collation, 22 Nov 2026:** [Wolf’s printed Greek/Latin 1559 commentary p51, the qualified fifteen parts, and Robbins’s later editorial “maximum”](astrohd/ptolemy_i24_wolf_1559_original_commentary_orb_adjudication_20261122.md). All previous Ptolemy/Lilly/HD original century results retained; no fixed 15° original orb or natal ranking inferred.
+
+
 - **AstroHD source arbitration, 22 Nov 2026:** [Lilly CVII “If no Planet aspect him”: full century all-other-planets aspect and same-UTC Ptolemy/HD sensitivity](astrohd/lilly_cvii_all_planets_aspecting_asc_lord_full_century_20261122.md). Six-way source-conditional abstentions preserve rival original interpretations without claiming predictive success.
 
 

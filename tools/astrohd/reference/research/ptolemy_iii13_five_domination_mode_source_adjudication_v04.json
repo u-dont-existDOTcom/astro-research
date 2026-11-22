@@ -1,0 +1,219 @@
+{
+  "schema": "ptolemy_tetrabiblos_iii13_source_adjudication_v04_direct_wolf_1559_commentary",
+  "date_utc": "2026-11-22",
+  "status": "OLD_FOUR_MODE_AND_FIFTH_GEOMETRY_UNCHANGED_WOLF_1559_GREEK_LATIN_DIRECTLY_READ_NUMERIC_CUTOFF_UNSETTLED",
+  "textual_sources": [
+    {
+      "locator": "Tetrabiblos I.17",
+      "uri": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Ptolemy/Tetrabiblos/1B%2A.html",
+      "observation": "Traditional planetary domicile rulership of zodiac signs. Source describes a planet's house, not the natal chart's physical house.",
+      "read_mode": "full_original_English_reproduction"
+    },
+    {
+      "locator": "Tetrabiblos I.18",
+      "uri": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Ptolemy/Tetrabiblos/1B%2A.html",
+      "observation": "Triplicity day/night rulership, with distinct primary and co-ruler qualifications; water Mars remains joined by Venus by day or Moon by night.",
+      "read_mode": "full_original_English_reproduction"
+    },
+    {
+      "locator": "Tetrabiblos I.19",
+      "uri": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Ptolemy/Tetrabiblos/1B%2A.html",
+      "observation": "Seven traditional planetary exaltation signs.",
+      "read_mode": "full_original_English_reproduction"
+    },
+    {
+      "locator": "Tetrabiblos III.2",
+      "uri": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Ptolemy/Tetrabiblos/3A%2A.html",
+      "observation": "Ptolemy names the five domination modes trine/triplicity, domicile/house, exaltation, term, phase or aspect. These are not equivalent to modern decan/face essential dignity tables.",
+      "read_mode": "full_original_English_reproduction"
+    },
+    {
+      "locator": "Tetrabiblos III.13",
+      "uri": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Ptolemy/Tetrabiblos/3D%2A.html",
+      "observation": "Mercury/Moon character inquiry conditioned by their sign governors, lunar applications/separations, aspects to Sun and angles, sect, stronger/contrary planetary testimony.",
+      "read_mode": "full_original_English_reproduction"
+    },
+    {
+      "locator": "Robbins 1940 public digitized I.21 English term table",
+      "uri": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Ptolemy/Tetrabiblos/1B%2A.html",
+      "observation": "Historical text evidence: the LacusCurtius HTML Libra final 6° was printed Saturn, but original Loeb 1940 Greek p106 and English p107 both give Mars 6°. Web transcription is confirmed erroneous relative to that edition.",
+      "read_mode": "historical_incorrect_HTML_transcription_superseded_by_direct_1940_printed_facsimile"
+    },
+    {
+      "locator": "Other Robbins-derived term list",
+      "uri": "https://krasiancientastrology.com/wp-content/uploads/2016/11/Ptolemy-Claudius-Tetrabiblos-Robbins-1940.pdf",
+      "observation": "The later reflow reproduction gives Libra Mars 6°, matching printed Loeb; it omits Virgo Jupiter 5° which the printed Loeb Greek and English both include.",
+      "read_mode": "derivative_reflow_compared_against_original_1940_printed_facsimile"
+    },
+    {
+      "locator": "Deborah Houlding, historical terms research",
+      "uri": "https://library.keplercollege.org/wp-content/uploads/2022/01/Houlding_ptolemy_terms1.pdf",
+      "observation": "Independent historical terms scholarship describes manuscript/order variants; this does not overturn edition-level correction of the reproduced text. Those other original manuscripts remain uncollated here.",
+      "read_mode": "secondary_scholarship_only_not_primary_manuscript_collation"
+    },
+    {
+      "locator": "Anonymous commentary Wolf Basel 1559 printed parallel Greek/Latin p51 and context pp50-52",
+      "uri": "https://ptolemaeus.badw.de/print/11/2/51",
+      "observation": "15 zodiacal parts appears with slow/fast planet qualification; original printed Latin ad minimum unreconciled with Robbins maximum gloss. NOT Ptolemy authored numeric orb.",
+      "read_mode": "direct_original_1559_Greek_and_Latin_page_images_source_sha256_pinned"
+    }
+  ],
+  "five_domination_modes": [
+    {
+      "id": "DOMICILE",
+      "status": "COUNTED_ALL_GRID",
+      "source": "I.17",
+      "comments": "traditional seven-planet domicile rulers of both occupied signs"
+    },
+    {
+      "id": "EXALTATION",
+      "status": "COUNTED_ALL_GRID",
+      "source": "I.19",
+      "comments": "separate traditional exaltation rulers for seven signs"
+    },
+    {
+      "id": "TRIPLICITY",
+      "status": "COUNTED_SECT_DAY_NIGHT_ALL_GRID_WITH_HORIZON_ABSTAIN",
+      "source": "I.18",
+      "comments": "primary and all co-ruler variants both retained; exact solar-altitude limit 0.1 deg is an engineering uncertainty policy"
+    },
+    {
+      "id": "TERMS",
+      "status": "PRINTED_1940_PTOLEMAIC_AND_EGYPTIAN_TABLES_IMPLEMENTED_DISTINCT_VARIANTS; MANUSCRIPT_VARIANTS_UNRESOLVED",
+      "source": "I.20-21",
+      "comments": "Original Loeb printed Greek and English pages reviewed; edition specific, 12x5 tables and exact boundaries. NOT one universal historical terms scheme."
+    },
+    {
+      "id": "PHASE_OR_ASPECT",
+      "status": "SOURCE_QUALIFIED_DOUBLE_MERCURY_AND_MOON_GEOMETRY_SCREEN_WITH_FIVE_DECLARED_NONHISTORICAL_THRESHOLDS; HISTORICAL_ORB_GOVERNOR_SELECT_UNSCORED",
+      "source": "I.24/III.2/III.13",
+      "comments": "New full-century 3.5m original-cache sensitivity across 1,3,5,10,15 degrees, excluding self-Mercury and uncertifiable conjunctions; source text especially not universal necessary criterion; not a licensed source-based natal rank."
+    }
+  ],
+  "conditions_after_five_modes": [
+    "Which planet or set of planets actually governs Mercury and Moon via whole five-mode source method",
+    "Moon's previous/next applying and separating planet contacts rather than a modern arbitrary close-orb list",
+    "Governors' own condition, sect, angularity and orientation; derivative source information needed",
+    "Competing governors and contradictory testimony mixtures",
+    "Which historical phrase licenses a directional human-observable prediction rather than an appealing post-hoc reading"
+  ],
+  "fixed_computational_scope": {
+    "utc_horizon_start_inclusive": "1926-11-19T00:00:00Z",
+    "utc_horizon_end_exclusive": "2026-11-19T00:00:00Z",
+    "grid_minutes": 15,
+    "total_times": 3506400,
+    "traditional_planets": 7,
+    "location_policy": "one declared fixed longitude/latitude for Sun altitude; NOT a natal location for a participant",
+    "horizon_sect_neutral_band_degrees": 0.1,
+    "num_planet_shards": 36,
+    "num_location_shards": 36,
+    "source_data_hash_verification": "SHA256 each original source binary shard",
+    "continuous_coverage": false
+  },
+  "old_automated_scores_updated": false,
+  "behavioral_claims_licensed_for_automated_rank": 0,
+  "human_predictions_prospectively_verified": 0,
+  "no_public_birth_or_personal_case_data": true,
+  "term_variants_adjudication_status": "NEEDS_READING_PRINTED_LOEB_IMAGE_AND_ANCIENT_TABLE_MANUSCRIPT_TO_RESOLVE; DO NOT INVENT UNIVERSAL TABLE",
+  "new_provenance_requires_source_reader": true,
+  "supersedes_v01_sha256": "9f9199a6ece9a9e8379adebec3eba2f5b23308dd83802d2aaba6a1ca6a6f720e",
+  "original_v01_source_dispositions_are_historical_not_current": true,
+  "current_verified_printed_source_register": "ptolemy_1940_printed_terms_dual_table_provenance_v01.json",
+  "new_source_report": "docs/astrohd/ptolemy_1940_terms_four_mode_census_20261122.md",
+  "new_edition_source_reconciliation": {
+    "directly_viewed_original_printed_Loeb_pages": [
+      96,
+      97,
+      106,
+      107
+    ],
+    "original_1940_scanned_PDF_sha256": "10b44f40e47409215aa3d6c4ec2863ebc3982b81d33b4d4e5e2a065761ab7fec",
+    "Libra_last_Ptolemaic_term": {
+      "planet": "Mars",
+      "degrees": 6,
+      "status": "RESOLVED_BY_PRINTED_GREEK_AND_ENGLISH"
+    },
+    "Virgo_Jupiter_Ptolemaic_term": {
+      "planet": "Jupiter",
+      "degrees": 5,
+      "status": "RESOLVED_BY_PRINTED_GREEK_AND_ENGLISH"
+    },
+    "Egyptian_and_Ptolemaic_printed_terms": "IMPLEMENTED_AS_DISTINCT_EDITION_BOUNDED_VARIANTS",
+    "other_manuscripts_and_terms_schemes": "NOT_COLLATION_COMPLETE",
+    "Egyptian_Greek_page_96_render_sha256": "792cf08f56be089a851b1d137a40867f7b42d2feccd625dd41cad09b8279d348",
+    "four_original_facsimile_pages_viewed": [
+      96,
+      97,
+      106,
+      107
+    ]
+  },
+  "phase_aspect_module": "tools/astrohd/scripts/ptolemy_moon_app_sep_geometric_event_witness_v01.py",
+  "source_rebind_note": "Official-source sepl_18.se1 at source SHA 9f057... differs from old century-cache original binary SHA; seven source-neutral control dates max longitude discrepancy ~0.000002°, with SWIEPH flags. Keep evidence separate.",
+  "supersedes_v02_sha256": "9ef6ca4e84ea65e4f76e871ea18857ff2ee4804a26e4bce25ef894c3c3a8ce4b",
+  "current_simultaneous_Mercury_and_Moon_relation_source_contract": "ptolemy_iii13_dual_relation_source_contract_v01.json",
+  "new_exact_source_relevance": {
+    "III13_original_special_relation": "Same soul governor may have a configuration to Mercury AND a Moon applying/separating contact; a shared possible domicile/term candidate alone is insufficient to establish the special condition.",
+    "source_citation": "Tetrabiblos III.13 Robbins 1940 pp.333-339",
+    "I24_original_numerical_orb": "UNSPECIFIED_IN_PASSAGE",
+    "I24_commentator_anonymous_15degrees": "EDITOR_NOTE_129_REPORTS_COMMENTARY_NOT_ORIGINAL_SOURCE_RULE",
+    "I24_bodily_conjunction_latitude": "MUST_CHECK_SAME_SIDE_ECLIPTIC_WHEN_APPLICABLE",
+    "completion": "PARTIAL_GEOMETRY_SENSITIVITY_ONLY_NOT_A_COMPLETE_FIFTH_RULERSHIP_MODE"
+  },
+  "current_double_config_public_aggregate": "ptolemy_iii13_dual_configuration_angular_sensitivity_public_v01.json",
+  "current_double_config_report": "docs/astrohd/ptolemy_iii13_double_configuration_angular_sensitivity_20261122.md",
+  "supersedes_v03_sha256": "c32b809e7ca49456260ebb6364916ab71e5ce2298d889c11e1726cd1bc788ccc",
+  "wolf1559_primary_print_source_scan": {
+    "work": "Anonymous Commentary on Ptolemy Tetrabiblos, ed. and tr. Latin Hieronymus Wolf, Basel Henricus Petri 1559",
+    "bibliographic_authority": "https://ptolemaeus.badw.de/work/242",
+    "first_print_image_citation": "https://ptolemaeus.badw.de/print/11/2/51",
+    "page_images_original_sha256": {
+      "50": "a9ba1c57fbe357245952b51519fbcde00f04c0da1110449c5fca65ac1936d209",
+      "51": "1996a430eb23ee1fa443dc67deccfc7e0dae77c3e6d58b28e6dc0a6db350db9a",
+      "52": "0bd016f77498947ca62278295540cf97f16ce4650a35440f543b6dfe3a32f48a"
+    },
+    "read_mode": "DIRECT ORIGINAL PRINTED GREEK_AND_LATIN_1559_PARALLEL_PAGE_IMAGES_pp50_52; Greek visually inspected but not independently fully translated",
+    "wolf_p51_short_latin_original_segments": [
+      "Ne altera sit in 30 signi parte, altera in prima",
+      "sed ad minimum à 15. partibus",
+      "tum tardarum, tum velocium"
+    ],
+    "p50_context": "Latin and facing Greek describe how planetary speeds alter application/separation interpretation; 2,3,5 parts can describe applying configurations depending on the relative motion.",
+    "p51_context": "15-part statement includes explicit slow/fast planetary qualifications. How Latin ad minimum relates to Loeb editor maximum gloss remains philologically unsettled.",
+    "p52_context": "Continues context, closes the Book I commentary.",
+    "editor_separation": "Historical anonymous commentary printed in 1559, NOT Ptolemy own words and not Robbins editorial note.",
+    "manuscript_source": "Munich BSB Cod. Graec. 59 per PAL; critical adequacy not established; other manuscript witnesses not collated.",
+    "critical_edition_status": "PAL work register reports scholarly critical edition in preparation; no original witnesses across manuscripts collated in this pass.",
+    "source_licensed_universal_15degree_maximum": false,
+    "licensed_unique_fifth_mode_orb": false,
+    "new_astro_grid_recalculation_required": false
+  },
+  "wolf1559_relation_to_earlier_editor_report": {
+    "earlier_editor_witness": "Robbins 1940 Loeb I.24 editor footnote 129, Wolf p51",
+    "earlier_editor_excerpt_claim": "anonymous commentator maximum 15 degrees",
+    "direct_new_witness": "Wolf 1559 p51 parallel Greek/Latin speaks of fifteen parts and slow/fast planets",
+    "reconciliation": "Robbins 15 degree maximum gloss is later edited paraphrase. Full Greek manuscript philology required to settle intended bound.",
+    "ptolemy_I24_author_own_numeric_cutoff": "UNSPECIFIED",
+    "owner_question_full_character_governor": "STILL_UNSCORED_WITH_CONFLICTING_TESTIMONY_UNRESOLVED"
+  },
+  "new_wolf1559_source_report": "docs/astrohd/ptolemy_i24_wolf_1559_original_commentary_orb_adjudication_20261122.md",
+  "newly_read_original_commentary_cannot_choose_old_thresholds": true,
+  "historical_numeric_cutoff_variant_dispositions": [
+    {
+      "kind": "ptolemy_original_I24",
+      "15_degree_status": "not_authorized"
+    },
+    {
+      "kind": "anonymous_commentator_Wolf1559_p51",
+      "status": "fifteen_zodiacal_parts_explicit_but_not_uniquely_universal_maximum; speed-dependent; manuscript ambiguity"
+    },
+    {
+      "kind": "Loeb_Robbins1940_editor_note",
+      "status": "15_degree_maximum_reported_by_editor; provenance_not_Ptolemy"
+    },
+    {
+      "kind": "modern_exploratory_tolerances_1_3_5_10_15",
+      "status": "computational_sensitivity_only_unchanged"
+    }
+  ]
+}
