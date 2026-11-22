@@ -1,0 +1,88 @@
+{
+  "schema": "lilly_1647_original_p112_reception_peregrine_and_p115_debility_source_v01",
+  "date_utc": "2026-11-22",
+  "status": "DIRECT_1647_FIRST_PRINT_SOURCE_RULES_NATAL_COMPONENTS_ONLY_COMPLETE_FROZEN_TIME_SCAN_NOT_COMPLETE_RULER",
+  "primary_original": {
+    "author": "William Lilly",
+    "title": "Christian Astrology",
+    "edition": "1647 first printing",
+    "archive": "https://wellcomecollection.org/works/s7z7c46y",
+    "pdf_sha256": "2cb53e20e122ffc6e47917ba10241f6c49687cd7a4696f3b5db655a2a1aab28b",
+    "printed_pages_to_one_based_pdf": {
+      "104": 138,
+      "112": 146,
+      "115": 149,
+      "536": 570
+    },
+    "actual_1647_p112_render_sha256": "37455e68b9eedcbd46f5819b42a9282eac70b570b351f1bf304b81c94546cda1",
+    "actual_1647_p115_render_sha256": "fe75468d8eaf129a1f643d6d652455e81eb95b0aedd3016091e3ce7c204e4aab",
+    "read_mode": "Direct first edition page images, original p112 reception/peregrine definitions checked on full page, p115 full original fortitude table directly checked; not a manuscript critical edition",
+    "public_page_url": "https://oss.azoth.work/mooc/pdf/c90fde4965c388fb/Christian-Astrology-1647-Digital-Version.pdf"
+  },
+  "source_passage_summary": [
+    {
+      "id": "mutual_reception_definition",
+      "printed_page": 112,
+      "short_exact_source": "Reception is when two Planets that are significators in any Question or matter, are in each others dignity",
+      "interpretation": "The two must be acting as significators, not merely any random natal planets. Reciprocal house and reciprocal exaltation planetary zodiac configurations are computable potential receptions, not automatically a valid psychological/ruler designation."
+    },
+    {
+      "id": "reception_examples",
+      "printed_page": 112,
+      "source_report": "Sun Aries and Mars Leo are reciprocal by houses; reception can also be by triplicity, terms or face, and does not always require an aspect. This particular p115 point table awards +5 mutual by house or +4 reception by exaltation; these are not automatically two extra bonuses for a planet already intrinsically in the same dignity channel."
+    },
+    {
+      "id": "peregrine_definition",
+      "printed_page": 112,
+      "short_exact_source": "A Planet is then said to be Peregrine, when he is in the degrees of any Signe wherein he hath no essentiall dignity",
+      "source_examples": "Saturn at 10 Aries is peregrine; at 27/28 Aries it is not, because of own term. Sun Cancer is peregrine throughout.",
+      "historical_ambiguity": "Does a geometric mutual reception count as essential dignity at the natal body's own degree, thereby clearing the -5 peregrine penalty? The text does not settle this for all generic natal matter-significator candidates."
+    },
+    {
+      "id": "p115_polarity",
+      "printed_page": 115,
+      "source_report": "Detriment 5, fall 4, peregrine 5 are under Debilities; an adverse score is assigned -5/-4/-5 for an experimental partial-strength algebra. Detriment is opposite domicile, fall opposite exaltation, peregrine requires absence of the five essential dignities."
+    },
+    {
+      "id": "p115_mutual",
+      "printed_page": 115,
+      "source_report": "Domicile or mutual reception by houses 5, exaltation or reception by exaltation 4, with OR implying one scored channel, not double-add 5+5/4+4."
+    },
+    {
+      "id": "not_cvii_last_stage",
+      "printed_page": 536,
+      "source_report": "CVII's final dignity-at-Mercury/Moon-places is distinct from global natal body's own essential-dignity condition. This study scores each body's own degree and does not replace earlier S1/S2/S3/SX/S4/S5 selection."
+    }
+  ],
+  "historical_source_variants": {
+    "printed_original_term_tables": [
+      "Lilly_1647_original_first_print_p104",
+      "ptolemy_printed_1940",
+      "egyptian_printed_1940"
+    ],
+    "candidate_natal_score_policies": [
+      "five_positive_only",
+      "plus_detriment_fall_peregrine_no_reception",
+      "plus_mutual_house_exalt_reception_clears_peregrine",
+      "plus_mutual_house_exalt_reception_retains_intrinsic_peregrine"
+    ],
+    "sect_uncertain_threshold": "±0.1 degrees source solar altitude, modern conservative uncertainty not historical rule",
+    "geometric_reception_rules": "Potential strict mutual domicile or same-kind exaltation by two DISTINCT classical bodies. Mixed-mode (one by house, one by exaltation), or other dignity pairings and actual matter-significator status are OPEN; not assigned.",
+    "peregrine_reception_status": "SOURCE_AMBIGUITY: keep both clear and retain.",
+    "source_constrained_maximum_points": "Only natal essential; no original p115 accidental house/motion, solar condition, aspects/nodes, fixed stars; no full Lilly manners ruler or Ptolemy soul governor."
+  },
+  "source_critical_dispositions": [
+    "Original first edition inspected but no full Greek-Latin critical edition controls.",
+    "Three original term tables treated as independent historical evidence, not post-hoc chosen for participant personal fit.",
+    "Any high-scoring planet here is a partial rule-dependent mathematical candidate, not the final Lilly CVII or Ptolemy III.13 significator.",
+    "Structural overlap with conditional Ptolemy four-mode common candidate is not an independent validation, as both rely on shared celestial longitudes.",
+    "Three original p115 sources + five intrinsic positivity modes / reception not exhaustive historical accidental strength.",
+    "Private birth records, case profiles, historical comparisons never read, derived or published."
+  ],
+  "source_neutral_script": "tools/astrohd/scripts/lilly_1647_reception_peregrine_essential_body_century_v01.py",
+  "source_neutral_numeric_aggregate": "tools/astrohd/reference/research/lilly_1647_mutual_reception_peregrine_body_source_century_public_v01.json",
+  "parent_completion_scope": "state/RESEARCH-COMPLETION-SCOPE.json",
+  "private_natal_evidence_accessed": false,
+  "human_predictive_validity": false,
+  "historically_complete_essential_accidental_ruler": false
+}

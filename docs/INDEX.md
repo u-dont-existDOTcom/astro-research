@@ -1,5 +1,8 @@
 # Research documentation
 
+- **Lilly 1647 p112 original first-print reception and peregrine (22 Nov):** [New source-conditional own-natal-body essential debility/reception comparison across all 3.5-million original UTC samples](astrohd/lilly_1647_p112_reception_peregrine_full_century_20261122.md), 12 openly different methods; none proven historical final ruler or human prediction.
+
+
 - **Completion-claim correction, 22 Nov 2026:** [Which astrology tasks were actually complete, and why the root historical and human predictive objectives remain OPEN](../state/COMPLETION-CLAIM-AUDIT-20261122.md). The [eight-lane scope contract](../state/RESEARCH-COMPLETION-SCOPE.json) is regression checked.
 - **Lilly original 1647 motion subtask, 22 Nov:** [Full 3.5-million-sample source-verified Mercury/Venus/Mars/Jupiter/Saturn direct/retrograde census, explicit station uncertainty and HD exact-clock controls](astrohd/lilly_1647_source_motion_direct_retrograde_century_20261122.md). No full historical ruler or human prediction.
 
