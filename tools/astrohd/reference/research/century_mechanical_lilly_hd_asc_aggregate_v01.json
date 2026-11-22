@@ -1,0 +1,67 @@
+{
+  "schema": "astrohd_source_neutral_century_asc_lilly_aggregates_20261122_v01",
+  "date_utc": "2026-11-22",
+  "status": "SOURCE_HASH_VERIFIED_MECHANICAL_AGGREGATES_ONLY_NO_BEHAVIORAL_VALIDATION",
+  "sources": {
+    "lilly_local_private_receipt_sha256": "9e4db09dc0ef16c28560351073c7206d9cd908612def76cb434ec12e2089583e",
+    "hd_asc_local_private_receipt_sha256": "5dd77c4d5f1acad6f64e1d789db87c09351be52bf732d37e3c6fd92c053fb200"
+  },
+  "utc_range_start_inclusive": "1926-11-19T00:00:00Z",
+  "utc_range_end_exclusive": "2026-11-19T00:00:00Z",
+  "sample_minutes": 15,
+  "location": "one fixed longitude and latitude, coordinate values suppressed from public aggregate as an optional extra privacy measure; results depend on location and should not be generalized",
+  "lilly_first_rung": {
+    "status": "COMPLETE_MECHANICAL_GRID_FIRST_SOURCE_RUNG_ONLY",
+    "sample_count": 3506400,
+    "source_data_sha256_reverified": true,
+    "source_and_angles_manifest_sha256": {
+      "west": "da8a2164b0133599ea71a9c55b2a894c64b89a3ab39c9b3bc278478f0fcadbed",
+      "angles": "c1d1e513d2384f8a735c0806f96c987ba351373ccaa443beda945723ed58739b"
+    },
+    "counts_by_category": {
+      "luminaries_only": 263905,
+      "multiple_nonlum_only": 165788,
+      "multiple_planets_in_asc_sign": 468851,
+      "none_in_asc_sign": 2078340,
+      "nonlum_and_luminaries": 297139,
+      "one_nonlum_only": 701228
+    },
+    "any_classical_planet_in_asc_sign": 1428060,
+    "manners_significator_scored": false,
+    "complete_lilly_intercepted_sign_or_house_rule": false
+  },
+  "hd_western_rising_overlap": {
+    "status": "COMPLETE_FINITE_GRID_STRUCTURAL_NONREDUNDANCY_NOT_PREDICTIVE",
+    "sample_count": 3506400,
+    "hd_state_count": 288908,
+    "unresolved_samples": 125,
+    "unique_state_sampled_asc_sign_histogram": {
+      "0": 8730,
+      "1": 72629,
+      "2": 101221,
+      "3": 53278,
+      "4": 28330,
+      "5": 14857,
+      "6": 7027,
+      "7": 2647,
+      "8": 189
+    },
+    "states_with_two_or_more_sampled_asc_signs": 207549,
+    "resolved_samples_with_multi_ASC_state": 3258443,
+    "source_data_sha256_reverified": true,
+    "source_manifest_sha256": {
+      "hd_join": "b4426125ea94165ad198f6864f8a690b415f77de68560ea6b8a2435bd417ff85",
+      "western_angles": "c1d1e513d2384f8a735c0806f96c987ba351373ccaa443beda945723ed58739b"
+    },
+    "not_continuous": true
+  },
+  "stats_are_not": [
+    "a probability of correct personality prediction",
+    "an astrological signature p-value",
+    "a representative human birth-time population",
+    "a Ptolemy or Lilly soul/manners character governor evaluation",
+    "evidence that two astrological models predict people independently"
+  ],
+  "human_outcome_validation_count": 0,
+  "personally_identifiable_records_included": false
+}

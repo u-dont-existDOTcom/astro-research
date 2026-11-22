@@ -2,6 +2,8 @@
 
 This is the recovered **public-safe subset** of later HD + Western comparative research previously developed outside the active public repository. `astro-research` is the only destination for new public work. The existing integrated cross-tradition calculator stays in [`engine/astro_engine.py`](../../engine/astro_engine.py) and `engine/hdmatch`; do not replace it with an older branch.
 
+**Latest executable additions:** `scripts/lilly_cvii_initial_geom_grid_census_v01.py` counts only the ASC-sign-presence branch of Lilly CVII; `scripts/audit_hd_western_rising_sign_overlap_v01.py` counts distinct sampled rising signs per HD stable interval; `scripts/audit_disputed_predictor_forum_wave4_v01.py` validates the newly authorized community source pass. All require the correct external source manifests/caches to reproduce numerical findings; supplied aggregate results are `reference/research/century_mechanical_lilly_hd_asc_aggregate_v01.json`. None scores human personalities.
+
 ## Contents and guarantee levels
 
 - `reference/research/`: source-qualification contracts, behavioural observation methods, triage policy, Western source registers, completion roadmap and dated forum search source observations. None claims empirical chart-to-person accuracy.
