@@ -6,6 +6,7 @@
 | [Gemini/current-agent onboarding](astrohd/GEMINI_ONBOARDING.md) | Read the active public repository and explicitly request private chart/profile inputs rather than guessing. |
 | [Historical migration inventory](astrohd/MIGRATION_INVENTORY_20261121.json) | SHA-indexed disposition of each post-migration private-repository file; no personal source data published. |
 | [HD–Western source and evidence-scope reconciliation](astrohd/cross_system_peer_review_reconciliation_20261122.md) | Fair per-time comparisons, original dignity and manners rules, prenatal HD complementarity and exposure-bias limits. |
+| [Fourth forum audit and century-wide first-rule / HD–Western structural census](astrohd/forum_wave4_lilly_and_structural_century_results_20261122.md) | New positive/negative source evidence, Lilly CVII partial source algorithm, and verified 3,506,400-point structural results without personality claims. |
 | [Source corrections and protocol](mastro/source-corrections.md) | Source-standardized follow-up, original one-sided endpoint, provenance reuse and clarified warnings. |
 | [Conditional inversion use](mastro/inversion-use-policy.md) | Where inversion is a research option, exact paired procedure and evidence needed for future adoption. |
 | [Forecast curves](mastro/forecast-curves.md) | What is published about the forecast curves, the rule of the five highest peaks, how the Maximums tables were read, and the first test on one person's dated events. |

@@ -1,0 +1,80 @@
+{
+  "schema": "lilly_christian_astrology_1647_CVII_first_rung_source_map_v01",
+  "source": {
+    "author": "William Lilly",
+    "title": "Christian Astrology",
+    "book": "Book III",
+    "chapter": "CVII: Of the Manners of the Native or Child",
+    "scanned_reproduction_url": "https://cdn.astmd.gr/attachments/2023/11/29/williamlilly500-543.pdf",
+    "pages_rechecked": [
+      534,
+      535,
+      536,
+      537
+    ],
+    "verification": "Source text checked against rendered scans on 2026-11-22; first-branch words on page 535, fallbacks on page 536; later fixed-star rules continue beyond page 536."
+  },
+  "status": "SOURCE_INITIAL_BRANCH_PARTIALLY_CODED_NO_MANNERS_PERSONALITY_SCORE",
+  "rules": [
+    {
+      "id": "LILLY-CVII-ASC-SIGN-PLANETS",
+      "location": "p. 535",
+      "source_condition": "Any planet occupies the sign ascending OR an intercepted sign",
+      "mechanical_part": "Membership of the seven traditional planets in the zodiacal sign of the Ascendant",
+      "coded_status": "PARTIAL_SOURCE_GEOMETRY",
+      "missing": "Intercepted signs, how to use house vs sign rising, source-specific strength/fortification for multiple candidates"
+    },
+    {
+      "id": "LILLY-CVII-MULTI-PLANET-STRENGTH",
+      "location": "p. 535",
+      "source_condition": "Multiple rising-sign candidates signify varieties of manners, with the strongest most persistent",
+      "coded_status": "NOT_SCORED",
+      "missing": "Complete original strength/dignity/sect evaluation and length of persistence"
+    },
+    {
+      "id": "LILLY-CVII-MERCURY",
+      "location": "p. 535",
+      "source_condition": "Mercury assumes planetary nature by conjunction to nearest and strongest; otherwise essential-dignity dispositorship",
+      "coded_status": "NOT_SCORED",
+      "missing": "Historically faithful conjunction scope and priority/strength adjudication"
+    },
+    {
+      "id": "LILLY-CVII-LUMINARY",
+      "location": "p. 535",
+      "source_condition": "Luminaries in the horoscope matter conditionally if strongly fortified",
+      "coded_status": "NOT_SCORED",
+      "missing": "Strong fortification rule and differentiation of luminaries versus other planets"
+    },
+    {
+      "id": "LILLY-CVII-MOON-MERCURY-FALLBACK",
+      "location": "p. 536",
+      "source_condition": "When no planet is in the Ascendant, choose planet joined to Moon or Mercury; later select Ascendant lord if required, then partile aspect, finally most dignified at Moon/Mercury places",
+      "coded_status": "NOT_SCORED",
+      "missing": "Priority ambiguities, exact application/aspect, lord-dispositor seeing conditions, essential-dignity calculation"
+    },
+    {
+      "id": "LILLY-CVII-FIXED-STARS",
+      "location": "pp. 536-538",
+      "source_condition": "Manners significator conjunct a first/second-magnitude fixed star carries additional indications",
+      "coded_status": "NOT_SCORED",
+      "missing": "historical star catalog, precession, ecliptic latitude and source orb"
+    },
+    {
+      "id": "LILLY-CVIII-MIXTURE",
+      "location": "pp. 539-543",
+      "source_condition": "Fortune, planetary condition and mixtures modify manners",
+      "coded_status": "NOT_SCORED",
+      "missing": "Whole chart source condition, opposing testimony, dependency grouping"
+    }
+  ],
+  "predefined_computational_scope": "FINITE_SOURCE_NEUTRAL_15_MIN_LOCATION_CONDITIONED_ASC_SIGN_ONLY",
+  "temporal_horizon_utc": [
+    "1926-11-19T00:00:00Z",
+    "2026-11-19T00:00:00Z"
+  ],
+  "rank_eligible": false,
+  "human_behavior_validated": false,
+  "no_owner_birth_or_interview_inputs": true,
+  "not_a_full_lilly_scoring_algorithm": true,
+  "scientific_inference": "Can count mechanical candidate-presence frequency only; cannot determine actual manners significator, behavioral fit, global best natal chart, or human prediction."
+}

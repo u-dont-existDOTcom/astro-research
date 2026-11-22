@@ -16,6 +16,8 @@ The public transfer adds under [`tools/astrohd/`](../../tools/astrohd/README.md)
 - Exact reproducible source-census, Western feature-grid and HD interval methods where inputs are public-safe; several legacy programs still require *external* private manifests or missing original HD modules and are **not certified as working public pipelines**.
 - Self-contained, invented-data tests. No public test asserts human natal prediction accuracy.
 
+**22 November follow-up:** [the newly authorized fourth community-source wave plus two real full-century structural calculations](forum_wave4_lilly_and_structural_century_results_20261122.md) has been completed and stored with source-only caveats. See the fourth-wave evidence register and the first-source-rung Lily CVII mechanical census. This extends the original three-wave forum source coverage; it does not change its original closed sample or turn anecdotes into population rates.
+
 ## Forum investigation outcome
 
 A bounded three-pass, complaint-enriched source search examined **22 proposed predictor claims** and **59 public-source observation units**, normalized to **49 distinct discussions/pages**. Only eight observation units were based on fully opened pages; others used explicitly labeled search excerpts. None supplies a representative cohort denominator or independently verified prospective birth-chart prediction.

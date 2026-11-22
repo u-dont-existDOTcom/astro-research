@@ -1,6 +1,55 @@
 # Current research state
 
 
+## 22 November 2026 — new owner-authorized fourth forum source sweep and actual century census
+
+**This is a distinct new owner-authorized forum follow-up**, not an alteration of the
+previous three-wave completed audit. Newly sampled original public observations
+with both supportive and mismatching experiences: **22 new source units from
+17 distinct discussions/pages**, bringing the combined *purposively selected*
+source ledger to **26 claim constructs / 81 observations / 66 discussion pages**.
+Eleven new units were read via original opened pages and eleven via original
+result excerpts. Zero independently corroborated prospective forecast records,
+zero representative respondent denominators. Preserve the distinction between
+purported predictor mismatch, changes in behavior caused by following advice,
+and a source that never made an objective natal prediction. Read
+`docs/astrohd/forum_wave4_lilly_and_structural_century_results_20261122.md`;
+source ledger `tools/astrohd/reference/research/disputed_predictor_forum_wave4_v01.json`.
+
+**New verified original-data computation:** existing hash-verified historical
+planet-grid and location-conditioned ASC archives were traversed at all
+**3,506,400 fifteen-minute samples** on the declared 1926-11-19 to
+2026-11-19 horizon. Lilly CVII's preliminary `planet in ASC zodiacal sign`
+condition held in **1,428,060 samples (40.73%)**; **2,078,340** had none.
+The source's intercepted signs, strength, Moon/Mercury testimony, and several
+fallbacks remain uncomputed and **no manners significator or trait score has
+been produced**. New source register, executable and tests are under
+`tools/astrohd/reference/research/lilly_cvii_initial_manners_source_register_v01.json`
+and `tools/astrohd/scripts/lilly_cvii_initial_geom_grid_census_v01.py`.
+
+**New true full-century structural overlap:** joined the same 3,506,400
+15-minute fixed-location samples to the **288,908 exact HD stable structural
+states**, verified per-shard source SHA256, left **125 near-HD-boundary samples
+unresolved**, and found **207,549 HD states (71.84% of all enumerated states)**
+with **two or more DISTINCT Western rising signs sampled within the same HD
+state**. These states contained **3,258,443 resolved grid samples (92.93% of
+resolved sample instants)**. The result confirms an HD stable interval is not
+one fixed Western chart. This is astronomical structure, not interpersonal
+accuracy or continuous rising-sign verification between grid points.
+Source-neutral script `tools/astrohd/scripts/audit_hd_western_rising_sign_overlap_v01.py`
+and aggregate `tools/astrohd/reference/research/century_mechanical_lilly_hd_asc_aggregate_v01.json`.
+
+**Current stopping distinction:** The new F4 source pass and the two partial
+century *mechanics* tasks are complete. Ptolemy III.13 and Lilly CVII's full
+source-priority/behavior rules, all other HD/Western interpretation rules,
+and a fair actual complete same-instant century ranking remain **S/R OPEN**.
+There is still no empirically valid chart-to-person accuracy conclusion.
+The private source-bound full receipts are preserved outside public Git, SHA256
+`9e4db09dc0ef16c28560351073c7206d9cd908612def76cb434ec12e2089583e`
+and `5dd77c4d5f1acad6f64e1d789db87c09351be52bf732d37e3c6fd92c053fb200`.
+
+
+
 ## 22 November 2026 — source-neutral HD and Western comparison scope correction
 
 A new independent-model peer critique led to documented source-interpretation
