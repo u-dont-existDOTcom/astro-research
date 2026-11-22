@@ -1,0 +1,141 @@
+{
+  "schema": "ptolemy_iii13_lilly_cvii_historical_claim_scope_source_variants_v01",
+  "date_utc": "2026-11-22",
+  "scope": "Source-qualification research only. No natal personality predictive validity; no person-specific evidence or private dates.",
+  "source_witnesses": [
+    {
+      "author": "Claudius Ptolemy",
+      "work": "Tetrabiblos",
+      "locator": "III.2 Loeb Robbins 1940 pp.233-235",
+      "uri": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Ptolemy/Tetrabiblos/3A%2A.html",
+      "read_mode": "primary_original_work_in_translated_1940_Loeb_reproduction",
+      "grounded_claim": "Names five domination channels: triplicity, domicile, exaltation, term, phase/aspect. The particular closest-degree secondary tiebreak concerns horoscopic birth-time rectification; it cannot silently become III.13 mental character arbitration."
+    },
+    {
+      "author": "Claudius Ptolemy",
+      "work": "Tetrabiblos",
+      "locator": "III.3 Loeb Robbins 1940 pp.237-241",
+      "uri": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Ptolemy/Tetrabiblos/3A%2A.html",
+      "read_mode": "primary_original_work_in_translated_1940_Loeb_reproduction",
+      "grounded_claim": "If more than one planet has governance claims, prefer more claims, then account for the planet's strength, sect/angles, mixture and contrary testimonies; a universal 5-column equality/voting algorithm is NOT fully specified here."
+    },
+    {
+      "author": "Claudius Ptolemy",
+      "work": "Tetrabiblos",
+      "locator": "III.13 Loeb Robbins 1940 pp.333-339",
+      "uri": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Ptolemy/Tetrabiblos/3D%2A.html",
+      "read_mode": "primary_original_work_in_translated_1940_Loeb_reproduction",
+      "grounded_claim": "Mercury gives rational part; Moon and planets related via its applications and separations bear on sensory part. Especially significant is same governor configured with Mercury by any aspect and related to the Moon by application/separation, but 'especially' is not exclusive necessary criterion. Own/familiar house or sect and contrary testimony modify effects."
+    },
+    {
+      "author": "Claudius Ptolemy",
+      "work": "Tetrabiblos",
+      "locator": "I.23-24 Loeb Robbins 1940 pp.111-117",
+      "uri": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Ptolemy/Tetrabiblos/1B%2A.html",
+      "read_mode": "primary_original_work_in_translated_1940_Loeb_reproduction",
+      "grounded_claim": "Aspect and bodily-conjunction application/separation related to which body precedes/follows in zodiac when interval not great. Bodily conjunction requires same side of ecliptic latitude, not so for rays. Orientality, speed, angle strength are relevant. Numeric orb absent in original."
+    },
+    {
+      "author": "F. E. Robbins",
+      "work": "Loeb editorial note to Tetrabiblos I.24",
+      "locator": "footnote 129",
+      "uri": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Ptolemy/Tetrabiblos/1B%2A.html",
+      "read_mode": "editorial_report_not_original_author",
+      "grounded_claim": "Reports an anonymous commentator maximum of 15 degrees in Wolf edition p51, and Ashmand's distinct orbital widths. These statements are not Ptolemy's own quantitative rule; Wolf original Greek commentary remains uncollated."
+    },
+    {
+      "author": "William Lilly",
+      "work": "Christian Astrology III CVII",
+      "locator": "printed pp.535-536; modern retyped source PDF, 0-index pages 36-37",
+      "uri": "https://cdn.astmd.gr/attachments/2023/11/29/williamlilly500-543.pdf",
+      "read_mode": "visually_checked_2023_modern_transcription_pages_535_536_not_original_1647_typesetting",
+      "grounded_claim": "The initial condition expressly reads 'Sign ascending, or which is intercepted'; later refers to planets 'in the Horoscope' and 'in the ascendant'. Also gives multi-planet participation, dignity/dispositor, Mercury union, then joined Moon/Mercury, ASC lord, partile, dignity and fixed stars. Equating this first condition solely with Regiomontanus first-house body occupancy is NOT settled by the scanned transcription."
+    },
+    {
+      "author": "William Lilly",
+      "work": "Christian Astrology original 1647 Wellcome Collection copy",
+      "locator": "wellcomecollection.org work s7z7c46y; Internet Archive b30338724",
+      "uri": "https://wellcomecollection.org/works/s7z7c46y",
+      "read_mode": "catalog_and_access_identified_original_1647_printed_pp535_536_NOT_YET_VISUALLY_COLLATED",
+      "grounded_claim": "1647 first edition facsimile available; publication identity verified but pages 535-536 not read directly through the catalog. Do not treat transcription as direct printing or manuscript proof."
+    }
+  ],
+  "historical_variant_branches": [
+    {
+      "id": "PTOLEMY_TERMS_PRINTED",
+      "variants": [
+        "ptolemy_printed_1940",
+        "egyptian_printed_1940"
+      ],
+      "status": "both_original_Loeb_printed_tables_encoded; other_manuscript_schemes_unread"
+    },
+    {
+      "id": "PTOLEMY_TRIPLICITY",
+      "variants": [
+        "sect_primary_only",
+        "all_source_named_sect_corulers"
+      ],
+      "status": "both_run_at_same_instants; attribution of co-ruler votes not settled"
+    },
+    {
+      "id": "PTOLEMY_FOUR_MODE_VOTES",
+      "variants": [
+        "one_vote_per_distinct_mode_at_Mercury",
+        "one_vote_per_distinct_mode_at_Moon"
+      ],
+      "status": "modern_explicit_experimental_abstraction_of_more_claims; cannot be silently promoted to actual governor"
+    },
+    {
+      "id": "PTOLEMY_FIFTH_BOUND",
+      "variants": [
+        "four_mode_leader_unique_margin_at_least_two_with_at_most_one_fifth_vote",
+        "nonconjunction_Mercury_and_lunar_aspect_screens_at_1_3_5_10_15_degrees",
+        "conjunction_inclusive_UNCERTIFIED_until_latitude"
+      ],
+      "status": "engineering_sensitivity_only; Ptolemy never defines these numeric orbs"
+    },
+    {
+      "id": "PTOLEMY_MOON_PHASE",
+      "variants": [
+        "I24_zodiacal_precedence_following_text",
+        "15minute_relative_longitude_approach_recede_proxy",
+        "exact_SWIEPH_event_root_control_from_separate_source"
+      ],
+      "status": "original_body_latitude_qualifications_and_any_orb_unresolved; do_not_conflate_samples_with_exact_roots"
+    },
+    {
+      "id": "LILLY_INITIAL_BRANCH",
+      "variants": [
+        "planet_in_actual_ascending_zodiac_sign_only",
+        "planet_in_Regiomontanus_first_house",
+        "planet_in_ascending_sign_or_fully_intercepted_first_house_sign"
+      ],
+      "status": "each_source-conditioned_variant_counted_independently; first_1647_edition_not_collated"
+    },
+    {
+      "id": "LILLY_FALLBACK",
+      "variants": [
+        "first_house_empty",
+        "ascending_sign_empty",
+        "ascending_sign_plus_intercepted_empty"
+      ],
+      "status": "join_distances_1_3_5_10_degrees_are_NOT_certifiably_original_Lilly_orbs; strength_dispositor_partile_fixed_stars_open"
+    }
+  ],
+  "historical_conflict_correction": {
+    "prior_public_report": "docs/astrohd/lilly_cvii_regiomontanus_manners_two_branches_20261122.md",
+    "finding": "The original words quoted in a checked modern reproduction explicitly say SIGN ascending and intercepted. Earlier treating all first HOUSE bodies as the sole definitive original initial rule goes beyond source authority; preserve original census as valid geometry but not source-exclusive interpretation.",
+    "invalidated_claim": "Regiomontanus house membership alone uniquely implements Lilly CVII initial rule",
+    "valid_remaining_claim": "Full century 1st-house Regiomontanus astronomical census remains mathematically valid under that declared geometry."
+  },
+  "adjudication_limits": [
+    "Original Greek/Latin source editions and manuscript variants do not resolve all criteria for the phase/aspect fifth form.",
+    "Angular 1,3,5,10,15 thresholds are engineering sensitivities; 15 comes from commentary reported by an editor, not Ptolemy.",
+    "Even if four-mode vote advantage survives one hypothetical fifth vote, real Ptolemaic governor still requires strength/sect/angles and contrary testimony.",
+    "Special simultaneous Mercury + Moon aspect witness is NOT asserted mandatory for every traditional reading.",
+    "Regiomontanus historic practice does not by itself override Lilly's explicit ascending-sign wording.",
+    "A full same-time anonymous astronomical grid is not the human-rated century-wide behavioral scorer and does not allow first-place personality claims."
+  ],
+  "no_private_birth_data": true,
+  "no_validated_human_predictions": true
+}
