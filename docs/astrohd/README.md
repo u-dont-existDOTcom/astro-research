@@ -22,6 +22,8 @@ A bounded three-pass, complaint-enriched source search examined **22 proposed pr
 
 The result is an *investigative source-qualification audit*, not a ranking of which astrology claims are most frequently false. Issues include ambiguous HD Authority signals, opportunity/invitation reframing, unqualified planetary dignity or rising-sign stereotypes, after-the-event chart-convention selection, Vedic marriage/timing reinterpretation, and the difference between contemplative Gene Keys and empirical predictions. Use the machine-readable source registers under `tools/astrohd/reference/research/`. The source code and tests enforce absent denominators and unverified predictions as **unknown, not zeros or hits**.
 
+See [the cross-system comparison peer-review reconciliation](cross_system_peer_review_reconciliation_20261122.md) for source-qualified handling of time resolution, traditional dignity, HD prenatal feature diversity and human predictive-validation limits. This document does not claim the complete new century-wide behavioral scorer has run.
+
 ## Separate research tracks and finish lines
 
 The source-level forum audit is **complete with evidence gaps**. A high-level profile-development protocol and the Gemini reasoning comparison have bounded reports. Completing a **full source-qualified Western + HD behavioral predictor and complete candidate search** remains a distinct, unfinished goal. Another optional future study would test actual prediction in blinded human cohorts. Neither synthetic-test success nor attractive symbolic readings demonstrate accuracy in people.

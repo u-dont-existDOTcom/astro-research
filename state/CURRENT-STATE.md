@@ -1,6 +1,33 @@
 # Current research state
 
 
+## 22 November 2026 — source-neutral HD and Western comparison scope correction
+
+A new independent-model peer critique led to documented source-interpretation
+refinements in `docs/astrohd/cross_system_peer_review_reconciliation_20261122.md`.
+The source audit confirms that an exact birth timestamp must not be compared
+unfairly against a time-varying HD interval using whichever Western midpoint
+looks most favorable; the original Ptolemy III.13 governor and Lilly manners
+significator rules are not equivalent to a count of essential dignities;
+and HD's distinct prenatal 88° solar-arc calculation does contain additional
+astronomical structure, but its **incremental behavioral information is unknown**
+until measured against a defined temporal candidate population and independent
+human outcomes. A new source freeze after earlier profile exposure remains
+provisional and cannot retroactively become blind validation.
+
+The registered 100-year search window is **1926-11-19 inclusive to
+2026-11-19 exclusive**, not an interchangeable 1900–2000 century. Existing
+finite fifteen-minute Western samples are not certified continuous coverage.
+A small **metadata-only** public scope checker at
+`tools/astrohd/scripts/audit_cross_system_claim_scope_v01.py` and eight
+invented-data tests expose these category errors; it neither computes a real
+chart rank nor proves the existence of human predictive signal. The substantive
+source-complete Western/HD interpreter and declared full-century comparison
+remain OPEN. A full prospective untouched human validation is a separately
+required study **only for claims of empirical predictive superiority**, not
+for closing a qualified descriptive development report.
+
+
 ## Current canonical repository and AstroHD recovery (21 November 2026)
 
 **All new public astrology methods, research and Human Design work belong to
