@@ -1,5 +1,8 @@
 # Research documentation
 
+- **AstroHD original Lilly 1647 source qualification, 22 Nov 2026:** [Direct first-print p115–116 accidental fortitudes/debilities source coverage, missing components and fail-closed complete-ruler admission](astrohd/lilly_1647_original_fortitudes_debilities_source_coverage_20261122.md). Corrects scope of prior five-positive-component candidates without changing old astronomy counts.
+
+
 - **AstroHD 1647 first-print Lilly dignity continuation, 22 Nov 2026:** [Original five essential-dignity scores, distinct 1647/1940 term tables, and complete same-UTC final fallback dignity candidate census](astrohd/lilly_1647_essential_dignities_original_table_full_century_20261122.md). Full original source evidence and behavioral validation remain independently qualified.
 
 
