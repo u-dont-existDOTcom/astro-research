@@ -1,0 +1,62 @@
+{
+  "continuous_coverage": false,
+  "counts": {
+    "different_term_lord_for_Mercury": 1522291,
+    "different_term_lord_for_Moon": 1490789,
+    "egyptian_printed_1940_known_two_modes_plus_term_with_near_horizon": 3173,
+    "egyptian_printed_1940_new_v_three_corulers_certain": 822762,
+    "egyptian_printed_1940_same_term_lord": 713135,
+    "egyptian_printed_1940_shared_corulers_certain": 2965122,
+    "egyptian_printed_1940_shared_primary_certain": 2747150,
+    "near_horizon_abstain": 5049,
+    "ptolemy_printed_1940_known_two_modes_plus_term_with_near_horizon": 3263,
+    "ptolemy_printed_1940_new_v_three_corulers_certain": 864511,
+    "ptolemy_printed_1940_same_term_lord": 711576,
+    "ptolemy_printed_1940_shared_corulers_certain": 3006871,
+    "ptolemy_printed_1940_shared_primary_certain": 2786853,
+    "source_scheme_changes_four_mode_coruler_shared_certain": 341721,
+    "three_modes_corulers_certain": 2142360,
+    "three_modes_primary_certain": 1844501
+  },
+  "date_utc": "2026-11-22",
+  "fifth_original_mode_phase_or_aspect_completed": false,
+  "four_mode_interpretive_variants": [
+    "Ptolemy printed terms + principal-only triplicity",
+    "Ptolemy printed terms + all source-described triplicity co-rulers",
+    "Egyptian printed terms + principal-only triplicity (historical alternative)",
+    "Egyptian printed terms + all source-described triplicity co-rulers (historical alternative)"
+  ],
+  "independently_validated_astrological_predictions": 0,
+  "missing_source_conditions": [
+    "historical application/separation with source-distance threshold",
+    "phase/angle familiarity",
+    "planet strength, sect and testimony",
+    "original source selection among conflicting governors",
+    "human behavior/outcome validation"
+  ],
+  "no_private_natal_source_inputs": true,
+  "prior_three_mode_public_aggregate_dependency": "ptolemy_iii13_three_modes_century_aggregate_v01.json",
+  "private_immutable_full_receipt_sha256": "ff9420e8ad4badf8deb0f1aad1d4b4da009dd25d75c4c0087e88965d43baaee5",
+  "sample_count": 3506400,
+  "sample_spacing_minutes": 15,
+  "schema": "ptolemy_III13_four_source_modes_1940_printed_terms_public_aggregate_v01",
+  "source_condition_is_a_personality_score": false,
+  "source_date_range": [
+    "1926-11-19T00:00:00+00:00",
+    "2026-11-19T00:00:00+00:00"
+  ],
+  "source_edition": "Robbins (1940) printed Loeb Ptolemy and Egyptian terms recorded separately, original facsimile checked",
+  "source_manifests_sha256": {
+    "angles": "c1d1e513d2384f8a735c0806f96c987ba351373ccaa443beda945723ed58739b",
+    "western": "da8a2164b0133599ea71a9c55b2a894c64b89a3ab39c9b3bc278478f0fcadbed"
+  },
+  "source_register": "ptolemy_1940_printed_terms_dual_table_provenance_v01.json",
+  "source_script": "tools/astrohd/scripts/ptolemy_four_modes_source_terms_century_v01.py",
+  "source_shards_sha256_rechecked": true,
+  "status": "FROZEN_FOUR_OF_FIVE_SOURCE_CANDIDATE_GEOMETRY_NOT_PTOLEMAIC_SOUL_GOVERNOR",
+  "term_scheme_names": [
+    "ptolemy_printed_1940",
+    "egyptian_printed_1940"
+  ],
+  "time_grid_is_a_birth_population": false
+}
