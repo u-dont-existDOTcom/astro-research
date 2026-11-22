@@ -1,6 +1,73 @@
 # Current research state
 
 
+## 22 November 2026 — Ptolemy III.13 simultaneous Mercury/Moon aspect source qualification
+
+**Owner objective O1 / source Track S and ranking Track R remain OPEN.**
+The original *Tetrabiblos* III.13 says Mercury and the Moon have different
+roles and gives special prominence to planetary governors that are BOTH
+configured to Mercury by aspect and in a lunar separation/application.
+Earlier large four-mode "common potential ruler" frequencies (85.75% and
+84.56%) are mathematical prerequisite frequencies, NOT evidence that
+the more specific **dual configuration** exists or that any planet
+governs human character. The source has now been checked against
+actual Loeb III.13 opening/pp.337–339 and I.24 pp.113–117 plus Robbins
+editor notes. Ptolemy does NOT specify a unique numeric orb here.
+An **anonymous commentator's 15° reported in Robbins note 129** is
+distinct from Ptolemy, as are later Ashmand orb conventions.
+
+The new `docs/astrohd/ptolemy_iii13_double_configuration_angular_sensitivity_20261122.md`
+and public JSON/source engine `tools/astrohd/` count a restricted
+subset: a single **external non-Mercury/nonluminary** planet that is
+a common four-mode candidate AND within a separately declared angular
+distance of BOTH Mercury and the Moon by traditional aspects. All
+**3,506,400 15-minute original UTC samples** were scanned with 36+36
+original binary source shards SHA256 reverified. Because the old cached
+source lacks ecliptic latitude, non-conjunction aspects are a separate
+conservative witness and conjunction-inclusive results remain **UNVERIFIED**.
+5,049 solar-horizon cases and 72 shard-boundary derivative cases abstained.
+
+Ptolemaic 1940 printed terms, all original triplicity co-rulers:
+ - 1° **5,294 (0.151%)** confirmed non-conjunction geometry samples;
+ - 3° **46,006 (1.312%)**;
+ - 5° **123,192 (3.513%)**;
+ - 10° **463,182 (13.210%)**;
+ - 15° **968,436 (27.619%)**.
+Egyptian terms give 4,881 / 45,176 / 120,306 / 449,595 / 943,172,
+respectively; 15° schemes disagree at **292,086** sample instants.
+ALL these degree thresholds are `ASSISTANT_RESEARCH_EXPERIMENT`
+sensitivity values, **NOT** Ptolemy authenticated rules. The explicit
+"especially" source condition is not asserted necessary for every reading;
+Mercury self-governance and several other original source routes are
+unevaluated. No personality score, actual soul governor, human
+predictive rate or final natal #1 rank exists.
+
+An independent, nonparticipant calculation tested the 30-minute
+central-difference Moon velocity proxy at **9 UTC times × 4 planets**
+against a separately hash-pinned strict Swiss release: all 36 relative
+motion directions agreed, max velocity difference
+**0.00007458 degrees/day**. The old grid and new Swiss binary planetary
+files are NOT identical, though agreement is a useful check.
+
+Public source-relation contract:
+`tools/astrohd/reference/research/ptolemy_iii13_dual_relation_source_contract_v01.json`;
+current versioned source adjudication **v03** supersedes v02 without
+editing historical source registers; actual full-repository tests and
+privacy/hosted audit must pass at the merge boundary. All participant
+profile and exact midpoint comparison remains in owner-private
+local store, NOT GitHub; old predecessor `humandesign` stays archived.
+
+**Remaining open:** resolve historically justified aspect-nearness and
+actual original governor selection (including sect, familiar houses,
+latitude, angles, strength and conflicting testimony), the separate Lilly
+manners-significator algorithm and HD/modern-Western character rules,
+then impartial same-time all-candidate century comparison or a defended
+no-source-determined-unique-rank conclusion. Untouched human prediction
+validation is a separate outcome, not a prerequisite for a qualified
+descriptive development report.
+
+
+
 ## 22 November 2026 — direct original printed Ptolemaic terms source correction and four-mode century counts
 
 The 490-page original **Robbins 1940 Loeb *Tetrabiblos*** was obtained and
