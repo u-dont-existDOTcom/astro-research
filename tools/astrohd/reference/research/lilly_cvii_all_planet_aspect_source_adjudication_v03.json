@@ -1,0 +1,109 @@
+{
+  "schema": "lilly_CVII_original_p536_all_planets_beholding_ascendant_lord_source_adjudication_v03",
+  "date_utc": "2026-11-22",
+  "status": "SOURCE_TEXT_DIRECTLY_READ; ALTERNATIVE_ALL_PLANET_GATE_GEOMETRY_IMPLEMENTED; FINAL_MANNERS_RULER_STILL_UNSCORED",
+  "historical_primary": {
+    "work": "William Lilly, Christian Astrology, Book III, chapter CVII",
+    "edition": "Original 1647 first printing from archived Wellcome b30338724 scan",
+    "uri": "https://wellcomecollection.org/works/s7z7c46y",
+    "printed_page": 536,
+    "original_pdf_one_based_page": 570,
+    "original_pdf_sha256": "2cb53e20e122ffc6e47917ba10241f6c49687cd7a4696f3b5db655a2a1aab28b",
+    "original_png_render_sha256": "4cdd11d5cf468e20f38fed7889e42f2e6298540e05f7f196c9b916e28bb57b24",
+    "read_mode": "Direct visual inspection original first-edition page image",
+    "verbatim_short_part1": "his Dispositor behold him with some aspect",
+    "verbatim_short_part2": "If no Planet aspect him",
+    "verbatim_short_part3": "have recourse to that Planet who forcibly aspects Luna and Mercury with a partill aspect"
+  },
+  "external_source_qualification": {
+    "secondary_witness": "https://cdn.astmd.gr/attachments/2023/11/29/williamlilly500-543.pdf",
+    "read_mode": "Modern transcription and nonprimary supplementary witness, not normative in conflict with directly examined first printing",
+    "finding": "Available later reproductions repeat the same disputed sentence, but do not unambiguously adjudicate what Lilly meant when other planets aspect the ASC lord without the dispositor aspecting it."
+  },
+  "historical_claims": [
+    {
+      "id": "ASC_LORD_REQUIREMENT",
+      "status": "PRIMARY_EXPLICIT",
+      "meaning": "For a no-first-body and no Moon/Mercury joining fallback, the ASC lord is assigned manners only conditional on its DISPOSITOR beholding it by some aspect."
+    },
+    {
+      "id": "IF_NO_PLANET_ASPECT_HIM",
+      "status": "PRIMARY_EXPLICIT_AMBIGUOUS_REFERENT",
+      "meaning": "The later rule says if no planet aspects 'him', where the antecedent appears to be the ASC lord. It might require no planetary aspect at all, or refer back to the dispositor's aspect. Does not explicitly resolve third case of OTHER planetary aspect with no dispositor aspect."
+    },
+    {
+      "id": "SELF_DISPOSITOR",
+      "status": "MISSING_OR_UNRESOLVED",
+      "meaning": "If the ASC lord is its own domicile dispositor, it cannot physically aspect itself; do not count self-contacts as positive evidence, and preserve historical uncertainty."
+    },
+    {
+      "id": "OTHER_PLANET_SEEING",
+      "status": "EXPERIMENTAL_BOUNDED_HISTORICAL_SENSITIVITY",
+      "meaning": "All OTHER six classical planets tested for aspects to ASC lord. Two methods for aspect rays matched to earlier dispositor-geometry variants; separately add moiety-qualified bodily conjunction."
+    },
+    {
+      "id": "DISPOSITOR_SEE_VS_ANY_PLANET_SEE",
+      "status": "OPEN_HISTORICAL_ARBITRATION",
+      "meaning": "A chart with OTHER planetary aspects to ASC lord but absent required dispositing aspect is classified SX unresolved under broad literal gate. Not a newly source-assigned manners significator."
+    }
+  ],
+  "source_geometry_variants": {
+    "first_stage": [
+      "ascending_sign",
+      "regiomontanus_first_house",
+      "ascending_sign_or_intercepted_sign"
+    ],
+    "original_orb_bundles": [
+      "1647_table_smaller_orbs",
+      "1647_table_larger_orbs"
+    ],
+    "joined_scope": [
+      "four_externals_only",
+      "all_other_classical_planets"
+    ],
+    "dispositor_behold": [
+      "dispositor_sign_ray",
+      "dispositor_orb_near_ray"
+    ],
+    "partile": [
+      "partile_Moon_or_Mercury",
+      "partile_same_planet_Moon_and_Mercury"
+    ],
+    "broad_scope": [
+      "rays_only",
+      "rays_or_bodily"
+    ],
+    "total_combination_count": 96,
+    "bodily_conjunction_interpretation": "All other classical planets near ASC lord using Lilly original moieties. Body-relative ecliptic latitudes are NOT independently used here; this is a historical-rule sensitivity not a certified Ptolemy I.24 bodily contact.",
+    "all_other_self_aspects_excluded": true
+  },
+  "six_stage_labels": {
+    "S1": "Planet in first/ascending/ intercepted place as variant defines",
+    "S2": "Joined to Moon or Mercury",
+    "S3": "ASC lord's own dispositor actually beholds it",
+    "SX": "Other planets aspect ASC lord, but its dispositor does not; source does not specify significator",
+    "S4": "No planet aspects ASC lord, and candidate for 'forcible partile' to Moon or Mercury",
+    "S5": "No planet aspect ASC lord, and no counted partile; essential dignities/fixed stars unresolved"
+  },
+  "required_numerical_invariants": [
+    "Exactly 3,506,400 quarter-hour original UTC samples, 1926-11-19 to 2026-11-19",
+    "Original western planetary shards 36 and original site/angle 36 and original HD integer index 36 SHA256 rechecked",
+    "Original 288,908 HD structural intervals, 125 unresolved near-transition timestamp HD IDs left unassigned",
+    "Conditional Ptolemy four-variant Mercury/Moon robust common-candidate grid exactly 4,553 samples, no Ptolemy natal governor asserted",
+    "Each of 96 expanded stage variants is one six-way partition of original time universe",
+    "Old preceding stages S1-S3 and old five-stage 48 variants each remain byte-by-byte and sample-by-sample numerically consistent",
+    "Other-only gap SX never automatically assigned a manners ruler"
+  ],
+  "public_neutral_engine": "tools/astrohd/scripts/lilly_cvii_any_planet_aspecting_asc_lord_century_v01.py",
+  "public_aggregate": "tools/astrohd/reference/research/lilly_cvii_all_other_planets_full_century_public_v01.json",
+  "supersedes_without_modifying": "lilly_cvii_original_moiety_source_variants_v01.json",
+  "still_open": [
+    "Meaning of 'him' and which non-dispositor planets, if any, can permit the ASC lord to be significator",
+    "Source-valid interpretation of bodily joining as an aspect, including possible sect/latitude cautions",
+    "Original core dignity, fortification, dispositors and whole-chart influence, and Ptolemy phase/aspect and contrary testimony",
+    "Preregistered descriptive source-conditioned human behavioral mapping with actual independent evidence and chart-free comparator"
+  ],
+  "private_birth_record_count_in_public_payload": 0,
+  "no_human_natal_rank_claim": true,
+  "unknown_not_negative": true
+}
