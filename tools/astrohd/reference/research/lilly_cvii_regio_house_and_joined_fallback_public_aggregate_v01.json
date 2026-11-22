@@ -1,0 +1,88 @@
+{
+  "Regiomontanus_against_original_Placidus_crosschecks": 14176,
+  "UTC_end_exclusive": "2026-11-19T00:00:00Z",
+  "UTC_start_inclusive": "1926-11-19T00:00:00Z",
+  "comparison_geometries": [
+    "ASC 30-degree rising zodiac sign",
+    "Placidus quadrant first house",
+    "Regiomontanus quadrant first house"
+  ],
+  "counts": {
+    "10deg_joined_4_externals_when_ASC_sign_empty": 1020813,
+    "10deg_joined_4_externals_when_placidus_house_empty": 1030533,
+    "10deg_joined_4_externals_when_regio_house_empty": 1029627,
+    "1deg_joined_4_externals_when_ASC_sign_empty": 135965,
+    "1deg_joined_4_externals_when_placidus_house_empty": 137534,
+    "1deg_joined_4_externals_when_regio_house_empty": 137535,
+    "3deg_joined_4_externals_when_ASC_sign_empty": 377008,
+    "3deg_joined_4_externals_when_placidus_house_empty": 379926,
+    "3deg_joined_4_externals_when_regio_house_empty": 379725,
+    "5deg_joined_4_externals_when_ASC_sign_empty": 592895,
+    "5deg_joined_4_externals_when_placidus_house_empty": 598174,
+    "5deg_joined_4_externals_when_regio_house_empty": 597721,
+    "asc_sign_any": 1428060,
+    "placidus_first_house_any": 1407259,
+    "placidus_only_not_regio": 40926,
+    "regio_and_placidus_both": 1366333,
+    "regio_and_sign_both": 1000886,
+    "regio_first_house_any": 1409411,
+    "regio_first_house_none": 2096989,
+    "regio_only_not_placidus": 43078,
+    "regio_only_not_sign": 408525,
+    "sign_only_not_regio": 427174,
+    "source_site_and_ASC_reference_checks": 14176
+  },
+  "date_utc": "2026-11-22",
+  "full_Lilly_manners_significator_computed": false,
+  "historical_qualifiers_remain_missing": [
+    "complete first house interpretations of intercepted sign and house strength",
+    "planetary essential dignity and dispositors",
+    "Moon/Mercury actual joining historically qualifying orb and strength",
+    "Ascendant lord and dispositor seeing by aspect",
+    "partile aspects, fixed stars, contradictory testimony"
+  ],
+  "human_predictive_accuracy_verified": false,
+  "latitude_longitude_research_site_in_private_source_manifest_not_user_birth_record": true,
+  "maximum_angular_discrepancy_original_cache_deg": 7.645439836778678e-12,
+  "old_72_original_source_shards_all_SHA256_rechecked": true,
+  "original_source_house_system": "Regiomontanus as historical Lilly-aligned geometric house method, not proof of a fully calculated historical manners significator",
+  "prior_ascending_sign_or_joined_source_counts": {
+    "first_ASC_sign_proxy_absent": 2078340,
+    "first_ASC_sign_proxy_any": 1428060
+  },
+  "privacy": {
+    "private_exact_receipt_SHA256": {
+      "Regiomontanus": "33a336b7a9cbb92cf1e29bf46dbfa6658b3bbce02257f25d8e1da1e415e35bf7",
+      "first_sign_plus_joined": "e0b32ab6bf9a74fa7400345498d8f4035bca9446e4afeeec89e5fd54d52b6bda",
+      "placidus_vs_sign": "fd8e5b73e2c4ec749303c063e11428e0ec0715d8958a1fe10f52575a64ff4e37"
+    },
+    "real_natal_or_interview_records_included": false
+  },
+  "regiomontanus_house_only_joining_sensitivity_degrees_not_original_Lilly": [
+    1,
+    3,
+    5,
+    10
+  ],
+  "schema": "lilly_CVII_source_first_two_geom_and_regiomontanus_house_public_aggregate_v01",
+  "source": "Lilly Christian Astrology Book III Chapter CVII (1647), pp.535–536 in checked modern reproduction",
+  "source_clock_sample_count": 3506400,
+  "source_geometry_programs": [
+    "tools/astrohd/scripts/lilly_cvii_second_order_conjunction_grid_v01.py",
+    "tools/astrohd/scripts/lilly_cvii_house_vs_asc_sign_placidus_diagnostic_v01.py",
+    "tools/astrohd/scripts/lilly_cvii_regiomontanus_house_century_v01.py"
+  ],
+  "source_human_personality_score": null,
+  "source_original_manifests_SHA256": {
+    "angles": "c1d1e513d2384f8a735c0806f96c987ba351373ccaa443beda945723ed58739b",
+    "planet": "da8a2164b0133599ea71a9c55b2a894c64b89a3ab39c9b3bc278478f0fcadbed"
+  },
+  "source_timestamp_step_minutes": 15,
+  "status": "ACTUAL_REGIOMONTANUS_FIRST_HOUSE_GEOMETRY_AND_FALLBACK_SENSITIVITY_NO_MANNERS_PERSONALITY_SCORE",
+  "swisseph_library_version": "2.10.03",
+  "switch_counts": {
+    "ASC_sign_vs_Placidus_first_house_symmetric_difference": 844727,
+    "Regiomontanus_first_house_vs_ASC_sign_symmetric_difference": 835699,
+    "Regiomontanus_vs_Placidus_first_house_symmetric_difference": 84004
+  }
+}

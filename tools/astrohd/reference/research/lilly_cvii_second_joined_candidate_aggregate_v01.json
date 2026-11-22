@@ -1,0 +1,66 @@
+{
+  "actual_Lilly_dispositor_lord_strength_partile_fixedstars_not_computed": true,
+  "any_planet_in_ASC_ZODIAC_SIGN_ONLY": 1428060,
+  "date_utc": "2026-11-22",
+  "first_stage_nonluminary_or_Sun_or_mutual_definitions_separate_variants": true,
+  "historical_text": "Christian Astrology Book III chapter CVII pp.535-536 modern transcription, not original 1647 facsimile",
+  "human_behavior_score": null,
+  "multiple_planets_in_ASC_ZODIAC_SIGN_ONLY": 468851,
+  "no_planet_in_ASC_ZODIAC_SIGN_ONLY": 2078340,
+  "ordered_fallback_sensitivity_rows": [
+    {
+      "fallback_four_nonluminaries": 135965,
+      "fallback_include_Sun": 204499,
+      "fallback_include_Sun_and_moon_mercury_mutual": 216041,
+      "fallback_moon_mercury_mutual_joining_on_its_own": 12583,
+      "max_angular_degrees_not_historically_authorized": 1,
+      "no_second_branch_proxy_even_with_inclusive_variant": 1862299
+    },
+    {
+      "fallback_four_nonluminaries": 377008,
+      "fallback_include_Sun": 556734,
+      "fallback_include_Sun_and_moon_mercury_mutual": 585243,
+      "fallback_moon_mercury_mutual_joining_on_its_own": 37290,
+      "max_angular_degrees_not_historically_authorized": 3,
+      "no_second_branch_proxy_even_with_inclusive_variant": 1493097
+    },
+    {
+      "fallback_four_nonluminaries": 592895,
+      "fallback_include_Sun": 852028,
+      "fallback_include_Sun_and_moon_mercury_mutual": 890709,
+      "fallback_moon_mercury_mutual_joining_on_its_own": 61830,
+      "max_angular_degrees_not_historically_authorized": 5,
+      "no_second_branch_proxy_even_with_inclusive_variant": 1187631
+    },
+    {
+      "fallback_four_nonluminaries": 1020813,
+      "fallback_include_Sun": 1383580,
+      "fallback_include_Sun_and_moon_mercury_mutual": 1426221,
+      "fallback_moon_mercury_mutual_joining_on_its_own": 123129,
+      "max_angular_degrees_not_historically_authorized": 10,
+      "no_second_branch_proxy_even_with_inclusive_variant": 652119
+    }
+  ],
+  "original_Mercury_Moon_joining_numerical_orb_unresolved": true,
+  "original_UTC_15minute_grid_sample_count": 3506400,
+  "original_UTC_horizon": [
+    "1926-11-19T00:00:00+00:00",
+    "2026-11-19T00:00:00+00:00"
+  ],
+  "original_author": "William Lilly",
+  "original_rising_interceptions_or_houses_not_computed": true,
+  "original_source_binaries_sha256_reverified": true,
+  "original_source_manifests_sha256": {
+    "angles": "c1d1e513d2384f8a735c0806f96c987ba351373ccaa443beda945723ed58739b",
+    "planet": "da8a2164b0133599ea71a9c55b2a894c64b89a3ab39c9b3bc278478f0fcadbed"
+  },
+  "owner_private_immutable_full_receipt_sha256": "e0b32ab6bf9a74fa7400345498d8f4035bca9446e4afeeec89e5fd54d52b6bda",
+  "participant_birth_records_included": false,
+  "schema": "lilly_CVII_first_ascending_sign_and_second_joined_candidate_public_aggregate_v01",
+  "source_complete_manners_ruler_selected": false,
+  "source_contract": "lilly_cvii_ordered_manners_fallback_source_register_v01.json",
+  "source_script": "tools/astrohd/scripts/lilly_cvii_second_order_conjunction_grid_v01.py",
+  "status": "CENTURY_FIRST_AND_SECOND_GEOMETRIC_PROXY_ONLY_NO_SOURCE_MANNERS_SIGNIFICATOR_SELECTED",
+  "uniform_UTC_clock_grid_not_a_human_birth_population": true,
+  "validated_natal_personality_predictions": 0
+}
