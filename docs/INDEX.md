@@ -1,5 +1,8 @@
 # Research documentation
 
+- **AstroHD 1647 first-print Lilly dignity continuation, 22 Nov 2026:** [Original five essential-dignity scores, distinct 1647/1940 term tables, and complete same-UTC final fallback dignity candidate census](astrohd/lilly_1647_essential_dignities_original_table_full_century_20261122.md). Full original source evidence and behavioral validation remain independently qualified.
+
+
 - **Ptolemy original-source collation, 22 Nov 2026:** [Wolf’s printed Greek/Latin 1559 commentary p51, the qualified fifteen parts, and Robbins’s later editorial “maximum”](astrohd/ptolemy_i24_wolf_1559_original_commentary_orb_adjudication_20261122.md). All previous Ptolemy/Lilly/HD original century results retained; no fixed 15° original orb or natal ranking inferred.
 
 
