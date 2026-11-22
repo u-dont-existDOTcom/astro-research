@@ -1,0 +1,405 @@
+{
+  "schema": "lilly_1647_original_fortitudes_debilities_source_coverage_v01",
+  "date_utc": "2026-11-22",
+  "status": "DIRECT_PRIMARY_PRINTED_SOURCE_READ_FORTITUDE_COVERAGE_INCOMPLETE_FOR_FULL_RULER",
+  "source": {
+    "author": "William Lilly",
+    "title": "Christian Astrology, book I",
+    "edition": "original first printing London 1647",
+    "source_catalog": "https://wellcomecollection.org/works/s7z7c46y",
+    "source_scanned_pdf_sha256": "2cb53e20e122ffc6e47917ba10241f6c49687cd7a4696f3b5db655a2a1aab28b",
+    "original_page_mappings": {
+      "115": "149",
+      "116": "150"
+    },
+    "original_page_render_sha256": {
+      "115": "fe75468d8eaf129a1f643d6d652455e81eb95b0aedd3016091e3ce7c204e4aab",
+      "116": "7e893801999b5d221addb3b7f5a8ac021bf229fa707d09945ddcfa3359b9894c"
+    },
+    "read_mode": "actual 1647 first-print page images independently viewed; page 115 table in two columns essential / debilities and accidental fortitudes/debilities; page 116 expressly postpones full application to examples",
+    "source_normalization": "This register separates directly legible source scores from historical application and missing-input issues; signs of scores are normalized for computation, not printed minus glyphs."
+  },
+  "evidence_backbone": {
+    "chapter_XVII_101_104_five_positive_dignity_scores": "This remains source-defined as a SUBSET, originally in the previous research artifact.",
+    "printed_p115_adds_mutual_reception": "Domicile dignity +5 may arise from mutual reception by house; exaltation dignity +4 may also arise by reception. Not included in previous table-only S5 calculator.",
+    "printed_p115_essential_debilities": "Detriment -5, fall -4, peregrine -5. Previous S5 calculator did NOT include any negative debility penalties.",
+    "printed_p115_accidental_fortitudes": "Numerical positions, relative motion, sect/orientality, combustion, good/malefic partile contacts, historically specified star conjunctions.",
+    "printed_p115_accidental_debilities": "House penalties, retrogradation, slow motion, solar combustion and beams, malefic contact and historical stellar configuration.",
+    "printed_p116_no_universal_practical_example": "Lilly says he will explain the table later by example; printed table alone does not license deterministic resolving of all ties, receptions and contrary testimonies.",
+    "printed_cv_531_532": "Lilly's favorite Lord of Geniture combines essential AND accidental fortitudes and allows near-equal planets to participate. Earlier Greek custom at Moon/Mercury places is a separate reported method.",
+    "printed_cvii_535_536": "Earlier manners rules remain necessary; final essential-place comparison cannot overwrite them."
+  },
+  "original_first_print_scored_components": [
+    {
+      "id": "domicile_or_mutual_reception_by_house",
+      "points": 5,
+      "family": "essential_positive",
+      "input_requirement": "seven zodiacal planet longitudes + full domicile sign rulership + reciprocal-house reception",
+      "source_read": "DIRECT",
+      "implementation_status": "POINT_ONLY_NO_RECEPTION",
+      "historical_ambiguity": "Reception definition and whether a planet can receive extra claim at a PLACE as opposed to body must not be silently assumed"
+    },
+    {
+      "id": "exaltation_or_mutual_reception_by_exaltation",
+      "points": 4,
+      "family": "essential_positive",
+      "input_requirement": "planet longitudes, exaltation signs and reception rules",
+      "source_read": "DIRECT",
+      "implementation_status": "POINT_ONLY_NO_RECEPTION",
+      "historical_ambiguity": "Reception by exaltation absent from previous S5 scorer"
+    },
+    {
+      "id": "sect_triplicity",
+      "points": 3,
+      "family": "essential_positive",
+      "input_requirement": "printed 1647 triplicity and verified day/night sect",
+      "source_read": "DIRECT",
+      "implementation_status": "IMPLEMENTED_CONDITIONALLY_WITH_NEAR_HORIZON_ABSTENTION",
+      "historical_ambiguity": "sect horizon margin is a modern engineering abstention"
+    },
+    {
+      "id": "term",
+      "points": 2,
+      "family": "essential_positive",
+      "input_requirement": "original printed 1647 term table vs independent 1940 Loeb source traditions",
+      "source_read": "DIRECT",
+      "implementation_status": "IMPLEMENTED_IN_THREE_ORIGINAL_PRINT_VARIANTS",
+      "historical_ambiguity": "many original term tables / manuscript alternatives differ"
+    },
+    {
+      "id": "face",
+      "points": 1,
+      "family": "essential_positive",
+      "input_requirement": "1647 p104 face table",
+      "source_read": "DIRECT",
+      "implementation_status": "IMPLEMENTED_FOR_THREE_PRINT_SCHEMES",
+      "historical_ambiguity": "existing face list belongs to 1647 while alternate printed term sources were not source-matched for faces"
+    },
+    {
+      "id": "detriment",
+      "points": -5,
+      "family": "essential_negative",
+      "input_requirement": "rulership sign opposite natal planet position",
+      "source_read": "DIRECT",
+      "implementation_status": "UNIMPLEMENTED"
+    },
+    {
+      "id": "fall",
+      "points": -4,
+      "family": "essential_negative",
+      "input_requirement": "exaltation sign opposite natal planet position",
+      "source_read": "DIRECT",
+      "implementation_status": "UNIMPLEMENTED"
+    },
+    {
+      "id": "peregrine",
+      "points": -5,
+      "family": "essential_negative",
+      "input_requirement": "fully defined absence of ALL dignities including receptions",
+      "source_read": "DIRECT",
+      "implementation_status": "UNIMPLEMENTED",
+      "historical_ambiguity": "definition and potential overlaps with other debilities require original source review"
+    },
+    {
+      "id": "midheaven_or_ascendant_house",
+      "points": 5,
+      "family": "accidental_positive",
+      "input_requirement": "12-house position for each planet",
+      "source_read": "DIRECT",
+      "implementation_status": "UNIMPLEMENTED",
+      "historical_ambiguity": "which house division in practical Lilly source context must remain independent"
+    },
+    {
+      "id": "seventh_fourth_eleventh_house",
+      "points": 4,
+      "family": "accidental_positive",
+      "input_requirement": "house position",
+      "source_read": "DIRECT",
+      "implementation_status": "UNIMPLEMENTED"
+    },
+    {
+      "id": "second_fifth_house",
+      "points": 3,
+      "family": "accidental_positive",
+      "input_requirement": "house position",
+      "source_read": "DIRECT",
+      "implementation_status": "UNIMPLEMENTED"
+    },
+    {
+      "id": "ninth_house",
+      "points": 2,
+      "family": "accidental_positive",
+      "input_requirement": "house position",
+      "source_read": "DIRECT",
+      "implementation_status": "UNIMPLEMENTED"
+    },
+    {
+      "id": "third_house",
+      "points": 1,
+      "family": "accidental_positive",
+      "input_requirement": "house position",
+      "source_read": "DIRECT",
+      "implementation_status": "UNIMPLEMENTED"
+    },
+    {
+      "id": "direct_motion",
+      "points": 4,
+      "family": "accidental_positive",
+      "input_requirement": "true geocentric ecliptic speed for each planet; Sun and Moon excluded",
+      "source_read": "DIRECT",
+      "implementation_status": "NEEDS_PINNED_ALL_PLANET_VELOCITIES"
+    },
+    {
+      "id": "swift_motion",
+      "points": 2,
+      "family": "accidental_positive",
+      "input_requirement": "all speed values with historical swift/slow thresholds",
+      "source_read": "DIRECT",
+      "implementation_status": "SOURCE_THRESHOLD_AND_INPUT_NOT_FULLY_READY"
+    },
+    {
+      "id": "saturn_jupiter_mars_oriental",
+      "points": 2,
+      "family": "accidental_positive",
+      "input_requirement": "historical oriental/occidental Sun relation for three superior planets",
+      "source_read": "DIRECT",
+      "implementation_status": "UNIMPLEMENTED_HISTORICAL_ORIENTATION_OPEN"
+    },
+    {
+      "id": "mercury_venus_occidental",
+      "points": 2,
+      "family": "accidental_positive",
+      "input_requirement": "historical occidental orientation for inferior planets",
+      "source_read": "DIRECT",
+      "implementation_status": "UNIMPLEMENTED_HISTORICAL_ORIENTATION_OPEN"
+    },
+    {
+      "id": "moon_increasing_or_occidental",
+      "points": 2,
+      "family": "accidental_positive",
+      "input_requirement": "solar/lunar phase, lunar orientation historical convention",
+      "source_read": "DIRECT",
+      "implementation_status": "UNIMPLEMENTED_PHASE_ORIENTATION_OPEN"
+    },
+    {
+      "id": "free_from_combustion_sun_beams",
+      "points": 5,
+      "family": "accidental_positive",
+      "input_requirement": "Sun separation and original solar-beam thresholds, special cases",
+      "source_read": "DIRECT",
+      "implementation_status": "UNIMPLEMENTED_THRESHOLDS_NEED_SOURCE"
+    },
+    {
+      "id": "cazimi",
+      "points": 5,
+      "family": "accidental_positive",
+      "input_requirement": "Sun separation and historical cazimi angular bound",
+      "source_read": "DIRECT",
+      "implementation_status": "UNIMPLEMENTED_HISTORICAL_THRESHOLD"
+    },
+    {
+      "id": "partile_conjunction_benefics",
+      "points": 5,
+      "family": "accidental_positive",
+      "input_requirement": "strict numbered-degree conjunction with Jupiter or Venus and source-strength exceptions",
+      "source_read": "DIRECT",
+      "implementation_status": "UNIMPLEMENTED_PARTILE_VARIANTS"
+    },
+    {
+      "id": "partile_conjunction_lunar_node",
+      "points": 4,
+      "family": "accidental_positive",
+      "input_requirement": "ascending lunar node strict ephemeris positions and partile rule",
+      "source_read": "DIRECT",
+      "implementation_status": "NODE_SOURCE_NOT_IN_ORIGINAL_7BODY_CACHE"
+    },
+    {
+      "id": "partile_trine_benefics",
+      "points": 4,
+      "family": "accidental_positive",
+      "input_requirement": "traditional signed numbered-degree aspect to Jupiter or Venus",
+      "source_read": "DIRECT",
+      "implementation_status": "UNIMPLEMENTED"
+    },
+    {
+      "id": "partile_sextile_benefics",
+      "points": 3,
+      "family": "accidental_positive",
+      "input_requirement": "traditional signed numbered-degree aspect to Jupiter or Venus",
+      "source_read": "DIRECT",
+      "implementation_status": "UNIMPLEMENTED"
+    },
+    {
+      "id": "regulus_cor_leonis_conjunction",
+      "points": 6,
+      "family": "accidental_positive",
+      "input_requirement": "epoch-correct fixed star longitude and original angular orb / proper motion",
+      "source_read": "DIRECT",
+      "implementation_status": "FIXED_STAR_EPOCH_SOURCE_MISSING"
+    },
+    {
+      "id": "spica_conjunction",
+      "points": 5,
+      "family": "accidental_positive",
+      "input_requirement": "epoch-correct Spica longitude and original star orb",
+      "source_read": "DIRECT",
+      "implementation_status": "FIXED_STAR_EPOCH_SOURCE_MISSING"
+    },
+    {
+      "id": "twelfth_house",
+      "points": -5,
+      "family": "accidental_negative",
+      "input_requirement": "full historical house membership",
+      "source_read": "DIRECT",
+      "implementation_status": "UNIMPLEMENTED"
+    },
+    {
+      "id": "eighth_sixth_house",
+      "points": -2,
+      "family": "accidental_negative",
+      "input_requirement": "full historical house membership",
+      "source_read": "DIRECT",
+      "implementation_status": "UNIMPLEMENTED"
+    },
+    {
+      "id": "retrograde",
+      "points": -5,
+      "family": "accidental_negative",
+      "input_requirement": "signed speeds for all nonluminary planets",
+      "source_read": "DIRECT",
+      "implementation_status": "NEEDS_PINNED_ALL_PLANET_VELOCITIES"
+    },
+    {
+      "id": "slow_motion",
+      "points": -2,
+      "family": "accidental_negative",
+      "input_requirement": "all speeds and historical slow-motion thresholds",
+      "source_read": "DIRECT",
+      "implementation_status": "SOURCE_THRESHOLD_AND_INPUT_NOT_FULLY_READY"
+    },
+    {
+      "id": "saturn_jupiter_mars_occidental",
+      "points": -2,
+      "family": "accidental_negative",
+      "input_requirement": "source-defined orientality/occidentality",
+      "source_read": "DIRECT",
+      "implementation_status": "UNIMPLEMENTED"
+    },
+    {
+      "id": "mercury_venus_oriental",
+      "points": -2,
+      "family": "accidental_negative",
+      "input_requirement": "source-defined orientality/occidentality",
+      "source_read": "DIRECT",
+      "implementation_status": "UNIMPLEMENTED"
+    },
+    {
+      "id": "moon_decreasing_light",
+      "points": -2,
+      "family": "accidental_negative",
+      "input_requirement": "Moon-Sun waxing and waning phase",
+      "source_read": "DIRECT",
+      "implementation_status": "UNIMPLEMENTED"
+    },
+    {
+      "id": "combustion",
+      "points": -5,
+      "family": "accidental_negative",
+      "input_requirement": "source Sun separation and exact combustion rules",
+      "source_read": "DIRECT",
+      "implementation_status": "UNIMPLEMENTED_HISTORICAL_THRESHOLD"
+    },
+    {
+      "id": "under_sun_beams",
+      "points": -4,
+      "family": "accidental_negative",
+      "input_requirement": "Sun separation and original beam rules",
+      "source_read": "DIRECT",
+      "implementation_status": "UNIMPLEMENTED_HISTORICAL_THRESHOLD"
+    },
+    {
+      "id": "malefic_partile_contact",
+      "points": null,
+      "family": "accidental_negative",
+      "input_requirement": "exact glyph read, malefic planets Saturn/Mars, partile aspect",
+      "source_read": "ORIGINAL_PRINT_SYMBOLS_REQUIRE_SECOND_WITNESS",
+      "implementation_status": "UNCERTIFIED_SYMBOL_AND_CONTACT_WEIGHT",
+      "historical_ambiguity": "Original p115 has several malefic contacts; do not deduce distinct signed weights from an OCR-distorted symbol"
+    },
+    {
+      "id": "malefic_besiegement",
+      "points": -5,
+      "family": "accidental_negative",
+      "input_requirement": "definition of besieged by Saturn and Mars and relative planetary contact sequence",
+      "source_read": "DIRECT",
+      "implementation_status": "UNIMPLEMENTED_MOTION_SEQUENCE"
+    },
+    {
+      "id": "malefic_partile_square",
+      "points": -3,
+      "family": "accidental_negative",
+      "input_requirement": "exact numbered-degree square to Saturn or Mars",
+      "source_read": "DIRECT",
+      "implementation_status": "UNIMPLEMENTED"
+    },
+    {
+      "id": "algol_conjunction",
+      "points": -5,
+      "family": "accidental_negative",
+      "input_requirement": "epoch-correct Caput Algol longitude, source 1647 historical position and within 5° criterion",
+      "source_read": "DIRECT",
+      "implementation_status": "FIXED_STAR_EPOCH_SOURCE_MISSING"
+    }
+  ],
+  "certified_software_inputs": {
+    "original_planets": [
+      "Sun_lon",
+      "Moon_lon",
+      "Mercury_lon",
+      "Venus_lon",
+      "Mars_lon",
+      "Jupiter_lon",
+      "Saturn_lon",
+      "Mercury_lon_speed"
+    ],
+    "original_angle_site": [
+      "asc",
+      "mc",
+      "armc",
+      "true_obliquity",
+      "true_sun_altitude",
+      "Placidus_twelve_cusps"
+    ],
+    "source": "private source-neutral century cache SHA-pinned original shards, no personal natal or outcome evidence",
+    "strict_swiss_version": "2.10.03",
+    "original_independent_HD_lookups": "288,908 structural interval IDs, 125 near-transition UTC samples abstain",
+    "missing_to_complete": [
+      "nonMercury six planetary velocity columns",
+      "source-pinned nodal positions",
+      "historically time-correct fixed-star catalog",
+      "unambiguous house-system choice",
+      "historical source direction/speed/solar thresholds and disputed point-combination"
+    ],
+    "could_recompute_some_with_frozen_ephemeris": true,
+    "complete_all_fortitude_rules_from_existing_cached_columns": false
+  },
+  "prior_source_bound_output": {
+    "previous_public_report": "docs/astrohd/lilly_1647_essential_dignities_original_table_full_century_20261122.md",
+    "previous_engine": "tools/astrohd/scripts/lilly_cvii_original_essential_dignity_final_fallback_century_v01.py",
+    "previous_numeric_aggregate_sha256": "e095a691b0c2d9f92c657bcf8a73a13144ff5b8d62f513dd5454852275d78467",
+    "original_1647_terms_sum_method_s5_eligible": 15583,
+    "original_1647_terms_sum_unique_positive_5_component_candidate": 13825,
+    "six_source_agreement_positive_five_component": 9089,
+    "actual_1647_complete_essential_dignity_with_receptions_and_penalties": false,
+    "actual_1647_complete_accidental_strength_and_debilities": false,
+    "source_unique_Lilly_manners_ruler": false,
+    "human_natal_predictive_validity_established": false
+  },
+  "decision": {
+    "next_action": "Source-critical annotate and materialize missing speeds, Sun orientation, nodes and epoch-precessed stars in authorized private source cache; then choose fully declared original-house/fortification source variants and recompute 3.5m with honest abstentions. Do not add partial strength scores and publish a final human natal ruler.",
+    "full_source_strength_admissible_now": false,
+    "complete_personality_rank_admissible_now": false,
+    "preserve_original_prior_output": true,
+    "no_private_evidence_in_public_register": true
+  }
+}
