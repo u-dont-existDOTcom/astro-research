@@ -18,6 +18,8 @@ The public transfer adds under [`tools/astrohd/`](../../tools/astrohd/README.md)
 
 **22 November follow-up:** [the newly authorized fourth community-source wave plus two real full-century structural calculations](forum_wave4_lilly_and_structural_century_results_20261122.md) has been completed and stored with source-only caveats. See the fourth-wave evidence register and the first-source-rung Lily CVII mechanical census. This extends the original three-wave forum source coverage; it does not change its original closed sample or turn anecdotes into population rates.
 
+**Wise reader-facing use:** [Using astrology wisely](reflective-practice/USING_ASTROLOGY_WISELY.md) is the public source-safe guide for converting symbolic chart cues into optional, reality-checked reflection and journaling. It explicitly distinguishes helpful prompts from evidence of actual natal predictive accuracy. Private person-specific Claude live-page implementation instructions are kept separately in the private `astro-private` repository.
+
 ## Forum investigation outcome
 
 A bounded three-pass, complaint-enriched source search examined **22 proposed predictor claims** and **59 public-source observation units**, normalized to **49 distinct discussions/pages**. Only eight observation units were based on fully opened pages; others used explicitly labeled search excerpts. None supplies a representative cohort denominator or independently verified prospective birth-chart prediction.

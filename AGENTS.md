@@ -40,6 +40,8 @@ positions matching its displayed UTC establish calculation consistency; verify
 the birth-source UTC/date/location separately before calling inputs source-verified.
 Distinguish reused outputs, new generation and evidence rebinding explicitly.
 
+When authoring any reader-facing astrology, meditation, journaling or therapeutic-style guidance, read `docs/astrohd/reflective-practice/USING_ASTROLOGY_WISELY.md` first. A chart interpretation is an optional question, never a life decision directive, diagnosis or verified personality fact. Keep the private live-page sources in their authorized separate private repository, and do not transfer personal case evidence here.
+
 This repository is public. Follow the data rules in the README. Keep source
 recordings, databases, correspondence, birth records, interview responses,
 readings and proprietary keyword corpora in their authorized private stores.
