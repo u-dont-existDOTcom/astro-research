@@ -1,5 +1,8 @@
 # Research documentation
 
+- **AstroHD 1647 original accidental house-strength, 22 Nov 2026:** [Source-pinned full same-UTC 3.5-million-timestamp seven-planet 12-house Regiomontanus-versus-Placidus fortitude sensitivity](astrohd/lilly_1647_original_house_accidental_strength_century_20261122.md). One original numerical component; no full manners ruler or human prediction.
+
+
 - **AstroHD original Lilly 1647 source qualification, 22 Nov 2026:** [Direct first-print p115–116 accidental fortitudes/debilities source coverage, missing components and fail-closed complete-ruler admission](astrohd/lilly_1647_original_fortitudes_debilities_source_coverage_20261122.md). Corrects scope of prior five-positive-component candidates without changing old astronomy counts.
 
 

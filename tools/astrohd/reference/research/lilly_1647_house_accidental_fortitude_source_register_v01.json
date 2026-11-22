@@ -1,0 +1,83 @@
+{
+  "schema": "lilly_1647_first_print_p115_accidental_house_fortitude_two_house_systems_v01",
+  "date_utc": "2026-11-22",
+  "status": "ORIGINAL_1647_SINGLE_ACCIDENTAL_HOUSE_COMPONENT_GEOMETRY_COMPUTED_NOT_FULL_FORTITUDE",
+  "source": {
+    "author": "William Lilly",
+    "work": "Christian Astrology",
+    "edition": "1647 first printing London",
+    "original_print_page": 115,
+    "pdf_one_based_page": 149,
+    "original_pdf_sha256": "2cb53e20e122ffc6e47917ba10241f6c49687cd7a4696f3b5db655a2a1aab28b",
+    "original_render_page_sha256": "fe75468d8eaf129a1f643d6d652455e81eb95b0aedd3016091e3ce7c204e4aab",
+    "archival_catalog": "https://wellcomecollection.org/works/s7z7c46y",
+    "read_mode": "Original p115 full photo visually inspected, source hash private; original p116 context for application limits",
+    "source_scope": "Accidental fortitudes and debilities of house-position only, not all displayed table conditions."
+  },
+  "original_printed_house_scores": {
+    "house_1": 5,
+    "house_2": 3,
+    "house_3": 1,
+    "house_4": 4,
+    "house_5": 3,
+    "house_6": -2,
+    "house_7": 4,
+    "house_8": -2,
+    "house_9": 2,
+    "house_10": 5,
+    "house_11": 4,
+    "house_12": -5
+  },
+  "historical_house_source_alternatives": [
+    {
+      "id": "Regiomontanus",
+      "status": "source-traditional-historical-candidate",
+      "reason": "Lilly historically associated with this house division; actual original textual precedence and coordinate conventions remain source-contested"
+    },
+    {
+      "id": "Placidus",
+      "status": "original-Western-research-grid-cached-counterfactual",
+      "reason": "Original source-neutral 17-column site cache provides Placidus 12 cusps; it is not automatically Lilly's preferred method."
+    }
+  ],
+  "house_boundary_rule": "Traditional planet is assigned from cusp H inclusive to next cusp exclusive as oriented increasing tropical longitude modulo 360, for each chart's fixed research-place astronomical geometry. Every seven-body membership partition tested source-by-source.",
+  "numeric_bounded_results": {
+    "sampled_UTC_instants": 3506400,
+    "original_total_classical_planet_house_assignments": 24544800,
+    "original_source_sha_verified_western_shards": 36,
+    "original_source_sha_verified_angles_shards": 36,
+    "original_source_sha_verified_HD_index_shards": 36,
+    "HD_structural_intervals": 288908,
+    "HD_boundary_margin_abstentions": 125,
+    "original_conditional_Ptolemy_fourmode_common": 4553,
+    "regiomontanus_first_house_any": 1409411,
+    "placidus_first_house_any": 1407259,
+    "first_house_any_occupancy_disagrees": 84004,
+    "any_classical_body_house_system_assignment_disagrees": 1088009,
+    "Regiomontanus_exactly_one_highest_house_only_planet": 1501326,
+    "Placidus_exactly_one_highest_house_only_planet": 1500814,
+    "same_strictly_unique_house_only_planet_across_methods": 1354001,
+    "different_strictly_unique_house_only_planet_across_methods": 23729,
+    "not_unique_under_both_methods": 2128670,
+    "conditional_Ptolemy_subset_same_unique_house_only": 1776,
+    "conditional_Ptolemy_subset_different_unique_house_only": 49,
+    "conditional_Ptolemy_subset_other_or_tied": 2728,
+    "HD_intervals_with_same_strictly_unique_house_only": 225680,
+    "HD_intervals_with_different_strictly_unique_house_only": 22059,
+    "HD_intervals_with_same_house_only_and_Ptolemy_conditional": 377,
+    "HD_intervals_with_different_house_only_and_Ptolemy_conditional": 45
+  },
+  "source_critical_limits": [
+    "The house p115 score is ONE accidental-strength component. Original Lilly combines essential dignities (with mutual reception and essential debilities) and other accidental components; no source-authorized total from the original cache.",
+    "Which quadrant house system operationalizes first printed Lilly rules remains historically debated; neither can be substituted silently.",
+    "Numeric source points from a body in a house do not imply that body's manners-significator eligibility, historical necessary precedence or actual personality prediction.",
+    "Exactly unique maximal house-only score does not imply a complete or source-approved Lord of the Geniture, Lilly CVII manners significator, or Ptolemy III.13 soul governor.",
+    "The 4,553 Ptolemy source candidates are themselves four-mode conditional modern reconstructions, not a psychologically validated population.",
+    "Each HD state may appear with multiple different Western house circumstances; HD interval presence counts must never be added across branches.",
+    "Other originally printed p115 planetary velocity, orientation, beams, aspects, fixed stars and lunar nodes are still source-incomplete."
+  ],
+  "source_neutral_reproducible_engine": "tools/astrohd/scripts/lilly_1647_house_accidental_fortitude_century_v01.py",
+  "source_neutral_numeric_aggregate": "tools/astrohd/reference/research/lilly_1647_house_accidental_fortitude_full_century_public_v01.json",
+  "no_private_natal_or_interview_evidence_used": true,
+  "human_predictive_rank_validated": false
+}
