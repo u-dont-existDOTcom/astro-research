@@ -28,6 +28,8 @@ The result is an *investigative source-qualification audit*, not a ranking of wh
 
 See [the cross-system comparison peer-review reconciliation](cross_system_peer_review_reconciliation_20261122.md) for source-qualified handling of time resolution, traditional dignity, HD prenatal feature diversity and human predictive-validation limits. This document does not claim the complete new century-wide behavioral scorer has run.
 
+**Ptolemy source-rule computation, 22 November:** [A new two-/three-mode candidate census](ptolemy_iii13_three_mode_century_source_audit_20261122.md) computed Mercury/Moon domicile, exaltation and sect-conditioned triplicity candidate intersections across the hash-verified 3,506,400-point UTC grid. The co-ruler reading changes the apparent shared-candidate result by approximately 8.5 percentage points; original terms and phase/aspect remain unsolved. This is **not a soul governor, a personality score, or an actual rank of human birth charts**. Reproduction code and numeric aggregate live under `tools/astrohd/`.
+
 ## Separate research tracks and finish lines
 
 The source-level forum audit is **complete with evidence gaps**. A high-level profile-development protocol and the Gemini reasoning comparison have bounded reports. Completing a **full source-qualified Western + HD behavioral predictor and complete candidate search** remains a distinct, unfinished goal. Another optional future study would test actual prediction in blinded human cohorts. Neither synthetic-test success nor attractive symbolic readings demonstrate accuracy in people.
