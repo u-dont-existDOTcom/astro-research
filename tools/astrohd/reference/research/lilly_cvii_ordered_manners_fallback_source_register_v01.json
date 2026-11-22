@@ -1,0 +1,103 @@
+{
+  "schema": "lilly_CVII_original_manners_source_order_and_joined_fallback_provenance_v01",
+  "date_utc": "2026-11-22",
+  "source": {
+    "original_author": "William Lilly",
+    "work": "Christian Astrology",
+    "book": "III",
+    "chapter": "CVII",
+    "original_year": 1647,
+    "source_url": "https://cdn.astmd.gr/attachments/2023/11/29/williamlilly500-543.pdf",
+    "read_mode": "direct screenshot inspection of rendered modern text transcription pages labelled 535 and 536, PDF indices 36 and 37; NOT independently verified against original 1647 first-edition typography",
+    "preserved_old_register": "lilly_cvii_initial_manners_source_register_v01.json"
+  },
+  "ordered_rules": [
+    {
+      "id": "LILLY_CVII_R1",
+      "source_page": 535,
+      "predicate": "A planet physically occupies the sign ascending or an intercepted sign; the planet with dignity there participates",
+      "implemented": "REGIOMONTANUS_FIRST_HOUSE_PLANET_OCCUPANCY_AND_OLD_ASC_SIGN_DIAGNOSTIC; NOT_DIGNITY_OR_FULL_MANNERS",
+      "missing": "planetary essential dignities, intercepted sign selection beyond geometric house occupancy, strength and full source interpretations"
+    },
+    {
+      "id": "LILLY_CVII_R2",
+      "source_page": 535,
+      "predicate": "Significator and dispositor, benefic/malefic aspects and power qualify manners",
+      "implemented": "NOT",
+      "missing": "planet strength and full dignity system"
+    },
+    {
+      "id": "LILLY_CVII_R3",
+      "source_page": 535,
+      "predicate": "Mercury takes the nature of conjunction planet nearest and most fortified; failing conjunction, strongest essential dignity among places",
+      "implemented": "NOT",
+      "missing": "historical joined orb, priority and strength arbitration"
+    },
+    {
+      "id": "LILLY_CVII_R4",
+      "source_page": 535,
+      "predicate": "Luminaries in horoscope require notable fortification to change emphasis",
+      "implemented": "ONLY_PRESENCE_GEOMETRY_NOT_CONDITIONAL_SIGNIFICATION",
+      "missing": "fortification procedure"
+    },
+    {
+      "id": "LILLY_CVII_R5",
+      "source_page": 535,
+      "predicate": "When multiple planets occupy the horoscope, all contribute with strongest most durable",
+      "implemented": "ONLY_COUNT_OF_MULTIPLE_ASC_SIGN_PLANETS",
+      "missing": "source strength and duration by directions"
+    },
+    {
+      "id": "LILLY_CVII_R6",
+      "source_page": 536,
+      "predicate": "If no planet posited in Ascendant, observe which planet is joined to Moon or Mercury; planet joined both and more powerful modifies more durably",
+      "implemented": "REGIOMONTANUS_FIRST_HOUSE_EMPTY_AND_OPTIONAL_SAME_INSTANT_CONJUNCTION_DISTANCE_VARIANTS, NOT_QUALIFIED_MANNERS",
+      "missing": "Original numerical orb, planet strength and full co-presence priorities; preliminary fallback first stage now Regiomontanus house emptiness, not earlier ASC-sign-only shortcut"
+    },
+    {
+      "id": "LILLY_CVII_R7",
+      "source_page": 536,
+      "predicate": "If none in ascendant or joined Moon/Mercury, take Lord of Ascendant if its dispositor sees it by aspect",
+      "implemented": "NOT",
+      "missing": "lord/dispositor aspect and source case priorities"
+    },
+    {
+      "id": "LILLY_CVII_R8",
+      "source_page": 536,
+      "predicate": "If no aspect to Ascendant lord, planet forcibly partile aspect to Moon or Mercury; if none, most essential dignities at Moon and Mercury places",
+      "implemented": "NOT",
+      "missing": "definition of partile, fortification, dignity tally and ties"
+    },
+    {
+      "id": "LILLY_CVII_R9",
+      "source_page": 536,
+      "predicate": "Fixed stars of first/second magnitude conjunct selected ruler have further significance",
+      "implemented": "NOT",
+      "missing": "historical star catalog, epoch precession and orbs"
+    }
+  ],
+  "source_methods": {
+    "first_branch_proxy": "Planet in the zodiacal sign of the Ascendant ONLY. This is not a verified equivalent to occupying the historical first house, nor does a lack of sign occupancy exclude planets in intercepted signs of the original first house.",
+    "second_branch_proxy": "Calculated with NO Regiomontanus first-house planet or NO ASC-sign planet, keeping both cohorts separately; Moon/Mercury conjunction distance is only engineering 1/3/5/10 degrees, not Lilly exact joined rule.",
+    "angular_thresholds_engineering_degrees": [
+      1,
+      3,
+      5,
+      10
+    ],
+    "source_historical_orb_not_established": true,
+    "source_order_preserved": true,
+    "no_one_planet_significator_selected": true,
+    "no_private_natal_inputs": true,
+    "no_behavior_trait_scoring": true,
+    "historical_house_system_primary": "Regiomontanus, supported by historical astrological practice; exact source operative details not assumed beyond geometric cusp1 to cusp2",
+    "Regiomontanus_historical_usage_secondary_reference": "https://www.astro.com/astrowiki/en/Regiomontanus_House_System",
+    "original_first_house_occupancy_geometry": "Actually calculated across 3,506,400 source-neutral UTC samples with strict Swiss 2.10.03 Regiomontanus cusps and 14,176 original Placidus cache crosschecks.",
+    "ASC_sign_and_Placidus_comparison": "Prior ASC sign first-house proxy and modern Placidus first house retained separately, never used silently as Lilly original first-house rule",
+    "asc_sign_proxy_inadequacy_estimate": "835,699 of 3,506,400 UTC samples classify planet presence differently from Regiomontanus actual first house; does not measure human personality prediction.",
+    "regiomontanus_engine": "tools/astrohd/scripts/lilly_cvii_regiomontanus_house_century_v01.py",
+    "source_neutral_public_aggregate": "lilly_cvii_regio_house_and_joined_fallback_public_aggregate_v01.json"
+  },
+  "reproducible_script": "tools/astrohd/scripts/lilly_cvii_second_order_conjunction_grid_v01.py",
+  "validated_human_personality_predictions": 0
+}

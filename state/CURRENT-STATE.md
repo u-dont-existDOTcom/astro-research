@@ -1,6 +1,66 @@
 # Current research state
 
 
+## 22 November 2026 — original Lilly CVII first house and joined-fallback source mechanism
+
+**Original owner research O1/S/R still OPEN, with verified new real calculations.**
+Lilly *Christian Astrology* III chapter CVII pp.535–536 was read from a
+modern reproduction (not the original 1647 first-edition printed copy).
+It requires planets in the Ascendant/first-house or intercepted signs,
+then their dispositor, dignity and strength; when no planet occupies
+the Ascendant, **joined Moon or Mercury planets**, then the Ascendant
+lord if its dispositor sees it by aspect, then partile Moon/Mercury
+contacts and essential dignities, plus fixed-star/other modifiers.
+A source register `tools/astrohd/reference/research/lilly_cvii_ordered_manners_fallback_source_register_v01.json`
+preserves this priority and what has not been implemented.
+
+**Material source-proxy failure resolved with actual data:** Earlier
+calculations only asked whether a planet occupied the 30-degree ASC
+ZODIAC SIGN. This is NOT equivalent to historical 1st HOUSE occupancy.
+New full-century fixed-location Swiss 2.10.03 scans computed actual
+**Regiomontanus first-house cusp1-to-cusp2** membership for all
+**3,506,400 original 15-minute UTC sampled instants** (1926-11-19
+inclusive to 2026-11-19 exclusive). Source original 36 planetary and
+36 cached location/angle binary shards were individually SHA256
+rechecked; 14,176 recomputed source Placidus/ASC cusp comparisons
+showed max discrepancy **7.64544×10⁻¹²°**.
+
+Any classical planet physically inside:
+- **ASC sign only:** 1,428,060 samples (40.73%);
+- **Regiomontanus 1st house:** **1,409,411** (40.20%);
+- **Placidus 1st house:** 1,407,259 (40.13%).
+
+**These similar total rates hide a major individual-chart mismatch:**
+Regiomontanus first-house occupancy vs zodiac ASC sign classification
+DIFFERS at **835,699 (23.83%)** instants: 408,525 Regio-only, 427,174
+sign-only. Placidus vs Regio switches 84,004 instants (2.40%).
+Thus older AstroHD Western judgments using just the ASC sign cannot
+claim Lilly's first house has been calculated.
+
+Among **2,096,989 actual Regiomontanus first-house-empty samples**,
+potential joining of one of four nonluminary external traditional
+planets with Moon or Mercury within **1/3/5/10°** gives respectively
+**137,535 / 379,725 / 597,721 / 1,029,627** sampled instants. These
+distances are **engineering sensitivities, not original Lilly source
+conjunction orbs**, and Sun/mutual Moon–Mercury variants are retained
+separately. Still missing: intercepted sign selection qualifications,
+planetary essential dignity/dispositor strength, correct Moon/Mercury
+orb and priorities, partile aspects, fixed stars, and actual manners
+significator selection. NO human character score, original Lilly ruler,
+source-complete HD/Western rank, or predictive validation is claimed.
+
+Public source-neutral report and source code:
+`docs/astrohd/lilly_cvii_regiomontanus_manners_two_branches_20261122.md`,
+`tools/astrohd/reference/research/lilly_cvii_regio_house_and_joined_fallback_public_aggregate_v01.json`,
+`tools/astrohd/scripts/lilly_cvii_regiomontanus_house_century_v01.py`.
+All raw source-bound numerical receipts and the owner-specific old
+HD-filtered 15-chart audit remain authorized **PRIVATE** only.
+This correction follows the successfully merged Ptolemy III.13
+double Mercury/Moon source-configuration study; the two schools
+are never pooled as independent psychological evidence.
+
+
+
 ## 22 November 2026 — Ptolemy III.13 simultaneous Mercury/Moon aspect source qualification
 
 **Owner objective O1 / source Track S and ranking Track R remain OPEN.**
