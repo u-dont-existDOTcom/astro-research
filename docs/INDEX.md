@@ -1,5 +1,9 @@
 # Research documentation
 
+- **Completion-claim correction, 22 Nov 2026:** [Which astrology tasks were actually complete, and why the root historical and human predictive objectives remain OPEN](../state/COMPLETION-CLAIM-AUDIT-20261122.md). The [eight-lane scope contract](../state/RESEARCH-COMPLETION-SCOPE.json) is regression checked.
+- **Lilly original 1647 motion subtask, 22 Nov:** [Full 3.5-million-sample source-verified Mercury/Venus/Mars/Jupiter/Saturn direct/retrograde census, explicit station uncertainty and HD exact-clock controls](astrohd/lilly_1647_source_motion_direct_retrograde_century_20261122.md). No full historical ruler or human prediction.
+
+
 - **AstroHD 1647 original accidental house-strength, 22 Nov 2026:** [Source-pinned full same-UTC 3.5-million-timestamp seven-planet 12-house Regiomontanus-versus-Placidus fortitude sensitivity](astrohd/lilly_1647_original_house_accidental_strength_century_20261122.md). One original numerical component; no full manners ruler or human prediction.
 
 

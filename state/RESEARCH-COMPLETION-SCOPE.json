@@ -1,0 +1,116 @@
+{
+  "schema": "astro_research_completion_claims_scope_v01",
+  "current_utc_date": "2026-11-22",
+  "root_owner_goal": "Historically source-qualified, reproducible Human Design + Western + Vedic + Chinese + Gene Keys synthesis and non-bespoke, fair full-century chart-to-observable-behavior comparison with independent validation, preserving private evidence",
+  "root_status": "OPEN",
+  "root_completion_certified": false,
+  "explanation": "A historical source page read or a fixed-grid astronomical scan completing its own limited scope must never become a claim that complete source algorithm, personal behavioral ranking, or independent validation are finished.",
+  "coverage_layers": [
+    {
+      "id": "source_documentary_intake",
+      "status": "PARTIAL_OVERALL",
+      "subscope": "Some sections, including earlier Ptolemy Book III documentary extraction, marked read/extracted by 2026-10-06; reading/extraction is not execution and not a fidelity-critical all-book corpus",
+      "evidence_path": "docs/astrohd/ptolemy_i24_wolf_1559_original_commentary_orb_adjudication_20261122.md",
+      "missing": "critical manuscript variants; other systems and source completeness"
+    },
+    {
+      "id": "western_planetary_grid",
+      "status": "COMPLETE_DECLARED_FINITE_GRID_ONLY",
+      "subscope": "1926-11-19 inclusive to 2026-11-19 exclusive, 3,506,400 UTC quarter-hour timestamps at ONE fixed source-neutral research location, not all world locations or continuous birth instants",
+      "evidence_path": "tools/astrohd/reference/research/lilly_1647_house_accidental_fortitude_full_century_public_v01.json",
+      "mechanical_samples": 3506400,
+      "missing": "all geographic locations, continuous times and variable birth-clock errors"
+    },
+    {
+      "id": "hd_structural_join",
+      "status": "COMPLETE_DECLARED_FINITE_GRID_WITH_ABSTENTIONS",
+      "subscope": "288,908 structural HD state intervals joined to that one Western UTC clock sample grid; 125 near-boundary UTC samples abstain; no psychological meaning",
+      "evidence_path": "tools/astrohd/reference/research/lilly_1647_house_accidental_fortitude_full_century_public_v01.json",
+      "structural_intervals": 288908,
+      "unknown_sample_count": 125,
+      "missing": "independent empirical HD personality/outcome validation"
+    },
+    {
+      "id": "ptolemy_iii13_full_governor",
+      "status": "PARTIAL_SOURCE_CONDITIONAL_ONLY",
+      "subscope": "Four-mode Ptolemaic candidate algebra plus five modern sensitivity angles and conditional dual aspect witnesses, not full historical governor",
+      "evidence_path": "docs/astrohd/ptolemy_lilly_hd_same_instant_century_source_arbitration_20261122.md",
+      "mechanical_consensus_samples": 4553,
+      "missing": "historical fifth phase/aspect and contrary testimony, sect/condition strength, decisive tie policy"
+    },
+    {
+      "id": "lilly_cvii_full_manners_significator",
+      "status": "PARTIAL_SOURCE_CONDITIONAL_ONLY",
+      "subscope": "96 alternative first/second/dispositor/partile/source branch stage paths; final S5 original positive five essential points under 3 terms × 2 experimental aggregation, plus separate house-only accidental witness",
+      "evidence_path": "docs/astrohd/lilly_1647_original_fortitudes_debilities_source_coverage_20261122.md",
+      "missing": "original mutual reception and negative dignities, all accidental strengths, ambiguity in earlier stage and individual ruler nomination"
+    },
+    {
+      "id": "whole_century_behavioral_scorer",
+      "status": "NOT_RUN",
+      "subscope": "No source-complete, preregistered, non-bespoke human trait feature and scoring function applied to all declared clock samples",
+      "evidence_path": "state/CURRENT-STATE.md",
+      "missing": "original algorithm and behavioral mapping, nonastrological baselines, unknown/tie handling"
+    },
+    {
+      "id": "independent_human_accuracy",
+      "status": "NOT_ESTABLISHED",
+      "subscope": "No independent blinded person-matched behavioral validation of the composite score; formal prospective predictive evidence not established",
+      "evidence_path": "docs/astrohd/README.md",
+      "missing": "complete consented private outcomes and independent holdout testing; do not place records in public Git"
+    },
+    {
+      "id": "global_first_rank_chart",
+      "status": "NOT_DETERMINED",
+      "subscope": "No credible unique natal #1 across full century or all cultures/locations",
+      "evidence_path": "state/CURRENT-STATE.md",
+      "missing": "non-bespoke historical scoring coverage and full universe verification"
+    }
+  ],
+  "prior_misleading_phrasing": [
+    {
+      "reported": "Ptolemy Book III completely read/extracted",
+      "proper_scope": "book textual-intake extraction done for that pass, not all source-critical astronomical rules executable",
+      "result": "NOT equivalent to finished Ptolemy governor or all-system model"
+    },
+    {
+      "reported": "full century same-instant comparison completed",
+      "proper_scope": "finite quarter-hour fixed-location alignment and structural astronomical census",
+      "result": "NOT equivalent to full chart-behavior scorer, all locations, all times or validated astrology"
+    },
+    {
+      "reported": "five-dignity source consensus winner identified",
+      "proper_scope": "positive essential dignity components under conditional historical table and place-score aggregation choices",
+      "result": "NOT equivalent to full essential plus accidental planetary strength"
+    },
+    {
+      "reported": "all historical computations complete",
+      "proper_scope": "a sequence of tightly defined source-dependent geometry/branch experiments",
+      "result": "root historical arbitration and independent prediction remain OPEN"
+    }
+  ],
+  "rules": {
+    "no_unqualified_complete_word_on_partial_milestone": true,
+    "completion_label_must_name_object_method_population_and_validation_boundary": true,
+    "incomplete_source_variants_are_unknown_not_false": true,
+    "no_runtime_claim_from_documentary_or_test_pass": true,
+    "no_private_natal_or_interview_to_public": true,
+    "no_personality_rank_from_geometric_rarity": true,
+    "old_results_preserved_not_rewritten": true
+  },
+  "next_safe_action": "Review original Lilly 1647 p115 reception and detriment/fall/peregrine definitions plus available solar-motion/source thresholds, then calculate additional truly source-qualified component witnesses with explicit unknowns; do not promote the finite-grid mechanical motion count to a complete historical governor or any human personality rank.",
+  "provenance": "Based on verified public source evidence and corrected user feedback. Prior conversation completion language is explicitly distinguished from what the Git artifact actually proves.",
+  "completed_now_limited_source_motion": {
+    "status": "COMPLETE_DECLARED_SOURCE_COMPONENT_ONLY",
+    "source_mode": "original_1647_printing_Lilly_p115_direct_retrograde",
+    "source_output_path": "tools/astrohd/reference/research/lilly_1647_direct_retrograde_full_century_public_v01.json",
+    "source_sha256": "ebc3f97a842e0c01f27a391870b82c7708c60fe5729eac868aaea612799200a8",
+    "original_full_finite_clock_samples": 3506400,
+    "site_scope": "one_fixed_research_location_not_all_birthplaces",
+    "Swiss_speed_controls": 1620,
+    "original_mercury_exact_source_speed_count": 3506398,
+    "source_method": "Mercury actual frozen signed Swiss speed, Venus/Mars/Jupiter/Saturn centered finite difference near station uncertainties; original Sun/Moon not graded",
+    "not_complete_historical_fortitude": true,
+    "not_human_prediction": true
+  }
+}
