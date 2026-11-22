@@ -1,0 +1,140 @@
+{
+  "schema": "lilly_1647_chapter_xvii_essential_dignity_original_print_source_register_v01",
+  "date_utc": "2026-11-22",
+  "status": "DIRECT_ORIGINAL_FIRST_PRINT_DIGNITY_POINTS_AND_TABLE; CONDITIONAL_FINAL_FALLBACK_ONLY",
+  "primary_original": {
+    "author": "William Lilly",
+    "title": "Christian Astrology",
+    "edition": "London 1647 first printing; original digitized Wellcome copy",
+    "archive_url": "https://wellcomecollection.org/works/s7z7c46y",
+    "original_pdf_sha256": "2cb53e20e122ffc6e47917ba10241f6c49687cd7a4696f3b5db655a2a1aab28b",
+    "source_scan_direct_read": true,
+    "original_printed_pages_to_one_based_pdf": {
+      "101": 135,
+      "102": 136,
+      "103": 137,
+      "104": 138,
+      "105": 139,
+      "531": 565,
+      "532": 566,
+      "536": 570
+    },
+    "original_rendered_source_sha256": {
+      "101": "895c8e215e28585ef6761500f7dd27da96fd445648df03858081b4d0e73dba06",
+      "102": "97bb317d76b0d7ca00040fcf885a92bf4b3c3224249a533303a1a33a15ad4cf3",
+      "103": "c3130e1a9647cc46aeee6886bd4dce0c7ef2fcbf41291919f4edc33a73121fea",
+      "104": "742e6ed98d514ab4f386d058ca4eec5e0eb660f4735bedeb97cd53b84e85f016",
+      "105": "78d8855fc1c111b3f7fea3aceca6db4c2e612c35a037964b08dcd5b223d6f184",
+      "531": "40a86a133bb8377210255926ef86eec7affc93cb642b9a61208e83081519fe4b",
+      "532": "1ed1fbf310ba0b41847c90260398362048a81895f00723b1199fa4b9dd5ae8fd",
+      "536": "4cdd11d5cf468e20f38fed7889e42f2e6298540e05f7f196c9b916e28bb57b24"
+    },
+    "read_mode": "Original first-edition page images directly visually inspected; p104 table 12 signs and all face/term columns newly transcribed; not a complete textual criticism of all historical prints"
+  },
+  "direct_original_rule_claims": [
+    {
+      "id": "points_by_essential_dignity",
+      "source_printed_pages": [
+        101,
+        102,
+        103
+      ],
+      "source_mode": "DIRECT",
+      "value": {
+        "domicile": 5,
+        "exaltation": 4,
+        "triplicity": 3,
+        "term": 2,
+        "face": 1
+      },
+      "qualification": "Lilly's numerical table is explicitly source-defined for essential dignity only; accidental fortification, angularity, aspecting, planetary condition not computed here."
+    },
+    {
+      "id": "source_table",
+      "source_printed_pages": [
+        103,
+        104,
+        105
+      ],
+      "source_mode": "DIRECT",
+      "value": "Printed 1647 table headed A Table of the Essentiall Dignities of the Planets according to Ptolomy. Exact twelve sign rows and decans encoded in script. Endpoints are original printed cumulative degree term ends.",
+      "qualification": "This printed first edition's terms disagree in some signs with Robbins 1940 Ptolemaic terms and Egyptian terms, neither automatically supersedes the other; no silent correction."
+    },
+    {
+      "id": "sect_condition",
+      "source_printed_page": 102,
+      "source_mode": "DIRECT",
+      "value": "Sun day fire triplicity vs Jupiter night; Venus day earth vs Moon night; Saturn day air vs Mercury night; Mars always water. If unknown solar altitude near horizon, abstain.",
+      "qualification": "Lilly's original sector readings are part of essential dignity points. Sunrise/sunset ±0.1 degree is an engineering uncertainty, not Lilly-authored orb."
+    },
+    {
+      "id": "Lord_of_Geniture",
+      "source_printed_pages": [
+        531,
+        532
+      ],
+      "source_mode": "DIRECT",
+      "value": "Lilly explicitly presents rival ancient criteria, states his preference for combined essential and accidental strengths and angularity, and reports Greek custom of selecting a planet with most dignities at the Moon and Mercury places.",
+      "qualification": "This is a reported Greek custom within Lilly, not a proof Ptolemy advocated exactly a 5+4+3+2+1 sum or that this alone determines the ruler of the geniture."
+    },
+    {
+      "id": "Manners_chapter_CVII_last_fallback",
+      "source_printed_page": 536,
+      "source_mode": "DIRECT",
+      "value": "After earlier conditions, the planet with most essential dignities in the places of Mercury and Moon is considered a manners significator.",
+      "qualification": "Earlier ASC sign/intercepted, joined Moon or Mercury, dispositor and other planets' aspects, partile force must be preserved; whether points at both places are summed or maximum used is unspecified. Strength and tie-breaking also open."
+    }
+  ],
+  "source_variant_sets": {
+    "lilly_original_term_id": "Lilly_1647_original_first_print_p104",
+    "comparison_terms": [
+      "ptolemy_printed_1940",
+      "egyptian_printed_1940"
+    ],
+    "term_source_comparison_not_spurious_rejection": true,
+    "only_original_lilly_face_table": "FACE_NAMES in tools/astrohd/scripts/lilly_cvii_original_essential_dignity_final_fallback_century_v01.py",
+    "modeled_place_combination_candidates": [
+      "sum_of_both_places",
+      "strongest_of_two_places"
+    ],
+    "source_licensed_unique_aggregation": false,
+    "mixed_1647_print_vs_editions_not_conflated": true,
+    "six_variants_in_consensus": 6
+  },
+  "numeric_coverage": {
+    "horizon": "1926-11-19 inclusive to 2026-11-19 exclusive",
+    "fixed_site_not_participant": true,
+    "grid_samples": 3506400,
+    "interval_minutes": 15,
+    "HD_structural_intervals": 288908,
+    "HD_boundary_unknown": 125,
+    "Ptolemy_conditional_four_mode_common_samples": 4553,
+    "original_western_shard_count": 36,
+    "original_location_angle_shard_count": 36,
+    "original_HD_index_shard_count": 36,
+    "each_SHA256_reverified": true,
+    "Lilly_1647_term_disagreement_v_1940_Ptolemaic_Moon": 818854,
+    "Lilly_1647_term_disagreement_v_1940_Ptolemaic_Mercury": 832853,
+    "Lilly_1647_term_disagreement_v_1940_Egyptian_Moon": 1705152,
+    "Lilly_1647_term_disagreement_v_1940_Egyptian_Mercury": 1744068,
+    "illustrative_historical_six_stage_branch": "ascending_sign|1647_table_smaller_orbs|four_externals_only|dispositor_sign_ray|partile_Moon_or_Mercury|all=rays_only",
+    "illustrative_last_stage_samples": 15583,
+    "illustrative_unique_candidate_original_Lilly_terms_sum": 13825,
+    "illustrative_unique_candidate_original_Lilly_terms_max": 12894,
+    "illustrative_unique_candidate_all_six_table_and_place_policies": 9089,
+    "illustrative_conditional_Ptolemy_common_in_final_stage": 23,
+    "illustrative_conditional_Ptolemy_common_same_candidate_all_six": 23,
+    "all_96_historical_six_stage_branches_covered": true
+  },
+  "historical_limits": [
+    "Term variant differences are edition-specific, not proof Lilly printed term table more accurate than Ptolemy's own term source.",
+    "First 1647 original term boundaries may contain printing anomalies; future critical editions might correct them but cannot silently change this witness.",
+    "Other Ptolemaic fifth mode phase/aspect, lunar application/separation and contrary testimonies not resolved.",
+    "Only last-stage essential dignity possibilities processed; S1-S4 and SX are not final personality rulers.",
+    "Lilly p531-532 explicitly distinguishes his favored broad geniture ruler, accidental dignity and alternative Greek rule.",
+    "No natal outcome independent matching, no trait accuracy, no participant questionnaire used, and no unique natal ranking."
+  ],
+  "source_neutral_public_engine": "tools/astrohd/scripts/lilly_cvii_original_essential_dignity_final_fallback_century_v01.py",
+  "source_neutral_public_aggregate": "tools/astrohd/reference/research/lilly_cvii_original_essential_dignity_final_fallback_public_v01.json",
+  "private_original_scan_and_chart_evidence_not_to_publish": true
+}
