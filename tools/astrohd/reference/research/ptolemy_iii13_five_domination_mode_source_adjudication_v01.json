@@ -1,0 +1,113 @@
+{
+  "schema": "ptolemy_tetrabiblos_iii13_partial_five_mode_domination_adjudication_v01",
+  "date_utc": "2026-11-22",
+  "status": "THREE_OF_FIVE_SOURCE_MODES_COMPUTED_AS_ASTRONOMICAL_CANDIDATE_FAMILIARITY_NO_CHARACTER_SCORING",
+  "textual_sources": [
+    {
+      "locator": "Tetrabiblos I.17",
+      "uri": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Ptolemy/Tetrabiblos/1B%2A.html",
+      "observation": "Traditional planetary domicile rulership of zodiac signs. Source describes a planet's house, not the natal chart's physical house.",
+      "read_mode": "full_original_English_reproduction"
+    },
+    {
+      "locator": "Tetrabiblos I.18",
+      "uri": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Ptolemy/Tetrabiblos/1B%2A.html",
+      "observation": "Triplicity day/night rulership, with distinct primary and co-ruler qualifications; water Mars remains joined by Venus by day or Moon by night.",
+      "read_mode": "full_original_English_reproduction"
+    },
+    {
+      "locator": "Tetrabiblos I.19",
+      "uri": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Ptolemy/Tetrabiblos/1B%2A.html",
+      "observation": "Seven traditional planetary exaltation signs.",
+      "read_mode": "full_original_English_reproduction"
+    },
+    {
+      "locator": "Tetrabiblos III.2",
+      "uri": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Ptolemy/Tetrabiblos/3A%2A.html",
+      "observation": "Ptolemy names the five domination modes trine/triplicity, domicile/house, exaltation, term, phase or aspect. These are not equivalent to modern decan/face essential dignity tables.",
+      "read_mode": "full_original_English_reproduction"
+    },
+    {
+      "locator": "Tetrabiblos III.13",
+      "uri": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Ptolemy/Tetrabiblos/3D%2A.html",
+      "observation": "Mercury/Moon character inquiry conditioned by their sign governors, lunar applications/separations, aspects to Sun and angles, sect, stronger/contrary planetary testimony.",
+      "read_mode": "full_original_English_reproduction"
+    },
+    {
+      "locator": "Robbins 1940 public digitized I.21 English term table",
+      "uri": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Ptolemy/Tetrabiblos/1B%2A.html",
+      "observation": "Digitized Libra row renders the final 6° term with a duplicate Saturn glyph. This cannot be accepted as an unambiguous five-distinct-ruler table; not proof the printed Greek is in error.",
+      "read_mode": "web_transcription_not_image_certified"
+    },
+    {
+      "locator": "Other Robbins-derived term list",
+      "uri": "https://krasiancientastrology.com/wp-content/uploads/2016/11/Ptolemy-Claudius-Tetrabiblos-Robbins-1940.pdf",
+      "observation": "Independent text reproduction renders Libra's final 6° as Mars, not Saturn. The PDF source was opened, but the exact printed page was not independently visually collated.",
+      "read_mode": "pdf_text_only_not_visually_collated"
+    },
+    {
+      "locator": "Deborah Houlding, historical terms research",
+      "uri": "https://library.keplercollege.org/wp-content/uploads/2022/01/Houlding_ptolemy_terms1.pdf",
+      "observation": "Historical term manuscripts/commentaries differ on Mercury versus Jupiter ordering in Libra and other positions. This is substantive interpretive uncertainty, separate from electronic glyph duplication.",
+      "read_mode": "pdf_text_only_not_visually_collated"
+    }
+  ],
+  "five_domination_modes": [
+    {
+      "id": "DOMICILE",
+      "status": "COUNTED_ALL_GRID",
+      "source": "I.17",
+      "comments": "traditional seven-planet domicile rulers of both occupied signs"
+    },
+    {
+      "id": "EXALTATION",
+      "status": "COUNTED_ALL_GRID",
+      "source": "I.19",
+      "comments": "separate traditional exaltation rulers for seven signs"
+    },
+    {
+      "id": "TRIPLICITY",
+      "status": "COUNTED_SECT_DAY_NIGHT_ALL_GRID_WITH_HORIZON_ABSTAIN",
+      "source": "I.18",
+      "comments": "primary and all co-ruler variants both retained; exact solar-altitude limit 0.1 deg is an engineering uncertainty policy"
+    },
+    {
+      "id": "TERMS",
+      "status": "MISSING_ORIGINAL_TABLE_COLLATION_AND_VARIANT_CHOICE",
+      "source": "I.20-21",
+      "comments": "Ptolemy vs Egyptian vs Chaldaean terms and edition/manuscript variants require source comparison; never silently auto-repair a discrepant online glyph"
+    },
+    {
+      "id": "PHASE_OR_ASPECT",
+      "status": "MISSING_APPLICATION_SEPARATION_AND_CONFIGURATION_RULE",
+      "source": "I.24/III.2/III.13",
+      "comments": "Moon speed, planetary phase/aspect scope, rising/setting orientations and historical aspect priority unresolved"
+    }
+  ],
+  "conditions_after_five_modes": [
+    "Which planet or set of planets actually governs Mercury and Moon via whole five-mode source method",
+    "Moon's previous/next applying and separating planet contacts rather than a modern arbitrary close-orb list",
+    "Governors' own condition, sect, angularity and orientation; derivative source information needed",
+    "Competing governors and contradictory testimony mixtures",
+    "Which historical phrase licenses a directional human-observable prediction rather than an appealing post-hoc reading"
+  ],
+  "fixed_computational_scope": {
+    "utc_horizon_start_inclusive": "1926-11-19T00:00:00Z",
+    "utc_horizon_end_exclusive": "2026-11-19T00:00:00Z",
+    "grid_minutes": 15,
+    "total_times": 3506400,
+    "traditional_planets": 7,
+    "location_policy": "one declared fixed longitude/latitude for Sun altitude; NOT a natal location for a participant",
+    "horizon_sect_neutral_band_degrees": 0.1,
+    "num_planet_shards": 36,
+    "num_location_shards": 36,
+    "source_data_hash_verification": "SHA256 each original source binary shard",
+    "continuous_coverage": false
+  },
+  "old_automated_scores_updated": false,
+  "behavioral_claims_licensed_for_automated_rank": 0,
+  "human_predictions_prospectively_verified": 0,
+  "no_public_birth_or_personal_case_data": true,
+  "term_variants_adjudication_status": "NEEDS_READING_PRINTED_LOEB_IMAGE_AND_ANCIENT_TABLE_MANUSCRIPT_TO_RESOLVE; DO NOT INVENT UNIVERSAL TABLE",
+  "new_provenance_requires_source_reader": true
+}

@@ -1,6 +1,49 @@
 # Current research state
 
 
+## 22 November 2026 — Ptolemy III.13 first three original ruler modes computed across full century
+
+**New genuine source-bound numerical computation:** Two full-source-hash-
+reverified Swiss/angle grid scans at **3,506,400 UTC fifteen-minute sampled
+instants** on the declared 1926-11-19 to 2026-11-19 end-exclusive horizon.
+Ptolemy I §§17–19/III §§2,13 defines FIVE relevant domination modes.
+We now calculate first two candidate families, **domicile and exaltation**,
+plus **day/night triplicity** both as one principal ruler and as all source-
+declared co-rulers. Solar altitude within ±0.1° of the horizon remains
+**UNKNOWN** under the triplicity extension (5,049 grid samples).
+
+The Mercury/Moon source-only shared-ruler *candidate* geometry gave:
+
+- **1,026,641 samples (29.279%)** with candidate overlap via domicile/
+  exaltation only;
+- **1,844,501 (52.604%)** with candidate overlap after adding the
+  principal-only day/night triplicity rule;
+- **2,142,360 (61.099%)** with candidate overlap after including all
+  source-declared triplicity co-rulers;
+- **297,859 samples (8.495 percentage points)** where the latter two
+  variants disagree mechanically.
+
+These are **candidate astronomies**, not selections of Ptolemy's final
+soul governors, source-licensed behavior rules, person-level matches,
+probabilities of astrology being true, or a full chart-to-profile rank.
+Original **terms** and **phase/aspect** and lunar applications, sect,
+orientations, co-ruler arbitration and competing testimony remain
+**uncomputed** (research Track S/R OPEN). A specific source warning:
+the online Robbins terms table has a Libra terminal glyph inconsistency
+and historical variants, so we have NOT silently selected a terms scheme.
+
+Public research report:
+`docs/astrohd/ptolemy_iii13_three_mode_century_source_audit_20261122.md`.
+Source code, tests, versioned scholarly issue register and neutral
+aggregates live at `tools/astrohd/`. Original source-bound immutable
+receipts are **private** SHA256
+`987065144f8e500abcf9127b3af52dbce347753eda484d689fcde30e18b03b5e`
+and
+`dc058a08b2172707633c024654964c578c21d007f31cf2876596f858c2f8e201`.
+No source respondent data enters the public repository.
+
+
+
 ## 22 November 2026 — source-safe reflective use and meditation/journaling policy
 
 Owner explicitly wants astrology presented as a **prompt to consider a possibly useful

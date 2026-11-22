@@ -1,0 +1,63 @@
+{
+  "counts": {
+    "any_shared_domicile_or_exaltation_candidate": 1026641,
+    "co_ruler_v_primary_difference_certain": 297859,
+    "earlier_two_mode_shared_within_sect_horizon_undecidable": 1476,
+    "new_common_candidate_due_triplicity_corulers_certain": 1117195,
+    "new_common_candidate_due_triplicity_primary_certain": 819336,
+    "same_Mercury_Moon_sign": 288789,
+    "same_domicile_ruler": 534191,
+    "sect_horizon_undecidable_at_0_1_degree": 5049,
+    "three_mode_any_source_coruler_candidate_certain": 2142360,
+    "three_mode_primary_triplicity_candidate_certain": 1844501
+  },
+  "date_utc": "2026-11-22",
+  "independently_verified_natal_personality_predictions": 0,
+  "no_source_complete_personality_model": true,
+  "owner_or_thirdparty_birth_details": false,
+  "private_verified_receipt_sha256": {
+    "three_modes": "dc058a08b2172707633c024654964c578c21d007f31cf2876596f858c2f8e201",
+    "two_modes": "987065144f8e500abcf9127b3af52dbce347753eda484d689fcde30e18b03b5e"
+  },
+  "sample_population": {
+    "coordinate_system": "tropical_geocentric_Swiss_Ephemeris_at_one_declared_location_for_solar_altitude",
+    "grid_minutes": 15,
+    "n": 3506400,
+    "not_birthed_people_or_a_birthtime_prior": true,
+    "utc_from_inclusive": "1926-11-19T00:00:00Z",
+    "utc_until_exclusive": "2026-11-19T00:00:00Z"
+  },
+  "schema": "astrohd_public_ptolemy_III13_three_domination_mode_aggregates_v01",
+  "source": "Ptolemy I.17–19, III.2, III.13; original 1940 Robbins English edition plus open primary source register",
+  "source_binary_shards_SHA256_verified": true,
+  "source_register": "ptolemy_iii13_five_domination_mode_source_adjudication_v01.json",
+  "source_types": {
+    "three_modes": [
+      "domicile",
+      "exaltation",
+      "triplicity_day_night"
+    ],
+    "two_modes": [
+      "domicile",
+      "exaltation"
+    ],
+    "unresolved": [
+      "terms",
+      "phase_or_aspect",
+      "lunar_applying_separating_aspects",
+      "planet_honourability_and_conflicting_testimony"
+    ]
+  },
+  "source_verified_manifests": {
+    "angles": "c1d1e513d2384f8a735c0806f96c987ba351373ccaa443beda945723ed58739b",
+    "planet": "da8a2164b0133599ea71a9c55b2a894c64b89a3ab39c9b3bc278478f0fcadbed"
+  },
+  "status": "SOURCE_BOUND_CENTURY_GRID_MECHANICAL_GOVERNOR_CANDIDATES_NOT_CHART_TRAIT_SCORE",
+  "status_caveats": [
+    "A shared candidate under a subset of ruler modes is not a Ptolemaic soul ruler and has no automatic personality reading.",
+    "Near-horizon samples with abs(solar altitude)<=0.1 degrees have no third-mode certainty; do not count them as true negatives.",
+    "Triplicity co-ruler policy is a source interpretation sensitivity and can change the count, not an empirically validated choice.",
+    "Source I.21 term tables have electronic glyph inconsistencies and manuscript variants; no default term table is silently chosen.",
+    "A 15-minute UTC clock distribution at a fixed site is neither continuous sky coverage nor a human birth population."
+  ]
+}
