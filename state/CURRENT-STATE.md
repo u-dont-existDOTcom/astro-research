@@ -1,5 +1,20 @@
 # Current research state
 
+## 22 November 2026 — Ptolemy original-source voting/phase, Lilly sign-language correction, exact HD same-UTC full century (NEW)
+
+The **full declared finite** century comparison has now been executed at all **3,506,400** original quarter-hour UTC source timestamps, joining all 36 hash-checked planet and 36 angle shards with the separately certified **288,908-interval HD** structural index. HD join original source/36 shard SHA-256 and 512 earlier production-source parity controls verified; **125 HD transition-margin instants abstained**. This is a complete SOURCE-QUALIFICATION/GEOMETRY comparison on the declared sampled clock, NOT all continuous births nor a complete behavioral ranking.
+
+Ptolemy *Tetrabiblos* III.2/3/13 and I.24 **does not uniquely specify a numerical fifth-mode phase/aspect vote, orb, planetary strength or contrary testimony arbitration**. Two Loeb printed term traditions crossed with primary vs multiple co-ruler triplicity produce 7,058 / 11,880 (Ptolemaic) and 8,222 / 13,878 (Egyptian) same Mercury/Moon four-mode leaders resistant to a **hypothetical single extra fifth vote**. Only **4,553 timestamps (557 HD intervals)** preserve the same conditionally robust lord under ALL four variants. Further experimental simultaneous non-conjunction aspect/ray screen leaves **115 timestamps (15 HD intervals) at 3°**, **944 (116 HD intervals) at 15°**. 1/3/5/10/15° are engineering tolerances, NOT historical orbs; lunar applying/separating derivative is approximate and bodily conjunction lacks required latitude checks. No actual historical Ptolemy soul governor or predictive human trait was assigned.
+
+**Correction to the earlier Lilly CVII 'house replaces sign' attribution:** Modern reproduced original chapter p.535 expressly begins with a planet in the **“Sign ascending, or which is intercepted”**. Our previously valid Regiomontanus first-HOUSE census does NOT uniquely settle this textual rule. Three first-stage interpretations were separately computed on the SAME full UTC grid: **ASC sign** 1,428,060, **Regiomontanus house** 1,409,411, **ASC sign OR fully intercepted first-house sign** 1,516,373. The exact 1647 Wellcome first printing pp.535–536 remains **uncollated**; original dignity, conjunction priority, partile and fixed-star qualifications remain open. The old house geometry/result is retained, not rewritten.
+
+**Cross-system joint classifications at identical instants:** Ptolemy 4,553 all-variant robust conditional four-mode cases overlap the Lilly ASC-sign branch in **1,746**, first-house branch in **1,920**, and sign-or-intercepted branch in **1,865** cases. These are mathematical overlapping classifications, not independent personality evidence, and no personal birth/experience input was used.
+
+Public source-checked report: [Ptolemy–Lilly–HD same-instant census](../docs/astrohd/ptolemy_lilly_hd_same_instant_century_source_arbitration_20261122.md). Immutable source-neutral aggregate `tools/astrohd/reference/research/ptolemy_lilly_hd_same_instant_public_census_v01.json`; independently versioned historical variant ledger `tools/astrohd/reference/research/ptolemy_lilly_original_wording_source_variants_v01.json`; actual full century runner `tools/astrohd/scripts/ptolemy_lilly_hd_same_instant_century_v01.py` and synthetic tests. All source-bound receipts and private historical person evidence remain in authorized private storage.
+
+**Owner's original O1/S/R human predictive/ranking objective remains OPEN**: freeze source-contested governing-planet decisions and a legitimate non-bespoke behavioral scorer, apply to the full declared universe, with independent human evidence. Neither a 4,553 geometric count nor 115 ray cases is evidence a chart is psychologically best.
+
+
 
 ## 22 November 2026 — original Lilly CVII first house and joined-fallback source mechanism
 

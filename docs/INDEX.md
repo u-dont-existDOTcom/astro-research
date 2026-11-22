@@ -1,5 +1,7 @@
 # Research documentation
 
+- **AstroHD 22 Nov 2026**: [Source-corrected Ptolemy–Lilly–HD full same-instant century structural comparison](astrohd/ptolemy_lilly_hd_same_instant_century_source_arbitration_20261122.md). Includes original rule ambiguities, SHA-verified 3,506,400 sample computation, no human predictive claims.
+
 | Document | Purpose |
 | --- | --- |
 | [AstroHD public research and migration](astrohd/README.md) | Canonical destination, privacy-safe recovered research, legacy methods and source evidence limits. |
