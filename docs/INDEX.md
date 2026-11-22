@@ -1,5 +1,8 @@
 # Research documentation
 
+- **AstroHD source arbitration, 22 Nov 2026:** [Lilly CVII “If no Planet aspect him”: full century all-other-planets aspect and same-UTC Ptolemy/HD sensitivity](astrohd/lilly_cvii_all_planets_aspecting_asc_lord_full_century_20261122.md). Six-way source-conditional abstentions preserve rival original interpretations without claiming predictive success.
+
+
 - **AstroHD original source continuation, 22 Nov 2026:** [1647 Lilly planetary orb moieties, partile aspects, and full 3.5-million same-instant Ptolemy/HD fallback comparison](astrohd/lilly_1647_original_orb_moiety_partile_full_century_20261122.md). Preserves alternate source methods; no human prediction rank.
 
 - **AstroHD original sources, 22 Nov 2026:** [Lilly 1647 first edition, Ptolemy I.24 Greek/English, and latitude-verified same-instant century](astrohd/lilly_1647_ptolemy_i24_original_print_latitude_20261122.md). Historical interpretation gaps remain open; no natal personality validation.
