@@ -1,6 +1,30 @@
 # Current research state
 
 
+## 22 November 2026 — source-safe reflective use and meditation/journaling policy
+
+Owner explicitly wants astrology presented as a **prompt to consider a possibly useful
+hypothesis**, not as a predictor to design life around. A person might notice an
+ordinary difficulty (for example, explaining ideas clearly) after a reading
+mentions it, consider evidence and contrary explanations, and try a small,
+voluntary improvement without granting the birth chart any predictive credit.
+
+The public guide `docs/astrohd/reflective-practice/USING_ASTROLOGY_WISELY.md`
+contains reader-ready examples, an evidence-for/against journal, a voluntary
+two-minute attention practice, an alternative-explanation check and practical
+safety limits. It is informed by NHS thought records and the Forer/Barnum
+bias research, **not** proof that astrology is effective psychotherapy.
+The guiding rule applies to all public astrology/HD, Gene Keys and related
+source-qualified interpretations. No private participant record is in it.
+
+Claude's actual participant astrology-page builders and personal journal data
+are held in the separately authorized **private** `astro-private` repository.
+This public method is complementary to that private author's guide. A public
+documentation change does not republish a private live page; the Claude page
+owner must separately build and verify any new reader-facing content.
+
+
+
 ## 22 November 2026 — new owner-authorized fourth forum source sweep and actual century census
 
 **This is a distinct new owner-authorized forum follow-up**, not an alteration of the
