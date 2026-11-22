@@ -116,7 +116,8 @@
         "dispositor_sign_ray",
         "dispositor_orb_near_ray"
       ],
-      "missing": "When Ascendant lord is in its own domicile, the dispositor is the same body; must not call its own self aspect qualified."
+      "missing": "When Ascendant lord is in its own domicile, the dispositor is the same body; must not call its own self aspect qualified.",
+      "further_primary_text_qualification": "Lilly p536 immediately says If no Planet aspect him; this may be broader than only the dispositor and requires a distinct all-other-planets-beholding-ASC-lord source branch. That broader gate is NOT included in current R3→R4 threshold."
     },
     {
       "rule": "FORCIBLE_PARTILE",
@@ -143,5 +144,6 @@
   "source_neutral_runner": "tools/astrohd/scripts/lilly_cvii_ptolemy_same_instant_ordered_fallback_v02.py",
   "source_neutral_numeric_aggregate": "tools/astrohd/reference/research/lilly_cvii_ptolemy_same_instant_ordered_fallback_public_v02.json",
   "historical_first_full_source_run_v01": "PRIVATE_IMMUTABLE_ORIGINAL_CENSUS_RECEIPT_AND_SOURCE_SCRIPT_KEPT_OFF_PUBLIC_REPO",
-  "same_instant_ptolemy_conditional_four_mode_consensus": "4,553 timestamps as already source-verified; all historical variants and contested interpretation remain unresolved"
+  "same_instant_ptolemy_conditional_four_mode_consensus": "4,553 timestamps as already source-verified; all historical variants and contested interpretation remain unresolved",
+  "historical_other_planets_aspecting_ASC_lord_status": "EXPLICIT_UNRESOLVED_BRANCH: preceding stage tests only whether specific dispositor sees ASC lord; other planets that aspect ASC lord might block the next fallback in some readings."
 }

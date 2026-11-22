@@ -8,6 +8,9 @@ sets are carried as DISTINCT policies, not cherry-picked after reading natal
 profiles; p106 describes a PARTILL aspect with matching numbered degrees
 and p107 a PLATICK aspect within planetary MOIETIES (half sum of orbs).
 The CVII p536 'joyned' does not specify which table row or priority to use.
+Also p536 says 'If no Planet aspect him' after the dispositor condition.
+The broader other-planets-to-ASC-lord interpretation is NOT calculated;
+subsequent stage labels remain conditional procedural sensitivities.
 Three rival first-stage interpretations stay independent. 'Behold' as sign
 aspect vs ray within moiety and 'partile Moon or/and Mercury' also diverge.
 
@@ -260,6 +263,7 @@ def run(west,angles,hd_cache,hd_join,hashes=True):
       "dispositor_seeing_rules":list(BEHOLDS),"partile_fallback_rules":list(PARTILES),
       "interpretation_of_partile":"same-numbered degree within zodiac signs separated by traditional ray; not exact continuous angular residual",
       "source_status":"Lilly's strength, dispositors, appropriateness of unfortified luminary, joining orbs in CVII, and final dignities cannot be source-uniquely adjudicated",
+      "unmodeled_source_condition":"After the special ASC lord/dispositor condition, original CVII p536 says if no Planet aspect him. Other-planet aspects to ASC lord not included as a separate R3 to R4 gate. This five-stage geometry is NOT source-complete.",
       "full_source_Sha256_rechecked":hashes,
       "hd_source_join":proof,
       "original_planet_manifest_sha256":base.reg.initial.source_hash(wm),

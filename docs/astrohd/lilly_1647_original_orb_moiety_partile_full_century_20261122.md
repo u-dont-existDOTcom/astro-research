@@ -36,6 +36,8 @@ The [reproduction script](../../tools/astrohd/scripts/lilly_cvii_ptolemy_same_in
 4. If still vacant, at least one planetary ray is **partile by numbered degree** to the **Moon OR Mercury**, versus a stricter same-planet Moon **AND** Mercury reading. The original source's “forcibly” has **not** been independently qualified.
 5. All remaining timestamps fall to **essential-dignity/fixed-star/strength source arbitration, still genuinely UNRESOLVED**. The numbered stage is **not** a completed manners-significator planet assignment.
 
+**Specific original-source gap:** The next sentence in Lilly p.536 says **“If no Planet aspect him”** after requiring the dispositor to behold the Ascendant lord. That might refer to **any other planet aspecting the ASC lord**, not just the dispositor. The current five-stage implementation only tests the named dispositor; it does **not** implement a full all-planets aspect screen before the partile branch. Accordingly, stage 4 and stage 5 counts are **conditional on the deliberately narrower historical interpretation** and must not be presented as Lilly's source-determined final path. This omitted branch remains OPEN.
+
 The 48 source-sensitive combinations all partition the exact same 3,506,400 UTC samples without overlapping temporal stage categories. The matrix is reproduced without human profiles in the [aggregate JSON](../../tools/astrohd/reference/research/lilly_cvii_ptolemy_same_instant_ordered_fallback_public_v02.json).
 
 ### One clearly declared comparable source branch
