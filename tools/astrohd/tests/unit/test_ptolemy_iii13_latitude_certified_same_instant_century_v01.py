@@ -50,4 +50,25 @@ class LatitudeWitness(unittest.TestCase):
         self.assertEqual(g.shape,(7,))
         self.assertTrue(np.all((g>=-1)&(g<=6)))
 
+    def test_public_source_aggregate_contract_and_monotone_latitude_bounds(self):
+        import json
+        path=Path(__file__).resolve().parents[2]/"reference/research/ptolemy_i24_source_bound_latitude_and_phase_public_v01.json"
+        report=json.loads(path.read_text())
+        self.assertEqual(report["sample_count"],3506400)
+        self.assertEqual(report["HD_join_audit"]["unresolved_HD_transition_near_samples"],125)
+        self.assertFalse(report["human_predictions_validated"])
+        self.assertFalse(report["actual_ptolemy_soul_governor_selected"])
+        self.assertFalse(report["private_natal_or_interview_loaded"])
+        counts=report["counts"]
+        for t in (1,3,5,10,15):
+            prefix=str(t)+"deg_"
+            self.assertLessEqual(counts[prefix+"nonbody"],counts[prefix+"verified"])
+            self.assertLessEqual(counts[prefix+"verified"],counts[prefix+"possible"])
+            self.assertEqual(counts[prefix+"possible"]-counts[prefix+"verified"],
+                             counts[prefix+"body_latitude_unsupported_or_opposite"])
+            self.assertEqual(counts[prefix+"direction_disagreement"],0)
+        self.assertEqual(counts["3deg_nonbody"],115)
+        self.assertEqual(counts["3deg_verified"],162)
+        self.assertEqual(report["HD_interval_counts"]["3"],19)
+
 if __name__=="__main__": unittest.main()
