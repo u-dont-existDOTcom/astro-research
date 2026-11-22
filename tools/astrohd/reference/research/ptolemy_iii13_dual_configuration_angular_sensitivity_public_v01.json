@@ -1,0 +1,119 @@
+{
+  "angular_derivative_shard_edge_unknown_samples": 72,
+  "anonymous_commentator_15_deg_is_not_original_Ptolemy_orb": true,
+  "applying_and_separating_counts_can_overlap_across_different_planets": true,
+  "date_utc": "2026-11-22",
+  "excluded_source_categories": [
+    "Mercury self-aspect undefined; excluding its candidate does not invalidate the original reading",
+    "Sun and Moon not represented in the external nonluminary governor subset",
+    "Bodily conjunctions require latitude same-side criterion not stored in original century longitude grid",
+    "Thresholds 1/3/5/10/15 are engineering sensitivities, not a defined Ptolemy historical orb",
+    "Sun altitude +/-0.1 degrees at horizon abstained in sect-based rules",
+    "36 original shard first/last derivative sample rows excluded by central difference",
+    "A special double configuration is NOT asserted necessary or sufficient for every character interpretation"
+  ],
+  "fifth_original_mode_fully_adjudicated": false,
+  "finite_difference_moon_relative_velocity_private_check": {
+    "max_abs_difference_deg_per_day_from_new_strict_swieph": 7.457757222617545e-05,
+    "nonpersonal_test_clock_instants": 9,
+    "planetary_comparisons": 36,
+    "relative_motion_direction_agreement": true,
+    "source_binary_identical_to_original_century": false
+  },
+  "horizon_utc": [
+    "1926-11-19T00:00:00+00:00",
+    "2026-11-19T00:00:00+00:00"
+  ],
+  "human_behavior_score": null,
+  "manifest_sha256": {
+    "Sun_altitude": "c1d1e513d2384f8a735c0806f96c987ba351373ccaa443beda945723ed58739b",
+    "planet": "da8a2164b0133599ea71a9c55b2a894c64b89a3ab39c9b3bc278478f0fcadbed"
+  },
+  "near_horizon_unknown": 5049,
+  "no_private_participant_data": true,
+  "nonMercury_external_common_rule_candidate_counts": {
+    "egyptian_printed": 2692706,
+    "ptolemy_printed": 2753325
+  },
+  "original_72_source_binary_shards_sha256_reverified": true,
+  "original_text_uri_i24": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Ptolemy/Tetrabiblos/1B%2A.html",
+  "original_text_uri_iii13": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Ptolemy/Tetrabiblos/3D%2A.html",
+  "prior_four_mode_1940_source_candidate_baseline": {
+    "egyptian_1940_printed_all_corulers": 2965122,
+    "ptolemy_1940_printed_all_corulers": 3006871
+  },
+  "private_frozen_full_receipt_sha256": "033888a03df39ccf83da2cfa79846bf927b48783a8442d62bdaef6e255a373bc",
+  "reading_mode": "Full English Loeb 1940 reproduction; source text distinct from editor commentary",
+  "real_15_minute_uniform_utc_samples": 3506400,
+  "schema": "ptolemy_iii13_mercury_moon_external_lord_dual_aspect_angular_screen_public_v01",
+  "screened_interior_samples": 3501279,
+  "screened_nonMercury_external_governors": [
+    "Venus",
+    "Mars",
+    "Jupiter",
+    "Saturn"
+  ],
+  "source": "Tetrabiblos III.13 pp.333-339; I.24 pp.113-117, Robbins 1940",
+  "source_has_no_single_numeric_qualifying_orb_in_this_passage": true,
+  "source_locators": [
+    "III.13 pp.333-339, special simultaneous-ruler paragraph",
+    "I.24 pp.113-117, applying/separating and latitude",
+    "Robbins footnote I.24 no.129: anonymous commentator 15 degrees, later Ashmand varying orbs"
+  ],
+  "source_paraphrase": "In III.13 special weight attaches to the same planets configured to Mercury AND having a Moon separation/application; their sect/dignity/angularity and competing testimonies qualify the result. Sharing a possible sign/term lord alone does not establish this.",
+  "status": "SOURCE_TEXT_INSPIRED_ENGINEERING_ASPECT_SENSITIVITY_NOT_HISTORICAL_PTOLEMY_ORB",
+  "threshold_rows": [
+    {
+      "e_including_uncertified_bodily_conjunctions": 7179,
+      "e_printed_nonbody_witness": 4881,
+      "max_abs_degrees_for_each_two_aspect_configuration": 1,
+      "p_including_uncertified_bodily_conjunctions": 7815,
+      "p_printed_nonbody_witness": 5294,
+      "ptolemy_nonbody_applying": 2669,
+      "ptolemy_nonbody_separating": 2649,
+      "source_terms_scheme_disagreement_for_nonconjunction": 2143
+    },
+    {
+      "e_including_uncertified_bodily_conjunctions": 66744,
+      "e_printed_nonbody_witness": 45176,
+      "max_abs_degrees_for_each_two_aspect_configuration": 3,
+      "p_including_uncertified_bodily_conjunctions": 68998,
+      "p_printed_nonbody_witness": 46006,
+      "ptolemy_nonbody_applying": 22979,
+      "ptolemy_nonbody_separating": 23338,
+      "source_terms_scheme_disagreement_for_nonconjunction": 17374
+    },
+    {
+      "e_including_uncertified_bodily_conjunctions": 177606,
+      "e_printed_nonbody_witness": 120306,
+      "max_abs_degrees_for_each_two_aspect_configuration": 5,
+      "p_including_uncertified_bodily_conjunctions": 184769,
+      "p_printed_nonbody_witness": 123192,
+      "ptolemy_nonbody_applying": 61621,
+      "ptolemy_nonbody_separating": 62705,
+      "source_terms_scheme_disagreement_for_nonconjunction": 43254
+    },
+    {
+      "e_including_uncertified_bodily_conjunctions": 663753,
+      "e_printed_nonbody_witness": 449595,
+      "max_abs_degrees_for_each_two_aspect_configuration": 10,
+      "p_including_uncertified_bodily_conjunctions": 687264,
+      "p_printed_nonbody_witness": 463182,
+      "ptolemy_nonbody_applying": 236712,
+      "ptolemy_nonbody_separating": 237028,
+      "source_terms_scheme_disagreement_for_nonconjunction": 148953
+    },
+    {
+      "e_including_uncertified_bodily_conjunctions": 1359338,
+      "e_printed_nonbody_witness": 943172,
+      "max_abs_degrees_for_each_two_aspect_configuration": 15,
+      "p_including_uncertified_bodily_conjunctions": 1402899,
+      "p_printed_nonbody_witness": 968436,
+      "ptolemy_nonbody_applying": 509007,
+      "ptolemy_nonbody_separating": 511139,
+      "source_terms_scheme_disagreement_for_nonconjunction": 292086
+    }
+  ],
+  "uniform_utc_time_grid_not_representative_birth_population": true,
+  "validated_human_prediction_count": 0
+}
