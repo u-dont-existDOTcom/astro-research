@@ -1,6 +1,65 @@
 # Current research state
 
 
+## 22 November 2026 — direct original printed Ptolemaic terms source correction and four-mode century counts
+
+The 490-page original **Robbins 1940 Loeb *Tetrabiblos*** was obtained and
+the printed Greek/English parallel tables (Egyptian terms pp. 96–97 and
+Ptolemaic terms pp. 106–107) **actually inspected as page images**.
+The prior web transcription had mistakenly duplicated Saturn for the
+last Libra Ptolemaic term; original Greek AND English show **Mars, 6°**.
+A reflow secondary PDF lost Virgo's Jupiter **5°**; both original
+printed languages preserve it. Historical manuscripts and Egyptian vs
+Ptolemaic term systems still differ. This corrects a text-transcription
+defect, **not** every term tradition or primary manuscript.
+
+Using those two independently validated **12-sign × five-term** tables,
+a new source-neutral fourth-mode Mercury/Moon geometric census was
+actually performed on all **3,506,400** cached 15-minute UTC instants
+(1926-11-19 inclusive through 2026-11-19 exclusive). Every original
+planet and location-based solar-altitude source shard SHA256 was verified.
+Existing 3-mode all-co-ruler shared candidates: **2,142,360 (61.10%)**.
+Adding Ptolemaic 1940 terms: **3,006,871 (85.75%)**; using Egyptian
+1940 terms instead: **2,965,122 (84.56%)**. The distinct source terms
+schemes disagree on eligibility at **341,721 instants (9.75%)**, even
+though their total proportions differ by just ~1.19 percentage points.
+The Ptolemaic and Egyptian rulers themselves differ for Mercury at
+**43.41%** and the Moon at **42.52%** of samples. A shared ruler is too
+prevalent to imply a distinctive natal character by itself. The five-mode
+Ptolemaic soul governor is **NOT** selected and no personality prediction
+or source-qualified whole-century rank is established.
+
+Current public source register
+`tools/astrohd/reference/research/ptolemy_iii13_five_domination_mode_source_adjudication_v02.json`
+supersedes original edition-uncollated v01 **without altering v01**.
+See `docs/astrohd/ptolemy_1940_terms_four_mode_census_20261122.md` and
+`tools/astrohd/reference/research/ptolemy_iii13_four_mode_terms_aggregate_v01.json`.
+
+A separately source-pinned strict-SWIEPH Moon–planet aspect event finder
+was also **actually run** on a source-neutral 2000-01-01 control case,
+finding **8 exact geometric aspect roots** within ±3 *research-defined*
+days (4 before, 4 after, angular residual below 6.34e-8°). This is
+NOT Ptolemy's unquantified historical aspect-proximity criterion and
+does not settle applying/separating governance. The currently
+downloadable Swiss planetary ephemeris file has a DIFFERENT binary
+SHA256 from the old century cache; seven source-neutral cross-check
+dates showed maximum geocentric longitude difference ~1.86e-6° with
+unchanged SWIEPH source flags. Old source and newer pilot therefore
+remain explicitly distinct.
+
+**Remaining S/R OPEN:** true qualifying aspect/phase/sect and
+Moon application/separation, governing-planet selection among five
+modes and competing testimony, full original Lilly manners, HD and
+modern-Western source-qualified behavior rules, then impartial
+same-time all-candidate century comparison or an honest no-defensible
+unique-rank conclusion. Public file changes do not revise private
+respondent data or historical scores. Original scanned Loeb pages,
+raw ephemeris file and individual owner-specific comparator results
+remain in authorized private local evidence store. No human prospective
+predictive validation has been established.
+
+
+
 ## 22 November 2026 — Ptolemy III.13 first three original ruler modes computed across full century
 
 **New genuine source-bound numerical computation:** Two full-source-hash-

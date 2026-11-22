@@ -1,0 +1,87 @@
+{
+  "schema": "ptolemy_terms_printed_greek_english_dual_table_provenance_v01",
+  "recorded_utc": "2026-11-22",
+  "status": "PRIMARY_PRINTED_1940_TERMS_TABLE_COLLATION_COMPLETE_GREEK_AND_ENGLISH_IN_THIS_EDITION; WIDER_MANUSCRIPT_VARIANTS_NOT_RESOLVED",
+  "principal_source": {
+    "title": "Claudius Ptolemy, Tetrabiblos, Loeb Classical Library, F. E. Robbins editor and translator, 1940",
+    "file_reference": "https://commons.wikimedia.org/wiki/File:Loeb_435_-_Ptolemy_-_Tetrabiblos_by_Robbins_(1940).pdf",
+    "pdf_sha256": "10b44f40e47409215aa3d6c4ec2863ebc3982b81d33b4d4e5e2a065761ab7fec",
+    "printed_pages": [
+      {
+        "page": 96,
+        "physical_pdf_page_1_based": 120,
+        "content": "Original Greek table of Egyptian terms, rendered and inspected directly against printed English p97",
+        "private_render_sha256": "792cf08f56be089a851b1d137a40867f7b42d2feccd625dd41cad09b8279d348"
+      },
+      {
+        "page": 97,
+        "physical_pdf_page_1_based": 121,
+        "content": "English table of Egyptian terms directly inspected at full resolution",
+        "private_render_sha256": "c3749c64d6939adac8813e56a9a86acd5a6f7a9dca3ed9a044936074ebdcd20a"
+      },
+      {
+        "page": 106,
+        "physical_pdf_page_1_based": 130,
+        "content": "Greek table of terms Ptolemy says derived from earlier manuscript, directly inspected",
+        "private_render_sha256": "6e3f9aad7dd58d2f7cd44bf992b3f9786fe413c8c381e0c201f18a4e050cfe6d"
+      },
+      {
+        "page": 107,
+        "physical_pdf_page_1_based": 131,
+        "content": "English printed table directly inspected and matched to Greek",
+        "private_render_sha256": "63f8bc6e7f50b5037cc262500e954784934cc970fcd6853f0455b7f19775edc3"
+      }
+    ],
+    "read_mode": "original Greek and English printed Loeb 1940 image facsimile; all four pages (96,97,106,107) directly inspected",
+    "editorial_footnotes": "Loeb reports use of Vatican Greek 1453 and variants from Camerarius/Proclus in Latin critical notes; only a single printed 1940 edited version is frozen by this numerical implementation."
+  },
+  "additional_sources": [
+    {
+      "uri": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Ptolemy/Tetrabiblos/1B%2A.html",
+      "read_mode": "proofread_English_web_transcription",
+      "finding": "Libra last term erroneously repeats Saturn 6 in Ptolemaic table but printed Greek and English both give Mars 6; a web-transcription error, not the Loeb printed reading."
+    },
+    {
+      "uri": "https://krasiancientastrology.com/wp-content/uploads/2016/11/Ptolemy-Claudius-Tetrabiblos-Robbins-1940.pdf",
+      "read_mode": "modern reflow PDF, screenshot inspected",
+      "finding": "Ptolemy Libra final term Mars 6 agrees with original printed Loeb; Virgo's Jupiter term is missing in the reproduction, but original printed Loeb gives Jupiter 5."
+    },
+    {
+      "uri": "https://library.keplercollege.org/wp-content/uploads/2022/01/Houlding_ptolemy_terms1.pdf",
+      "read_mode": "secondary historical scholarship cited, manuscript sequence differences not visually fully collated",
+      "finding": "Historical term sequences and manuscript variants require explicit provenance; current implementation does not establish one universal scheme."
+    }
+  ],
+  "directly_resolved": [
+    {
+      "issue": "Libra Ptolemaic term final planet",
+      "printed_greek_page_106": "Mars",
+      "printed_english_page_107": "Mars",
+      "term_degrees": 6,
+      "prior_web_html": "Saturn 6 duplicate",
+      "disposition": "TRANSCRIPTION_ERROR_IN_HTML"
+    },
+    {
+      "issue": "Virgo Ptolemaic Jupiter term size",
+      "printed_greek_page_106": "Jupiter",
+      "printed_english_page_107": "Jupiter",
+      "term_degrees": 5,
+      "modern_reflow_text": "missing",
+      "disposition": "OMISSION_IN_REFLOW_TEXT"
+    },
+    {
+      "issue": "Egyptian versus Ptolemaic table",
+      "finding": "Two separate, complete 12 sign × five term printed arrangements. Neither should be silently substituted for the other.",
+      "disposition": "BOTH_IMPLEMENTED_AS_DISTINCT_SOURCE_VARIANTS"
+    }
+  ],
+  "explicitly_unresolved": [
+    "Other Greek manuscript/order variants and Egyptian/Chaldean interpretive traditions; this scan certifies only Robbins 1940 edited printed reading.",
+    "Historical argument about choosing term ruler if different planetary conditions or equivalent forms conflict.",
+    "Fifth phase/aspect domination mode, Moon application/separation and full III.13 soul-governor personality assignment."
+  ],
+  "public_reuse_policy": "Tables are explicit factual historical numerical values transcribed solely for source-neutral mathematical reproduction. Original scans/source figures remain private local research reference; never copy participant charts or private correspondence.",
+  "reproducible_implementation": "tools/astrohd/scripts/ptolemy_four_modes_source_terms_century_v01.py",
+  "not_full_character_model": true,
+  "no_private_birth_records": true
+}
