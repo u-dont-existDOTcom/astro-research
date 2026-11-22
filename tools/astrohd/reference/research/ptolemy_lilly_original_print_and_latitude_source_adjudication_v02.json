@@ -1,0 +1,167 @@
+{
+  "schema": "ptolemy_i24_iii13_lilly_1647_source_diplomatic_qualification_v02",
+  "recorded_utc_date": "2026-11-22",
+  "supersedes_without_editing": [
+    "ptolemy_lilly_original_wording_source_variants_v01.json",
+    "lilly_cvii_ordered_manners_fallback_source_register_v01.json"
+  ],
+  "historical_primary_editions": [
+    {
+      "author": "William Lilly",
+      "work": "Christian Astrology",
+      "edition": "1647 first printing, T. Brudenell",
+      "archive_identifier": "Wellcome b30338724",
+      "url": "https://wellcomecollection.org/works/s7z7c46y",
+      "original_pdf_sha256": "2cb53e20e122ffc6e47917ba10241f6c49687cd7a4696f3b5db655a2a1aab28b",
+      "read_mode": "ACTUAL ORIGINAL 1647 PRINTING DIRECTLY RENDERED AND VISUALLY INSPECTED",
+      "printed_pages": [
+        534,
+        535,
+        536,
+        537
+      ],
+      "exact_page_map_one_based_pdf": {
+        "534": 568,
+        "535": 569,
+        "536": 570,
+        "537": 571
+      },
+      "render_verification_png_sha256": {
+        "535": "49efe26a167fcdd6d0f1f08d3c7a69faaf87939b41cab02341ef6dc2500f4708",
+        "536": "4cdd11d5cf468e20f38fed7889e42f2e6298540e05f7f196c9b916e28bb57b24"
+      },
+      "license": "public domain; Wellcome source reproduction"
+    },
+    {
+      "author": "Claudius Ptolemy",
+      "work": "Tetrabiblos",
+      "edition": "Loeb Robbins 1940 source with parallel printed Greek/English",
+      "uri": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Ptolemy/Tetrabiblos/1B%2A.html",
+      "original_scan_pdf_sha256": "10b44f40e47409215aa3d6c4ec2863ebc3982b81d33b4d4e5e2a065761ab7fec",
+      "read_mode": "DIRECT GREEK/ENGLISH ORIGINAL PRINTED PAGE RENDERS, Greek not independently translated in entirety",
+      "direct_inspected_pages": {
+        "I.24 Greek 112": "pdf136, sha dd1b2db8189d9aeccb396fdd817bdc73b4a7a2adbf78616f6cd9aced28e68c06",
+        "I.24 English 113": "pdf137, sha 7167039d9ec6c14cc639aae143dab906f57aeeb08d6e580c2c4bd236910e3d7d",
+        "I.24 English 115": "pdf139, sha d4612489131d8ab623500b7322b79188ab9d8de68d7bcf7341d489ade3019b4a",
+        "III.3 Greek 236": "pdf260, sha 8c0910dec05445fe07e474066c3bf31e112314bb32c65754fa785b0fa6a82101",
+        "III.3 English 237": "pdf261, sha 56d452a8554b766b0b36ac81ffa3a4f890c6dcf01596c0177885e9068c2a24b3",
+        "III.13 English 333": "pdf357, sha 492a860af8a940700760887273fb7cb806eebbdb173c97674c4cbf7300feda54",
+        "III.13 English 335": "pdf359, sha 76625982034f61dd05d6a360efa79f35edb27882a278b253b1a3cc4683c980d6"
+      }
+    }
+  ],
+  "direct_original_source_observations": [
+    {
+      "id": "LILLY_ASC_INTERCEPTED",
+      "page": 535,
+      "short_exact_quote": "Sign ascending, or which is intercepted",
+      "reading": "A body occupying the rising sign or an intercepted sign qualifies as primary significator; others having dignity in its place participate. This authenticates the original 1647 wording, not just later transcriptions.",
+      "qualification": "The later phrase no planet in ascendant/horoscope is not unambiguously reduced to sign-only versus quadrant-house eligibility; preserve both."
+    },
+    {
+      "id": "LILLY_MULTIPLE_STRENGTH",
+      "page": 535,
+      "reading": "When several planets occupy the horoscope, all signify manners; the most powerful one acts more durably. Mercury joined to several planets borrows nature from the closest conjunction and the most fortified/dignified planet.",
+      "qualification": "No universal numerical strength unit, or conjunction orb, established."
+    },
+    {
+      "id": "LILLY_FALLBACK_ORDER",
+      "page": 536,
+      "reading": "With no planet in ascendant, inspect planets joined to Moon or Mercury, then conditionally lord of ASC and its dispositor's aspect, then a forceful partile aspect to Moon or Mercury, then most essential dignity at their places; fixed stars follow.",
+      "qualification": "Singular/multiple tie arbitration and the exact strength and orb values remain unresolved."
+    },
+    {
+      "id": "PTOLEMY_I24_APPLY",
+      "page": "Greek112/English113",
+      "reading": "Original Greek juxtaposes synapse/application and separation; Robbins says the bodies that precede (editor gloss: more occidental) apply to those that follow, if the interval is sufficiently small.",
+      "qualification": "The older sampled relative-velocity approach/recede measure and the original directional language are separate constructs; longitude polarity is a source-text proxy. The original does not stipulate numeric 1/3/5/10/15-degree orbs."
+    },
+    {
+      "id": "PTOLEMY_I24_BODILY",
+      "page": "English115",
+      "reading": "Bodily application/separation requires participants on the same side of the ecliptic; aspect rays do not require a same-latitude-side condition.",
+      "qualification": "Same-side sign is necessary under this cited passage, not a full geometric three-dimensional conjunction quality model."
+    },
+    {
+      "id": "PTOLEMY_III3_SELECTION",
+      "page": "III.3 English237-239",
+      "reading": "Five ways described in III.2 for selecting lord of a given subject; when two or three compete select the one(s) with more claims. Additional magnitude/manner conditions relate to strength, angularity, course and more.",
+      "qualification": "Counting one vote per mode is a transparent bounded engineering reconstruction; it is not proof of a universal one-personality-ruler mathematical algorithm."
+    },
+    {
+      "id": "PTOLEMY_III13_MULTIPLE",
+      "page": "III.13 English333-339",
+      "reading": "Mercury and Moon have different character functions, multiple configurations and testimonies matter, especially same governors configured to Mercury and Moon.",
+      "qualification": "Source does not demand one common external governor under all cases, nor claim independent human predictive validity."
+    },
+    {
+      "id": "LOEB_EDITOR_15DEG",
+      "page": "I.24 note129 English113",
+      "reading": "Robbins reports anonymous commentary (Wolf, page 51) on 15 degrees and reports Ashmand alternative planet-specific orbs.",
+      "qualification": "Neither was specified by Ptolemy; original Wolf commentary remains uncollated."
+    }
+  ],
+  "astronomy_rebind_provenance": {
+    "status": "FULL_3506400_SAMPLE_SOURCE_SHA_VERIFIED_AND_PINNED_SWISS_LATITUDE_PILOT_FOR_CONTACT_CANDIDATES",
+    "source_planet_grid_shards": 36,
+    "source_angle_shards": 36,
+    "source_HD_index_shards": 36,
+    "source_HD_intervals": 288908,
+    "HD_near_transition_undetermined": 125,
+    "ephemeris_release": "Swiss 2.10.03",
+    "new_strict_pinned_sepl_18_sha256": "9f057b316b1890a7f9340d0bf92db96edbab4939dbcc54762b62f6a70a059eb0",
+    "new_strict_pinned_semo_18_sha256": "1ca07bd67c24374d77226180c20a4f9996cba013697894810518e7eb582ca4f7",
+    "separate_ephemeris_source_from_original_grid": "YES, binary differs but longitude residual checked at all selectively recomputed latitude timestamps; max 1.363e-7 degrees",
+    "largest_angular_source_rebind_difference_deg": 1.3627771977553493e-7,
+    "selected_strict_latitude_timestamp_tests": 248,
+    "previous_nonbody_only_counts": {
+      "1": 15,
+      "3": 115,
+      "5": 200,
+      "10": 575,
+      "15": 944
+    },
+    "bodily_inclusive_possible_counts": {
+      "1": 15,
+      "3": 165,
+      "5": 296,
+      "10": 815,
+      "15": 1192
+    },
+    "same_side_qualified_counts": {
+      "1": 15,
+      "3": 162,
+      "5": 270,
+      "10": 658,
+      "15": 1027
+    },
+    "opposite_latitude_or_unsupported_counts": {
+      "1": 0,
+      "3": 3,
+      "5": 26,
+      "10": 157,
+      "15": 165
+    },
+    "HD_states_qualified": {
+      "1": 2,
+      "3": 19,
+      "5": 33,
+      "10": 81,
+      "15": 123
+    },
+    "proxy_vs_source_precedence_disagreement_all_declared_thresholds": 0,
+    "source_neutral_aggregate": "ptolemy_i24_source_bound_latitude_and_phase_public_v01.json",
+    "source_neutral_script": "tools/astrohd/scripts/ptolemy_iii13_latitude_certified_same_instant_century_v01.py",
+    "human_predictive_validity": "NOT_TESTED"
+  },
+  "historically_open_questions": [
+    "Original 1647 sign versus historical first-house/horoscope grammatical scope remains contested even after direct collation.",
+    "Lilly's planetary fortification, dispositor and essential dignity arbitration have not become source-unique executable numbers.",
+    "Original Ptolemy five-way fifth phase/aspect ruler-selection requires source-specific proximity and stronger/contrary testimony; 1/3/5/10/15 degrees remain experimental.",
+    "Robbins-cited anonymous Wolf commentary has not been independently collated from original Greek.",
+    "Printed Ptolemy versus Egyptian terms, original co-rulers, and many other testimony variants remain source-conditioned, not pooled.",
+    "No human natal interpretation, personal profile score, or complete unbiased century-wide personality ranking has been computed in this pass."
+  ],
+  "original_old_source_artifacts_unchanged": true,
+  "public_records_no_personal_evidence": true
+}
