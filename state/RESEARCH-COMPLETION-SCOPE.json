@@ -98,7 +98,7 @@
     "no_personality_rank_from_geometric_rarity": true,
     "old_results_preserved_not_rewritten": true
   },
-  "next_safe_action": "Determine original Lilly matter-significator eligibility and reception scope, then integrate source-licensed debility, house and direct/retrograde partial fortitude with recorded unknowns for earlier source stages; do not call partial natal body score the final Lilly manners ruler. Preserve Ptolemy III.13 source variants and complete independent human behavioral evaluation as OPEN.",
+  "next_safe_action": "Resolve actual Lilly CVII eligibility for which planets count as matter significators and the remaining original 1647 source fortitude conditions; then complete Ptolemy III.13 governing-planet testimonies before defining/validating a non-bespoke human trait scorer across all declared comparison candidates. Partial composite natal scores are not a unique historical ruler.",
   "provenance": "Based on verified public source evidence and corrected user feedback. Prior conversation completion language is explicitly distinguished from what the Git artifact actually proves.",
   "completed_now_limited_source_motion": {
     "status": "COMPLETE_DECLARED_SOURCE_COMPONENT_ONLY",
@@ -127,5 +127,17 @@
     "Lilly_CVII_final_manners_ruler_resolved": false,
     "Ptolemy_III13_full_soul_governor_resolved": false,
     "independent_human_prediction": false
+  },
+  "completed_now_integrated_partial_original_strength_census": {
+    "status": "COMPLETE_DECLARED_SOURCE_CONDITIONAL_COMPOSED_PARTIAL_NATAL_BODY_STRENGTH_ONLY",
+    "source_report": "docs/astrohd/lilly_1647_integrated_partial_fortitude_full_century_20261123.md",
+    "source_aggregate": "tools/astrohd/reference/research/lilly_1647_integrated_partial_fortitude_full_century_public_v01.json",
+    "source_SHA256": "21b814af2379fe55414f3a032bd1374bc34fae21fd1fee4f5131324d6047ba6d",
+    "one_fixed_research_site_quarter_hour_UTC_samples": 3506400,
+    "source_method_variant_count": 72,
+    "same_unique_partial_body_all_source_variants": 1677330,
+    "original_source_actual_manners_significator": false,
+    "original_source_actual_soul_governor": false,
+    "independent_human_personality_predictive_validation": false
   }
 }

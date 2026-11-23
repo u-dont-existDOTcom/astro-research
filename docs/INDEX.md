@@ -1,5 +1,8 @@
 # Research documentation
 
+- **23 November source-limited integrated Lilly fortitude:** [Actual 3.5m same-UTC original natal essential+house+motion partial source strengths across 72 variants](astrohd/lilly_1647_integrated_partial_fortitude_full_century_20261123.md), with conservative uncertain-motion intervals and independently verified prior census baselines. Human ranking/root remains OPEN.
+
+
 - **Lilly 1647 p112 original first-print reception and peregrine (22 Nov):** [New source-conditional own-natal-body essential debility/reception comparison across all 3.5-million original UTC samples](astrohd/lilly_1647_p112_reception_peregrine_full_century_20261122.md), 12 openly different methods; none proven historical final ruler or human prediction.
 
 
