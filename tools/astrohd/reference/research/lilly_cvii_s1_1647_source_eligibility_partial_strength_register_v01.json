@@ -1,0 +1,107 @@
+{
+  "schema": "lilly_CVII_1647_first_print_s1_eligibility_plus_partial_strength_source_register_v01",
+  "date_utc": "2026-11-23",
+  "historical_source": {
+    "author": "William Lilly",
+    "work": "Christian Astrology, Book III, Chapter CVII",
+    "edition": "Original first printing 1647",
+    "printed_page": 535,
+    "pdf_one_based_page": 569,
+    "archive": "https://wellcomecollection.org/works/s7z7c46y",
+    "original_PDF_SHA256": "2cb53e20e122ffc6e47917ba10241f6c49687cd7a4696f3b5db655a2a1aab28b",
+    "original_p535_render_SHA256": "49efe26a167fcdd6d0f1f08d3c7a69faaf87939b41cab02341ef6dc2500f4708",
+    "read_mode": "DIRECT ORIGINAL 1647 first-print facsimile visually inspected, original p535 and prior p536; not a critical manuscript collation"
+  },
+  "key_original_short_quotations": [
+    {
+      "source_p535": "Sign ascending, or which is intercepted",
+      "meaning": "Original first-stage sign wording; does not by itself establish a unique quadrant-house engine."
+    },
+    {
+      "source_p535": "If many Planets occupy the Horoscope, all shall be Significators",
+      "meaning": "Several occupants all count as preliminary manners significators; strongest may persist longer, strength not source-complete."
+    },
+    {
+      "source_p535": "Other Planet he is, that hath dignity in the place of the Significator of Manners",
+      "meaning": "A different planet with dignity in an occupant's place may participate without occupying first house; S1 primary-occupant eligibility does not model such secondary participation."
+    }
+  ],
+  "source_first_stage_alternatives": [
+    {
+      "mode": "ascending_sign",
+      "status": "DIRECT_NARROW_FIRST_PRINT_SIGN_INTERPRETATION",
+      "selector": "all classical planets in rising 30-degree zodiac sign"
+    },
+    {
+      "mode": "regiomontanus_first_house",
+      "status": "HISTORICAL_QUADRANT_HOUSE_SENSITIVITY_NOT_UNIQUE_DIRECT_READING",
+      "selector": "all classical planets within actual Regiomontanus first-house cusp arc"
+    },
+    {
+      "mode": "ascending_sign_or_intercepted_sign",
+      "status": "DIRECT_SIGN_PLUS_STRICT_FULLY_INTERCEPTED_FIRST_HOUSE_SIGN_RECONSTRUCTION",
+      "selector": "all classical planets in rising zodiac sign or a completely contained intercepted zodiac sign in actual first house"
+    }
+  ],
+  "stage_caution": [
+    "Source p535 says every first-stage occupant signifies manners; a sole occupant is not necessarily a source-complete psychological leader or well-fortified luminary.",
+    "Multi-body strength is compared only within eligible S1 occupants; unoccupied but dignified other planets may participate and are not yet modeled.",
+    "No first-stage eligible planet triggers Lilly CVII second stage joining Moon/Mercury and later fallback, not a negative human personality assessment.",
+    "All source complete manners ruler labels stay unknown since real strength includes other original p115 conditions and personal topic eligibility.",
+    "Near-day/night sect source uncertainty and unknown planetary motion are conserved as abstentions or bounded intervals; no imputation from personal evidence."
+  ],
+  "partial_strength_comparison": {
+    "historically_point_scoped_components": [
+      "own-body positive essential dignities and debilities from Lilly 1647",
+      "strict potential mutual domicile/exaltation reception variants",
+      "natal house-only accidental strengths",
+      "natal direct/retrograde motion points for Mercury/Venus/Mars/Jupiter/Saturn"
+    ],
+    "terms_tables": [
+      "Lilly_1647_original_first_print_p104",
+      "ptolemy_printed_1940",
+      "egyptian_printed_1940"
+    ],
+    "reception_peregrine_policies": [
+      "five_positive_only",
+      "plus_detriment_fall_peregrine_no_reception",
+      "plus_mutual_house_exalt_reception_clears_peregrine",
+      "plus_mutual_house_exalt_reception_retains_intrinsic_peregrine"
+    ],
+    "house_scoring": [
+      "Regiomontanus",
+      "Placidus"
+    ],
+    "station_thresholds_deg_per_day": [
+      0.01,
+      0.02,
+      0.05
+    ],
+    "number_partial_strength_policies": 72,
+    "number_S1_scope_by_strength_scenarios": 216,
+    "motion_unknown_interval": [
+      -5,
+      4
+    ],
+    "source_p535_complete_strength_rules_fully_implemented": false,
+    "winner_definition": "If exactly one S1 occupant, record sole source candidate (subject to original luminary and other dignified participants caveats). If two or more, only strict lower partial score over all eligible competitors' upper partial scores, with known sect, yields conditional candidate; otherwise unknown or multiple source participants."
+  },
+  "source_neutral_finite_population": {
+    "sample_clock_UTC_count": 3506400,
+    "resolution_minutes": 15,
+    "fixed_research_locations": 1,
+    "original_planet_sha_shards": 36,
+    "original_site_sha_shards": 36,
+    "original_HD_index_sha_shards": 36,
+    "HD_original_structural_intervals": 288908,
+    "HD_root_margin_unknown": 125,
+    "conditional_Ptolemy_four_mode_common_source_candidates": 4553,
+    "validation_scope": "mathematically reproduces old S1 presence and conditional Ptolemy exact UTC overlap but not psych prediction"
+  },
+  "public_engine": "tools/astrohd/scripts/lilly_cvii_s1_eligible_partial_strength_century_v01.py",
+  "public_aggregate": "tools/astrohd/reference/research/lilly_cvii_s1_eligible_partial_strength_full_century_public_v01.json",
+  "acceptance": "tools/astrohd/scripts/audit_lilly_cvii_s1_scope_v01.py",
+  "parent_full_historical_soul_manners_governor_status": "OPEN",
+  "parent_human_behavioral_scoring_and_independent_validation_status": "OPEN",
+  "no_personal_natal_birth_interview_published": true
+}

@@ -1,0 +1,28 @@
+{
+  "completion_command": "python3 tools/astrohd/scripts/audit_lilly_cvii_s1_scope_v01.py",
+  "external_frozen_source": "state/CURRENT-STATE.md and previous original full-century source-neutral public aggregates",
+  "noncompletion_clauses": [
+    "A unique partial strength score is not actual full Lilly 1647 planetary fortitude",
+    "Lilly 1647 p535 other planets with dignities in occupant's place participate; we do not silently delete them",
+    "Other source-conditioned earlier stage and Ptolemy governors plus independent behavior validation remain OPEN"
+  ],
+  "owner_outcome": "Continue source-qualified 1647 Lilly CVII governing-planet selection with first-stage multiple body eligibility and partial strength, preserving root human-behavior prediction OPEN",
+  "preflight_command": "python3 tools/astrohd/scripts/audit_lilly_cvii_s1_scope_v01.py --preflight",
+  "privacy": "Never publish natal birth, interview, personal ratings, original PDF page scans, raw source data, or unrelated private evidence",
+  "required_artifacts": [
+    "tools/astrohd/scripts/lilly_cvii_s1_eligible_partial_strength_century_v01.py",
+    "tools/astrohd/reference/research/lilly_cvii_s1_eligible_partial_strength_full_century_public_v01.json",
+    "docs/astrohd/lilly_cvii_1647_s1_eligible_partial_strength_century_20261123.md"
+  ],
+  "required_branch": "research/lilly-cvii-first-eligibility-20261123",
+  "required_repo": "u-dont-existDOTcom/astro-research",
+  "schema": "source_bound_active_task_v01",
+  "suspended_competing_task_sources": [
+    "Archived humandesign repository",
+    "prior standalone S5 research plans",
+    "other unrelated UDA/roadmap tasks"
+  ],
+  "task_id": "astrohd-lilly-CVII-S1-eligibility-20261123",
+  "task_scope": "Original first-print p535 first-stage three source-interpreted geometric variants and candidate eligibility only, applied to existing partial natal fortitude under all 72 variants at all original 3.5m UTC samples",
+  "task_status": "BOUNDED_SUBTASK_MERGE_READY_PARENT_OPEN"
+}

@@ -1,5 +1,8 @@
 # Research documentation
 
+- **23 Nov 2026 Lilly original p535 actual first-stage eligible significators:** [216 source-conditional S1 spatial-plus-bounded-partial-strength historical century scenarios](astrohd/lilly_cvii_1647_s1_eligible_partial_strength_century_20261123.md), zero/sole/multiple source-eligible occupants and strict abstentions; remaining original later-stage and human behavioral root OPEN.
+
+
 - **23 November source-limited integrated Lilly fortitude:** [Actual 3.5m same-UTC original natal essential+house+motion partial source strengths across 72 variants](astrohd/lilly_1647_integrated_partial_fortitude_full_century_20261123.md), with conservative uncertain-motion intervals and independently verified prior census baselines. Human ranking/root remains OPEN.
 
 

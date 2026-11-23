@@ -98,7 +98,7 @@
     "no_personality_rank_from_geometric_rarity": true,
     "old_results_preserved_not_rewritten": true
   },
-  "next_safe_action": "Resolve actual Lilly CVII eligibility for which planets count as matter significators and the remaining original 1647 source fortitude conditions; then complete Ptolemy III.13 governing-planet testimonies before defining/validating a non-bespoke human trait scorer across all declared comparison candidates. Partial composite natal scores are not a unique historical ruler.",
+  "next_safe_action": "Continue Lilly CVII p536 later fallback S2 Moon/Mercury joining for S1-empty clocks on identical original source century with source-authorized 1647 orb moieties, preserving multiple joins and true strength uncertainty, then secondary dignity participation in p535 and remaining S3/SX/S4 source-interpretation branches. Root full natal behavior scoring and independent human validation OPEN.",
   "provenance": "Based on verified public source evidence and corrected user feedback. Prior conversation completion language is explicitly distinguished from what the Git artifact actually proves.",
   "completed_now_limited_source_motion": {
     "status": "COMPLETE_DECLARED_SOURCE_COMPONENT_ONLY",
@@ -139,5 +139,18 @@
     "original_source_actual_manners_significator": false,
     "original_source_actual_soul_governor": false,
     "independent_human_personality_predictive_validation": false
+  },
+  "completed_now_original_lilly_CVII_S1_eligibility_bounded": {
+    "status": "COMPLETE_DECLARED_SOURCE_CONDITIONAL_PRIMARY_FIRST_OCCUPANT_STAGE_ONLY",
+    "original_source": "original Lilly Christian Astrology 1647 printed p535; sign/house/intercepted interpretation alternatives",
+    "public_report": "docs/astrohd/lilly_cvii_1647_s1_eligible_partial_strength_century_20261123.md",
+    "public_numerical_aggregate": "tools/astrohd/reference/research/lilly_cvii_s1_eligible_partial_strength_full_century_public_v01.json",
+    "public_source_numerical_SHA256": "aff85e5f7a62300e3204711e645e4da74055788887a83b4789b5580e2d9f2f63",
+    "UTC_samples_at_one_research_location": 3506400,
+    "first_stage_spatial_variants": 3,
+    "partial_strength_source_method_variants_per_spatial_interpretation": 72,
+    "all_spatial_and_partial_strength_models_same_S1_body_clock_samples": 582597,
+    "historical_complete_manners_ruler": false,
+    "human_predictive_validation": false
   }
 }
