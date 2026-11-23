@@ -98,7 +98,7 @@
     "no_personality_rank_from_geometric_rarity": true,
     "old_results_preserved_not_rewritten": true
   },
-  "next_safe_action": "Implement next actually source-authored Lilly 1647 mean daily planetary motion speed thresholds from the original pp61-83 and first-print worked example pp178-180, then original p115 more complete accidental aspect/solar strength and p535 dignity-bearing secondary participation before adjudicating p536 forcible and SX/SY gaps; complete Ptolemy III.13 final governor and independent private/blinded human behavioral evaluation, root remains OPEN.",
+  "next_safe_action": "Original source p535 strength and planetary benefic/malefic/aspect/dispositor/fortification constraints must be applied to secondary dignity-bearing participant sets while maintaining separate principal roles; source-critical original p536 forcible aspect and SX/SY, Ptolemy III.13 fifth-phase testimony and independent private non-bespoke human behavioral validation remain OPEN.",
   "provenance": "Based on verified public source evidence and corrected user feedback. Prior conversation completion language is explicitly distinguished from what the Git artifact actually proves.",
   "completed_now_limited_source_motion": {
     "status": "COMPLETE_DECLARED_SOURCE_COMPONENT_ONLY",
@@ -221,5 +221,20 @@
     "all96_S1_single_primary_stage_but_different_selected_planet": 82533,
     "source_historical_unique_full_manners_ruler": false,
     "validated_human_personality_predictor": false
+  },
+  "completed_now_original_lilly_CVII_p535_secondary_dignity_participant_sets": {
+    "status": "COMPLETE_SOURCE_CONDITIONED_POSITIVE_ESSENTIAL_SECONDARY_PARTICIPANT_MEMBERSHIP_ONLY",
+    "original_primary_text": "Lilly original Christian Astrology 1647 p535: principal rising/intercepted occupant and other bodies dignified in the principal position participate",
+    "public_report": "docs/astrohd/lilly_cvii_1647_p535_secondary_dignified_participants_century_20261123.md",
+    "public_numeric_aggregate": "tools/astrohd/reference/research/lilly_cvii_p535_secondary_participants_full_century_public_v01.json",
+    "numeric_aggregate_SHA256": "966316ea217f856ecd724c59e49f6b75844d91ca71165df93a8e9d8be2764962",
+    "one_fixed_research_site_quarter_hour_UTC_samples": 3506400,
+    "S1_spatial_readings": 3,
+    "independent_printed_term_tables": 3,
+    "original_1647_ASC_sign_primary_present": 1428060,
+    "original_1647_ASC_sign_with_certain_secondary": 1423163,
+    "all_nine_same_roles_and_participant_set": 224058,
+    "complete_Lilly_CVII_governor_resolved": false,
+    "empirical_human_prediction_validated": false
   }
 }

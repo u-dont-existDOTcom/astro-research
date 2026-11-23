@@ -1,0 +1,25 @@
+{
+  "acceptance_command": "python3 tools/astrohd/scripts/audit_lilly_cvii_p535_secondary_scope_v01.py",
+  "bounded_outcome": "Original Lilly 1647 p535 first-stage nonoccupant dignity-bearing secondary participants, actual seven classical body identity and uncertainty across three original S1 spatial readings x three independently printed historical terms witnesses; exact same 3.5m original quarter-hour UTC samples + HD and Ptolemy source controls",
+  "declaration": "Secondary dignity-holder participation is not the same as authorially assigning equal strength, full manners rulership or human traits. No original full fortune or forcible-partile qualification is claimed.",
+  "exclusive": true,
+  "owner_parent_goal": "Historically source-qualified Western/Human Design/multi-system astrology versus independently measured real human behavior, with valid controls and declared full comparison universe; remains OPEN",
+  "parent_complete": false,
+  "preflight_command": "python3 tools/astrohd/scripts/audit_lilly_cvii_p535_secondary_scope_v01.py --preflight",
+  "publication_privacy": "Never publish personal natal/birth/chart/interview data, full private numeric source shards, source facsimile image or historical personal assessments. Public anonymous aggregates/code and invented tests only.",
+  "required_artifacts": [
+    "tools/astrohd/scripts/lilly_cvii_p535_secondary_dignity_participants_century_v01.py",
+    "tools/astrohd/reference/research/lilly_cvii_p535_secondary_participants_full_century_public_v01.json",
+    "docs/astrohd/lilly_cvii_1647_p535_secondary_dignified_participants_century_20261123.md"
+  ],
+  "required_branch": "research/lilly-CVII-secondary-dignity-participants-20261123",
+  "required_repository": "u-dont-existDOTcom/astro-research",
+  "schema": "astro_original_source_scoped_task_v01",
+  "status": "BOUNDED_SUBTASK_HOSTED_REVIEW_READY_PARENT_OPEN",
+  "suspended_competing_sources": [
+    "Archived prior humandesign repository",
+    "Prior merged PRs #31\u201332 source and stage outputs are immutable evidence not active tasks",
+    "Any unrelated UDA or product roadmap queue"
+  ],
+  "task_id": "astrohd-original-Lilly-CVII-p535-secondary-dignities-20261123"
+}

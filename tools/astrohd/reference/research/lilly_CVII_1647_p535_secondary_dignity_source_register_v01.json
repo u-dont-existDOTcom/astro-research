@@ -1,0 +1,113 @@
+{
+  "schema": "lilly_CVII_1647_first_print_secondary_dignity_bearers_at_S1_principal_places_v01",
+  "read_date_utc": "2026-11-23",
+  "root_research_goal": "OPEN",
+  "primary_original": {
+    "author": "William Lilly",
+    "work": "Christian Astrology, third book, chapter CVII",
+    "edition": "1647 London FIRST PRINTING",
+    "printed_page": 535,
+    "source_pdf_page_one_based": 569,
+    "original_first_print_pdf_sha256": "2cb53e20e122ffc6e47917ba10241f6c49687cd7a4696f3b5db655a2a1aab28b",
+    "original_full_page_image_sha256": "49efe26a167fcdd6d0f1f08d3c7a69faaf87939b41cab02341ef6dc2500f4708",
+    "catalog": "https://wellcomecollection.org/works/s7z7c46y",
+    "read_mode": "Original 1647 p535 first-printed image viewed and exact relevant passage read directly; original p104 essential p115 accidentals independently examined in earlier original-source work. No critical manuscript collation."
+  },
+  "specific_source_claims": [
+    {
+      "id": "PRINCIPAL",
+      "scope": "direct original p535 first numbered paragraph",
+      "short_quote": "he shall be principall Significator of Manners",
+      "meaning": "First-stage rising/intercepted place planet is PRINCIPAL; it must NOT be replaced simply by a stronger body elsewhere."
+    },
+    {
+      "id": "SECONDARY",
+      "scope": "direct original p535 first numbered paragraph",
+      "short_quote": "hath dignity in the place of the Significator of Manners",
+      "meaning": "Another planet with dignity at the principal's OWN exact degree can participate in manners. This does NOT state it is coequal in power, the unique final ruler, or automatically valid as a human trait prediction."
+    },
+    {
+      "id": "PLURAL",
+      "scope": "direct original p535 concluding paragraph",
+      "short_quote": "If many Planets occupy the Horoscope",
+      "meaning": "Every first-stage occupying classical planet remains a PRIMARY source participant; a planet can hold dignity at another primary's position but is not counted as an additional independent secondary body."
+    },
+    {
+      "id": "ASPECT_CONDITION",
+      "scope": "direct original p535 middle paragraph",
+      "meaning": "Strength, planetary benefic or malefic nature, dispositions and aspects subsequently qualify manners; p535 source does NOT provide a definitive new numeric trait scoring policy from positive dignity alone."
+    },
+    {
+      "id": "LUMINARIES",
+      "scope": "direct original p535 luminaries paragraph",
+      "meaning": "Sun and Moon in horoscope said to have less individual effect unless strongly fortified; first-stage occupancy still recorded, final historical manner strength remains unmodeled."
+    },
+    {
+      "id": "ESSENTIAL_PLACE",
+      "scope": "original first-print p104 dignity table and p535 'in the place'",
+      "meaning": "A non-primary planet with any original five positive essential rights in a primary planet's longitude is a potential p535 SECONDARY participant. Original author's precise p535 'dignity' may allow other testimonial contexts; present implementation labeled as essential-five source-conditioned, not uniquely source-authorized exhaustive participation."
+    }
+  ],
+  "method_scope": {
+    "S1_geometry_variants": [
+      "ascending_sign",
+      "regiomontanus_first_house",
+      "ascending_sign_or_intercepted_sign"
+    ],
+    "printed_term_sources": [
+      "Lilly_1647_original_first_print_p104",
+      "ptolemy_printed_1940",
+      "egyptian_printed_1940"
+    ],
+    "source_method_count": 9,
+    "at_each_qualifying_primary_place": {
+      "domicile": 5,
+      "exaltation": 4,
+      "day_or_night_triplicity": 3,
+      "term": 2,
+      "face": 1,
+      "secondary_condition": "nonprincipal planet has score >0 for one or more of the five named essential rights at ANY first-stage principal's exact zodiac longitude",
+      "primary_role_retained": true,
+      "not_an_automatic_coequal_manners_lord": true
+    },
+    "uncertain_sect": {
+      "source_numeric_horizon_deg": 0.1,
+      "historical_source_authored_threshold": false,
+      "guaranteed": "positive essential right exists at the primary's position under BOTH day and night triplicity options",
+      "possible": "positive essential right exists under EITHER day or night triplicity option",
+      "no_undisclosed_default_to_day_or_night": true
+    },
+    "reduction_policy": "Distinct body sets: if a source planet is already S1 PRIMARY, do not double count it as SECONDARY even if dignified at another primary's place. Aggregate secondary participants across ALL S1 occupying planets."
+  },
+  "original_finite_census": {
+    "UTC_samples": 3506400,
+    "step_minutes": 15,
+    "horizon": "1926-11-19 inclusive to 2026-11-19 exclusive",
+    "reference_location_count": 1,
+    "planet_sha_original_chunks": 36,
+    "site_angle_original_shards": 36,
+    "HD_lookup_original_shards": 36,
+    "independent_HD_structural_intervals": 288908,
+    "HD_root_transition_margin_unknown": 125,
+    "sect_horizon_uncertain_samples": 5049,
+    "prior_conditional_Ptolemy_four_mode_possible_common_leaders": 4553
+  },
+  "original_data_and_privacy": {
+    "public_code": "tools/astrohd/scripts/lilly_cvii_p535_secondary_dignity_participants_century_v01.py",
+    "public_numeric_source_aggregate": "tools/astrohd/reference/research/lilly_cvii_p535_secondary_participants_full_century_public_v01.json",
+    "public_source_report": "docs/astrohd/lilly_cvii_1647_p535_secondary_dignified_participants_century_20261123.md",
+    "frozen_S1_previous": "tools/astrohd/reference/research/lilly_cvii_s1_eligible_partial_strength_full_century_public_v01.json",
+    "no_private_natal_birth_data_or_interviews_read": true,
+    "individual_person_specific_scores_not_published": true
+  },
+  "not_yet_historically_resolved": [
+    "Whether original p535 'dignity in place' covers nonessential accidental fortitudes or exactly the positive p104 essential dignities alone",
+    "Whether secondary dignity-bearing planets require further actual aspect, sect, strength or topic-specific significance before effective manner influence",
+    "How secondary body strength compares historically with the occupying PRIMARY and with other multiple primaries",
+    "The original p535 Sun/Moon qualifier and remaining p536 incomplete S2/S3/SX/SY/S4/S5 governors",
+    "Original Ptolemy III.13 fifth phase/aspect and contradictory/sect testimony",
+    "Preregistered full-universe human-observable trait scoring and blinded private independent human outcome validation with non-astrological controls"
+  ],
+  "historically_complete_Lilly_manners_governor_computed": false,
+  "empirical_personality_validity_established": false
+}
