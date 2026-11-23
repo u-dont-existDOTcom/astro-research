@@ -1,0 +1,98 @@
+{
+  "schema": "lilly_1647_integrated_partial_strength_source_methods_v01",
+  "date_utc": "2026-11-23",
+  "status": "SOURCE_QUALIFIED_PARTIAL_NATAL_BODY_STRENGTH_SENSITIVITY_NOT_FULL_LILLY_MANNERS_RULER",
+  "root_owner_goal": "Historically verified multi-system astrology plus independently evaluated behavior model; remains OPEN",
+  "historical_sources": [
+    {
+      "author": "William Lilly",
+      "work": "Christian Astrology",
+      "edition": "1647 first printing",
+      "original_pdf_sha256": "2cb53e20e122ffc6e47917ba10241f6c49687cd7a4696f3b5db655a2a1aab28b",
+      "original_printed_pages": [
+        104,
+        112,
+        115,
+        536
+      ],
+      "read_mode": "Original first-print images read and source-specific registrations preserved; no Greek manuscript collation.",
+      "scope": "Natal planet essential dignities and debilities at own degrees, possible reciprocal reception only, and planetary house and direct/retrograde subcomponents"
+    },
+    {
+      "author": "Ptolemy (as translated by F. E. Robbins)",
+      "work": "Tetrabiblos",
+      "edition": "1940 Loeb printed Greek-English alternative term witnesses",
+      "scope": "Ptolemaic and Egyptian term tables treated as historically independent variants, not proof of stronger personal fit"
+    }
+  ],
+  "source_point_weight_families": {
+    "intrinsic_essential_positive": {
+      "domicile": 5,
+      "exaltation": 4,
+      "sect_triplicity": 3,
+      "term": 2,
+      "face": 1
+    },
+    "intrinsic_essential_negative": {
+      "detriment": -5,
+      "fall": -4,
+      "peregrine": -5
+    },
+    "possible_mutual_reception": {
+      "by_house": 5,
+      "by_exaltation": 4
+    },
+    "natal_house_accidental_1_to_12": [
+      5,
+      3,
+      1,
+      4,
+      3,
+      -2,
+      4,
+      -2,
+      2,
+      5,
+      4,
+      -5
+    ],
+    "direct_motion_nonluminary": 4,
+    "retrograde_nonluminary": -5
+  },
+  "combination": "Researcher-composed, source-component-point additive partial comparison. 72 combinations: independent printed terms (3) × intrinsic/reception policies (4) × Regiomontanus/Placidus house geometry (2) × finite-value station abstention windows (3). Historically source points do NOT establish a complete unique planet governor.",
+  "scoring_interval": "Exact component points only where supported; near-station unknown direct/retrograde is bounded [-5,+4]. A planet wins only when its lower possible score exceeds every other body's upper possible score under that specific method; near-horizon sect unknown always abstains. Independent cross-method consensus only if all 72 methods select the SAME strict unique body.",
+  "source_scope_limits": [
+    "Original Lilly p112 reception explicitly requires planets actually to signify the question/matter, not merely mutual zodiac positions. These are labeled POTENTIAL only; most reception categories unmodeled.",
+    "Original p115 swift/slow, orientation to Sun, solar beams, partile benefic and malefic aspects, nodes, named fixed stars and besiegement omitted; no bounds on all missing historic components. Partial score winner is not a final ruler.",
+    "Original CVII earlier S1/S2/S3/SX/S4/S5 source-stage eligibility and final dignity-at-Mercury/Moon places are not replaced by natal-body own degree strength score.",
+    "Original Ptolemy III.13 fifth phase/aspect, sect/contrary testimony and final governor not determined.",
+    "Historical Regiomontanus vs cached Placidus is a sensitivity, not a claim that Lilly used both.",
+    "Finite station windows 0.01/0.02/0.05 degrees/day are researcher uncertainty, not ancient speed/orb definitions.",
+    "One fixed research-place and quarter-hour 1926–2026 3.5m grid does not cover all continuous natal moments or geographical locations.",
+    "Source-conditioned candidate astronomical similarity does not independently validate human personality or prove unique natal first place."
+  ],
+  "numerical_source_proofs": {
+    "sample_count": 3506400,
+    "original_planet_source_shards": 36,
+    "original_site_angle_source_shards": 36,
+    "original_HD_index_shards": 36,
+    "independent_HD_structural_intervals": 288908,
+    "HD_transition_unknown_samples": 125,
+    "near_day_night_sect_unknown_samples": 5049,
+    "frozen_conditional_Ptolemy_four_mode_common_samples": 4553,
+    "frozen_original_house_source_diff_any_planet": 1088009,
+    "frozen_motion_source_middle_threshold_retrograde": {
+      "Mercury": 662552,
+      "Venus": 248704,
+      "Mars": 314680,
+      "Jupiter": 945094,
+      "Saturn": 1066348
+    },
+    "private_source_files_must_not_publish": true
+  },
+  "runner": "tools/astrohd/scripts/lilly_1647_integrated_partial_fortitude_full_century_v01.py",
+  "aggregate": "tools/astrohd/reference/research/lilly_1647_integrated_partial_fortitude_full_century_public_v01.json",
+  "no_personal_birth_or_interviews_used": true,
+  "no_source_authorized_final_manners_ruler": true,
+  "human_predictive_accuracy_established": false
+}
