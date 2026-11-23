@@ -98,7 +98,7 @@
     "no_personality_rank_from_geometric_rarity": true,
     "old_results_preserved_not_rewritten": true
   },
-  "next_safe_action": "Continue Lilly CVII p536 later fallback S2 Moon/Mercury joining for S1-empty clocks on identical original source century with source-authorized 1647 orb moieties, preserving multiple joins and true strength uncertainty, then secondary dignity participation in p535 and remaining S3/SX/S4 source-interpretation branches. Root full natal behavior scoring and independent human validation OPEN.",
+  "next_safe_action": "Compute source-conditioned relative partial strength among all S2 candidate planets, retaining multiple manners significators and historical Sun/Moon/Mercury joining and source orb alternatives, then S3/SX original dispositor/other aspect rules and Ptolemy III.13 testimony. Full original non-bespoke human behavior predictive evaluation remains OPEN.",
   "provenance": "Based on verified public source evidence and corrected user feedback. Prior conversation completion language is explicitly distinguished from what the Git artifact actually proves.",
   "completed_now_limited_source_motion": {
     "status": "COMPLETE_DECLARED_SOURCE_COMPONENT_ONLY",
@@ -152,5 +152,16 @@
     "all_spatial_and_partial_strength_models_same_S1_body_clock_samples": 582597,
     "historical_complete_manners_ruler": false,
     "human_predictive_validation": false
+  },
+  "completed_now_original_lilly_CVII_S2_joined_candidate_source_census": {
+    "status": "COMPLETE_DECLARED_SOURCE_CONDITIONED_JOINED_PLANET_CANDIDATE_MEMBERSHIP_ONLY",
+    "original_primary_source": "Lilly 1647 first printing CVII p536, original p107 orb alternatives",
+    "public_report": "docs/astrohd/lilly_cvii_1647_second_stage_joining_full_century_20261123.md",
+    "public_aggregate": "tools/astrohd/reference/research/lilly_cvii_s2_original_joining_full_century_public_v01.json",
+    "original_source_numerical_SHA256": "d08bc36e9684ce1757f5aeea6c25ec7061af0d323857d29e0e026860ee23939e",
+    "one_research_location_UTC_samples": 3506400,
+    "original_source_method_variants": 12,
+    "full_historical_strength_and_all_stage_ruler_resolved": false,
+    "actual_human_personality_validated": false
   }
 }
