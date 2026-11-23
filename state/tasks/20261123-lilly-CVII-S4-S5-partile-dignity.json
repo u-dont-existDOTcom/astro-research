@@ -1,0 +1,29 @@
+{
+  "acceptance_command": "python3 tools/astrohd/scripts/audit_lilly_cvii_s4_s5_scope_v01.py",
+  "bounded_task": "Original 1647 CVII p536 S4 geometrically possible partile body candidates and S5 most five-positive essential dignities at Mercury/Moon places after ONLY source-qualified genuine LATER state, excluding new SX other-aspector and SY own-dispositor ambiguity; full original 3.5m same UTC/HD/Ptolemy SHA source universe, exact reconciliation to previous 96 source variants.",
+  "parent_owner_outcome": "Source-qualified original Ptolemy III.13 and Lilly CVII governors and independent non-bespoke Western/HD/other-system behavioral validation; still OPEN",
+  "preflight_command": "python3 tools/astrohd/scripts/audit_lilly_cvii_s4_s5_scope_v01.py --preflight",
+  "privacy": "No private natal/chart/interview/case rating, source scanned book image or owner correspondence published in astro-research.",
+  "required_artifacts": [
+    "tools/astrohd/scripts/lilly_cvii_s4_s5_partile_essential_genuine_later_century_v01.py",
+    "tools/astrohd/reference/research/lilly_cvii_s4_s5_genuine_later_full_century_public_v01.json",
+    "docs/astrohd/lilly_cvii_1647_s4_s5_genuine_later_partile_essential_20261123.md"
+  ],
+  "required_branch": "research/lilly-CVII-S4-S5-safe-later-20261123",
+  "required_repo": "u-dont-existDOTcom/astro-research",
+  "root_completed": false,
+  "schema": "source_bound_active_task_v01",
+  "status": "BOUNDED_TASK_READY_FOR_HOSTED_REVIEW_PARENT_OPEN",
+  "suspended_competing_sources": [
+    "Archived superseded humandesign repository",
+    "S2 strength 864 completed and S3 ambiguity 48 completed PR branches (evidence only)",
+    "Other UDA/task queues not active in this owner continuation"
+  ],
+  "task_id": "astrohd-original-1647-CVII-S4-S5-genuine-later-20261123",
+  "unresolved_historical_conditions": [
+    "'Forcibly' partile depends on full source fortitude; geometry alone cannot prove it",
+    "S5 original last stage compares Mercury and Luna PLACES, not candidate own-place natal essential score, and sum vs max is researcher interpretation",
+    "New SX/SY remain historical undecided, never coerced into S4/S5",
+    "Original Ptolemy III.13 missing phase/aspect/contrary testimony; no validated natal personality rank"
+  ]
+}
