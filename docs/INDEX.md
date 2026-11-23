@@ -1,5 +1,8 @@
 # Research documentation
 
+- **23 Nov 2026 original Lilly p535 secondary dignity-bearing participants:** [Actual 3.5m original same-UTC source neutral S1 principal+secondary planet membership across nine spatial/printed-term variants](astrohd/lilly_cvii_1647_p535_secondary_dignified_participants_century_20261123.md). Distinguishes a sole occupying primary from an incomplete true manners planet and retains original sect uncertainties.
+
+
 - **23 Nov first full original Lilly CVII ordered stage/conditional primary source pipeline:** [All 96 S1–S5 source interpretations, one actual 3.5-million-clock-sample scan and explicit primary-body vs stage agreement](astrohd/lilly_cvii_1647_full_ordered_stage_coverage_20261123.md), plus original p178–180 worked strength source review; root human predictive outcome OPEN.
 
 
