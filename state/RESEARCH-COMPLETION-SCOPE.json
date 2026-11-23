@@ -41,16 +41,26 @@
     {
       "id": "lilly_cvii_full_manners_significator",
       "status": "PARTIAL_SOURCE_CONDITIONAL_ONLY",
-      "subscope": "96 alternative first/second/dispositor/partile/source branch stage paths; final S5 original positive five essential points under 3 terms × 2 experimental aggregation, plus separate house-only accidental witness",
+      "subscope": "96 alternative first/second/dispositor/partile/source branch stage paths; final S5 original positive five essential points under 3 terms \u00d7 2 experimental aggregation, plus separate house-only accidental witness",
       "evidence_path": "docs/astrohd/lilly_1647_original_fortitudes_debilities_source_coverage_20261122.md",
       "missing": "original mutual reception and negative dignities, all accidental strengths, ambiguity in earlier stage and individual ruler nomination"
     },
     {
       "id": "whole_century_behavioral_scorer",
       "status": "NOT_RUN",
-      "subscope": "No source-complete, preregistered, non-bespoke human trait feature and scoring function applied to all declared clock samples",
+      "subscope": "Complete source-qualified, preregistered all-system human behavioral scorer remains NOT_RUN. An explicitly partial, fixed-location century HD + Ptolemy development rubric has now been exhaustively applied; not a full historical or independent human validation.",
       "evidence_path": "state/CURRENT-STATE.md",
-      "missing": "original algorithm and behavioral mapping, nonastrological baselines, unknown/tie handling"
+      "missing": "original algorithm and behavioral mapping, nonastrological baselines, unknown/tie handling",
+      "partial_development_run": {
+        "status": "EXECUTED_DECLARED_FINITE_GRID_ONLY",
+        "evidence_path": "docs/astrohd/full_grid_behavior_comparison_20261123.md",
+        "grid_rows": 3506400,
+        "ranked_rows": 3506275,
+        "boundary_unknown": 125,
+        "historical_uncertainty_branches": 64,
+        "frozen_evidence_versions": 2,
+        "private_individual_results_published": false
+      }
     },
     {
       "id": "independent_human_accuracy",
@@ -98,7 +108,7 @@
     "no_personality_rank_from_geometric_rarity": true,
     "old_results_preserved_not_rewritten": true
   },
-  "next_safe_action": "Prioritize an explicit bounded source-to-observable-behavior rubric reusing existing protocols; evaluate separately qualified Mercury and Moon candidates and mixtures under labeled alternative source interpretations. Resolve only historical and feature conditions necessary for the selected test, or abstain. Exhaustively evaluate finite declared universe or use proven safe pruning; independent blinded held-out human observations and null controls are required for empirical validation. Root historical completeness, personal chart comparison and predictive validity remain distinct.",
+  "next_safe_action": "Expand observable coverage by admitting only source-qualified, context-confirmed observations (reuse exact generic survey tokens and preserve explicit contradictions/unknowns); build a broader source-derived planet-character mapping without reference-rank tuning, then compare the same full grid and test independent blinded human outcomes against baselines.",
   "provenance": "Based on verified public source evidence and corrected user feedback. Prior conversation completion language is explicitly distinguished from what the Git artifact actually proves.",
   "completed_now_limited_source_motion": {
     "status": "COMPLETE_DECLARED_SOURCE_COMPONENT_ONLY",
