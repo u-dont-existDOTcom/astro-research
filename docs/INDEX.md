@@ -1,5 +1,8 @@
 # Research documentation
 
+- **23 Nov Western+HD behavioral-evaluation source admission:** [Reusable existing source coverage checker, exact frozen development readiness profiles, corrected provenance-free ready-status bug and next blinded human validation requirements](astrohd/behavioral_source_readiness_and_next_validation_20261123.md). No new natal score or predictive accuracy claim.
+
+
 - **23 Nov 2026 original Lilly p535 secondary dignity-bearing participants:** [Actual 3.5m original same-UTC source neutral S1 principal+secondary planet membership across nine spatial/printed-term variants](astrohd/lilly_cvii_1647_p535_secondary_dignified_participants_century_20261123.md). Distinguishes a sole occupying primary from an incomplete true manners planet and retains original sect uncertainties.
 
 

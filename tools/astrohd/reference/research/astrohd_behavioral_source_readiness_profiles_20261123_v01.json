@@ -1,0 +1,105 @@
+{
+  "active_fail_closed_source_coverage_checker": "tools/astrohd/scripts/audit_full_chart_feature_coverage_v02.py",
+  "date_utc": "2026-11-23",
+  "full_chart_rank_computed": false,
+  "human_prediction_validated": false,
+  "original_coverage_gate": "tools/astrohd/scripts/audit_full_chart_feature_coverage.py",
+  "original_historical_checker": "tools/astrohd/scripts/audit_full_chart_feature_coverage.py",
+  "original_historical_checker_source_sha256": "0534823d1550877b67994a7c348a7283fdf9affe3280cdfdb26371cf50566f91",
+  "profiles": [
+    {
+      "expected_coverage_status": "PASS_MECHANICAL_COVERAGE",
+      "expected_uncertified": [],
+      "id": "finite_source_mechanics_only",
+      "interpretation": "Source-data presence only; not a historical governor or human behavioral prediction.",
+      "model_version": "source_coverage_mechanics_reference_20261123_v01",
+      "precision_claim": "FINITE_GRID_15M",
+      "required_features": [
+        "TROPICAL_7_LONGITUDES",
+        "ASCENDANT_AND_MIDHEAVEN",
+        "SECT_DAY_NIGHT_SOLAR_ALTITUDE",
+        "HD_TYPE_AUTHORITY_PROFILE_STRATEGY",
+        "HD_DEFINITION_CENTERS_COMPLETE_CHANNELS",
+        "HD_PERSONALITY_DESIGN_ALL_GATE_CARRIERS"
+      ]
+    },
+    {
+      "expected_coverage_status": "FAIL_MISSING_OR_UNCERTIFIED_REQUIRED_FEATURES",
+      "expected_uncertified": [
+        "PTOL_EMPOWERED_MERCURY_MOON_SOUL_LORDSHIP",
+        "FULL_TIME_CONTRADICTION_AWARE_BEHAVIOR_MAP",
+        "VALID_FINAL_SCORE_UPPER_BOUNDS_ALL_FEATURES"
+      ],
+      "id": "historical_governor_and_actual_human_outcome_gate",
+      "interpretation": "Necessary source-meaning and source-calibrated behavioral endpoint missing; this is NOT an adopted full prediction model.",
+      "model_version": "historical_Western_HD_governor_behavior_readiness_20261123_v01",
+      "precision_claim": "FINITE_GRID_15M",
+      "required_features": [
+        "TROPICAL_7_LONGITUDES",
+        "ASCENDANT_AND_MIDHEAVEN",
+        "SIGN_DISPOSITORS_AND_MUTUAL_RECEPTION",
+        "MOON_SOLAR_PHASE",
+        "TRADITIONAL_21_MAJOR_ASPECTS_WITH_EXACT_ORBS",
+        "PTOL_EMPOWERED_MERCURY_MOON_SOUL_LORDSHIP",
+        "HD_TYPE_AUTHORITY_PROFILE_STRATEGY",
+        "HD_DEFINITION_CENTERS_COMPLETE_CHANNELS",
+        "FULL_TIME_CONTRADICTION_AWARE_BEHAVIOR_MAP",
+        "VALID_FINAL_SCORE_UPPER_BOUNDS_ALL_FEATURES"
+      ]
+    },
+    {
+      "expected_coverage_status": "FAIL_MISSING_OR_UNCERTIFIED_REQUIRED_FEATURES",
+      "expected_uncertified": [
+        "FULL_PLANET_LONGITUDINAL_SPEED",
+        "PLACIDUS_PLANET_HOUSE_POSITION",
+        "SEVEN_PLANET_LATITUDES_DECLINATION",
+        "PTOL_EMPOWERED_MERCURY_MOON_SOUL_LORDSHIP",
+        "HD_PERSONALITY_DESIGN_ALL_NON_SUN_LINES",
+        "HD_COLOR_TONE_BASE",
+        "FULL_TIME_CONTRADICTION_AWARE_BEHAVIOR_MAP",
+        "VALID_FINAL_SCORE_UPPER_BOUNDS_ALL_FEATURES"
+      ],
+      "id": "all_registered_Western_HD_feature_pressure_test_not_a_model",
+      "interpretation": "Exploratory maximum of all 22 currently registered Western/HD feature classes. Optional color/tone and non-Sun HD lines are NOT hereby made mandatory for every valid model. Vedic, Chinese and Gene Keys methods are outside THIS coverage registry.",
+      "model_version": "complete_22_source_feature_registry_pressure_test_20261123_v01",
+      "precision_claim": "FINITE_GRID_15M",
+      "required_features": [
+        "TROPICAL_7_LONGITUDES",
+        "MERCURY_LONGITUDINAL_SPEED",
+        "FULL_PLANET_LONGITUDINAL_SPEED",
+        "TRADITIONAL_DOMICILE_EXALTATION_DETRIMENT_FALL",
+        "TRADITIONAL_21_MAJOR_ASPECTS_WITH_EXACT_ORBS",
+        "MOON_SOLAR_PHASE",
+        "SIGN_DISPOSITORS_AND_MUTUAL_RECEPTION",
+        "ASCENDANT_AND_MIDHEAVEN",
+        "WHOLE_SIGN_12_HOUSES",
+        "PLACIDUS_12_CUSPS",
+        "PLACIDUS_PLANET_HOUSE_POSITION",
+        "SECT_DAY_NIGHT_SOLAR_ALTITUDE",
+        "SUN_BEAMS_COMBUSTION_CAZIMI",
+        "SEVEN_PLANET_LATITUDES_DECLINATION",
+        "PTOL_EMPOWERED_MERCURY_MOON_SOUL_LORDSHIP",
+        "HD_TYPE_AUTHORITY_PROFILE_STRATEGY",
+        "HD_DEFINITION_CENTERS_COMPLETE_CHANNELS",
+        "HD_PERSONALITY_DESIGN_ALL_GATE_CARRIERS",
+        "HD_PERSONALITY_DESIGN_ALL_NON_SUN_LINES",
+        "HD_COLOR_TONE_BASE",
+        "FULL_TIME_CONTRADICTION_AWARE_BEHAVIOR_MAP",
+        "VALID_FINAL_SCORE_UPPER_BOUNDS_ALL_FEATURES"
+      ]
+    }
+  ],
+  "schema": "astrohd_reused_mechanical_and_human_source_readiness_profiles_20261123_v01",
+  "source_boundaries": {
+    "continuous_all_birthplaces_not_proven": true,
+    "finite_grid_only_one_reference_location": true,
+    "full_root_multi_systems_including_Vedic_Chinese_GeneKeys_not_in_feature_registry": true,
+    "mechanics_pass_not_evidence_of_empirical_accuracy": true,
+    "missing_feature_status_does_not_establish_theoretical_impossibility": true,
+    "post_exposure_rules_cannot_be_promoted_to_blinded_predictions": true
+  },
+  "source_personal_birth_or_interview_records_used": false,
+  "source_registry_path": "tools/astrohd/reference/research/whole_chart_feature_coverage_registry_dev_20261119.json",
+  "source_registry_sha256": "c3e8acddfb8948eaaf162bc7172e4b4f262aaf20a545fd7b72195f24049af30a",
+  "status": "DEVELOPMENT_READINESS_SNAPSHOT_NO_FROZEN_BEHAVIORAL_MODEL"
+}

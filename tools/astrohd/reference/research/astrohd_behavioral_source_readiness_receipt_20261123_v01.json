@@ -1,0 +1,58 @@
+{
+  "date_utc": "2026-11-23",
+  "independent_private_blinded_human_validation_executed": false,
+  "no_new_human_personality_score_generated": true,
+  "no_private_natal_birth_interview_case_data_read": true,
+  "not_every_worldwide_birthplace_or_continuous_instant_covered": true,
+  "original_complete_Lilly_CVII_and_Ptolemy_III13_governors": false,
+  "preregistered_full_cross_system_human_behavioral_model_frozen": false,
+  "root_project_status": "OPEN",
+  "schema": "astrohd_existing_coverage_gate_reused_frozen_source_readiness_receipt_20261123_v01",
+  "source_coverage_gate": "tools/astrohd/scripts/audit_full_chart_feature_coverage_v02.py",
+  "source_profile_sha256": "20c41a1c7e4d2b8ccad9bcf6f056aecfe74faf181c19a5deccec160d5c55d7d0",
+  "source_profiles": [
+    {
+      "feature_count": 6,
+      "historically_complete_source_governors": false,
+      "independent_human_behavior_prediction_certified": false,
+      "mechanics_coverage_only": true,
+      "profile_id": "finite_source_mechanics_only",
+      "status": "PASS_MECHANICAL_COVERAGE",
+      "uncertified_feature_ids": []
+    },
+    {
+      "feature_count": 10,
+      "historically_complete_source_governors": false,
+      "independent_human_behavior_prediction_certified": false,
+      "mechanics_coverage_only": false,
+      "profile_id": "historical_governor_and_actual_human_outcome_gate",
+      "status": "FAIL_MISSING_OR_UNCERTIFIED_REQUIRED_FEATURES",
+      "uncertified_feature_ids": [
+        "PTOL_EMPOWERED_MERCURY_MOON_SOUL_LORDSHIP",
+        "FULL_TIME_CONTRADICTION_AWARE_BEHAVIOR_MAP",
+        "VALID_FINAL_SCORE_UPPER_BOUNDS_ALL_FEATURES"
+      ]
+    },
+    {
+      "feature_count": 22,
+      "historically_complete_source_governors": false,
+      "independent_human_behavior_prediction_certified": false,
+      "mechanics_coverage_only": false,
+      "profile_id": "all_registered_Western_HD_feature_pressure_test_not_a_model",
+      "status": "FAIL_MISSING_OR_UNCERTIFIED_REQUIRED_FEATURES",
+      "uncertified_feature_ids": [
+        "FULL_PLANET_LONGITUDINAL_SPEED",
+        "PLACIDUS_PLANET_HOUSE_POSITION",
+        "SEVEN_PLANET_LATITUDES_DECLINATION",
+        "PTOL_EMPOWERED_MERCURY_MOON_SOUL_LORDSHIP",
+        "HD_PERSONALITY_DESIGN_ALL_NON_SUN_LINES",
+        "HD_COLOR_TONE_BASE",
+        "FULL_TIME_CONTRADICTION_AWARE_BEHAVIOR_MAP",
+        "VALID_FINAL_SCORE_UPPER_BOUNDS_ALL_FEATURES"
+      ]
+    }
+  ],
+  "source_registry_path": "tools/astrohd/reference/research/whole_chart_feature_coverage_registry_dev_20261119.json",
+  "source_registry_sha256": "c3e8acddfb8948eaaf162bc7172e4b4f262aaf20a545fd7b72195f24049af30a",
+  "status": "PASS_READINESS_AUDIT_CORRECTLY_IDENTIFIES_INCOMPLETE_HUMAN_MODEL"
+}
