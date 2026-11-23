@@ -98,7 +98,7 @@
     "no_personality_rank_from_geometric_rarity": true,
     "old_results_preserved_not_rewritten": true
   },
-  "next_safe_action": "Original source p535 strength and planetary benefic/malefic/aspect/dispositor/fortification constraints must be applied to secondary dignity-bearing participant sets while maintaining separate principal roles; source-critical original p536 forcible aspect and SX/SY, Ptolemy III.13 fifth-phase testimony and independent private non-bespoke human behavioral validation remain OPEN.",
+  "next_safe_action": "Reconcile exact source licenses and finite sample/continuous scope for previously derived full planetary speed, house, latitude features against the 2026-11-19 coverage registry, then finish original Ptolemy III.13 and Lilly original source qualifications or abstain; freeze a source-supported non-bespoke behavioral score and valid full-population bounds BEFORE evaluating an untouched independently consented private blinded human holdout against strong nonastrological baselines. Root project OPEN.",
   "provenance": "Based on verified public source evidence and corrected user feedback. Prior conversation completion language is explicitly distinguished from what the Git artifact actually proves.",
   "completed_now_limited_source_motion": {
     "status": "COMPLETE_DECLARED_SOURCE_COMPONENT_ONLY",
@@ -236,5 +236,22 @@
     "all_nine_same_roles_and_participant_set": 224058,
     "complete_Lilly_CVII_governor_resolved": false,
     "empirical_human_prediction_validated": false
+  },
+  "completed_now_existing_behavioral_feature_coverage_reused_and_provenance_gate_fixed": {
+    "status": "COMPLETE_DECLARED_SOURCE_NEUTRAL_DEVELOPMENT_READINESS_AUDIT_NOT_A_HUMAN_SCORER",
+    "frozen_registry_snapshot_SHA256": "c3e8acddfb8948eaaf162bc7172e4b4f262aaf20a545fd7b72195f24049af30a",
+    "source_report": "docs/astrohd/behavioral_source_readiness_and_next_validation_20261123.md",
+    "source_receipt": "tools/astrohd/reference/research/astrohd_behavioral_source_readiness_receipt_20261123_v01.json",
+    "source_receipt_SHA256": "bca265ae18df5c85417ab27a65ee6487391f3390cb3e688be71bc51cb73c2441",
+    "minimal_mechanical_coverage_fields": 6,
+    "historical_governor_and_human_prerequisite_uncertified_fields": 3,
+    "entire_Western_HD_feature_registry_optional_pressure_test_uncertified_fields": 8,
+    "existing_gate_source_null_label_ready_bug_repaired": true,
+    "actual_frozen_behavioral_scoring_model": false,
+    "independent_human_personality_prediction_validated": false,
+    "original_migrated_checker_source_unchanged": true,
+    "original_source_checker_sha256": "0534823d1550877b67994a7c348a7283fdf9affe3280cdfdb26371cf50566f91",
+    "new_active_versioned_checker": "tools/astrohd/scripts/audit_full_chart_feature_coverage_v02.py",
+    "original_migration_inventory_sha_integrity_preserved": true
   }
 }

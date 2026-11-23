@@ -1,0 +1,26 @@
+{
+  "acceptance_command": "python3 tools/astrohd/scripts/audit_behavioral_source_readiness_20261123_v01.py",
+  "branch": "research/astrohd-behavioral-source-readiness-20261123",
+  "complete_owner_goal": false,
+  "exclusive": true,
+  "parent_goal": "Historically source-grounded, predeclared non-bespoke multi-system chart-to-observable-person comparison with independent private human validation, currently OPEN",
+  "preflight_command": "python3 tools/astrohd/scripts/audit_behavioral_source_readiness_20261123_v01.py --preflight",
+  "privacy": "No birth, interview, private chart, human observations or individual ranking in public code, reports or receipts",
+  "repository": "u-dont-existDOTcom/astro-research",
+  "required_artifacts": [
+    "tools/astrohd/reference/research/astrohd_behavioral_source_readiness_profiles_20261123_v01.json",
+    "tools/astrohd/reference/research/astrohd_behavioral_source_readiness_receipt_20261123_v01.json",
+    "docs/astrohd/behavioral_source_readiness_and_next_validation_20261123.md",
+    "tools/astrohd/scripts/audit_full_chart_feature_coverage_v02.py",
+    "tools/astrohd/tests/unit/test_full_chart_feature_coverage_v02.py"
+  ],
+  "schema": "source_neutral_evaluation_gate_task_v01",
+  "scope": "Reuse existing 2026-11-19 source and mechanical feature coverage gate to test limited Western+HD finite-grid readiness profiles, while preserving distinct full-source historical governor and pre-exposure behavioral mapping gaps. Document exact uncertified feature statuses without inventing predictions or using private birth/behavior evidence.",
+  "status": "BOUNDED_TASK_HOSTED_REVIEW_READY_PARENT_OPEN",
+  "suspended_competing_sources": [
+    "Archived humandesign repository",
+    "Merged PR33 p535 secondary dignity source study is immutable evidence not new active task",
+    "Other parallel owner research queues"
+  ],
+  "task_id": "astrohd-Western-HD-human-evaluation-readiness-gate-20261123"
+}
