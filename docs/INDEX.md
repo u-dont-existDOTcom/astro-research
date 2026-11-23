@@ -1,5 +1,8 @@
 # Research documentation
 
+- **23 Nov Ptolemy III.13 fifth-claim and separate-place candidates:** [Full 3.5m sampled-century 32-source/geometry interval sensitivities and own domicile/sect/contrary testimony witnesses](astrohd/ptolemy_iii13_five_mode_aspect_and_sect_20261123.md). Same-planet and distinct-planet pairs remain separate; no complete historic governor or human predictions.
+
+
 - **23 Nov Western+HD behavioral-evaluation source admission:** [Reusable existing source coverage checker, exact frozen development readiness profiles, corrected provenance-free ready-status bug and next blinded human validation requirements](astrohd/behavioral_source_readiness_and_next_validation_20261123.md). No new natal score or predictive accuracy claim.
 
 

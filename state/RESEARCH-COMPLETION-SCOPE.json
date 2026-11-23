@@ -98,7 +98,7 @@
     "no_personality_rank_from_geometric_rarity": true,
     "old_results_preserved_not_rewritten": true
   },
-  "next_safe_action": "Reconcile exact source licenses and finite sample/continuous scope for previously derived full planetary speed, house, latitude features against the 2026-11-19 coverage registry, then finish original Ptolemy III.13 and Lilly original source qualifications or abstain; freeze a source-supported non-bespoke behavioral score and valid full-population bounds BEFORE evaluating an untouched independently consented private blinded human holdout against strong nonastrological baselines. Root project OPEN.",
+  "next_safe_action": "Prioritize an explicit bounded source-to-observable-behavior rubric reusing existing protocols; evaluate separately qualified Mercury and Moon candidates and mixtures under labeled alternative source interpretations. Resolve only historical and feature conditions necessary for the selected test, or abstain. Exhaustively evaluate finite declared universe or use proven safe pruning; independent blinded held-out human observations and null controls are required for empirical validation. Root historical completeness, personal chart comparison and predictive validity remain distinct.",
   "provenance": "Based on verified public source evidence and corrected user feedback. Prior conversation completion language is explicitly distinguished from what the Git artifact actually proves.",
   "completed_now_limited_source_motion": {
     "status": "COMPLETE_DECLARED_SOURCE_COMPONENT_ONLY",
@@ -253,5 +253,19 @@
     "original_source_checker_sha256": "0534823d1550877b67994a7c348a7283fdf9affe3280cdfdb26371cf50566f91",
     "new_active_versioned_checker": "tools/astrohd/scripts/audit_full_chart_feature_coverage_v02.py",
     "original_migration_inventory_sha_integrity_preserved": true
+  },
+  "completed_now_ptolemy_III13_separate_place_conditional_fifth_aspect_bounds": {
+    "status": "COMPLETE_DECLARED_32_CONDITIONAL_GEOMETRIC_FIFTH_CLAIM_SCENARIOS_ONLY",
+    "report": "docs/astrohd/ptolemy_iii13_five_mode_aspect_and_sect_20261123.md",
+    "anonymous_receipt": "tools/astrohd/reference/research/ptolemy_iii13_five_mode_aspect_century_public_v01.json",
+    "receipt_sha256": "e8acce41f5692255f34852c77ce2d3b82357612b7eaa117daf7f9d2cdcae2108",
+    "samples": 3506400,
+    "all_32_geometry_stable_pair": 139741,
+    "all_32_unknown_phase_bound_stable_pair": 29676,
+    "all_32_unknown_phase_same_body": 8467,
+    "all_32_unknown_phase_different_bodies": 21209,
+    "prior_4553_robust_common_preserved": true,
+    "historically_complete_governor": false,
+    "empirical_validation": false
   }
 }
