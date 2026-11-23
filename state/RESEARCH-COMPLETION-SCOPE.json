@@ -98,7 +98,7 @@
     "no_personality_rank_from_geometric_rarity": true,
     "old_results_preserved_not_rewritten": true
   },
-  "next_safe_action": "Implement source-bound actual Lilly CVII p536 S3 lord-of-Ascendant and its dispositing lord planetary identity and potential aspect, only after S1 and S2 empty; preserve other-planet-aspecting-the-lord SX historical ambiguity before claiming S4/S5. Full Ptolemy III.13 and non-bespoke independent human behavior evaluation remains OPEN.",
+  "next_safe_action": "Continue original 1647 CVII p536 S4 partile Moon/Mercury and S5 final essential rights only for actual LATER eligible original S1/S2/S3/SX/SY ordered source branches, preserving the newly exposed source-unknown same-dispositor and other-aspector states and historical variant disagreements. Then original Ptolemy III.13 fifth/contrary testimony and true non-bespoke human behavior validation OPEN.",
   "provenance": "Based on verified public source evidence and corrected user feedback. Prior conversation completion language is explicitly distinguished from what the Git artifact actually proves.",
   "completed_now_limited_source_motion": {
     "status": "COMPLETE_DECLARED_SOURCE_COMPONENT_ONLY",
@@ -176,5 +176,19 @@
     "same_strict_provisional_joined_body_across_all_methods": 532695,
     "original_author_complete_manners_ruler": false,
     "independent_human_predictive_validation": false
+  },
+  "completed_now_original_lilly_CVII_S3_dispositor_and_own_domicile_source_ambiguity": {
+    "status": "COMPLETE_DECLARED_ORIGINAL_S3_AND_SX_SY_SOURCE_CONDITIONAL_GAP_CENSUS_ONLY",
+    "original_source": "Lilly Christian Astrology 1647 original first-print p536, own-dispositor and other-aspector ambiguous stage",
+    "public_report": "docs/astrohd/lilly_cvii_1647_s3_dispositor_self_other_aspect_full_century_20261123.md",
+    "public_anonymous_aggregate": "tools/astrohd/reference/research/lilly_cvii_s3_original_dispositor_self_other_aspect_full_century_public_v01.json",
+    "original_numeric_source_SHA256": "1c2ff1e71a5c59caf0d11da8267cfcf37319e72b5f85b8446ef694f6fb790599",
+    "one_site_quarter_hour_UTC_samples": 3506400,
+    "historical_source_variant_count": 48,
+    "previous_96_source_variants_exactly_conserved": true,
+    "own_dispositor_self_aspecting_source_rule_resolved": false,
+    "other_aspector_without_dispositor_source_rule_resolved": false,
+    "complete_Lilly_original_manners_ruler": false,
+    "independent_human_predictive_validity": false
   }
 }

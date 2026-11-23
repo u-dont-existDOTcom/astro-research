@@ -1,0 +1,110 @@
+{
+  "schema": "lilly_CVII_original_first_print_1647_S3_dispositor_other_aspect_self_gap_v01",
+  "reviewed_on_UTC_date": "2026-11-23",
+  "status": "ORIGINAL_1647_STAGE_3_SOURCE_DISPOSITOR_MORE_PRECISE_CONDITIONAL_IDENTITY_AND_NEW_UNASSIGNED_SELF_GAP",
+  "source": {
+    "author": "William Lilly",
+    "work": "Christian Astrology",
+    "edition": "Original first printing London 1647",
+    "printed_pages": [
+      535,
+      536
+    ],
+    "original_PDF_sha256": "2cb53e20e122ffc6e47917ba10241f6c49687cd7a4696f3b5db655a2a1aab28b",
+    "original_printed_p536_render_sha256": "4cdd11d5cf468e20f38fed7889e42f2e6298540e05f7f196c9b916e28bb57b24",
+    "original_catalog": "https://wellcomecollection.org/works/s7z7c46y",
+    "read_mode": "Direct original 1647 printed p535–536 facsimile examined, source edits versioned; no new Greek manuscript critical edition or independently settled future planetary strength"
+  },
+  "source_claims": [
+    {
+      "id": "S3_asc_lord",
+      "source_wording_short": "then take the Lord of the ascendant",
+      "status": "ORIGINAL_PRINTED_EXPLICIT",
+      "operationalization": "If S1 AND S2 have no eligible planet under the declared original-source variants, the ascending-sign traditional domicile ruler is the provisional historical S3 potential planet"
+    },
+    {
+      "id": "S3_dispositor_beholds",
+      "source_wording_short": "his Dispositor behold him with some aspect",
+      "status": "ORIGINAL_PRINTED_EXPLICIT",
+      "operationalization": "Require a DISTINCT domicile dispositor of natal ASC lord to aspect that lord; separately preserve sign-based and source-orb-near traditional nonconjunction rays, not a single unique historical numerical threshold"
+    },
+    {
+      "id": "SX_other_aspects_without_dispositor",
+      "source_wording_short": "If no Planet aspect him",
+      "status": "ORIGINAL_PRINTED_WORDING_WITH_RESEARCHER_THIRD_CASE",
+      "operationalization": "A distinct classical body aspects ASC lord, but ASC lord's own domicile dispositor does not; original p536 does not unambiguously nominate any lord/other body or permit forcing a later partile stage"
+    },
+    {
+      "id": "SY_asc_lord_self_dispositor",
+      "source_wording_short": "his Dispositor behold him",
+      "status": "RESEARCHER_SOURCE_UNDERDETERMINATION",
+      "operationalization": "When ASC lord is in its OWN domicile, its domicile dispositor is itself. A planet cannot make an ordinary different-body aspect to itself. This original source case is preserved as unassigned SY and explicitly split from earlier S4/S5 or SX historical numeric bins rather than secretly invent an aspect."
+    },
+    {
+      "id": "source_bodily",
+      "source_wording_short": "some aspect",
+      "status": "HISTORICAL_AMBIGUITY",
+      "operationalization": "Two independent possible interpretations: traditional non-bodily sign or near-rayed aspects vs those aspects plus any BODY conjunction with the lord. No one source unique definition assigned to every chart."
+    }
+  ],
+  "source_method_variants": {
+    "S1_spatial_first_stage": [
+      "ascending_sign",
+      "regiomontanus_first_house",
+      "ascending_sign_or_intercepted_sign"
+    ],
+    "p107_original_print_moiety_lower_larger": [
+      "1647_table_smaller_orbs",
+      "1647_table_larger_orbs"
+    ],
+    "S2_joined_planet_narrow_broad": [
+      "four_externals_only",
+      "all_other_classical_planets"
+    ],
+    "S3_dispositor_beholding": [
+      "dispositor_sign_ray",
+      "dispositor_orb_near_ray"
+    ],
+    "other_planet_seeing_lord": [
+      "rays_only",
+      "rays_or_bodily"
+    ],
+    "total_stage_partitions": 48,
+    "source_s3_candidate_identity": "Domicile ruler of rising sign, not the other planet aspecting it and not the ASC lord's dispositor by default",
+    "source_SX_aspector_identity_policy": "Retain ALL other classic-planet aspectors, not a source-authorized alternative final manner significator",
+    "historical_own_dispositor_self_beholding_rule_adopted": false
+  },
+  "source_conservation": {
+    "original_prior_immutable_result": "tools/astrohd/reference/research/lilly_cvii_all_other_planets_full_century_public_v01.json",
+    "prior_96_other_planet_six_stage_variants_need_exact_read_back": true,
+    "reconciliation_formula": [
+      "New S1,S2,S3 equal old S1,S2,S3 exactly for both old partile variants",
+      "Old SX = New SX (other body, no distinct dispositor) + New SY where another planet also aspects lord",
+      "Old S4 + old S5 = New LATER (no planet aspects and not self) + New SY where no other planet aspects lord",
+      "All new 6 independent source statuses S1 S2 S3 SY SX LATER partition every clock time"
+    ]
+  },
+  "source_finite_denominator": {
+    "original_clock_samples": 3506400,
+    "one_declared_research_site": true,
+    "original_planetary_SHA_shards": 36,
+    "original_site_SHA_shards": 36,
+    "original_HD_index_SHA_shards": 36,
+    "original_HD_structural_intervals": 288908,
+    "HD_near_root_unknown": 125,
+    "original_conditional_Ptolemy_4mode_common": 4553
+  },
+  "unresolved_historical_outcomes": [
+    "Self-dispositor S3 versus no-other-planet fallback, original p536 meaning not source unique",
+    "Original other planet aspect without dispositor SX is a gap, not an implicit fully resolved different significator",
+    "Original S4 forcibly partile and S5 most essential dignity at Mercury/Moon locations",
+    "Full 1647 planetary strength and actual matter-significator eligibility",
+    "Ptolemy III.13 fifth mode, original contrary and sect testimony",
+    "Complete non-bespoke human-characteristic scoring and independent private observation against null baselines"
+  ],
+  "public_code": "tools/astrohd/scripts/lilly_cvii_s3_dispositor_other_aspect_self_gap_century_v01.py",
+  "public_anonymous_numerical_aggregate": "tools/astrohd/reference/research/lilly_cvii_s3_original_dispositor_self_other_aspect_full_century_public_v01.json",
+  "privacy": "No private owner/third-party birth records, questionnaires, interviews or person-specific scores were read, included or published",
+  "completed_historical_Lilly_manners_ruler": false,
+  "validated_empirical_personality_predictor": false
+}

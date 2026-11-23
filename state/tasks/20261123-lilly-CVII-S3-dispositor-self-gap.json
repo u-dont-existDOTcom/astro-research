@@ -1,0 +1,23 @@
+{
+  "artifact_acceptance_command": "python3 tools/astrohd/scripts/audit_lilly_cvii_s3_source_scope_v01.py",
+  "bounded_outcome": "Identify actual Ascendant lord and its natal domicile dispositor at S3 after S1/S2 empty; separate aspecting dispositor, other planet aspect without dispositor (SX), own-domicile same-as-dispositor (SY), later aspects/fallback under 48 exact source conditioned policies, full original 3.5m UTC, reconcile all previous 96 six-stage source counts",
+  "branch": "research/lilly-CVII-S3-dispositor-self-gap-20261123",
+  "owner_parent_goal": "Historically complete source-qualified multi-system chart-to-observable-behavior prediction with independent blinded validation; still OPEN",
+  "private_data_policy": "No birth/interview records, private individual source charts, historical case scores or original scanned first edition pages in public repository",
+  "repository": "u-dont-existDOTcom/astro-research",
+  "required_artifacts": [
+    "tools/astrohd/scripts/lilly_cvii_s3_dispositor_other_aspect_self_gap_century_v01.py",
+    "tools/astrohd/reference/research/lilly_cvii_s3_original_dispositor_self_other_aspect_full_century_public_v01.json",
+    "docs/astrohd/lilly_cvii_1647_s3_dispositor_self_other_aspect_full_century_20261123.md"
+  ],
+  "root_not_satisfied_by_bounded_task": true,
+  "schema": "historical_source_bound_active_task_v01",
+  "status": "BOUNDED_SUBTASK_REVIEW_READY_PARENT_OPEN",
+  "suspended_competing_sources": [
+    "Archived humandesign repo",
+    "Prior merged S2 864 source methods as immutable evidence, not active branch",
+    "Any unrelated work checkpoint"
+  ],
+  "task_id": "astrohd-lilly-original-S3-dispositor-SX-self-20261123",
+  "task_preflight_command": "python3 tools/astrohd/scripts/audit_lilly_cvii_s3_source_scope_v01.py --preflight"
+}
