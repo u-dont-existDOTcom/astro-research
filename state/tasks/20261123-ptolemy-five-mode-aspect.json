@@ -1,0 +1,24 @@
+{
+  "acceptance": "python3 tools/astrohd/scripts/ptolemy_iii13_five_mode_aspect_century_v01.py --audit",
+  "artifacts": [
+    "tools/astrohd/scripts/ptolemy_iii13_five_mode_aspect_century_v01.py",
+    "tools/astrohd/reference/research/ptolemy_iii13_five_mode_aspect_century_public_v01.json",
+    "docs/astrohd/ptolemy_iii13_five_mode_aspect_and_sect_20261123.md"
+  ],
+  "bounded_outcome": "Actual full frozen sampled UTC grid comparison of separate Mercury and Moon claims with one conditional fifth aspect mode under explicit interpretation choices; retain tied and independently possible bodies, unknown phase and bodily latitude; assess original sect/contrary testimony witnesses without asserting full strength arbitration",
+  "exclusive": true,
+  "necessity": "Ptolemy III.2/3 and III.13 explicitly include phase/aspect, separate rational and sensory places, and qualitative qualifications. One common leader is not an admission requirement for all behavioral models. Numerical thresholds, exact historical arbitration and complete optional feature coverage are experimental, not new owner prerequisites.",
+  "parent_outcome": "OPEN: source-grounded comparative natal hypotheses and actual human observations, not necessarily a unique complete ancient algorithm",
+  "preflight": "python3 tools/astrohd/scripts/ptolemy_iii13_five_mode_aspect_century_v01.py --preflight",
+  "private_boundary": "Only public-source calculations and anonymous aggregate statistics. No personal chart inputs, interviews or past individual scores.",
+  "required_branch": "research/ptolemy-iii13-five-mode-candidates-20261123",
+  "required_repo": "u-dont-existDOTcom/astro-research",
+  "schema": "source_bound_active_task_v01",
+  "status": "BOUNDED_SUBTASK_REVIEW_READY_PARENT_OPEN",
+  "suspended_competing_sources": [
+    "Archived humandesign repo",
+    "Previously merged isolated Lilly stage and source-neutral feature-readiness work",
+    "Unrelated roadmap queues"
+  ],
+  "task_id": "astrohd-ptolemy-III13-fifth-mode-20261123"
+}
