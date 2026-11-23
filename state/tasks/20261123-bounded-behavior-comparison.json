@@ -1,0 +1,18 @@
+{
+  "schema": "source_bound_active_task_v01",
+  "task_id": "astrohd-bounded-behavior-comparison-20261123",
+  "required_repo": "u-dont-existDOTcom/astro-research",
+  "required_branch": "research/bounded-behavior-contrast-20261123",
+  "parent_outcome": "OPEN: historically qualified full-universe multi-system comparison and independent human validation",
+  "bounded_outcome": "Execute a common-rule retrospective HD + separate Mercury/Moon comparison on the existing frozen panel; retain all 64 PR35 scenario branches and direct sign alternative, plus narrower observation coding",
+  "status": "BOUNDED_SUBTASK_REVIEW_READY_PARENT_OPEN",
+  "exclusive": true,
+  "necessity": "Owner requested comparative scoring rather than additional isolated source audits",
+  "private_boundary": "All individual inputs, observations, ranks and receipts remain private outside public checkout. Only method and invented-data tests are public.",
+  "acceptance": "python -m unittest discover -s tools/astrohd/tests/unit -p test_compare_bounded_behavior_v01.py",
+  "artifacts": [
+    "tools/astrohd/scripts/compare_bounded_behavior_v01.py",
+    "tools/astrohd/tests/unit/test_compare_bounded_behavior_v01.py",
+    "docs/astrohd/bounded_behavior_comparison_20261123.md"
+  ]
+}

@@ -1,5 +1,7 @@
 # AstroHD public research recovery — 21 November 2026
 
+**23 November bounded actual behavioral scoring:** [Common-rule generic HD and separate Mercury/Moon Ptolemy conditional comparison](bounded_behavior_comparison_20261123.md) executed on the existing frozen private panel under 64 alternative source/uncertainty branches and a direct-sign branch, twice with different evidence admission strictness. Private results not published; independent validity and full-universe comparison remain open.
+
 **Canonical active public repository:** `u-dont-existDOTcom/astro-research`.
 
 The prior private Human Design research repository was superseded. This repository now owns **all new public astrology methods, source audits, and independently reproducible tests**, including HD + Western chart-comparison research. Public research must not be redirected into the old repository because an older conversation, handoff, branch, Project label or prompt mentions it.
