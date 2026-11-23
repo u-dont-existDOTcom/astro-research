@@ -1,5 +1,8 @@
 # Research documentation
 
+- **23 Nov Lilly original CVII second-stage Moon/Mercury joining:** [Complete same-UTC 3.5m first-stage-empty source census of actual single/multiple conjunct planetary candidate identities under 12 historical orbital/spatial inclusion variants](astrohd/lilly_cvii_1647_second_stage_joining_full_century_20261123.md). Earlier frozen S2 cohorts and Ptolemy exact-clock intersections independently checked.
+
+
 - **23 Nov 2026 Lilly original p535 actual first-stage eligible significators:** [216 source-conditional S1 spatial-plus-bounded-partial-strength historical century scenarios](astrohd/lilly_cvii_1647_s1_eligible_partial_strength_century_20261123.md), zero/sole/multiple source-eligible occupants and strict abstentions; remaining original later-stage and human behavioral root OPEN.
 
 

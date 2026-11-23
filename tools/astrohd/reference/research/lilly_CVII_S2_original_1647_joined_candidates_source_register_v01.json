@@ -1,0 +1,102 @@
+{
+  "schema": "lilly_CVII_original_first_print_S2_moon_mercury_joined_planet_candidates_source_v01",
+  "date_utc": "2026-11-23",
+  "status": "DIRECT_FIRST_PRINT_S2_CANDIDATE_MEMBERSHIP_FULL_CENTURY_PENDING_SOURCE_MERGE_NO_FULL_MANNERS_RULER",
+  "first_print": {
+    "author": "William Lilly",
+    "title": "Christian Astrology",
+    "original_edition": "London 1647",
+    "printed_pages": [
+      107,
+      535,
+      536
+    ],
+    "pdf_page_107": 141,
+    "pdf_page_535": 569,
+    "pdf_page_536": 570,
+    "original_pdf_sha256": "2cb53e20e122ffc6e47917ba10241f6c49687cd7a4696f3b5db655a2a1aab28b",
+    "p536_direct_render_sha256": "4cdd11d5cf468e20f38fed7889e42f2e6298540e05f7f196c9b916e28bb57b24",
+    "source_catalog": "https://wellcomecollection.org/works/s7z7c46y",
+    "read_mode": "Direct original first-edition printed page 536 and earlier original p535/p107 images; original scanned pages retained only in private source archive"
+  },
+  "original_text_status": [
+    {
+      "id": "NO_ASC_BODY_NEXT",
+      "source_status": "ORIGINAL_EXPLICIT",
+      "passage": "No Planet posted in the ascendant, observe what Planet is joyned to Moon or Mercury",
+      "meaning": "S2 is relevant ONLY when original S1 has no primary qualifying occupant under the declared source geometry; not a global all-chart winner."
+    },
+    {
+      "id": "IF_BOTH_JOINED",
+      "source_status": "ORIGINAL_EXPLICIT",
+      "passage": "If the Planet be joyned to Moon and Mercury both",
+      "meaning": "Special attention to a single candidate touching both reference bodies; text discusses resulting diverse manners. Does not assign final numerical ruler or universally demand the double-contact planet trump every other."
+    },
+    {
+      "id": "S2_MULTIPLE",
+      "source_status": "ORIGINAL_IMPLICATION_WITH_QUALIFICATIONS",
+      "meaning": "Every eligible contact candidate is retained. Multiple contacts may lead different manners or relative duration; historically complete fortitude is not yet computed."
+    },
+    {
+      "id": "ORB_SOURCE",
+      "source_status": "GENERAL_ORIGINAL_LILLY_P107_BUT_CVII_NOT_UNIQUE",
+      "meaning": "p107 actual printed planet-specific moieties offer smaller/larger source bounded conjunction spans. CVII itself does not specify one unique orb table. Mixed orb choices also remain historically possible."
+    },
+    {
+      "id": "MUTUAL_MOON_MERCURY",
+      "source_status": "UNRESOLVED_HISTORICAL_JOINING_SCOPE",
+      "meaning": "Whether Moon itself joined to Mercury or Mercury itself joined to Moon counts as a candidate and whether Sun is allowed are separately encoded broader traditional planet scope; four-external restriction is a conservative source-bound alternative."
+    }
+  ],
+  "source_variants": {
+    "S1_ascending_mode": [
+      "ascending_sign",
+      "regiomontanus_first_house",
+      "ascending_sign_or_intercepted_sign"
+    ],
+    "original_moiety_bounds": [
+      "1647_table_smaller_orbs",
+      "1647_table_larger_orbs"
+    ],
+    "candidate_scope": [
+      "four_externals_only",
+      "all_other_classical_planets"
+    ],
+    "count_of_source_sensitive_alternative_scopes": 12,
+    "direct_conjunction_requirement": "Absolute shortest ecliptic longitudinal angular separation (0..180 degrees) <= half the sum of original p107 two planets' printed orbs. Source does NOT independently assert latitude side for Lilly's general bodily joining.",
+    "reference_bodies": [
+      "Moon",
+      "Mercury"
+    ],
+    "same_planet_both_contacts_retained": true,
+    "all_candidates_not_one_arbitrarily_selected": true
+  },
+  "prior_source_cross_checks": {
+    "previous_5stage_original_registry": "tools/astrohd/reference/research/lilly_cvii_ptolemy_same_instant_ordered_fallback_public_v02.json",
+    "required_identical_S2_any_count_for_each_of_12_source_branches": true,
+    "required_identical_Ptolemy_shared_4mode_cross_count_for_each_of_12_branches": true,
+    "S1_original_first_stage_records_untouched": true
+  },
+  "experimental_population": {
+    "UTC_clock_samples": 3506400,
+    "one_fixed_research_location": true,
+    "planet_original_SHA_shards": 36,
+    "angle_original_SHA_shards": 36,
+    "HD_index_original_SHA_shards": 36,
+    "HD_original_structural_intervals": 288908,
+    "HD_transition_near_unknown": 125,
+    "conditional_Ptolemy_common_4mode_candidates": 4553
+  },
+  "scope_limits": [
+    "Missing full original historically licensed manners significator strength and other dignity-based participation in S1.",
+    "Two original p107 orb bundles are envelopes of author options; no single historical exact joining orb chosen.",
+    "Multiple S2 candidates remain multiple source participants; no final strength ranking or human characteristics scored.",
+    "At S1/S2 empty, later p536 dispositing/other-planet/forceful partile/final dignities remain OPEN.",
+    "Original Ptolemy III.13 fifth/sect/contrary testimony and independent human evidence not resolved.",
+    "No private natal/person-specific input, interview, questionnaire or original page images enter public method/data."
+  ],
+  "runner": "tools/astrohd/scripts/lilly_cvii_s2_actual_joined_planet_candidates_century_v01.py",
+  "anonymous_aggregate": "tools/astrohd/reference/research/lilly_cvii_s2_original_joining_full_century_public_v01.json",
+  "actual_historical_Lilly_full_manners_ruler_computed": false,
+  "independent_human_personality_validity_established": false
+}

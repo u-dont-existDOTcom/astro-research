@@ -1,0 +1,22 @@
+{
+  "schema": "source_bound_task_v01",
+  "task_id": "astrohd-lilly-CVII-S2-joined-moon-mercury-20261123",
+  "required_branch": "research/lilly-cvii-second-stage-joining-20261123",
+  "required_repo": "u-dont-existDOTcom/astro-research",
+  "parent_owner_outcome": "Full historically source-qualified multi-system human behavioral comparison and actual planetary governors, still OPEN",
+  "task_bounded_outcome": "Actually compute original first-print Lilly CVII p536 named S2-joined-planet candidate identity on all original 3.5m source UTC samples after S1 empty, preserving original planet-orb and candidate-inclusion historical variants",
+  "status": "BOUNDED_TASK_READY_FOR_HOSTED_REVIEW_PARENT_OPEN",
+  "suspended_competing_task_sources": [
+    "Archived humandesign repository",
+    "Earlier first-stage S1 task remains historical evidence",
+    "Unrelated UDA operations"
+  ],
+  "source_privacy": "No public private natal/biography/questionnaire/interview or original PDF page image",
+  "completion_command": "python3 tools/astrohd/scripts/audit_lilly_cvii_s2_scope_v01.py",
+  "required_artifacts": [
+    "docs/astrohd/lilly_cvii_1647_second_stage_joining_full_century_20261123.md",
+    "tools/astrohd/reference/research/lilly_cvii_s2_original_joining_full_century_public_v01.json",
+    "tools/astrohd/scripts/lilly_cvii_s2_actual_joined_planet_candidates_century_v01.py"
+  ],
+  "parent_not_satisfied_by_task": true
+}
