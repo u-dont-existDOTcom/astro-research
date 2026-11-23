@@ -1,5 +1,8 @@
 # Research documentation
 
+- **23 Nov Lilly CVII original p536 Ascendant lord/dispositor source accounting:** [Full 3.5m source-checked 48 historical S3/SX/SY/later conditions and newly separated self-dispositor underdetermination](astrohd/lilly_cvii_1647_s3_dispositor_self_other_aspect_full_century_20261123.md), prior 96 six-stage method counts all preserved.
+
+
 - **23 Nov Lilly original CVII S2 joined strength:** [Complete same-UTC century source-eligible Moon/Mercury joined classical-planet 864-policy provisional partial strength arbitration](astrohd/lilly_cvii_s2_joined_partial_strength_century_20261123.md) with all historic variants and unknowns; full original manners governor/human evaluation OPEN.
 
 
