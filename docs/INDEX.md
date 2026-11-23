@@ -1,5 +1,8 @@
 # Research documentation
 
+- **23 Nov Lilly original CVII p536 S4/S5 genuine-later source fallbacks:** [Actual full-century source-verified numbered-degree partile to Moon/Mercury and six printed-essential at their places under 576 source-conditioned methods, excluding SX/SY](astrohd/lilly_cvii_1647_s4_s5_genuine_later_partile_essential_20261123.md). S4 forcefulness and full manners ruler remain unknown.
+
+
 - **23 Nov Lilly CVII original p536 Ascendant lord/dispositor source accounting:** [Full 3.5m source-checked 48 historical S3/SX/SY/later conditions and newly separated self-dispositor underdetermination](astrohd/lilly_cvii_1647_s3_dispositor_self_other_aspect_full_century_20261123.md), prior 96 six-stage method counts all preserved.
 
 

@@ -1,0 +1,127 @@
+{
+  "schema": "lilly_1647_first_print_CVII_S4_partile_S5_at_Mercury_Moon_places_only_after_source_eligible_LATER_v01",
+  "date_utc": "2026-11-23",
+  "root_status": "OPEN",
+  "primary_source": {
+    "author": "William Lilly",
+    "title": "Christian Astrology",
+    "edition": "London original 1647 first printing",
+    "catalog": "https://wellcomecollection.org/works/s7z7c46y",
+    "scanned_pdf_sha256": "2cb53e20e122ffc6e47917ba10241f6c49687cd7a4696f3b5db655a2a1aab28b",
+    "original_page_106_PDF_one_based": 140,
+    "original_page_106_render_sha256": "3f68efad136edd40fe4dfdb83f352be5b0aa644f3b2a61fb03739d9940bebb39",
+    "original_page_536_PDF_one_based": 570,
+    "original_page_536_render_sha256": "4cdd11d5cf468e20f38fed7889e42f2e6298540e05f7f196c9b916e28bb57b24",
+    "original_page_104_PDF_one_based": 138,
+    "source_read_mode": "Original first printed 1647 pages p106 and p536 actually viewed and original p104/p107 earlier independently reviewed; facsimile images/private scans archived only on authorized device, no ancient Greek manuscript collation."
+  },
+  "source_verification": [
+    {
+      "claim": "Partill distinction",
+      "page": 106,
+      "exact_short_source": "There is also a Partill and Platick aspect",
+      "evidence": "Original p106 explains perfect aspects by exact sign-numbered degree relationships; previous source method uses same numbered degree in traditional aspecting signs, not one modern arbitrary one-degree angular orb",
+      "category": "SOURCE_DIRECT_WITNESS_WITH_OPERATIONAL_GEOMETRY"
+    },
+    {
+      "claim": "If no planet aspects ASC lord",
+      "page": 536,
+      "exact_short_source": "If no Planet aspect him",
+      "evidence": "Only true later cohort after no S1 occupant, no S2 joined candidate, no distinct qualified S3 disposer, no ANY other body aspecting ASC lord and no unresolved own dispositor; old SX/SY cases not silently sent to last fallbacks",
+      "category": "SOURCE_AND_NEW_GAP_RECONCILIATION"
+    },
+    {
+      "claim": "Partile candidate requirement",
+      "page": 536,
+      "exact_short_source": "forcibly aspects Luna and Mercury with a partill aspect",
+      "evidence": "Two independent reading policies retained: one planet aspects either reference vs same planet partile-aspects both; 'forcibly' requires missing historical overall fortitude so candidate is GEOMETRIC POSSIBILITY, not a qualified full manners significator",
+      "category": "DIRECT_SOURCE_PLUS_UNRESOLVED_SOURCE_STRENGTH"
+    },
+    {
+      "claim": "Last source fallback",
+      "page": 536,
+      "exact_short_source": "in the place of Mercury and Luna hath the most essential dignities",
+      "evidence": "Three printed historical term traditions and two research place-score aggregation policies remain independent; source positive 5/4/3/2/1 not complete total natal strength or behavioral prediction",
+      "category": "DIRECT_SOURCE_PLUS_UNLICENSED_AGGREGATION"
+    }
+  ],
+  "source_method_alternatives": {
+    "first_stage_spatial": [
+      "ascending_sign",
+      "regiomontanus_first_house",
+      "ascending_sign_or_intercepted_sign"
+    ],
+    "original_1647_moiety_envelopes": [
+      "1647_table_smaller_orbs",
+      "1647_table_larger_orbs"
+    ],
+    "S2_candidate_scope": [
+      "four_externals_only",
+      "all_other_classical_planets"
+    ],
+    "dispositor_aspect_scope": [
+      "dispositor_sign_ray",
+      "dispositor_orb_near_ray"
+    ],
+    "any_other_classical_aspects_ASC_lord": [
+      "rays_only",
+      "rays_or_bodily"
+    ],
+    "stage_first_four_source_method_count": 48,
+    "S4_partile_policy": [
+      "partile_Moon_or_Mercury",
+      "partile_same_planet_Moon_and_Mercury"
+    ],
+    "S4_geometric_source_method_count": 96,
+    "S5_historical_terms": [
+      "Lilly_1647_original_first_print_p104",
+      "ptolemy_printed_1940",
+      "egyptian_printed_1940"
+    ],
+    "S5_Mercury_Moon_place_scoring_interpretation": [
+      "sum_of_both_places",
+      "strongest_of_two_places"
+    ],
+    "S5_source_scoring_policies": 6,
+    "source_partile_plus_source_place_cross_product": 576,
+    "S4_forcible_historical_strength_confirmed": false,
+    "historic_complete_manners_ruler_selected": false
+  },
+  "subject_policies": {
+    "S4_classical_candidates": [
+      "Sun",
+      "Venus",
+      "Mars",
+      "Jupiter",
+      "Saturn"
+    ],
+    "S4_source_operationalization": "Classic nonbodily aspects only, matching numbered signs degree as per source p106; each planet joining Moon and Mercury tracked independently; old original p106 exact degree and moon/mercury self-aspect excluded",
+    "S5_source_scope": "Only LATER with NO geometric qualifying partile under its declared source policy; six combinations of original Mercury and Luna place dignity scoring, where historical final unique ruler remains unlicensed",
+    "reception_caution": "Original p535 primary eligible other dignity-bearing participants and full p115 strength remain unresolved"
+  },
+  "source_cohort_denominator": {
+    "original_sampled_quarter_hour_UTC_times": 3506400,
+    "source_horizon": "1926-11-19 inclusive to 2026-11-19 exclusive",
+    "fixed_research_site_only": true,
+    "original_source_planetary_SHAs": 36,
+    "original_source_angles_SHAs": 36,
+    "original_source_HD_index_SHAs": 36,
+    "original_independent_HD_structural_interval_count": 288908,
+    "original_HD_root_margin_unknown": 125,
+    "conditional_Ptolemy_4mode_common_possible_lords": 4553,
+    "prior_original_S3_split_source": "tools/astrohd/reference/research/lilly_cvii_s3_original_dispositor_self_other_aspect_full_century_public_v01.json",
+    "prior_original_96_six_stage_source": "tools/astrohd/reference/research/lilly_cvii_all_other_planets_full_century_public_v01.json"
+  },
+  "separate_unknowns": [
+    "Original source 'forcibly' requires complete planetary strength not presently source authorized, so partile geometrically possible does not certify S4 ruler or necessarily block a subsequent S5 if physically weak",
+    "Original text 'Luna and Mercury' versus 'Mercury or Luna' does not uniquely authorize any/both; previous original alternative methods retained",
+    "Original p536 S5 scores at Mercury and Moon PLACES only, historical aggregation sum vs max unresolved",
+    "Original self-dispositor SY and other-aspector without distinct dispositor SX unresolved and MUST NOT enter genuine LATER candidate set",
+    "Ptolemy III.13 final governor phase/orb/sect/contrary testimony not complete",
+    "No independently verified real human behavioral prediction or unique highest-ranked natal chart"
+  ],
+  "privacy": "Only astronomical source-neutral aggregates/code/test; all original PDF pages, raw private scientific output, owner and third party individual birth/interview/case scores kept in separate authorized private evidence archive",
+  "source_code": "tools/astrohd/scripts/lilly_cvii_s4_s5_partile_essential_genuine_later_century_v01.py",
+  "source_numeric_aggregate": "tools/astrohd/reference/research/lilly_cvii_s4_s5_genuine_later_full_century_public_v01.json",
+  "independently_validated_human_behavior": false
+}
