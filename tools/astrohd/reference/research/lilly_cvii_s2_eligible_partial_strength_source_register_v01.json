@@ -1,0 +1,116 @@
+{
+  "schema": "lilly_1647_CVII_S2_joined_candidate_partial_strength_source_methods_v01",
+  "date_utc": "2026-11-23",
+  "status": "PARTIAL_NATAL_STRENGTH_JUDGMENT_ONLY_AFTER_SOURCE_QUALIFIED_S2_JOINING_NOT_FINAL_MANNERS",
+  "primary_original": {
+    "author": "William Lilly",
+    "work": "Christian Astrology, third book, chapter CVII",
+    "first_print": "London 1647",
+    "source_catalog": "https://wellcomecollection.org/works/s7z7c46y",
+    "printed_pages": [
+      107,
+      535,
+      536,
+      112,
+      115
+    ],
+    "original_1647_PDF_SHA256": "2cb53e20e122ffc6e47917ba10241f6c49687cd7a4696f3b5db655a2a1aab28b",
+    "p535_direct_source_image_SHA256": "49efe26a167fcdd6d0f1f08d3c7a69faaf87939b41cab02341ef6dc2500f4708",
+    "p536_direct_source_image_SHA256": "4cdd11d5cf468e20f38fed7889e42f2e6298540e05f7f196c9b916e28bb57b24",
+    "source_read_mode": "Direct original first-print facsimile p535–536; other original printed planet-orb and fortitude pages earlier inspected independently. No manuscript-critical curation of every historical transmission."
+  },
+  "source_adjudication": [
+    {
+      "original_claim": "S2 applies only if no qualifying planet is posited in the Ascendant",
+      "status": "DIRECT_1647",
+      "implementation": "Source S1 empty under each of three independent historical original place reconstructions"
+    },
+    {
+      "original_claim": "Planet joined to Moon or Mercury can signify manners",
+      "status": "DIRECT_1647",
+      "implementation": "All seven traditional bodies eligible under explicit broad alternative; narrow Venus/Mars/Jupiter/Saturn alternative independently computed; only mathematically qualified S2 candidates may be scored"
+    },
+    {
+      "original_claim": "A planet joined to both Moon and Mercury deserves explicit treatment",
+      "status": "DIRECT_1647",
+      "implementation": "Dual reference membership retained and never automatically given bonus or priority"
+    },
+    {
+      "original_claim": "If many planets signify manners, the strongest continues longest",
+      "status": "DIRECT_1647_WITH_HISTORIC_FORTITUDE_MISSING",
+      "implementation": "Several joined candidates retained as original source participants; strict partial maximum is a researcher diagnostic, not a historically valid unique governor"
+    },
+    {
+      "original_claim": "Historical orb moieties are supplied in p107 but p536 has no uniquely specified numeric orb choice",
+      "status": "SOURCE_CONDITIONALLY_OPERATIONALIZED",
+      "implementation": "Two published 1647 printed orb-envelope alternatives remain separate; conjunction shortest longitudinal separation ≤ half sum of planet orbs; independent Greek planetary latitude condition NOT silently imported from Ptolemy I.24"
+    }
+  ],
+  "source_variant_cross_product": {
+    "S1_geometries": [
+      "ascending_sign",
+      "regiomontanus_first_house",
+      "ascending_sign_or_intercepted_sign"
+    ],
+    "original_1647_p107_moieties": [
+      "1647_table_smaller_orbs",
+      "1647_table_larger_orbs"
+    ],
+    "joined_planet_inclusion": [
+      "four_externals_only",
+      "all_other_classical_planets"
+    ],
+    "S2_original_source_scope_count": 12,
+    "terms_traditions": [
+      "Lilly_1647_original_first_print_p104",
+      "ptolemy_printed_1940",
+      "egyptian_printed_1940"
+    ],
+    "natal_essential_policy": [
+      "five_positive_only",
+      "plus_detriment_fall_peregrine_no_reception",
+      "plus_mutual_house_exalt_reception_clears_peregrine",
+      "plus_mutual_house_exalt_reception_retains_intrinsic_peregrine"
+    ],
+    "accidental_house_policies": [
+      "Regiomontanus",
+      "Placidus"
+    ],
+    "station_uncertainty_deg_per_day": [
+      0.01,
+      0.02,
+      0.05
+    ],
+    "partial_strength_policies": 72,
+    "full_source_scope_x_partial_strength_comparisons": 864,
+    "historically_source_authorized_single_combined_full_manners_ruler": false
+  },
+  "strict_method": "When exactly one joined eligible planet, provisional sole S2 candidate regardless of unknown sect and near-station magnitude. If several eligible, choose a conditional partial-strength body only when its lower bounded essential+house+motion source-point score strictly exceeds every other eligible joined planet's upper score with known sect. Unknown near-station direct/retro grade [-5,+4], not zero. If no eligible S2, proceed to S3.",
+  "unmodeled_conditions": [
+    "Original p535 secondary dignity-bearing nonoccupants, S1 luminary special treatment",
+    "Original p536 exact historical orb and broader Sun/Moon/Mercury joining eligibility",
+    "All Lilly p115 accidental strength conditions beyond three partial point families: stationary/speed, oriental, fixed stars, benefic/malefic aspects, combust/beams, nodes and reception actual matter-significator eligibility",
+    "Original simultaneous Moon/Mercury joined candidate special historical priority and appropriate source-relative fortification",
+    "Full ordered S3 dispositor, SX third case, S4 forceful partile, S5 Mercury/Moon-place dignity",
+    "Ptolemy original III.13 fifth phase/aspect and opposite testimony",
+    "Any independently validated psychological or trait claim and a unique #1 natal chart"
+  ],
+  "original_population": {
+    "same_UTC_quarter_hour_samples": 3506400,
+    "research_location_count": 1,
+    "historical_horizon": "1926-11-19 inclusive to 2026-11-19 exclusive",
+    "original_SHA256_source_planetary_shards": 36,
+    "original_SHA256_source_site_angle_shards": 36,
+    "original_SHA256_source_HD_index_shards": 36,
+    "independent_HD_structural_intervals": 288908,
+    "HD_root_margin_sample_abstentions": 125,
+    "prior_conditional_Ptolemy_four_mode_common_candidates": 4553
+  },
+  "public_code": "tools/astrohd/scripts/lilly_cvii_s2_joined_partial_strength_full_century_v01.py",
+  "public_numeric_aggregate": "tools/astrohd/reference/research/lilly_cvii_s2_joined_partial_strength_full_century_public_v01.json",
+  "original_source_S2_prior": "tools/astrohd/reference/research/lilly_cvii_s2_original_joining_full_century_public_v01.json",
+  "private_natal_interviews_scores_used": false,
+  "all_stage_Lilly_manners_ruler_computed": false,
+  "Ptolemy_complete_III13_soul_governor": false,
+  "empirical_human_predictive_validity": false
+}

@@ -1,0 +1,27 @@
+{
+  "bounded_task": "Exactly source-condition S1-empty and original S2 eligible body set under 12 historical geometry/orb/body scope branches; compare only source-eligible joined bodies under previous 72 published partial natal strength policies and unknown motion intervals at all original 3,506,400 UTC grid rows",
+  "completion_command": "python3 tools/astrohd/scripts/audit_lilly_cvii_s2_partial_strength_scope_v01.py",
+  "noncompletion": [
+    "Only S2 original source-eligible planet identities plus researcher-summed PARTIAL 1647 fortitude, not complete historical Lilly manners ruler",
+    "Multiple eligible joined planets remain source participants even when partial-strength leader exists",
+    "Other dignity-bearing planets, exact original S3/SX/S4/S5, full Ptolemy III.13 testimony and human criterion remain OPEN"
+  ],
+  "parent_owner_outcome": "Historically complete Ptolemy III.13 and Lilly CVII soul/manners governors and non-bespoke Western/HD/other systems behavioral evaluation with independent private evidence; remains OPEN",
+  "preflight_command": "python3 tools/astrohd/scripts/audit_lilly_cvii_s2_partial_strength_scope_v01.py --preflight",
+  "privacy_contract": "Original private birth/interview/questionnaires and user/third-party individual scores never enter public code or dataset. Source scans private.",
+  "required_artifacts": [
+    "tools/astrohd/scripts/lilly_cvii_s2_joined_partial_strength_full_century_v01.py",
+    "tools/astrohd/reference/research/lilly_cvii_s2_joined_partial_strength_full_century_public_v01.json",
+    "docs/astrohd/lilly_cvii_s2_joined_partial_strength_century_20261123.md"
+  ],
+  "required_branch": "research/lilly-CVII-S2-strength-arbitration-20261123",
+  "required_repo": "u-dont-existDOTcom/astro-research",
+  "schema": "source_bound_active_task_v01",
+  "status": "BOUNDED_SUBTASK_REVIEW_READY_PARENT_OPEN",
+  "suspended_competing_task_sources": [
+    "Archived humandesign research",
+    "Unrelated legacy AstroHD branch states",
+    "Earlier S1 and S2 individual computation branches, evidence only"
+  ],
+  "task_id": "astrohd-lilly-CVII-S2-joined-partial-864-20261123"
+}
