@@ -60,6 +60,17 @@
         "historical_uncertainty_branches": 64,
         "frozen_evidence_versions": 2,
         "private_individual_results_published": false
+      },
+      "partial_planet_character_run": {
+        "status": "EXECUTED_DECLARED_FINITE_GRID_ONLY",
+        "evidence_path": "docs/astrohd/ptolemy_planet_character_comparison_20261123.md",
+        "grid_rows": 3506400,
+        "ranked_rows": 3506275,
+        "boundary_unknown": 125,
+        "historical_uncertainty_branches": 64,
+        "fixed_condition_arms": 6,
+        "frozen_evidence_versions": 2,
+        "private_individual_results_published": false
       }
     },
     {
@@ -108,7 +119,7 @@
     "no_personality_rank_from_geometric_rarity": true,
     "old_results_preserved_not_rewritten": true
   },
-  "next_safe_action": "Expand observable coverage by admitting only source-qualified, context-confirmed observations (reuse exact generic survey tokens and preserve explicit contradictions/unknowns); build a broader source-derived planet-character mapping without reference-rank tuning, then compare the same full grid and test independent blinded human outcomes against baselines.",
+  "next_safe_action": "Compare source-conditioned planetary qualification policies on the complete declared finite grid, preserving the prior sign and planet-identity baselines and unresolved conditions. Add source-neutral behavioral mappings for Lilly and other schools only where they enable actual scoring; independent held-out participant observations and null controls remain separate.",
   "provenance": "Based on verified public source evidence and corrected user feedback. Prior conversation completion language is explicitly distinguished from what the Git artifact actually proves.",
   "completed_now_limited_source_motion": {
     "status": "COMPLETE_DECLARED_SOURCE_COMPONENT_ONLY",

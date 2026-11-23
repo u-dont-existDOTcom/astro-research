@@ -1,0 +1,443 @@
+{
+  "schema": "ptolemy_iii13_planet_character_operational_v01",
+  "status": "EXPLORATORY_SOURCE_CONDITIONAL_POST_EXPOSURE_NO_EMPIRICAL_VALIDATION",
+  "source": {
+    "author": "Ptolemy",
+    "edition": "F. E. Robbins (1940), Tetrabiblos III.13, Loeb pp 333\u2013363, editor note 151",
+    "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Ptolemy/Tetrabiblos/3D%2A.html",
+    "read_scope": "Complete III.13 paragraphs 23\u201364; five planetary solitary rulers and ten alliances; Sun and Moon are modifiers rather than additional solitary character lists."
+  },
+  "source_register_sha256": "1a01bac447fbfef4d703f6a9f1ae9d8369c0bc0d4f2134e8f1202991f5823ce3",
+  "domains": {
+    "rational": {
+      "inquiry": "Regularly seeks explanations or investigates unfamiliar questions beyond immediate necessity",
+      "invention": "Regularly devises new methods, mechanisms or solutions rather than only following instructions",
+      "learning": "Regularly pursues acquisition of knowledge or sustained study",
+      "detail": "Regularly checks precise details or works painstakingly when undertaking an important task",
+      "practical": "Regularly organizes practical affairs and translates plans into implemented actions",
+      "work": "Regularly sustains effort on meaningful tasks rather than avoiding labor",
+      "firmness": "Typically maintains a settled purpose or position despite ordinary opposition",
+      "change_mind": "Frequently changes a settled view or purpose over time; distinct from revising a method",
+      "deliberation": "Typically considers consequences before consequential decisions rather than acting precipitately",
+      "discussion": "Regularly engages in reasoned intellectual discussion",
+      "eloquence": "Can communicate ideas in a fluent, effective manner; not a claim about sales or lying",
+      "talk": "Typically speaks at length in ordinary interactions",
+      "aspiration": "Regularly pursues far-reaching achievements or recognition; do not infer desire for formal office",
+      "faith_practice": "Regularly engages in religious or contemplative practices; no supernatural accuracy claim",
+      "reflection": "Regularly engages in sustained reflection on important or abstract questions rather than accepting an immediate answer"
+    },
+    "sensory_affective": {
+      "leadership": "Typically takes command or directing authority when a group needs direction",
+      "confrontation": "Regularly initiates or sustains confrontations and quarrels in disagreements",
+      "anger": "Frequently becomes overtly angry quickly in ordinary provocation",
+      "harshness": "Typically treats others sternly or harshly in ordinary conflict",
+      "compassion": "Regularly responds to the distress of others with concrete help or consideration",
+      "generosity": "Regularly gives resources, money or time to others beyond an immediate obligation",
+      "sociability": "Regularly seeks or readily engages in friendly company",
+      "solitude": "Regularly prefers time alone over company",
+      "trust_caution": "Typically suspects possible misconduct or deception before clear proof in ordinary relationships",
+      "frankness": "Typically communicates intentions or opinions openly and directly",
+      "self_restraint": "Typically restrains strong immediate desires or impulses when they conflict with commitments",
+      "pleasure": "Regularly prioritizes enjoyable or sensory experiences",
+      "aesthetic": "Regularly pursues art, beauty or aesthetic appreciation",
+      "lavish_spending": "Regularly spends resources lavishly or beyond planned practical limits",
+      "boasting": "Regularly boasts about own achievements or status",
+      "faultfinding": "Regularly criticizes faults in others or their conduct",
+      "deception": "Repeatedly knowingly misrepresents facts to others in pursuit of advantage",
+      "reliability": "Typically keeps agreements and promises even when inconvenient",
+      "modesty": "Typically avoids elevating own status or displaying superiority",
+      "risk": "Regularly chooses ventures with meaningful uncertainty or potential loss",
+      "cheerfulness": "Typically behaves cheerfully or playfully during ordinary interactions",
+      "timidity": "Frequently hesitates to act in ordinary situations primarily because of fear or lack of confidence"
+    }
+  },
+  "profiles": [
+    {
+      "bodies": [
+        "Saturn",
+        "Saturn"
+      ],
+      "source_relation": "single ruler",
+      "source_locator": {
+        "dignified": "Loeb III.13 pp 339\u2013341, paragraph 34",
+        "opposite": "Loeb III.13 pp 339\u2013341, paragraph 34"
+      },
+      "dignified": {
+        "work": 1,
+        "firmness": 1,
+        "harshness": 1,
+        "reflection": 1
+      },
+      "opposite": {
+        "work": 1,
+        "solitude": 1,
+        "compassion": -1,
+        "timidity": 1
+      }
+    },
+    {
+      "bodies": [
+        "Jupiter",
+        "Saturn"
+      ],
+      "source_relation": "allied",
+      "source_locator": {
+        "dignified": "Loeb III.13 pp 341\u2013343, digitization paragraph 35",
+        "opposite": "Loeb III.13 pp 341\u2013343, paragraph 35"
+      },
+      "dignified": {
+        "deliberation": 1,
+        "compassion": 1,
+        "generosity": 1,
+        "reflection": 1
+      },
+      "opposite": {
+        "change_mind": 1,
+        "deliberation": 1,
+        "trust_caution": 1,
+        "solitude": 1,
+        "timidity": 1
+      }
+    },
+    {
+      "bodies": [
+        "Mars",
+        "Saturn"
+      ],
+      "source_relation": "allied",
+      "source_locator": {
+        "dignified": "Loeb III.13 pp 343\u2013345, digitization paragraph 36",
+        "opposite": "Loeb III.13 p 343, paragraph 37"
+      },
+      "dignified": {
+        "work": 1,
+        "practical": 1,
+        "firmness": 1,
+        "frankness": 1,
+        "confrontation": 1,
+        "harshness": 1,
+        "boasting": 1,
+        "leadership": 1,
+        "deception": 1
+      },
+      "opposite": {
+        "deception": 1,
+        "harshness": 1
+      }
+    },
+    {
+      "bodies": [
+        "Saturn",
+        "Venus"
+      ],
+      "source_relation": "allied",
+      "source_locator": {
+        "dignified": "Loeb III.13 pp 345, digitization paragraph 38",
+        "opposite": "Loeb III.13 pp 345, digitization paragraph 39"
+      },
+      "dignified": {
+        "firmness": 1,
+        "deliberation": 1,
+        "faith_practice": 1,
+        "solitude": 1,
+        "sociability": -1,
+        "aesthetic": -1,
+        "self_restraint": 1,
+        "modesty": 1,
+        "trust_caution": 1,
+        "reflection": 1
+      },
+      "opposite": {
+        "faultfinding": 1,
+        "deception": 1
+      }
+    },
+    {
+      "bodies": [
+        "Mercury",
+        "Saturn"
+      ],
+      "source_relation": "allied",
+      "source_locator": {
+        "dignified": "Loeb III.13 pp 345\u2013347, digitization paragraph 40",
+        "opposite": "Loeb III.13 pp 345\u2013347, digitization paragraph 41"
+      },
+      "dignified": {
+        "inquiry": 1,
+        "detail": 1,
+        "practical": 1,
+        "deliberation": 1,
+        "faith_practice": 1,
+        "deception": 1
+      },
+      "opposite": {
+        "talk": 1,
+        "work": 1,
+        "compassion": -1,
+        "deception": 1
+      }
+    },
+    {
+      "bodies": [
+        "Jupiter",
+        "Jupiter"
+      ],
+      "source_relation": "single ruler",
+      "source_locator": {
+        "dignified": "Loeb III.13 pp 347\u2013349, digitization paragraph 42",
+        "opposite": "Loeb III.13 pp 347\u2013349, digitization paragraph 43"
+      },
+      "dignified": {
+        "discussion": 1,
+        "leadership": 1,
+        "compassion": 1,
+        "generosity": 1,
+        "pleasure": 1
+      },
+      "opposite": {
+        "lavish_spending": 1,
+        "pleasure": 1,
+        "generosity": -1,
+        "timidity": 1
+      }
+    },
+    {
+      "bodies": [
+        "Jupiter",
+        "Mars"
+      ],
+      "source_relation": "allied",
+      "source_locator": {
+        "dignified": "Loeb III.13 pp 349, digitization paragraph 44",
+        "opposite": "Loeb III.13 pp 349, digitization paragraph 45"
+      },
+      "dignified": {
+        "practical": 1,
+        "leadership": 1,
+        "confrontation": 1,
+        "frankness": 1,
+        "risk": 1,
+        "deliberation": -1
+      },
+      "opposite": {
+        "confrontation": 1,
+        "change_mind": 1,
+        "faultfinding": 1,
+        "boasting": 1,
+        "lavish_spending": 1,
+        "reliability": -1,
+        "compassion": -1
+      }
+    },
+    {
+      "bodies": [
+        "Jupiter",
+        "Venus"
+      ],
+      "source_relation": "allied",
+      "source_locator": {
+        "dignified": "Loeb III.13 pp 349\u2013351, digitization paragraph 46",
+        "opposite": "Loeb III.13 pp 349\u2013351, digitization paragraph 47"
+      },
+      "dignified": {
+        "learning": 1,
+        "deliberation": 1,
+        "compassion": 1,
+        "aesthetic": 1,
+        "sociability": 1,
+        "pleasure": 1,
+        "faith_practice": 1,
+        "self_restraint": 1
+      },
+      "opposite": {
+        "pleasure": 1,
+        "lavish_spending": 1,
+        "work": -1,
+        "faultfinding": 1,
+        "sociability": 1,
+        "generosity": 1,
+        "cheerfulness": 1,
+        "reliability": 1
+      }
+    },
+    {
+      "bodies": [
+        "Jupiter",
+        "Mercury"
+      ],
+      "source_relation": "allied",
+      "source_locator": {
+        "dignified": "Loeb III.13 pp 351\u2013353, digitization paragraph 48",
+        "opposite": "Loeb III.13 pp 351\u2013353, digitization paragraph 49"
+      },
+      "dignified": {
+        "learning": 1,
+        "discussion": 1,
+        "eloquence": 1,
+        "practical": 1,
+        "leadership": 1,
+        "generosity": 1,
+        "faith_practice": 1,
+        "reflection": 1
+      },
+      "opposite": {
+        "learning": 1,
+        "talk": 1,
+        "boasting": 1
+      }
+    },
+    {
+      "bodies": [
+        "Mars",
+        "Mars"
+      ],
+      "source_relation": "single ruler",
+      "source_locator": {
+        "dignified": "Loeb III.13 pp 353, digitization paragraph 50",
+        "opposite": "Loeb III.13 pp 353, digitization paragraph 51"
+      },
+      "dignified": {
+        "leadership": 1,
+        "risk": 1,
+        "firmness": 1,
+        "deliberation": -1,
+        "anger": 1
+      },
+      "opposite": {
+        "anger": 1,
+        "lavish_spending": 1,
+        "deliberation": -1,
+        "compassion": -1
+      }
+    },
+    {
+      "bodies": [
+        "Mars",
+        "Venus"
+      ],
+      "source_relation": "allied",
+      "source_locator": {
+        "dignified": "Loeb III.13 pp 353\u2013355, digitization paragraph 52",
+        "opposite": "Loeb III.13 pp 353\u2013355, digitization paragraph 53"
+      },
+      "dignified": {
+        "sociability": 1,
+        "cheerfulness": 1,
+        "pleasure": 1,
+        "aesthetic": 1,
+        "anger": 1,
+        "lavish_spending": 1
+      },
+      "opposite": {
+        "pleasure": 1,
+        "deception": 1,
+        "risk": 1
+      }
+    },
+    {
+      "bodies": [
+        "Mars",
+        "Mercury"
+      ],
+      "source_relation": "allied",
+      "source_locator": {
+        "dignified": "Loeb III.13 pp 355\u2013357, digitization paragraph 54",
+        "opposite": "Loeb III.13 pp 355\u2013357, digitization paragraph 55"
+      },
+      "dignified": {
+        "invention": 1,
+        "detail": 1,
+        "practical": 1,
+        "talk": 1,
+        "deception": 1
+      },
+      "opposite": {
+        "lavish_spending": 1,
+        "risk": 1,
+        "change_mind": 1,
+        "deception": 1
+      }
+    },
+    {
+      "bodies": [
+        "Venus",
+        "Venus"
+      ],
+      "source_relation": "single ruler",
+      "source_locator": {
+        "dignified": "Loeb III.13 pp 357, digitization paragraph 56",
+        "opposite": "Loeb III.13 pp 357, digitization paragraph 57"
+      },
+      "dignified": {
+        "eloquence": 1,
+        "aesthetic": 1,
+        "cheerfulness": 1,
+        "compassion": 1,
+        "sociability": 1,
+        "pleasure": 1
+      },
+      "opposite": {
+        "faultfinding": 1,
+        "timidity": 1
+      }
+    },
+    {
+      "bodies": [
+        "Mercury",
+        "Venus"
+      ],
+      "source_relation": "allied",
+      "source_locator": {
+        "dignified": "Loeb III.13 pp 357\u2013359, digitization paragraph 58",
+        "opposite": "Loeb III.13 pp 357\u2013359, digitization paragraph 59"
+      },
+      "dignified": {
+        "learning": 1,
+        "eloquence": 1,
+        "deliberation": 1,
+        "aesthetic": 1,
+        "sociability": 1,
+        "pleasure": 1,
+        "self_restraint": 1,
+        "reflection": 1
+      },
+      "opposite": {
+        "confrontation": 1,
+        "deception": 1,
+        "reliability": -1,
+        "talk": 1,
+        "faultfinding": 1
+      }
+    },
+    {
+      "bodies": [
+        "Mercury",
+        "Mercury"
+      ],
+      "source_relation": "single ruler",
+      "source_locator": {
+        "dignified": "Loeb III.13 pp 359\u2013361, digitization paragraph 60",
+        "opposite": "Loeb III.13 pp 359\u2013361, digitization paragraph 61"
+      },
+      "dignified": {
+        "inquiry": 1,
+        "invention": 1,
+        "learning": 1,
+        "deliberation": 1,
+        "reflection": 1
+      },
+      "opposite": {
+        "deliberation": -1,
+        "change_mind": 1,
+        "deception": 1
+      }
+    }
+  ],
+  "limitations": [
+    "The assigned directions are narrow modern hypotheses, not an exhaustive lexical transcription. Omitted descriptors contribute no score. Position conditions are not moral valence; both clauses may contain undesirable behavior.",
+    "No original exact numerical qualification or alliance criterion is supplied. Separate-place use of single-planet profiles and joint use of pair profiles are competing conditional experimental models; neither is represented as the complete historical rule.",
+    "Sun and Moon possible top candidates are preserved as abstentions in the character mapping rather than replaced by another body.",
+    "No trait is assumed absent merely because a chart lacks the carrier. Explicit negative behavior must be supported by the respondent. No disease, identity, criminality or supernatural skill is inferred."
+  ],
+  "condition_policy": "Both source position clauses retained. No proxy asserts dignity or adverse status. Separate and assumed-alliance models use identical, predeclared observation denominators."
+}
