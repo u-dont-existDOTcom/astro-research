@@ -98,7 +98,7 @@
     "no_personality_rank_from_geometric_rarity": true,
     "old_results_preserved_not_rewritten": true
   },
-  "next_safe_action": "Investigate original p536 forceful partile condition and whether source p115 complete fortitude, original p535 secondary dignity-bearing participants and p536 SY self-dispositor/SX other-aspector source rules can be historically determined; keep unresolved variants as abstentions. Complete Ptolemy III.13 sect/phase/contrary testimony and preregistered human-observed cross-system trait comparison with independent private blinded source cases and non-astro baselines; owner goal OPEN.",
+  "next_safe_action": "Implement next actually source-authored Lilly 1647 mean daily planetary motion speed thresholds from the original pp61-83 and first-print worked example pp178-180, then original p115 more complete accidental aspect/solar strength and p535 dignity-bearing secondary participation before adjudicating p536 forcible and SX/SY gaps; complete Ptolemy III.13 final governor and independent private/blinded human behavioral evaluation, root remains OPEN.",
   "provenance": "Based on verified public source evidence and corrected user feedback. Prior conversation completion language is explicitly distinguished from what the Git artifact actually proves.",
   "completed_now_limited_source_motion": {
     "status": "COMPLETE_DECLARED_SOURCE_COMPONENT_ONLY",
@@ -206,5 +206,20 @@
     "all48_no_partile_unique_candidate_across_six_S5_positive_sources": 952,
     "actual_full_historical_manners_ruler": false,
     "independent_human_predictive_validation": false
+  },
+  "completed_now_lilly_1647_CVII_first_all_ordered_stage_and_provisional_planet_source_census": {
+    "status": "COMPLETE_FINITE_SOURCE_CONDITIONAL_ORDERED_STAGE_COVERAGE_ONLY",
+    "original_first_print_source": "Lilly Christian Astrology 1647 CVII pp535-536, p106/107 partile moieties, p104 positive rights, p115 forts, original pp178-180 full-worked source strength demonstration",
+    "public_report": "docs/astrohd/lilly_cvii_1647_full_ordered_stage_coverage_20261123.md",
+    "public_aggregate": "tools/astrohd/reference/research/lilly_cvii_ordered_stage_coverage_full_century_public_v01.json",
+    "original_private_numerical_receipt_SHA256": "4c47b0e6a02ed3131ed49686fec825c60fc7ab3946f64e90d4d1080d7614d0c3",
+    "one_fixed_reference_research_site_15minute_UTC_samples": 3506400,
+    "source_conditional_full_ordered_stage_variants": 96,
+    "all96_same_stage_and_provisional_single_primary_planet": 816703,
+    "all96_same_stage_but_no_same_provisional_single_primary_planet": 679971,
+    "all96_different_source_stage": 2009726,
+    "all96_S1_single_primary_stage_but_different_selected_planet": 82533,
+    "source_historical_unique_full_manners_ruler": false,
+    "validated_human_personality_predictor": false
   }
 }

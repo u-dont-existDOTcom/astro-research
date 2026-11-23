@@ -1,0 +1,156 @@
+{
+  "schema": "lilly_1647_first_print_full_ordered_CVII_stage_source_conditional_register_v01",
+  "date_utc": "2026-11-23",
+  "status": "COMPLETE_STAGE_COVERAGE_RESEARCH_IMPLEMENTATION_HISTORIC_FINAL_MANNERS_RULER_OPEN",
+  "primary_source": {
+    "author": "William Lilly",
+    "book": "Christian Astrology, third book",
+    "chapter": "CVII Of the Manners of the Native",
+    "first_print_edition": "London 1647",
+    "printed_pages": [
+      104,
+      106,
+      107,
+      115,
+      535,
+      536
+    ],
+    "original_scanned_PDF_sha256": "2cb53e20e122ffc6e47917ba10241f6c49687cd7a4696f3b5db655a2a1aab28b",
+    "first_print_p106_image_sha256": "3f68efad136edd40fe4dfdb83f352be5b0aa644f3b2a61fb03739d9940bebb39",
+    "first_print_p115_image_sha256": "fe75468d8eaf129a1f643d6d652455e81eb95b0aedd3016091e3ce7c204e4aab",
+    "first_print_p535_image_sha256": "49efe26a167fcdd6d0f1f08d3c7a69faaf87939b41cab02341ef6dc2500f4708",
+    "first_print_p536_image_sha256": "4cdd11d5cf468e20f38fed7889e42f2e6298540e05f7f196c9b916e28bb57b24",
+    "catalog": "https://wellcomecollection.org/works/s7z7c46y",
+    "read_mode": "Direct 1647 first-print page images p106,p115,p535,p536 with previously archived p104/p107 source tables, plus source-neutral reanalysis; no original manuscript variants or independent human predictive observations read"
+  },
+  "source_stage_meanings": [
+    {
+      "code": "S1_one_primary",
+      "source_authorized": "Original primary planet occupant of ascending sign or intercepted sign",
+      "condition": "exactly one of seven classical planets placed in the declared source-qualified rising sign or quadrant/fully intercepted alternative",
+      "status": "PROVISIONAL_PRIMARY_ONLY_SECONDARY_DIGNITY_PARTICIPANTS_IGNORED"
+    },
+    {
+      "code": "S1_multiple_primaries",
+      "source_authorized": "Original p535 several occupants ALL act as manners significators",
+      "condition": "at least two qualifying first-stage occupants",
+      "status": "MULTIPLE_PARTICIPANTS_COMPLETE_FORTITUDE_NOT_COMPUTED"
+    },
+    {
+      "code": "S2_one_joined",
+      "source_authorized": "Original p536 after none S1, planet joined to Moon or Mercury",
+      "condition": "one qualified joined body within original p107 moiety alternative and candidate-body scope",
+      "status": "PROVISIONAL_JOINED_BODY_ONLY_NOT_FULL_FORTITUDE"
+    },
+    {
+      "code": "S2_multiple_joined",
+      "source_authorized": "Several classical planets qualify by Moon and/or Mercury contact",
+      "condition": "multiple qualifying joined bodies and S1 empty",
+      "status": "MULTIPLE_PARTICIPANTS_ACTUAL_FORTITUDE_AND_DUAL_CONTACT_PRIORITY_UNRESOLVED"
+    },
+    {
+      "code": "S3_asc_lord",
+      "source_authorized": "Original p536 if no S1/S2, ASC lord whose separate natal dispositor beholds it",
+      "condition": "actual original ascending-sign domicile lord and separate natal domicile dispositor making source-declared seeing aspect",
+      "status": "PROVISIONAL_ASC_LORD_NOT_COMPLETE_P115_STRENGTH"
+    },
+    {
+      "code": "SY_self_dispositor_source_unknown",
+      "source_authorized": "Original text does not define an ordinary distinct-planet self-beholding",
+      "condition": "ASC lord is its own natal domicile dispositor with S1,S2 empty",
+      "status": "SOURCE_UNRESOLVED_ABSTAIN"
+    },
+    {
+      "code": "SX_other_aspector_no_dispositor_source_unknown",
+      "source_authorized": "Original p536 later fallback if no planet aspects lord, yet some other classical body aspects while its distinct dispositor does not",
+      "condition": "S1,S2 empty, no distinct dispositor aspect, another planet aspects lord",
+      "status": "SOURCE_UNRESOLVED_ABSTAIN"
+    },
+    {
+      "code": "S4_partile_possible_one_force_unknown",
+      "source_authorized": "Original p106 partile, p536 requires FORCIBLE, not just geometry",
+      "condition": "Only genuine LATER; one possible traditionally partile aspecting external body under declared either-or-both reference rule",
+      "status": "GEOMETRIC_POSSIBILITY_NOT_FULL_HISTORICAL_QUALIFICATION"
+    },
+    {
+      "code": "S4_partile_possible_multiple_force_unknown",
+      "source_authorized": "Several geometrically possible classical p536 partile aspectors",
+      "condition": "Genuine LATER, at least two S4 source geometry bodies",
+      "status": "MULTIPLE_GEOMETRIC_POSSIBILITIES_NO_AUTHORED_PRIORITY"
+    },
+    {
+      "code": "S5_positive_place_same_unique_six_models",
+      "source_authorized": "Original p536 last fallback greatest essential dignity AT Mercury/Luna zodiacal places",
+      "condition": "Genuine LATER, no geometric S4 per declared either/both rule, same unique positive essential rights under three printed terms schemes and two researcher sum/max choices",
+      "status": "PROVISIONAL_SOURCE_POSITIVE_ONLY_NOT_FULL_MANNERS_RULER"
+    },
+    {
+      "code": "S5_positive_place_tied_or_unknown",
+      "source_authorized": "p536 greatest rights at Mercury and Moon places under independently printed source tables",
+      "condition": "Genuine LATER no geometric S4, but ties, uncertain horizon sect or different printed/aggregation winner",
+      "status": "SOURCE_UNDERDETERMINED_ABSTAIN"
+    }
+  ],
+  "method_variants": {
+    "S1_spatial": [
+      "ascending_sign",
+      "regiomontanus_first_house",
+      "ascending_sign_or_intercepted_sign"
+    ],
+    "S2_p107_orb": [
+      "1647_table_smaller_orbs",
+      "1647_table_larger_orbs"
+    ],
+    "S2_candidate_scope": [
+      "four_externals_only",
+      "all_other_classical_planets"
+    ],
+    "S3_dispositor_seeing": [
+      "dispositor_sign_ray",
+      "dispositor_orb_near_ray"
+    ],
+    "S3_any_other_planet_aspecting": [
+      "rays_only",
+      "rays_or_bodily"
+    ],
+    "S4_partile_p106_and_p536": [
+      "partile_Moon_or_Mercury",
+      "partile_same_planet_Moon_and_Mercury"
+    ],
+    "total_96_ordered_historical_source_sensitivity_paths": 96,
+    "S5_printed_term_source_count": 3,
+    "S5_researcher_two_place_aggregation_methods": 2,
+    "S5_total_sensitivity_per_S4_branch": 6
+  },
+  "parent_evidence_problems": [
+    "Lilly p535 allows other planets dignified in a primary occupant's place to participate; current S1_one is a single geometric PRIMARY, not the sole comprehensive manners ruler.",
+    "The strongest planet among several p535/S2 primary participants requires source-complete fortitude, including possible reception, combustion, speed, fixed stars, other aspects/nodes; previous 72-policy partial leaders cannot be promoted to a final historical choice.",
+    "S4 p536 'forcibly' remains source-unresolved; counted possibility cannot be declared actual manners ruler and does not necessarily preclude later positive-place dignity fallback.",
+    "S5 source positive place scores omit reception and negative essential conditions and overall nativity/manners strength; print term and aggregation alternatives are not uniquely resolved.",
+    "SX and SY are original source underdetermination and must not be silently forced into later source stages.",
+    "All results are 15-min source-neutral samples at one predeclared place, not all births or human observations.",
+    "True Ptolemy III.13 phase/aspect/contrary testimony and independent private participant behavioral validation remain OPEN."
+  ],
+  "input_sources": "Previously source-pinned original 36 Western planet +36 fixed-site angles +36 independent HD interval lookup binaries, original Swiss 2.10.03, verified S3 and S4 numerical publication regressions.",
+  "private_natal_or_interview_records_used": false,
+  "full_historical_manners_governor_identified": false,
+  "independent_empirical_behavioral_accuracy_established": false,
+  "numerical_engine": "tools/astrohd/scripts/lilly_cvii_ordered_stage_coverage_full_century_v01.py",
+  "published_anonymous_census": "tools/astrohd/reference/research/lilly_cvii_ordered_stage_coverage_full_century_public_v01.json",
+  "first_printed_worked_planet_strength_example": {
+    "historical_chapter": "Christian Astrology chapter XXVIII printed pp178-180, different chapter than CVII p536",
+    "original_one_based_pdf_pages": [
+      212,
+      213,
+      214
+    ],
+    "directly_inspected_original_page_image_SHA256": [
+      "6ac0a509e0bb6b89e8c813e86af2aaa110cd40e66b5da4b0ffa819c668ce4f8a",
+      "723cfade9026d261b16342958d700e39a0bcd4d4287d4248e44204b286745012",
+      "c7589432f3a3b38532f3d4e64e485ed040d6df6be74add7357e5c509bb81f480"
+    ],
+    "original_method_evidence": "Compute speed swift/slow against each traditional planet printed mean motion; apply p104 essential and p115 accidental fortitudes/debilities, subtract negative points; worked example Jupiter +20 Saturn -8.",
+    "not_a_CVII_forcibly_numerical_cutoff": true,
+    "current_status": "DIRECT_FIRST_PRINT_1647_HISTORICAL_STRENGTH_METHOD_BUT_NO_SOURCE_AUTHORED_MANNERS_PARTILE_FORCE_THRESHOLD"
+  }
+}

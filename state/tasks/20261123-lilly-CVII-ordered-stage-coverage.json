@@ -1,0 +1,25 @@
+{
+  "acceptance_command": "python3 tools/astrohd/scripts/audit_lilly_cvii_ordered_stage_coverage_v01.py",
+  "bounded_outcome": "One first end-to-end chronological original 1647 Lilly CVII S1/S2/S3/SX/SY/S4/S5 source-conditional pipeline enumerating all 96 stage variants and all 6 printed S5 rights options over exact 3.5m original UTC samples. Preserve all multiple participants and unresolved forcible source branch, compute cross-variant stable conditional primary candidates only where licensed.",
+  "exclusive": true,
+  "not_independent_predictive_validation": true,
+  "not_source_complete_historical_manners_ruler": true,
+  "parent_owner_outcome": "Source-qualified original Lilly CVII and Ptolemy III.13 governors, full non-bespoke Western/HD and other-system chart-to-observable-human-behavior comparison with independent privately held validation, still OPEN",
+  "preflight_command": "python3 tools/astrohd/scripts/audit_lilly_cvii_ordered_stage_coverage_v01.py --preflight",
+  "privacy": "No private birth times, participant interviews, historic chart outcomes, raw sourced scanned book pages or private report filenames in public repo",
+  "required_artifacts": [
+    "tools/astrohd/scripts/lilly_cvii_ordered_stage_coverage_full_century_v01.py",
+    "tools/astrohd/reference/research/lilly_cvii_ordered_stage_coverage_full_century_public_v01.json",
+    "docs/astrohd/lilly_cvii_1647_full_ordered_stage_coverage_20261123.md"
+  ],
+  "required_branch": "research/lilly-CVII-ordered-coverage-20261123",
+  "required_repo": "u-dont-existDOTcom/astro-research",
+  "schema": "source_bound_active_task_v01",
+  "status": "BOUNDED_TASK_READY_FOR_HOSTED_REVIEW_PARENT_OPEN",
+  "suspended_sources": [
+    "Archived predecessor humandesign",
+    "Former source tasks PR#22\u2013#31 now immutable historical evidence",
+    "Unrelated mission control and backlog"
+  ],
+  "task_id": "astrohd-original-Lilly-CVII-end-to-end-ordered-stage-20261123"
+}

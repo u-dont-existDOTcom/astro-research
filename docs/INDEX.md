@@ -1,5 +1,8 @@
 # Research documentation
 
+- **23 Nov first full original Lilly CVII ordered stage/conditional primary source pipeline:** [All 96 S1–S5 source interpretations, one actual 3.5-million-clock-sample scan and explicit primary-body vs stage agreement](astrohd/lilly_cvii_1647_full_ordered_stage_coverage_20261123.md), plus original p178–180 worked strength source review; root human predictive outcome OPEN.
+
+
 - **23 Nov Lilly original CVII p536 S4/S5 genuine-later source fallbacks:** [Actual full-century source-verified numbered-degree partile to Moon/Mercury and six printed-essential at their places under 576 source-conditioned methods, excluding SX/SY](astrohd/lilly_cvii_1647_s4_s5_genuine_later_partile_essential_20261123.md). S4 forcefulness and full manners ruler remain unknown.
 
 
