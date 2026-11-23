@@ -1,5 +1,7 @@
 # Research documentation
 
+- **23 Nov full finite-grid behavioral comparison:** [Executed both frozen generic HD + separate Ptolemy Mercury/Moon rubrics over all 3.5m source timestamps with 64 historical uncertainty variants](astrohd/full_grid_behavior_comparison_20261123.md). Prior shortlist removed; exact token observation coder added. Individual results private; root human validation OPEN.
+
 - **23 Nov bounded behavioral comparison:** [Executed retrospective generic-HD + separate Ptolemy Mercury/Moon direct and 64 governor-uncertainty alternatives](astrohd/bounded_behavior_comparison_20261123.md). All individual results private; no full-universe or independent predictive validation.
 
 - **23 Nov Ptolemy III.13 fifth-claim and separate-place candidates:** [Full 3.5m sampled-century 32-source/geometry interval sensitivities and own domicile/sect/contrary testimony witnesses](astrohd/ptolemy_iii13_five_mode_aspect_and_sect_20261123.md). Same-planet and distinct-planet pairs remain separate; no complete historic governor or human predictions.

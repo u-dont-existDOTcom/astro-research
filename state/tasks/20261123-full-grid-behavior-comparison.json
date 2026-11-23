@@ -1,0 +1,17 @@
+{
+  "schema": "source_bound_active_task_v01",
+  "task_id": "astrohd-full-grid-behavior-comparison-20261123",
+  "required_repo": "u-dont-existDOTcom/astro-research",
+  "required_branch": "research/full-grid-behavior-comparison-20261123",
+  "parent_outcome": "OPEN: source-grounded full-universe multi-system comparison and independent human validation",
+  "bounded_outcome": "Exhaustively apply both unchanged PR36 evidence codings and all 64 historical variants to the PR35 finite UTC grid; remove old HD-based selection; verify same-site exact reference; add chart-blind exact frozen response coder",
+  "status": "BOUNDED_SUBTASK_REVIEW_READY_PARENT_OPEN",
+  "exclusive": true,
+  "private_boundary": "Private inputs and person-specific scores, candidate counts and receipts remain outside the public checkout",
+  "acceptance": "Actual full private run read back and verified; 3506400 rows, 125 abstentions, all 64 branches; vectorized-scalar parity and exact-token regression tests",
+  "artifacts": [
+    "tools/astrohd/scripts/compare_full_grid_behavior_v01.py",
+    "tools/astrohd/scripts/code_frozen_hd_observations_v01.py",
+    "docs/astrohd/full_grid_behavior_comparison_20261123.md"
+  ]
+}
