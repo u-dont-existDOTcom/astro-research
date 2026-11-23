@@ -1,5 +1,8 @@
 # Research documentation
 
+- **23 Nov Lilly original CVII S2 joined strength:** [Complete same-UTC century source-eligible Moon/Mercury joined classical-planet 864-policy provisional partial strength arbitration](astrohd/lilly_cvii_s2_joined_partial_strength_century_20261123.md) with all historic variants and unknowns; full original manners governor/human evaluation OPEN.
+
+
 - **23 Nov Lilly original CVII second-stage Moon/Mercury joining:** [Complete same-UTC 3.5m first-stage-empty source census of actual single/multiple conjunct planetary candidate identities under 12 historical orbital/spatial inclusion variants](astrohd/lilly_cvii_1647_second_stage_joining_full_century_20261123.md). Earlier frozen S2 cohorts and Ptolemy exact-clock intersections independently checked.
 
 

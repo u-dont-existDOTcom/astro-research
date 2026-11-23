@@ -98,7 +98,7 @@
     "no_personality_rank_from_geometric_rarity": true,
     "old_results_preserved_not_rewritten": true
   },
-  "next_safe_action": "Compute source-conditioned relative partial strength among all S2 candidate planets, retaining multiple manners significators and historical Sun/Moon/Mercury joining and source orb alternatives, then S3/SX original dispositor/other aspect rules and Ptolemy III.13 testimony. Full original non-bespoke human behavior predictive evaluation remains OPEN.",
+  "next_safe_action": "Implement source-bound actual Lilly CVII p536 S3 lord-of-Ascendant and its dispositing lord planetary identity and potential aspect, only after S1 and S2 empty; preserve other-planet-aspecting-the-lord SX historical ambiguity before claiming S4/S5. Full Ptolemy III.13 and non-bespoke independent human behavior evaluation remains OPEN.",
   "provenance": "Based on verified public source evidence and corrected user feedback. Prior conversation completion language is explicitly distinguished from what the Git artifact actually proves.",
   "completed_now_limited_source_motion": {
     "status": "COMPLETE_DECLARED_SOURCE_COMPONENT_ONLY",
@@ -163,5 +163,18 @@
     "original_source_method_variants": 12,
     "full_historical_strength_and_all_stage_ruler_resolved": false,
     "actual_human_personality_validated": false
+  },
+  "completed_now_original_lilly_CVII_S2_eligible_partial_fortitude_integrated": {
+    "status": "COMPLETE_DECLARED_ORIGINAL_S2_ELIGIBLE_JOINED_BODY_PARTIAL_FORTITUDE_ONLY",
+    "source_report": "docs/astrohd/lilly_cvii_s2_joined_partial_strength_century_20261123.md",
+    "source_numerical_aggregate": "tools/astrohd/reference/research/lilly_cvii_s2_joined_partial_strength_full_century_public_v01.json",
+    "source_result_SHA256": "f5fb37fefad87f8d63b41f98c2b3eeea062aba94cfaac5e246aea2a3e3177002",
+    "one_location_quarter_hour_UTC_samples": 3506400,
+    "historical_S2_eligibility_variants": 12,
+    "partial_natal_strength_variants": 72,
+    "source_method_cross_product": 864,
+    "same_strict_provisional_joined_body_across_all_methods": 532695,
+    "original_author_complete_manners_ruler": false,
+    "independent_human_predictive_validation": false
   }
 }
