@@ -1,0 +1,18 @@
+{
+  "schema": "source_bound_active_task_v01",
+  "task_id": "astrohd-saravali-combination-behavior-20261124",
+  "required_repo": "u-dont-existDOTcom/astro-research",
+  "required_branch": "research/saravali-combination-behavior-20261124",
+  "parent_outcome": "OPEN: source-grounded full-universe multi-tradition behavior comparison and independent human validation",
+  "bounded_outcome": "Actual finite-grid S\u0101r\u0101val\u012b XV/XVI pair and triple comparison: all 56 source configurations, fixed direct/proxy vocabulary, four conjunction geometries, four overlap policies and attenuation envelope, both unchanged observation codings and generic HD baseline.",
+  "status": "BOUNDED_SUBTASK_EXECUTED_PARENT_OPEN",
+  "execution": "3506400 original rows processed, 32 fixed arms per coding. 125 HD boundary unknown plus 10\u201319 geometry-specific known-HD numerical boundary abstentions. Original ephemeris files verified. All rank/coverage counts and output provenance verified.",
+  "private_boundary": "All personal birth inputs, observations, results and private receipt paths remain outside the public checkout.",
+  "artifacts": [
+    "docs/astrohd/saravali_pair_triple_behavior_comparison_20261124.md",
+    "tools/astrohd/reference/research/saravali_xv_xvi_shared_observable_v01.json",
+    "tools/astrohd/scripts/compare_saravali_combinations_century_v01.py",
+    "tools/astrohd/tests/unit/test_compare_saravali_combinations_century_v01.py"
+  ],
+  "next_action": "Expand distinct source-qualified Vedic families with materially broader observable coverage; preserve Moon-rasi strength and navamsa/source conflicts, move to Chinese reuse, and eventually evaluate same-row cross-system intersections without rank tuning."
+}
