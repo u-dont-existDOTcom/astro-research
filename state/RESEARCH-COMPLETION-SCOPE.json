@@ -181,6 +181,15 @@
         "baseline_replayed": true,
         "new_personal_observations_admitted": 0,
         "private_individual_results_published": false
+      },
+      "partial_contextual_hd_evidence": {
+        "status": "EXECUTED_SEPARATE_CONTEXTUAL_ADMISSION_SENSITIVITY",
+        "evidence_path": "docs/astrohd/contextual_hd_observation_admission_20261124.md",
+        "source_grid_rows": 3506400,
+        "original_baseline_replayed": true,
+        "exact_subset_condition_verified": true,
+        "revised_questionnaire_deployed": false,
+        "private_individual_results_published": false
       }
     },
     {
@@ -229,7 +238,7 @@
     "no_personality_rank_from_geometric_rarity": true,
     "old_results_preserved_not_rewritten": true
   },
-  "next_safe_action": "Resolve original generic question evidence gaps using direct respondent observations or abstentions. Freeze actual expanded evidence separately, retain authority exclusion, and evaluate the full declared candidate grid. Hypothetical response patterns are not observations. Continue generic source coverage and held-out human validation rather than chart-specific optimization.",
+  "next_safe_action": "Use source-version-bound contextual evidence without re-asking established answers; expand generic source coverage with predeclared neutral measurement, test independent human evidence, and preserve all earlier score variants.",
   "provenance": "Based on verified public source evidence and corrected user feedback. Prior conversation completion language is explicitly distinguished from what the Git artifact actually proves.",
   "completed_now_limited_source_motion": {
     "status": "COMPLETE_DECLARED_SOURCE_COMPONENT_ONLY",

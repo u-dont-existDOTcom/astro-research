@@ -1,5 +1,7 @@
 # AstroHD public research recovery — 21 November 2026
 
+**24 November contextual evidence and measurement repair:** [Context-qualified observation sensitivity and generic questionnaire defects](contextual_hd_observation_admission_20261124.md). Earlier source coverage recovered, original scores preserved, exact prior cohort filtering with full-grid subset proof. Questionnaire revisions proposed, not deployed.
+
 **24 November generic HD evidence recovery and answer-space sensitivity:** [All mapped hypothetical response classes over the entire finite grid](hd_generic_answer_sensitivity_20261124.md). Prior codings unchanged; no inferred personal answers or uniqueness claim.
 
 **24 November survivor and clock-control diagnostics:** [Exact all-included-variant noninferiority, arbitrary HD-maximal clock controls and frozen contribution trace](multitradition_survivor_diagnostics_20261124.md). Prior survivors reproduced; controls weaken uniqueness interpretation. Missing HD evidence and question identity collision audited. No new scores or personal records published.

@@ -1,5 +1,7 @@
 # Research documentation
 
+- **24 Nov contextual HD evidence admission:** [Recover-before-repeat and neutral questionnaire repair; exact full-grid contextual sensitivity](astrohd/contextual_hd_observation_admission_20261124.md). Prior baselines unchanged; personal records private.
+
 - **24 Nov generic HD answer sensitivity:** [Version-bound evidence recovery and complete mapped-answer response-class comparison](astrohd/hd_generic_answer_sensitivity_20261124.md). Original baseline reproduced, no actual new answers admitted; private results remain private.
 
 - **24 Nov survivor diagnostics:** [All included variants, conditional clock controls, signed contribution replay and HD evidence-gap audit](astrohd/multitradition_survivor_diagnostics_20261124.md). Private results not published; prior localization is not independently validated.
