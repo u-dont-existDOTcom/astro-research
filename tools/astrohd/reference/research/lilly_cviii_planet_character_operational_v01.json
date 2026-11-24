@@ -1,0 +1,105 @@
+{
+  "schema": "lilly_cviii_planet_character_operational_v01",
+  "status": "EXPLORATORY_SOURCE_CONDITIONAL_POST_EXPOSURE_NOT_VALIDATED",
+  "shared_vocabulary_sha256": "84e0f6b14f26bb3985fc0a9355b0200a266b96b87c2d3dfc92c6c85392db0531",
+  "source": {
+    "author": "William Lilly",
+    "title": "Christian Astrology",
+    "chapter": "CVIII, The quality of Manners, which may in kind be discerned from every Planet",
+    "printed_pages": "539\u2013543",
+    "witness": "World Astrology typeset transcription of the historical work; title page labels the second edition; no first-print collation claimed for this pass",
+    "url": "https://libraryofagartha.com/Occultism/%27Aryan%27%20Occultism/Astrology/astrology%20books/William-Lilly-Christian-Astrology-1647-volume-3.pdf",
+    "read_scope": "Five planet rows and both position clauses, luminary and example mixture paragraphs (printed pp539\u2013543). PDF screenshot access returned 403; source basis is the accessible text extraction."
+  },
+  "profiles": [
+    {
+      "body": "Saturn",
+      "printed_page": 539,
+      "strong": {
+        "reflection": 1,
+        "deliberation": 1,
+        "solitude": 1,
+        "work": 1,
+        "talk": -1,
+        "lavish_spending": -1,
+        "trust_caution": 1
+      },
+      "weak": {
+        "timidity": 1,
+        "solitude": 1,
+        "trust_caution": 1,
+        "deception": 1,
+        "faultfinding": 1
+      }
+    },
+    {
+      "body": "Jupiter",
+      "printed_page": 540,
+      "strong": {
+        "generosity": 1,
+        "leadership": 1,
+        "deliberation": 1
+      },
+      "weak": {
+        "timidity": 1,
+        "deception": 1,
+        "lavish_spending": 1
+      }
+    },
+    {
+      "body": "Mars",
+      "printed_page": 540,
+      "strong": {
+        "generosity": 1,
+        "leadership": 1,
+        "frankness": 1,
+        "boasting": 1,
+        "deliberation": -1,
+        "risk": 1
+      },
+      "weak": {
+        "confrontation": 1,
+        "harshness": 1,
+        "deliberation": -1,
+        "lavish_spending": 1,
+        "boasting": 1,
+        "timidity": 1
+      }
+    },
+    {
+      "body": "Venus",
+      "printed_page": 541,
+      "strong": {
+        "cheerfulness": 1,
+        "generosity": 1,
+        "compassion": 1,
+        "pleasure": 1,
+        "aesthetic": 1
+      },
+      "weak": {
+        "timidity": 1,
+        "work": -1
+      }
+    },
+    {
+      "body": "Mercury",
+      "printed_page": 541,
+      "strong": {
+        "learning": 1,
+        "eloquence": 1
+      },
+      "weak": {
+        "change_mind": 1,
+        "deception": 1,
+        "reliability": -1,
+        "talk": 1,
+        "confrontation": 1
+      }
+    }
+  ],
+  "limits": [
+    "The signed directions are selected modern behavioral hypotheses, not an exhaustive translation. Historical status, clinical, identity, sexual or criminal claims are not operationalized. Negative directions are explicit opposite conduct, not missing source support.",
+    "Strong and weak clauses are both retained; no historical fortitude/condition arbitration implied. Mars's irefull is not assumed to mean rapid ordinary anger. Religious status is not inferred to be contemplative practice.",
+    "Sun and Moon are modifiers in CVIII; no independent character clause is invented. The Saturn alliance examples require their own historical relationship and strength conditions; no mixed clause is scored here."
+  ]
+}

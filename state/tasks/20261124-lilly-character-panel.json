@@ -1,0 +1,17 @@
+{
+  "schema": "source_bound_active_task_v01",
+  "task_id": "astrohd-lilly-character-panel-20261124",
+  "required_repo": "u-dont-existDOTcom/astro-research",
+  "required_branch": "research/ptolemy-conditioned-behavior-20261124",
+  "parent_outcome": "OPEN: source-qualified full-universe multi-system behavioral comparison and independent human validation",
+  "bounded_outcome": "Source-specific CVIII five-planet both-clause mapping; actual two-coding comparison on existing 15-unit private panel under all 96 historical stage variants; retain multiple and secondary participants without inventing a strength ruler",
+  "status": "PANEL_EXECUTED_ROOT_OPEN",
+  "private_boundary": "Source-safe map, code and tests public; private observations, chart data and results outside public checkout",
+  "next_action": "Complete the same Lilly conditional primary-character comparison across the full finite grid; compare with Ptolemy as related traditions. An attempted full-grid execution was not admitted by the terminal route in this pass; do not claim that it ran.",
+  "artifacts": [
+    "docs/astrohd/lilly_cviii_character_panel_comparison_20261124.md",
+    "tools/astrohd/reference/research/lilly_cviii_planet_character_operational_v01.json",
+    "tools/astrohd/scripts/compare_lilly_character_panel_v01.py",
+    "tools/astrohd/tests/unit/test_compare_lilly_character_panel_v01.py"
+  ]
+}
