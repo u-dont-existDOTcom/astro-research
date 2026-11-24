@@ -1,5 +1,7 @@
 # Research documentation
 
+- **24 Nov complete-catalogue HD expansion:** [Gate, channel and ordered-profile behavioral scoring and full-grid same-row dominance](astrohd/hd_complete_archetype_behavior_comparison_20261124.md). Exact old baseline replay; strict conditional competitors found, across-HD-arm robustness and full-grid reusable non-HD flags. Personal results private.
+
 - **24 Nov contextual HD evidence admission:** [Recover-before-repeat and neutral questionnaire repair; exact full-grid contextual sensitivity](astrohd/contextual_hd_observation_admission_20261124.md). Prior baselines unchanged; personal records private.
 
 - **24 Nov generic HD answer sensitivity:** [Version-bound evidence recovery and complete mapped-answer response-class comparison](astrohd/hd_generic_answer_sensitivity_20261124.md). Original baseline reproduced, no actual new answers admitted; private results remain private.
