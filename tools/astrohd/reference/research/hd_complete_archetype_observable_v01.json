@@ -1,0 +1,1254 @@
+{
+  "schema": "hd_complete_archetype_observable_v01",
+  "status": "EXPLORATORY_POST_EXPOSURE_CAPPED_MAP_NOT_VALIDATED",
+  "source": {
+    "archived_catalogue_sha256": {
+      "gate_archetypes_v1.json": "f15e8c7c6e5344ceda69fcdf1776f01b4ff42cb11e577b78e4a76c0b38abb692",
+      "channel_archetypes_v1.json": "439dd31d060d83b93df8adc893c9218a41f5694085bab91d80b8b0efaef85b76",
+      "profile_archetypes_v1.json": "44be85ed6d8d1e068262c356c727dc2bbf5967a58a645c5caf4fcfb9908d4ae9"
+    },
+    "mechanical_witnesses": [
+      "https://jovianarchive.com/pages/human-design-dictionary",
+      "https://jovianarchive.com/blogs/human-design-basics/centers-gates-and-channels",
+      "https://jovianarchive.com/pages/channels-in-human-design-the-life-force",
+      "https://jovianarchive.com/pages/gates-and-hexagrams-in-human-design"
+    ],
+    "semantic_witnesses": [
+      "https://human.design/the-human-design-system/gates",
+      "https://human.design/the-human-design-system/profiles",
+      "https://www.geneticmatrix.com/learn-hub/channels/index.html"
+    ],
+    "read_mode": "Complete prior owner-authored archetype catalogues; all twelve current secondary profile passages, selected gate and channel passages and official mechanics cross-check. Not complete fresh first-party clause/line/planet collation. Each basis is a new operational paraphrase or exclusion rationale, not a quotation.",
+    "limitations": [
+      "All 64 gates, 36 complete channels, 12 ordered profiles and six line abstractions retained regardless of reference activation. Narrow conscious-gate-in-defined-center scope follows the explicit gate-page limitation; other scopes are sensitivity alternatives, not equivalent doctrinal claims.",
+      "Ordered profiles preserve Personality/Design order, compare a line-union ablation without assuming a universal conscious weighting. Age-specific stage and life event claims excluded.",
+      "Exclude all decision authority and analogous immediate knowing, response, self-projected direction and other normative decision claims. A non-authority behavioral theme may remain when separately supportable.",
+      "Fixed 37-item vocabulary; unrepresented constructs (persuasion vs eloquence, mastery motivation vs learning, social role projection, opportunity dependence, context-dependent work) not equated. All item directions capped across repeated gate/channel/profile themes. No new response coding or chart-fitted weights."
+    ]
+  },
+  "shared_vocabulary_sha256": "84e0f6b14f26bb3985fc0a9355b0200a266b96b87c2d3dfc92c6c85392db0531",
+  "rules": [
+    {
+      "kind": "gate",
+      "id": "1",
+      "locator": "Gate 1",
+      "basis": "Distinctive creative production; not proof of artistic excellence.",
+      "direct": {
+        "invention": 1
+      },
+      "proxy": {}
+    },
+    {
+      "kind": "gate",
+      "id": "2",
+      "locator": "Gate 2",
+      "basis": "Direction claims concern internal guidance; exclude decision-authority analogues.",
+      "direct": {},
+      "proxy": {}
+    },
+    {
+      "kind": "gate",
+      "id": "3",
+      "locator": "Gate 3",
+      "basis": "Creating workable new forms under difficult beginnings.",
+      "direct": {},
+      "proxy": {
+        "invention": 1
+      }
+    },
+    {
+      "kind": "gate",
+      "id": "4",
+      "locator": "Gate 4",
+      "basis": "Generating explanations to resolve uncertainty; practical success is indirect.",
+      "direct": {
+        "inquiry": 1
+      },
+      "proxy": {
+        "practical": 1
+      }
+    },
+    {
+      "kind": "gate",
+      "id": "5",
+      "locator": "Gate 5",
+      "basis": "Regular timing and routine require their own observable, not industriousness.",
+      "direct": {},
+      "proxy": {}
+    },
+    {
+      "kind": "gate",
+      "id": "6",
+      "locator": "Gate 6",
+      "basis": "Managing relational closeness and friction is not generalized anger or confrontation.",
+      "direct": {},
+      "proxy": {}
+    },
+    {
+      "kind": "gate",
+      "id": "7",
+      "locator": "Gate 7",
+      "basis": "Guiding a group; actual habitual command is a more demanding proxy.",
+      "direct": {},
+      "proxy": {
+        "leadership": 1
+      }
+    },
+    {
+      "kind": "gate",
+      "id": "8",
+      "locator": "Gate 8",
+      "basis": "Making an individual contribution, not necessarily giving beyond obligation.",
+      "direct": {},
+      "proxy": {
+        "generosity": 1,
+        "invention": 1
+      }
+    },
+    {
+      "kind": "gate",
+      "id": "9",
+      "locator": "Gate 9",
+      "basis": "Narrow attention to fine-grained material.",
+      "direct": {
+        "detail": 1
+      },
+      "proxy": {}
+    },
+    {
+      "kind": "gate",
+      "id": "10",
+      "locator": "Gate 10",
+      "basis": "Self-consistent action; distinguish this from refusing evidence.",
+      "direct": {},
+      "proxy": {
+        "firmness": 1
+      }
+    },
+    {
+      "kind": "gate",
+      "id": "11",
+      "locator": "Gate 11",
+      "basis": "Generating ideas and conceptual possibilities.",
+      "direct": {},
+      "proxy": {
+        "invention": 1,
+        "reflection": 1
+      }
+    },
+    {
+      "kind": "gate",
+      "id": "12",
+      "locator": "Gate 12",
+      "basis": "Readiness-dependent expression does not imply ordinary reticence or timidity.",
+      "direct": {},
+      "proxy": {}
+    },
+    {
+      "kind": "gate",
+      "id": "13",
+      "locator": "Gate 13",
+      "basis": "Listening and processing accounts of earlier experience.",
+      "direct": {},
+      "proxy": {
+        "reflection": 1
+      }
+    },
+    {
+      "kind": "gate",
+      "id": "14",
+      "locator": "Gate 14",
+      "basis": "Using capacity and resources for valued work; not unlimited energy.",
+      "direct": {},
+      "proxy": {
+        "practical": 1,
+        "work": 1
+      }
+    },
+    {
+      "kind": "gate",
+      "id": "15",
+      "locator": "Gate 15",
+      "basis": "Broad human acceptance is only indirectly related to concrete care.",
+      "direct": {},
+      "proxy": {
+        "compassion": 1
+      }
+    },
+    {
+      "kind": "gate",
+      "id": "16",
+      "locator": "Gate 16",
+      "basis": "Practicing a skill is not the same as pursuing knowledge; mastery motive not measured.",
+      "direct": {},
+      "proxy": {
+        "learning": 1
+      }
+    },
+    {
+      "kind": "gate",
+      "id": "17",
+      "locator": "Gate 17",
+      "basis": "Developing logical interpretations and exchanging views.",
+      "direct": {},
+      "proxy": {
+        "inquiry": 1,
+        "discussion": 1
+      }
+    },
+    {
+      "kind": "gate",
+      "id": "18",
+      "locator": "Gate 18",
+      "basis": "Noticing flaws; the shared item concerns criticism of people, not all system correction.",
+      "direct": {},
+      "proxy": {
+        "faultfinding": 1
+      }
+    },
+    {
+      "kind": "gate",
+      "id": "19",
+      "locator": "Gate 19",
+      "basis": "Sensitivity to needs is not itself helping, nor a decision rule.",
+      "direct": {},
+      "proxy": {}
+    },
+    {
+      "kind": "gate",
+      "id": "20",
+      "locator": "Gate 20",
+      "basis": "Present awareness/instant action; exclude immediate-knowing analogues.",
+      "direct": {},
+      "proxy": {}
+    },
+    {
+      "kind": "gate",
+      "id": "21",
+      "locator": "Gate 21",
+      "basis": "Managing resources; not a claim of wealth or command.",
+      "direct": {},
+      "proxy": {
+        "practical": 1
+      }
+    },
+    {
+      "kind": "gate",
+      "id": "22",
+      "locator": "Gate 22",
+      "basis": "Social openness conditional on mood.",
+      "direct": {},
+      "proxy": {
+        "sociability": 1
+      }
+    },
+    {
+      "kind": "gate",
+      "id": "23",
+      "locator": "Gate 23",
+      "basis": "Turning difficult insights into understandable speech, not always effective.",
+      "direct": {},
+      "proxy": {
+        "eloquence": 1
+      }
+    },
+    {
+      "kind": "gate",
+      "id": "24",
+      "locator": "Gate 24",
+      "basis": "Repeated mental examination of an unresolved question.",
+      "direct": {
+        "reflection": 1
+      },
+      "proxy": {}
+    },
+    {
+      "kind": "gate",
+      "id": "25",
+      "locator": "Gate 25",
+      "basis": "Broad acceptance; concrete assistance is indirect.",
+      "direct": {},
+      "proxy": {
+        "compassion": 1
+      }
+    },
+    {
+      "kind": "gate",
+      "id": "26",
+      "locator": "Gate 26",
+      "basis": "Persuasive ability is not habitual eloquence, deception or preferred use; separate measurement needed.",
+      "direct": {},
+      "proxy": {}
+    },
+    {
+      "kind": "gate",
+      "id": "27",
+      "locator": "Gate 27",
+      "basis": "Providing care and practical support.",
+      "direct": {
+        "compassion": 1
+      },
+      "proxy": {}
+    },
+    {
+      "kind": "gate",
+      "id": "28",
+      "locator": "Gate 28",
+      "basis": "Engaging in meaningful challenges; no decision-authority assertion.",
+      "direct": {},
+      "proxy": {
+        "risk": 1
+      }
+    },
+    {
+      "kind": "gate",
+      "id": "29",
+      "locator": "Gate 29",
+      "basis": "Persistence after commitment is related to, but not identical with, keeping promises.",
+      "direct": {},
+      "proxy": {
+        "reliability": 1,
+        "work": 1
+      }
+    },
+    {
+      "kind": "gate",
+      "id": "30",
+      "locator": "Gate 30",
+      "basis": "Wanting experiences is not necessarily prioritizing pleasure.",
+      "direct": {},
+      "proxy": {
+        "pleasure": 1
+      }
+    },
+    {
+      "kind": "gate",
+      "id": "31",
+      "locator": "Gate 31",
+      "basis": "Verbal group influence is distinct from command; proxy only.",
+      "direct": {},
+      "proxy": {
+        "leadership": 1
+      }
+    },
+    {
+      "kind": "gate",
+      "id": "32",
+      "locator": "Gate 32",
+      "basis": "Preserving viable arrangements; omit instinctive decision guidance.",
+      "direct": {},
+      "proxy": {
+        "practical": 1
+      }
+    },
+    {
+      "kind": "gate",
+      "id": "33",
+      "locator": "Gate 33",
+      "basis": "Withdrawing and reflecting on past experience; privacy distinct from aloneness.",
+      "direct": {
+        "reflection": 1
+      },
+      "proxy": {
+        "solitude": 1
+      }
+    },
+    {
+      "kind": "gate",
+      "id": "34",
+      "locator": "Gate 34",
+      "basis": "Claims about responsive bodily energy/action excluded as decision-authority analogues.",
+      "direct": {},
+      "proxy": {}
+    },
+    {
+      "kind": "gate",
+      "id": "35",
+      "locator": "Gate 35",
+      "basis": "Seeking novel experiences; novelty itself not risk or sensory gratification.",
+      "direct": {},
+      "proxy": {
+        "pleasure": 1,
+        "risk": 1
+      }
+    },
+    {
+      "kind": "gate",
+      "id": "36",
+      "locator": "Gate 36",
+      "basis": "Seeking unfamiliar experience; no inference of clinical instability.",
+      "direct": {},
+      "proxy": {
+        "pleasure": 1
+      }
+    },
+    {
+      "kind": "gate",
+      "id": "37",
+      "locator": "Gate 37",
+      "basis": "Reciprocal support within a group, not universal altruism.",
+      "direct": {},
+      "proxy": {
+        "compassion": 1,
+        "reliability": 1
+      }
+    },
+    {
+      "kind": "gate",
+      "id": "38",
+      "locator": "Gate 38",
+      "basis": "Persisting in meaningful struggles; not general quarrelsomeness.",
+      "direct": {},
+      "proxy": {
+        "firmness": 1,
+        "confrontation": 1
+      }
+    },
+    {
+      "kind": "gate",
+      "id": "39",
+      "locator": "Gate 39",
+      "basis": "Provoking reactions; intent differs from quarrelling.",
+      "direct": {},
+      "proxy": {
+        "confrontation": 1
+      }
+    },
+    {
+      "kind": "gate",
+      "id": "40",
+      "locator": "Gate 40",
+      "basis": "Work and subsequent withdrawal are conditional, not unlimited endurance.",
+      "direct": {},
+      "proxy": {
+        "work": 1,
+        "solitude": 1
+      }
+    },
+    {
+      "kind": "gate",
+      "id": "41",
+      "locator": "Gate 41",
+      "basis": "Imagining possible new experiences; invention is a loose proxy.",
+      "direct": {},
+      "proxy": {
+        "invention": 1
+      }
+    },
+    {
+      "kind": "gate",
+      "id": "42",
+      "locator": "Gate 42",
+      "basis": "Following projects through; no claim of all agreements kept.",
+      "direct": {},
+      "proxy": {
+        "work": 1,
+        "reliability": 1
+      }
+    },
+    {
+      "kind": "gate",
+      "id": "43",
+      "locator": "Gate 43",
+      "basis": "Unusual ideas; exclude sudden knowing as decision guidance.",
+      "direct": {},
+      "proxy": {
+        "invention": 1
+      }
+    },
+    {
+      "kind": "gate",
+      "id": "44",
+      "locator": "Gate 44",
+      "basis": "Recognition of interpersonal patterns or talent is not suspicion or accurate deception detection.",
+      "direct": {},
+      "proxy": {}
+    },
+    {
+      "kind": "gate",
+      "id": "45",
+      "locator": "Gate 45",
+      "basis": "Gathering and allocating resources; status and ownership not scored.",
+      "direct": {},
+      "proxy": {
+        "practical": 1
+      }
+    },
+    {
+      "kind": "gate",
+      "id": "46",
+      "locator": "Gate 46",
+      "basis": "Continuing through a chosen experience; not general persistence in all tasks.",
+      "direct": {},
+      "proxy": {
+        "work": 1
+      }
+    },
+    {
+      "kind": "gate",
+      "id": "47",
+      "locator": "Gate 47",
+      "basis": "Making sense of previous impressions.",
+      "direct": {
+        "reflection": 1
+      },
+      "proxy": {}
+    },
+    {
+      "kind": "gate",
+      "id": "48",
+      "locator": "Gate 48",
+      "basis": "Accumulated usable understanding; not a measure of actual ability or a mastery drive.",
+      "direct": {},
+      "proxy": {
+        "learning": 1,
+        "practical": 1
+      }
+    },
+    {
+      "kind": "gate",
+      "id": "49",
+      "locator": "Gate 49",
+      "basis": "Maintaining principles in reciprocal relationships, not rigidity in all contexts.",
+      "direct": {},
+      "proxy": {
+        "firmness": 1
+      }
+    },
+    {
+      "kind": "gate",
+      "id": "50",
+      "locator": "Gate 50",
+      "basis": "Protecting group standards and welfare; actual assistance is conditional.",
+      "direct": {},
+      "proxy": {
+        "compassion": 1,
+        "reliability": 1
+      }
+    },
+    {
+      "kind": "gate",
+      "id": "51",
+      "locator": "Gate 51",
+      "basis": "Meeting or initiating competitive challenges; competition is not generic aspiration.",
+      "direct": {},
+      "proxy": {
+        "risk": 1
+      }
+    },
+    {
+      "kind": "gate",
+      "id": "52",
+      "locator": "Gate 52",
+      "basis": "Maintaining concentration on particular material.",
+      "direct": {
+        "detail": 1
+      },
+      "proxy": {}
+    },
+    {
+      "kind": "gate",
+      "id": "53",
+      "locator": "Gate 53",
+      "basis": "Starting cycles is not necessarily creating new solutions; no direct item.",
+      "direct": {},
+      "proxy": {}
+    },
+    {
+      "kind": "gate",
+      "id": "54",
+      "locator": "Gate 54",
+      "basis": "Desire for advancement; separate status seeking from general aspiration in interpretation.",
+      "direct": {
+        "aspiration": 1
+      },
+      "proxy": {}
+    },
+    {
+      "kind": "gate",
+      "id": "55",
+      "locator": "Gate 55",
+      "basis": "Mood and inner spirit are not religious practice or a stable cheerful disposition.",
+      "direct": {},
+      "proxy": {}
+    },
+    {
+      "kind": "gate",
+      "id": "56",
+      "locator": "Gate 56",
+      "basis": "Narrative expression; speaking at length or fluently is not guaranteed.",
+      "direct": {},
+      "proxy": {
+        "talk": 1,
+        "eloquence": 1
+      }
+    },
+    {
+      "kind": "gate",
+      "id": "57",
+      "locator": "Gate 57",
+      "basis": "Immediate intuitive discrimination/knowing excluded; no reliable decision or detection claim.",
+      "direct": {},
+      "proxy": {}
+    },
+    {
+      "kind": "gate",
+      "id": "58",
+      "locator": "Gate 58",
+      "basis": "Ordinary joyful expression is a stated behavioral theme.",
+      "direct": {
+        "cheerfulness": 1
+      },
+      "proxy": {}
+    },
+    {
+      "kind": "gate",
+      "id": "59",
+      "locator": "Gate 59",
+      "basis": "Intimacy and sexual/reproductive assertions have no admitted observable.",
+      "direct": {},
+      "proxy": {}
+    },
+    {
+      "kind": "gate",
+      "id": "60",
+      "locator": "Gate 60",
+      "basis": "New forms under constraints; no assumption of successful transformation.",
+      "direct": {},
+      "proxy": {
+        "invention": 1
+      }
+    },
+    {
+      "kind": "gate",
+      "id": "61",
+      "locator": "Gate 61",
+      "basis": "Sustained interest in mysteries; do not equate this with reliable inner knowing.",
+      "direct": {},
+      "proxy": {
+        "reflection": 1,
+        "inquiry": 1
+      }
+    },
+    {
+      "kind": "gate",
+      "id": "62",
+      "locator": "Gate 62",
+      "basis": "Ordering precise particulars for communication.",
+      "direct": {
+        "detail": 1
+      },
+      "proxy": {
+        "eloquence": 1
+      }
+    },
+    {
+      "kind": "gate",
+      "id": "63",
+      "locator": "Gate 63",
+      "basis": "Questioning and testing a pattern; not suspicion of people's honesty.",
+      "direct": {
+        "inquiry": 1
+      },
+      "proxy": {}
+    },
+    {
+      "kind": "gate",
+      "id": "64",
+      "locator": "Gate 64",
+      "basis": "Reviewing previous impressions to make sense of them.",
+      "direct": {
+        "reflection": 1
+      },
+      "proxy": {}
+    },
+    {
+      "kind": "channel",
+      "id": "1-8",
+      "locator": "Channel 1-8",
+      "basis": "Individual creative expression and contribution; giving beyond obligation only proxy.",
+      "direct": {
+        "invention": 1
+      },
+      "proxy": {
+        "generosity": 1
+      }
+    },
+    {
+      "kind": "channel",
+      "id": "2-14",
+      "locator": "Channel 2-14",
+      "basis": "Directing resources toward chosen activities; exclude decision guidance.",
+      "direct": {},
+      "proxy": {
+        "work": 1,
+        "practical": 1
+      }
+    },
+    {
+      "kind": "channel",
+      "id": "3-60",
+      "locator": "Channel 3-60",
+      "basis": "Novel forms emerging under constraints.",
+      "direct": {},
+      "proxy": {
+        "invention": 1
+      }
+    },
+    {
+      "kind": "channel",
+      "id": "4-63",
+      "locator": "Channel 4-63",
+      "basis": "Inquiry seeking testable patterns.",
+      "direct": {
+        "inquiry": 1
+      },
+      "proxy": {}
+    },
+    {
+      "kind": "channel",
+      "id": "5-15",
+      "locator": "Channel 5-15",
+      "basis": "Rhythm and extremes need separate context/duration measurements.",
+      "direct": {},
+      "proxy": {}
+    },
+    {
+      "kind": "channel",
+      "id": "6-59",
+      "locator": "Channel 6-59",
+      "basis": "Intimacy/bonding not a general social or sexual outcome.",
+      "direct": {},
+      "proxy": {}
+    },
+    {
+      "kind": "channel",
+      "id": "7-31",
+      "locator": "Channel 7-31",
+      "basis": "Accepted group guidance; not necessarily desire for office.",
+      "direct": {},
+      "proxy": {
+        "leadership": 1
+      }
+    },
+    {
+      "kind": "channel",
+      "id": "9-52",
+      "locator": "Channel 9-52",
+      "basis": "Maintaining attention on specific details.",
+      "direct": {
+        "detail": 1
+      },
+      "proxy": {}
+    },
+    {
+      "kind": "channel",
+      "id": "10-20",
+      "locator": "Channel 10-20",
+      "basis": "Expression consistent with self; no immediate-authority claim.",
+      "direct": {},
+      "proxy": {
+        "frankness": 1
+      }
+    },
+    {
+      "kind": "channel",
+      "id": "10-34",
+      "locator": "Channel 10-34",
+      "basis": "Acting consistently with convictions, not bodily decision accuracy.",
+      "direct": {},
+      "proxy": {
+        "firmness": 1
+      }
+    },
+    {
+      "kind": "channel",
+      "id": "10-57",
+      "locator": "Channel 10-57",
+      "basis": "Present-moment intuitive behavior; exclude authority analogue.",
+      "direct": {},
+      "proxy": {}
+    },
+    {
+      "kind": "channel",
+      "id": "11-56",
+      "locator": "Channel 11-56",
+      "basis": "Exploring ideas and communicating experience; style claims indirect.",
+      "direct": {},
+      "proxy": {
+        "inquiry": 1,
+        "talk": 1,
+        "eloquence": 1
+      }
+    },
+    {
+      "kind": "channel",
+      "id": "12-22",
+      "locator": "Channel 12-22",
+      "basis": "Mood-dependent social expression.",
+      "direct": {},
+      "proxy": {
+        "sociability": 1,
+        "eloquence": 1
+      }
+    },
+    {
+      "kind": "channel",
+      "id": "13-33",
+      "locator": "Channel 13-33",
+      "basis": "Reviewing and selectively sharing experience after withdrawal.",
+      "direct": {
+        "reflection": 1
+      },
+      "proxy": {
+        "solitude": 1
+      }
+    },
+    {
+      "kind": "channel",
+      "id": "16-48",
+      "locator": "Channel 16-48",
+      "basis": "Practice-based mastery motivation is distinct from learning; proxy only.",
+      "direct": {},
+      "proxy": {
+        "learning": 1
+      }
+    },
+    {
+      "kind": "channel",
+      "id": "17-62",
+      "locator": "Channel 17-62",
+      "basis": "Organizing facts into communicable detail.",
+      "direct": {
+        "detail": 1
+      },
+      "proxy": {
+        "eloquence": 1
+      }
+    },
+    {
+      "kind": "channel",
+      "id": "18-58",
+      "locator": "Channel 18-58",
+      "basis": "Correction of flaws is not necessarily interpersonal criticism.",
+      "direct": {},
+      "proxy": {
+        "faultfinding": 1
+      }
+    },
+    {
+      "kind": "channel",
+      "id": "19-49",
+      "locator": "Channel 19-49",
+      "basis": "Needs and principles in relationships; concrete help and general firmness indirect.",
+      "direct": {},
+      "proxy": {
+        "compassion": 1,
+        "firmness": 1
+      }
+    },
+    {
+      "kind": "channel",
+      "id": "20-34",
+      "locator": "Channel 20-34",
+      "basis": "Immediate response and sacral action are authority-adjacent; omit.",
+      "direct": {},
+      "proxy": {}
+    },
+    {
+      "kind": "channel",
+      "id": "20-57",
+      "locator": "Channel 20-57",
+      "basis": "Immediate intuitive expression; omit authority analogue.",
+      "direct": {},
+      "proxy": {}
+    },
+    {
+      "kind": "channel",
+      "id": "21-45",
+      "locator": "Channel 21-45",
+      "basis": "Managing material resources; omit wealth/status.",
+      "direct": {},
+      "proxy": {
+        "practical": 1
+      }
+    },
+    {
+      "kind": "channel",
+      "id": "23-43",
+      "locator": "Channel 23-43",
+      "basis": "Developing distinctive insights and communicating them.",
+      "direct": {},
+      "proxy": {
+        "invention": 1,
+        "eloquence": 1
+      }
+    },
+    {
+      "kind": "channel",
+      "id": "24-61",
+      "locator": "Channel 24-61",
+      "basis": "Mental examination of difficult inner questions, not decision knowing.",
+      "direct": {
+        "reflection": 1
+      },
+      "proxy": {
+        "inquiry": 1
+      }
+    },
+    {
+      "kind": "channel",
+      "id": "25-51",
+      "locator": "Channel 25-51",
+      "basis": "Challenge and competition; omit metaphysical effects.",
+      "direct": {},
+      "proxy": {
+        "risk": 1
+      }
+    },
+    {
+      "kind": "channel",
+      "id": "26-44",
+      "locator": "Channel 26-44",
+      "basis": "Persuasion/talent recognition requires a separate construct; not deception or eloquence.",
+      "direct": {},
+      "proxy": {}
+    },
+    {
+      "kind": "channel",
+      "id": "27-50",
+      "locator": "Channel 27-50",
+      "basis": "Care and preserving responsibilities.",
+      "direct": {
+        "compassion": 1
+      },
+      "proxy": {
+        "reliability": 1
+      }
+    },
+    {
+      "kind": "channel",
+      "id": "28-38",
+      "locator": "Channel 28-38",
+      "basis": "Meaningful struggle; not generic combat or safety judgments.",
+      "direct": {},
+      "proxy": {
+        "firmness": 1,
+        "risk": 1
+      }
+    },
+    {
+      "kind": "channel",
+      "id": "29-46",
+      "locator": "Channel 29-46",
+      "basis": "Persistence in a chosen experience; not an endorsement of bodily authority.",
+      "direct": {},
+      "proxy": {
+        "work": 1,
+        "reliability": 1
+      }
+    },
+    {
+      "kind": "channel",
+      "id": "30-41",
+      "locator": "Channel 30-41",
+      "basis": "Desire for experiences; not necessarily prioritizing sensual enjoyment.",
+      "direct": {},
+      "proxy": {
+        "pleasure": 1
+      }
+    },
+    {
+      "kind": "channel",
+      "id": "32-54",
+      "locator": "Channel 32-54",
+      "basis": "Advancement and continuity; omit intuitive prediction.",
+      "direct": {
+        "aspiration": 1
+      },
+      "proxy": {
+        "practical": 1
+      }
+    },
+    {
+      "kind": "channel",
+      "id": "34-57",
+      "locator": "Channel 34-57",
+      "basis": "Immediate intuitive survival response; omit authority analogue.",
+      "direct": {},
+      "proxy": {}
+    },
+    {
+      "kind": "channel",
+      "id": "35-36",
+      "locator": "Channel 35-36",
+      "basis": "Pursuit of new experience; no clinical inference.",
+      "direct": {},
+      "proxy": {
+        "risk": 1,
+        "pleasure": 1
+      }
+    },
+    {
+      "kind": "channel",
+      "id": "37-40",
+      "locator": "Channel 37-40",
+      "basis": "Reciprocity and rest; not evidence of all three in every context.",
+      "direct": {},
+      "proxy": {
+        "compassion": 1,
+        "reliability": 1,
+        "solitude": 1
+      }
+    },
+    {
+      "kind": "channel",
+      "id": "39-55",
+      "locator": "Channel 39-55",
+      "basis": "Provoking emotional reactions; do not infer pathology.",
+      "direct": {},
+      "proxy": {
+        "confrontation": 1
+      }
+    },
+    {
+      "kind": "channel",
+      "id": "42-53",
+      "locator": "Channel 42-53",
+      "basis": "Completing cycles of experience; ordinary sustained work indirect.",
+      "direct": {},
+      "proxy": {
+        "work": 1
+      }
+    },
+    {
+      "kind": "channel",
+      "id": "47-64",
+      "locator": "Channel 47-64",
+      "basis": "Working toward coherent understanding of past material.",
+      "direct": {
+        "reflection": 1
+      },
+      "proxy": {}
+    },
+    {
+      "kind": "ordered_profile",
+      "id": "1/3",
+      "locator": "1/3 Profile",
+      "basis": "Investigative learning and introspection; trial and error is not necessarily invention or risk.",
+      "direct": {
+        "inquiry": 1,
+        "learning": 1,
+        "reflection": 1
+      },
+      "proxy": {
+        "invention": 1,
+        "risk": 1
+      }
+    },
+    {
+      "kind": "ordered_profile",
+      "id": "1/4",
+      "locator": "1/4 Profile",
+      "basis": "Deep research with relationship-based opportunities; seeking ordinary company is indirect.",
+      "direct": {
+        "inquiry": 1,
+        "learning": 1,
+        "reflection": 1
+      },
+      "proxy": {
+        "sociability": 1
+      }
+    },
+    {
+      "kind": "ordered_profile",
+      "id": "2/4",
+      "locator": "2/4 Profile",
+      "basis": "Privacy plus maintaining a friendship network; no assertion of inability to initiate.",
+      "direct": {
+        "solitude": 1
+      },
+      "proxy": {
+        "sociability": 1
+      }
+    },
+    {
+      "kind": "ordered_profile",
+      "id": "2/5",
+      "locator": "2/5 Profile",
+      "basis": "Preference for privacy with practical problem-solving expectations and crisis help; projection itself is not measured.",
+      "direct": {
+        "solitude": 1
+      },
+      "proxy": {
+        "practical": 1,
+        "compassion": 1
+      }
+    },
+    {
+      "kind": "ordered_profile",
+      "id": "3/5",
+      "locator": "3/5 Profile",
+      "basis": "Experimentation and practical problem solving; no assumption of successful crisis rescue.",
+      "direct": {},
+      "proxy": {
+        "risk": 1,
+        "invention": 1,
+        "learning": 1,
+        "practical": 1
+      }
+    },
+    {
+      "kind": "ordered_profile",
+      "id": "3/6",
+      "locator": "3/6 Profile",
+      "basis": "Experimentation and later perspective; omit age-specific stages in age-blind scoring.",
+      "direct": {},
+      "proxy": {
+        "risk": 1,
+        "learning": 1,
+        "reflection": 1
+      }
+    },
+    {
+      "kind": "ordered_profile",
+      "id": "4/6",
+      "locator": "4/6 Profile",
+      "basis": "Maintaining positions and relationships; phase-dependent perspective indirect.",
+      "direct": {
+        "firmness": 1
+      },
+      "proxy": {
+        "sociability": 1,
+        "reflection": 1
+      }
+    },
+    {
+      "kind": "ordered_profile",
+      "id": "4/1",
+      "locator": "4/1 Profile",
+      "basis": "Stable investigated basis and networks; not universal inability to change.",
+      "direct": {
+        "firmness": 1,
+        "learning": 1
+      },
+      "proxy": {
+        "inquiry": 1,
+        "sociability": 1
+      }
+    },
+    {
+      "kind": "ordered_profile",
+      "id": "5/1",
+      "locator": "5/1 Profile",
+      "basis": "Practical communication and foundation research; reputation-related wariness is not general suspicion.",
+      "direct": {
+        "practical": 1
+      },
+      "proxy": {
+        "eloquence": 1,
+        "inquiry": 1,
+        "learning": 1,
+        "trust_caution": 1
+      }
+    },
+    {
+      "kind": "ordered_profile",
+      "id": "5/2",
+      "locator": "5/2 Profile",
+      "basis": "Privacy and self-directed practical contribution; secondary witness mentions spiritual paths, practice indirect.",
+      "direct": {
+        "solitude": 1
+      },
+      "proxy": {
+        "practical": 1,
+        "faith_practice": 1
+      }
+    },
+    {
+      "kind": "ordered_profile",
+      "id": "6/2",
+      "locator": "6/2 Profile",
+      "basis": "Private natural development and perspective across life phases; phase outcomes not inferred.",
+      "direct": {},
+      "proxy": {
+        "solitude": 1,
+        "reflection": 1
+      }
+    },
+    {
+      "kind": "ordered_profile",
+      "id": "6/3",
+      "locator": "6/3 Profile",
+      "basis": "Experiential learning and mature perspective; no age or life-event claims.",
+      "direct": {},
+      "proxy": {
+        "risk": 1,
+        "learning": 1,
+        "reflection": 1
+      }
+    },
+    {
+      "kind": "line",
+      "id": "1",
+      "locator": "Profile line 1 across ordered descriptions",
+      "basis": "Research and establishing foundations.",
+      "direct": {
+        "inquiry": 1,
+        "learning": 1
+      },
+      "proxy": {}
+    },
+    {
+      "kind": "line",
+      "id": "2",
+      "locator": "Profile line 2 across ordered descriptions",
+      "basis": "Privacy and natural development; call/decision claims not scored.",
+      "direct": {
+        "solitude": 1
+      },
+      "proxy": {}
+    },
+    {
+      "kind": "line",
+      "id": "3",
+      "locator": "Profile line 3 across ordered descriptions",
+      "basis": "Learning through experience, not necessarily study or deliberate risk.",
+      "direct": {},
+      "proxy": {
+        "risk": 1,
+        "learning": 1
+      }
+    },
+    {
+      "kind": "line",
+      "id": "4",
+      "locator": "Profile line 4 across ordered descriptions",
+      "basis": "Network relationships are distinct from ordinary preference for company.",
+      "direct": {},
+      "proxy": {
+        "sociability": 1
+      }
+    },
+    {
+      "kind": "line",
+      "id": "5",
+      "locator": "Profile line 5 across ordered descriptions",
+      "basis": "Practical problem-solving expectations; neither successful rescue nor formal leadership implied.",
+      "direct": {},
+      "proxy": {
+        "practical": 1
+      }
+    },
+    {
+      "kind": "line",
+      "id": "6",
+      "locator": "Profile line 6 across ordered descriptions",
+      "basis": "Developing perspective; no life phase timing or role-model prediction.",
+      "direct": {},
+      "proxy": {
+        "reflection": 1
+      }
+    }
+  ]
+}

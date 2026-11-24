@@ -1,0 +1,21 @@
+{
+  "schema": "source_bound_active_task_v01",
+  "task_id": "astrohd-complete-archetype-comparison-20261124",
+  "required_repo": "u-dont-existDOTcom/astro-research",
+  "required_branch": "research/hd-gate-channel-coverage-20261124",
+  "parent_outcome": "OPEN: fair source-qualified cross-system comparison and independent human validation",
+  "bounded_outcome": "Complete HD gate/channel/ordered-profile catalogue mapping to existing shared observable vocabulary and actual whole-century HD and frozen non-HD same-row comparison, with prior contextual evidence sensitivity and across-HD-arm robustness.",
+  "status": "EXECUTED_BOUNDED_COMPARISON_PARENT_OPEN",
+  "execution": "118 source rows, 38 direct and 125 proxy directions, 20 mapping/scope arms and 40 point-score choices per coding. Complete original 3506400 timestamps; 3505900 common usable. Prior HD ranks and original/contextual non-HD survivor identities replayed. All four non-HD paired flags matched prior scorer on 576 common sampled rows. Full-grid across-arm exact intersections executed.",
+  "private_boundary": "All individual evidence, exact birth times, ranks, competitor identities, private input/output digests and locators remain private.",
+  "artifacts": [
+    "docs/astrohd/hd_complete_archetype_behavior_comparison_20261124.md",
+    "tools/astrohd/reference/research/hd_complete_archetype_observable_v01.json",
+    "tools/astrohd/scripts/compare_hd_archetype_century_v01.py",
+    "tools/astrohd/scripts/compare_expanded_hd_multitradition_v01.py",
+    "tools/astrohd/scripts/audit_expanded_hd_arm_robustness_v01.py",
+    "tools/astrohd/tests/unit/test_compare_hd_archetype_century_v01.py",
+    "tools/astrohd/tests/unit/test_audit_expanded_hd_arm_robustness_v01.py"
+  ],
+  "next_action": "Expand source-specific generic observable constructs beyond inherited vocabulary, review existing direct evidence without re-asking answered constructs, preserve independent evidence and all old variants. Strict cross-system rivals exist under declared conditional models; do not optimize reference rank. Reuse verified full-grid non-HD flags for future HD changes."
+}
