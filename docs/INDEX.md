@@ -1,5 +1,7 @@
 # Research documentation
 
+- **24 Nov generic HD answer sensitivity:** [Version-bound evidence recovery and complete mapped-answer response-class comparison](astrohd/hd_generic_answer_sensitivity_20261124.md). Original baseline reproduced, no actual new answers admitted; private results remain private.
+
 - **24 Nov survivor diagnostics:** [All included variants, conditional clock controls, signed contribution replay and HD evidence-gap audit](astrohd/multitradition_survivor_diagnostics_20261124.md). Private results not published; prior localization is not independently validated.
 
 - **24 Nov same-row multi-tradition comparison:** [Actual cross-system intersections, strict/weak dominance, equal-family sensitivity, and identical-variant both-coding comparison](astrohd/multitradition_same_row_comparison_20261124.md), all 1,117 included marginal pairs reproduced per coding. No personal results published.
