@@ -1,5 +1,7 @@
 # Research documentation
 
+- **23 Nov Ptolemy planetary character comparison:** [15 solitary/allied configurations, 30 source condition clauses, and 384 fixed condition arms across the full finite century](astrohd/ptolemy_planet_character_comparison_20261123.md). Two frozen private codings; separate Mercury/Moon and assumed alliance alternatives; partial source-condition panel pilot. No personal scores published.
+
 - **23 Nov full finite-grid behavioral comparison:** [Executed both frozen generic HD + separate Ptolemy Mercury/Moon rubrics over all 3.5m source timestamps with 64 historical uncertainty variants](astrohd/full_grid_behavior_comparison_20261123.md). Prior shortlist removed; exact token observation coder added. Individual results private; root human validation OPEN.
 
 - **23 Nov bounded behavioral comparison:** [Executed retrospective generic-HD + separate Ptolemy Mercury/Moon direct and 64 governor-uncertainty alternatives](astrohd/bounded_behavior_comparison_20261123.md). All individual results private; no full-universe or independent predictive validation.

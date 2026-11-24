@@ -1,0 +1,21 @@
+{
+  "schema": "source_bound_active_task_v01",
+  "task_id": "astrohd-ptolemy-planet-character-20261123",
+  "required_repo": "u-dont-existDOTcom/astro-research",
+  "required_branch": "research/ptolemy-planet-character-20261123",
+  "parent_outcome": "OPEN: historically grounded multi-system comparison and independent human predictive validation",
+  "bounded_outcome": "Read the full III.13 character chapter; operationalize all five solitary and ten allied source configurations in both conditions; apply separate-place and hypothetical mixed character score to the full original finite grid, with unchanged HD baselines and conservative uncertainty",
+  "status": "BOUNDED_SUBTASK_REVIEW_READY_PARENT_OPEN",
+  "exclusive": true,
+  "necessity": "Prior full-grid sign-only comparison had many ties; source-specific body identities can discriminate further without additional detached geometry audits",
+  "private_boundary": "All private case records, profile codings, rank counts and source paths remain private; public map, code and synthetic tests only",
+  "artifacts": [
+    "docs/astrohd/ptolemy_planet_character_comparison_20261123.md",
+    "tools/astrohd/reference/research/ptolemy_iii13_planet_character_operational_v01.json",
+    "tools/astrohd/scripts/compare_planet_character_century_v01.py",
+    "tools/astrohd/tests/unit/test_compare_planet_character_century_v01.py",
+    "tools/astrohd/scripts/compare_planet_character_condition_pilot_v01.py",
+    "tools/astrohd/tests/unit/test_compare_planet_character_condition_pilot_v01.py"
+  ],
+  "acceptance": "Complete verified private full-grid counts for all 64 historical scenarios, six arms and two envelopes, two frozen evidence profiles; 128 partial source-condition comparisons on original selected panel; synthetic tests, source binding and privacy audit"
+}
