@@ -1,0 +1,17 @@
+{
+  "schema": "source_bound_active_task_v01",
+  "task_id": "astrohd-hd-generic-answer-sensitivity-20261124",
+  "required_repo": "u-dont-existDOTcom/astro-research",
+  "required_branch": "research/hd-evidence-admission-20261124",
+  "parent_outcome": "OPEN: fair source-qualified cross-system comparison and independent human validation",
+  "bounded_outcome": "Recover directly admissible generic HD evidence, verify original question identities, and determine the consequences of every possible mapped response class without inventing personal answers.",
+  "status": "HYPOTHETICAL_SENSITIVITY_EXECUTED_ACTUAL_EVIDENCE_GAP_OPEN",
+  "execution": "Prior behavioral editions and recorded responses reviewed; no new exact response tokens admitted. Complete mapped-answer Cartesian product executed under both frozen evidence codings on the original 3506400-row grid and previously certified non-HD strict rivals. Baseline and source integrity reproduced.",
+  "private_boundary": "No personal answer tokens, individual ranks, birth records, private evidence digests or output paths published.",
+  "artifacts": [
+    "docs/astrohd/hd_generic_answer_sensitivity_20261124.md",
+    "tools/astrohd/scripts/hd_generic_answer_sensitivity_v01.py",
+    "tools/astrohd/tests/unit/test_hd_generic_answer_sensitivity_v01.py"
+  ],
+  "next_action": "Obtain direct clarification of unresolved original-bank questions, preserve nulls and existing evidence, then freeze expanded generic HD evidence and repeat relevant full-grid comparisons. Even favorable hypothetical completion of this bounded set does not establish uniqueness. Expand independent source coverage without chart-specific weights."
+}

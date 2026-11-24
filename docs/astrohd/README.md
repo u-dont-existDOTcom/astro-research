@@ -1,5 +1,7 @@
 # AstroHD public research recovery — 21 November 2026
 
+**24 November generic HD evidence recovery and answer-space sensitivity:** [All mapped hypothetical response classes over the entire finite grid](hd_generic_answer_sensitivity_20261124.md). Prior codings unchanged; no inferred personal answers or uniqueness claim.
+
 **24 November survivor and clock-control diagnostics:** [Exact all-included-variant noninferiority, arbitrary HD-maximal clock controls and frozen contribution trace](multitradition_survivor_diagnostics_20261124.md). Prior survivors reproduced; controls weaken uniqueness interpretation. Missing HD evidence and question identity collision audited. No new scores or personal records published.
 
 **24 November same-row multi-tradition comparison:** [Exact frozen point-score intersections](multitradition_same_row_comparison_20261124.md), full 3,506,400 clock samples, 1,117 arms per coding, exact prior marginal replay, separate-system dominance and both-coding same-variant pass. No target-selected arm or independently validated uniqueness. Private candidate indices retained privately.
