@@ -1,5 +1,7 @@
 # Research documentation
 
+- **24 Nov expanded Sārāvalī comparison:** [Moon-sign, lunar and solar yoga source families and item-capped union with conjunctions](astrohd/saravali_lunar_solar_behavior_comparison_20261124.md). Actual full finite-grid run; both frozen codings and all previous same-sign inclusive-conjunction baselines replayed.
+
 - **24 Nov first Sārāvalī finite-grid behavioral comparison:** [All 21 pair and 35 triple source configurations, four geometry and four overlap policies, direct/proxy mappings and capped evidence](astrohd/saravali_pair_triple_behavior_comparison_20261124.md). Actual century scan, both frozen codings; no individual results or independently validated predictions.
 
 - **24 Nov complete Lilly finite-grid character comparison:** [All 96 CVII stage alternatives, four frozen CVIII character arms, both private codings, and earlier source-stage reconciliation](astrohd/lilly_cviii_character_century_comparison_20261124.md). No robust unique chart or independently validated prediction.
