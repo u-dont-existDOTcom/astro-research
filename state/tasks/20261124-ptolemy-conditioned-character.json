@@ -1,0 +1,17 @@
+{
+  "schema": "source_bound_active_task_v01",
+  "task_id": "astrohd-ptolemy-conditioned-character-20261124",
+  "required_repo": "u-dont-existDOTcom/astro-research",
+  "required_branch": "research/ptolemy-conditioned-behavior-20261124",
+  "parent_outcome": "OPEN: historically grounded multi-system behavioral comparison and independent human predictive validation",
+  "bounded_outcome": "Transfer both fixed PR38 partial qualification rules to full PR37 grid, compare character and capped Western blend against unchanged sign baseline, retain coverage and matched-opportunity counts and interval bounds; no rank-based rule choice",
+  "status": "BOUNDED_SUBTASK_REVIEW_READY_PARENT_OPEN",
+  "exclusive": true,
+  "private_boundary": "All personal records, inputs, result counts and private paths remain outside public Git",
+  "acceptance": "Full exact grid with both frozen codings and 128 arms each, exact scalar/pilot and previous sign-count parity, reconciled scores and intervals, public code/tests and privacy verification",
+  "artifacts": [
+    "docs/astrohd/ptolemy_conditioned_character_comparison_20261124.md",
+    "tools/astrohd/scripts/compare_conditioned_character_century_v01.py",
+    "tools/astrohd/tests/unit/test_compare_conditioned_character_century_v01.py"
+  ]
+}
