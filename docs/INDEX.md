@@ -1,5 +1,7 @@
 # Research documentation
 
+- **24 Nov first Chinese finite-grid behavioral comparison:** [BaZi native element temperament and Zi Wei main-star families](astrohd/chinese_bazi_ziwei_behavior_comparison_20261124.md), 108 fixed arms per coding, independently witnessed calendar features and same-row HD/Chinese dominance; no private individual results.
+
 - **24 Nov expanded Sārāvalī comparison:** [Moon-sign, lunar and solar yoga source families and item-capped union with conjunctions](astrohd/saravali_lunar_solar_behavior_comparison_20261124.md). Actual full finite-grid run; both frozen codings and all previous same-sign inclusive-conjunction baselines replayed.
 
 - **24 Nov first Sārāvalī finite-grid behavioral comparison:** [All 21 pair and 35 triple source configurations, four geometry and four overlap policies, direct/proxy mappings and capped evidence](astrohd/saravali_pair_triple_behavior_comparison_20261124.md). Actual century scan, both frozen codings; no individual results or independently validated predictions.

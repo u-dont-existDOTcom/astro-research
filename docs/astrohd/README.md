@@ -1,5 +1,7 @@
 # AstroHD public research recovery — 21 November 2026
 
+**24 November Chinese expansion:** [BaZi and Zi Wei conditional behavioral comparison](chinese_bazi_ziwei_behavior_comparison_20261124.md), actual entire finite grid, 108 arms per coding, pinned calendar witness parity and archived main-star placement parity; capped union and separate-system dominance, not a complete interpretation or validated prediction. All individual results private.
+
 **24 November Vedic expansion:** [Moon signs and lunar/solar yoga behavioral comparison](saravali_lunar_solar_behavior_comparison_20261124.md), 48 clauses, 96 selected directions, 80 new arms per coding and four prior baseline replays, full grid with item-capped Vedic union. No stable rank improvement or robust unique reference; strength qualification incomplete. All person-specific results private.
 
 **24 November first bounded Vedic behavioral scoring:** [Full finite-grid Sārāvalī XV/XVI conjunction family](saravali_pair_triple_behavior_comparison_20261124.md) executed, 56 source configurations, 64 selected directions, 32 geometry/overlap/mapping arms under both frozen evidence profiles. Exact original ephemeris verified, separate numerical boundary abstentions and conditional-strength envelopes; no stable discrimination improvement or complete Vedic model. All personal results private.
