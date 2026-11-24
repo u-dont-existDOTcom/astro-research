@@ -1,0 +1,860 @@
+{
+  "schema": "saravali_xv_xvi_shared_observable_v01",
+  "status": "EXPLORATORY_POST_EXPOSURE_SOURCE_CONDITIONAL_NOT_VALIDATED",
+  "source": {
+    "work": "Kalyanavarman, Saravali XV.2\u201322 and XVI.1\u201335",
+    "edition": "Prior photographed 1928 edited Sanskrit catalogue, Nirnaya Sagar Press, printed pp41\u201345; previous B178/B180 source registers. This pass reads a public English witness of the complete 56 clauses, not a new Sanskrit facsimile collation.",
+    "public_english_witness": "https://www.astroneemo.net/articles/sraval-kalyana-varma-4.html?showall=1",
+    "prior_pair_catalogue_sha256": "a4197d2ce4dfedc0b7cecb7c10ad9c3b42bb25f77ee6d404fe588ee70074a0f8",
+    "prior_triple_catalogue_sha256": "759d131c0c8da8158938ba57a569637223b1a0d3a79a6555862b1d130a82fbab",
+    "source_variants": [
+      "XV.6 English wealth through women versus Sanskrit bandhana; neither scored. The aesthetic proxy refers only to performing entertainment, not that discrepancy.",
+      "XV.23 Sanskrit qualitative gana versus English good/bad vargas; no numeric multiplier inferred.",
+      "XVI.27 English caste change versus Sanskrit akulina and omitted nityotsahi; no caste or inherited status score; no invented enthusiasm-to-work conversion.",
+      "Machine translation and editorial notes are not additional independent behavioral rules."
+    ]
+  },
+  "shared_vocabulary_sha256": "84e0f6b14f26bb3985fc0a9355b0200a266b96b87c2d3dfc92c6c85392db0531",
+  "geometry_arms": [
+    "lahiri_same_sign",
+    "raman_same_sign",
+    "degree_3",
+    "degree_10"
+  ],
+  "overlap_arms": [
+    "pairs_inclusive",
+    "triples_inclusive",
+    "both_inclusive",
+    "isolated_exact_groups"
+  ],
+  "mapping_arms": [
+    "direct",
+    "with_proxies"
+  ],
+  "condition_arms": [
+    "unscaled_conditional",
+    "attenuation_or_abstention_envelope"
+  ],
+  "rules": [
+    {
+      "chapter": 15,
+      "verse": 2,
+      "printed_1928_page": 41,
+      "bodies": [
+        "Sun",
+        "Moon"
+      ],
+      "direct": {},
+      "proxy": {},
+      "disposition": "NO_ADMITTED_SHARED_BEHAVIOR_DIRECTION"
+    },
+    {
+      "chapter": 15,
+      "verse": 3,
+      "printed_1928_page": 41,
+      "bodies": [
+        "Sun",
+        "Mars"
+      ],
+      "direct": {},
+      "proxy": {
+        "harshness": 1,
+        "deception": 1
+      },
+      "disposition": "MAPPED_SELECTED_OBSERVABLES"
+    },
+    {
+      "chapter": 15,
+      "verse": 4,
+      "printed_1928_page": 41,
+      "bodies": [
+        "Sun",
+        "Mercury"
+      ],
+      "direct": {},
+      "proxy": {
+        "learning": 1
+      },
+      "disposition": "MAPPED_SELECTED_OBSERVABLES"
+    },
+    {
+      "chapter": 15,
+      "verse": 5,
+      "printed_1928_page": 41,
+      "bodies": [
+        "Sun",
+        "Jupiter"
+      ],
+      "direct": {},
+      "proxy": {},
+      "disposition": "NO_ADMITTED_SHARED_BEHAVIOR_DIRECTION"
+    },
+    {
+      "chapter": 15,
+      "verse": 6,
+      "printed_1928_page": 41,
+      "bodies": [
+        "Sun",
+        "Venus"
+      ],
+      "direct": {},
+      "proxy": {
+        "aesthetic": 1
+      },
+      "disposition": "MAPPED_SELECTED_OBSERVABLES"
+    },
+    {
+      "chapter": 15,
+      "verse": 7,
+      "printed_1928_page": 41,
+      "bodies": [
+        "Sun",
+        "Saturn"
+      ],
+      "direct": {},
+      "proxy": {},
+      "disposition": "NO_ADMITTED_SHARED_BEHAVIOR_DIRECTION"
+    },
+    {
+      "chapter": 15,
+      "verse": 8,
+      "printed_1928_page": 41,
+      "bodies": [
+        "Moon",
+        "Mars"
+      ],
+      "direct": {},
+      "proxy": {},
+      "disposition": "NO_ADMITTED_SHARED_BEHAVIOR_DIRECTION"
+    },
+    {
+      "chapter": 15,
+      "verse": 9,
+      "printed_1928_page": 41,
+      "bodies": [
+        "Moon",
+        "Mercury"
+      ],
+      "direct": {},
+      "proxy": {
+        "aesthetic": 1,
+        "cheerfulness": 1
+      },
+      "disposition": "MAPPED_SELECTED_OBSERVABLES"
+    },
+    {
+      "chapter": 15,
+      "verse": 10,
+      "printed_1928_page": 42,
+      "bodies": [
+        "Moon",
+        "Jupiter"
+      ],
+      "direct": {},
+      "proxy": {
+        "modesty": 1
+      },
+      "disposition": "MAPPED_SELECTED_OBSERVABLES"
+    },
+    {
+      "chapter": 15,
+      "verse": 11,
+      "printed_1928_page": 42,
+      "bodies": [
+        "Moon",
+        "Venus"
+      ],
+      "direct": {},
+      "proxy": {
+        "work": -1
+      },
+      "disposition": "MAPPED_SELECTED_OBSERVABLES"
+    },
+    {
+      "chapter": 15,
+      "verse": 12,
+      "printed_1928_page": 42,
+      "bodies": [
+        "Moon",
+        "Saturn"
+      ],
+      "direct": {},
+      "proxy": {},
+      "disposition": "NO_ADMITTED_SHARED_BEHAVIOR_DIRECTION"
+    },
+    {
+      "chapter": 15,
+      "verse": 13,
+      "printed_1928_page": 42,
+      "bodies": [
+        "Mars",
+        "Mercury"
+      ],
+      "direct": {},
+      "proxy": {},
+      "disposition": "NO_ADMITTED_SHARED_BEHAVIOR_DIRECTION"
+    },
+    {
+      "chapter": 15,
+      "verse": 14,
+      "printed_1928_page": 42,
+      "bodies": [
+        "Mars",
+        "Jupiter"
+      ],
+      "direct": {
+        "eloquence": 1
+      },
+      "proxy": {
+        "learning": 1
+      },
+      "disposition": "MAPPED_SELECTED_OBSERVABLES"
+    },
+    {
+      "chapter": 15,
+      "verse": 15,
+      "printed_1928_page": 42,
+      "bodies": [
+        "Mars",
+        "Venus"
+      ],
+      "direct": {},
+      "proxy": {
+        "leadership": 1,
+        "deception": 1
+      },
+      "disposition": "MAPPED_SELECTED_OBSERVABLES"
+    },
+    {
+      "chapter": 15,
+      "verse": 16,
+      "printed_1928_page": 42,
+      "bodies": [
+        "Mars",
+        "Saturn"
+      ],
+      "direct": {
+        "confrontation": 1
+      },
+      "proxy": {
+        "deception": 1
+      },
+      "disposition": "MAPPED_SELECTED_OBSERVABLES"
+    },
+    {
+      "chapter": 15,
+      "verse": 17,
+      "printed_1928_page": 42,
+      "bodies": [
+        "Mercury",
+        "Jupiter"
+      ],
+      "direct": {},
+      "proxy": {
+        "learning": 1,
+        "aesthetic": 1
+      },
+      "disposition": "MAPPED_SELECTED_OBSERVABLES"
+    },
+    {
+      "chapter": 15,
+      "verse": 18,
+      "printed_1928_page": 42,
+      "bodies": [
+        "Mercury",
+        "Venus"
+      ],
+      "direct": {
+        "learning": 1,
+        "eloquence": 1
+      },
+      "proxy": {
+        "aesthetic": 1,
+        "cheerfulness": 1
+      },
+      "disposition": "MAPPED_SELECTED_OBSERVABLES"
+    },
+    {
+      "chapter": 15,
+      "verse": 19,
+      "printed_1928_page": 42,
+      "bodies": [
+        "Mercury",
+        "Saturn"
+      ],
+      "direct": {},
+      "proxy": {
+        "deception": 1
+      },
+      "disposition": "MAPPED_SELECTED_OBSERVABLES"
+    },
+    {
+      "chapter": 15,
+      "verse": 20,
+      "printed_1928_page": 42,
+      "bodies": [
+        "Jupiter",
+        "Venus"
+      ],
+      "direct": {},
+      "proxy": {
+        "discussion": 1,
+        "learning": 1
+      },
+      "disposition": "MAPPED_SELECTED_OBSERVABLES"
+    },
+    {
+      "chapter": 15,
+      "verse": 21,
+      "printed_1928_page": 42,
+      "bodies": [
+        "Jupiter",
+        "Saturn"
+      ],
+      "direct": {},
+      "proxy": {
+        "leadership": 1
+      },
+      "disposition": "MAPPED_SELECTED_OBSERVABLES"
+    },
+    {
+      "chapter": 15,
+      "verse": 22,
+      "printed_1928_page": 43,
+      "bodies": [
+        "Venus",
+        "Saturn"
+      ],
+      "direct": {},
+      "proxy": {
+        "aesthetic": 1
+      },
+      "disposition": "MAPPED_SELECTED_OBSERVABLES"
+    },
+    {
+      "chapter": 16,
+      "verse": 1,
+      "printed_1928_page": 43,
+      "bodies": [
+        "Sun",
+        "Moon",
+        "Mars"
+      ],
+      "direct": {},
+      "proxy": {},
+      "disposition": "NO_ADMITTED_SHARED_BEHAVIOR_DIRECTION"
+    },
+    {
+      "chapter": 16,
+      "verse": 2,
+      "printed_1928_page": 43,
+      "bodies": [
+        "Sun",
+        "Moon",
+        "Mercury"
+      ],
+      "direct": {
+        "learning": 1,
+        "aesthetic": 1,
+        "sociability": 1
+      },
+      "proxy": {},
+      "disposition": "MAPPED_SELECTED_OBSERVABLES"
+    },
+    {
+      "chapter": 16,
+      "verse": 3,
+      "printed_1928_page": 43,
+      "bodies": [
+        "Sun",
+        "Moon",
+        "Jupiter"
+      ],
+      "direct": {
+        "change_mind": 1
+      },
+      "proxy": {
+        "anger": 1,
+        "deception": 1
+      },
+      "disposition": "MAPPED_SELECTED_OBSERVABLES"
+    },
+    {
+      "chapter": 16,
+      "verse": 4,
+      "printed_1928_page": 43,
+      "bodies": [
+        "Sun",
+        "Moon",
+        "Venus"
+      ],
+      "direct": {},
+      "proxy": {
+        "learning": 1
+      },
+      "disposition": "MAPPED_SELECTED_OBSERVABLES"
+    },
+    {
+      "chapter": 16,
+      "verse": 5,
+      "printed_1928_page": 43,
+      "bodies": [
+        "Sun",
+        "Moon",
+        "Saturn"
+      ],
+      "direct": {},
+      "proxy": {
+        "discussion": 1
+      },
+      "disposition": "MAPPED_SELECTED_OBSERVABLES"
+    },
+    {
+      "chapter": 16,
+      "verse": 6,
+      "printed_1928_page": 43,
+      "bodies": [
+        "Sun",
+        "Mars",
+        "Mercury"
+      ],
+      "direct": {},
+      "proxy": {
+        "compassion": -1
+      },
+      "disposition": "MAPPED_SELECTED_OBSERVABLES"
+    },
+    {
+      "chapter": 16,
+      "verse": 7,
+      "printed_1928_page": 43,
+      "bodies": [
+        "Sun",
+        "Mars",
+        "Jupiter"
+      ],
+      "direct": {
+        "eloquence": 1
+      },
+      "proxy": {
+        "harshness": 1,
+        "leadership": 1
+      },
+      "disposition": "MAPPED_SELECTED_OBSERVABLES"
+    },
+    {
+      "chapter": 16,
+      "verse": 8,
+      "printed_1928_page": 43,
+      "bodies": [
+        "Sun",
+        "Mars",
+        "Venus"
+      ],
+      "direct": {},
+      "proxy": {
+        "harshness": 1
+      },
+      "disposition": "MAPPED_SELECTED_OBSERVABLES"
+    },
+    {
+      "chapter": 16,
+      "verse": 9,
+      "printed_1928_page": 43,
+      "bodies": [
+        "Sun",
+        "Mars",
+        "Saturn"
+      ],
+      "direct": {},
+      "proxy": {},
+      "disposition": "NO_ADMITTED_SHARED_BEHAVIOR_DIRECTION"
+    },
+    {
+      "chapter": 16,
+      "verse": 10,
+      "printed_1928_page": 43,
+      "bodies": [
+        "Sun",
+        "Mercury",
+        "Jupiter"
+      ],
+      "direct": {
+        "learning": 1,
+        "aesthetic": 1
+      },
+      "proxy": {
+        "sociability": 1
+      },
+      "disposition": "MAPPED_SELECTED_OBSERVABLES"
+    },
+    {
+      "chapter": 16,
+      "verse": 11,
+      "printed_1928_page": 44,
+      "bodies": [
+        "Sun",
+        "Mercury",
+        "Venus"
+      ],
+      "direct": {
+        "talk": 1
+      },
+      "proxy": {},
+      "disposition": "MAPPED_SELECTED_OBSERVABLES"
+    },
+    {
+      "chapter": 16,
+      "verse": 12,
+      "printed_1928_page": 44,
+      "bodies": [
+        "Sun",
+        "Mercury",
+        "Saturn"
+      ],
+      "direct": {},
+      "proxy": {},
+      "disposition": "NO_ADMITTED_SHARED_BEHAVIOR_DIRECTION"
+    },
+    {
+      "chapter": 16,
+      "verse": 13,
+      "printed_1928_page": 44,
+      "bodies": [
+        "Sun",
+        "Jupiter",
+        "Venus"
+      ],
+      "direct": {},
+      "proxy": {},
+      "disposition": "NO_ADMITTED_SHARED_BEHAVIOR_DIRECTION"
+    },
+    {
+      "chapter": 16,
+      "verse": 14,
+      "printed_1928_page": 44,
+      "bodies": [
+        "Sun",
+        "Jupiter",
+        "Saturn"
+      ],
+      "direct": {},
+      "proxy": {},
+      "disposition": "NO_ADMITTED_SHARED_BEHAVIOR_DIRECTION"
+    },
+    {
+      "chapter": 16,
+      "verse": 15,
+      "printed_1928_page": 44,
+      "bodies": [
+        "Sun",
+        "Venus",
+        "Saturn"
+      ],
+      "direct": {},
+      "proxy": {},
+      "disposition": "NO_ADMITTED_SHARED_BEHAVIOR_DIRECTION"
+    },
+    {
+      "chapter": 16,
+      "verse": 16,
+      "printed_1928_page": 44,
+      "bodies": [
+        "Moon",
+        "Mars",
+        "Mercury"
+      ],
+      "direct": {},
+      "proxy": {},
+      "disposition": "NO_ADMITTED_SHARED_BEHAVIOR_DIRECTION"
+    },
+    {
+      "chapter": 16,
+      "verse": 17,
+      "printed_1928_page": 44,
+      "bodies": [
+        "Moon",
+        "Mars",
+        "Jupiter"
+      ],
+      "direct": {},
+      "proxy": {
+        "anger": 1
+      },
+      "disposition": "MAPPED_SELECTED_OBSERVABLES"
+    },
+    {
+      "chapter": 16,
+      "verse": 18,
+      "printed_1928_page": 44,
+      "bodies": [
+        "Moon",
+        "Mars",
+        "Venus"
+      ],
+      "direct": {},
+      "proxy": {},
+      "disposition": "NO_ADMITTED_SHARED_BEHAVIOR_DIRECTION"
+    },
+    {
+      "chapter": 16,
+      "verse": 19,
+      "printed_1928_page": 44,
+      "bodies": [
+        "Moon",
+        "Mars",
+        "Saturn"
+      ],
+      "direct": {},
+      "proxy": {},
+      "disposition": "NO_ADMITTED_SHARED_BEHAVIOR_DIRECTION"
+    },
+    {
+      "chapter": 16,
+      "verse": 20,
+      "printed_1928_page": 44,
+      "bodies": [
+        "Moon",
+        "Mercury",
+        "Jupiter"
+      ],
+      "direct": {
+        "eloquence": 1
+      },
+      "proxy": {},
+      "disposition": "MAPPED_SELECTED_OBSERVABLES"
+    },
+    {
+      "chapter": 16,
+      "verse": 21,
+      "printed_1928_page": 44,
+      "bodies": [
+        "Moon",
+        "Mercury",
+        "Venus"
+      ],
+      "direct": {},
+      "proxy": {
+        "learning": 1,
+        "generosity": -1
+      },
+      "disposition": "MAPPED_SELECTED_OBSERVABLES"
+    },
+    {
+      "chapter": 16,
+      "verse": 22,
+      "printed_1928_page": 44,
+      "bodies": [
+        "Moon",
+        "Mercury",
+        "Saturn"
+      ],
+      "direct": {
+        "eloquence": 1
+      },
+      "proxy": {
+        "learning": 1
+      },
+      "disposition": "MAPPED_SELECTED_OBSERVABLES"
+    },
+    {
+      "chapter": 16,
+      "verse": 23,
+      "printed_1928_page": 44,
+      "bodies": [
+        "Moon",
+        "Jupiter",
+        "Venus"
+      ],
+      "direct": {},
+      "proxy": {
+        "learning": 1,
+        "aesthetic": 1
+      },
+      "disposition": "MAPPED_SELECTED_OBSERVABLES"
+    },
+    {
+      "chapter": 16,
+      "verse": 24,
+      "printed_1928_page": 44,
+      "bodies": [
+        "Moon",
+        "Jupiter",
+        "Saturn"
+      ],
+      "direct": {},
+      "proxy": {
+        "learning": 1,
+        "leadership": 1
+      },
+      "disposition": "MAPPED_SELECTED_OBSERVABLES"
+    },
+    {
+      "chapter": 16,
+      "verse": 25,
+      "printed_1928_page": 45,
+      "bodies": [
+        "Moon",
+        "Venus",
+        "Saturn"
+      ],
+      "direct": {
+        "learning": 1
+      },
+      "proxy": {},
+      "disposition": "MAPPED_SELECTED_OBSERVABLES"
+    },
+    {
+      "chapter": 16,
+      "verse": 26,
+      "printed_1928_page": 45,
+      "bodies": [
+        "Mars",
+        "Mercury",
+        "Jupiter"
+      ],
+      "direct": {},
+      "proxy": {
+        "leadership": 1,
+        "compassion": 1,
+        "aesthetic": 1
+      },
+      "disposition": "MAPPED_SELECTED_OBSERVABLES"
+    },
+    {
+      "chapter": 16,
+      "verse": 27,
+      "printed_1928_page": 45,
+      "bodies": [
+        "Mars",
+        "Mercury",
+        "Venus"
+      ],
+      "direct": {
+        "change_mind": 1,
+        "talk": 1
+      },
+      "proxy": {},
+      "disposition": "MAPPED_SELECTED_OBSERVABLES"
+    },
+    {
+      "chapter": 16,
+      "verse": 28,
+      "printed_1928_page": 45,
+      "bodies": [
+        "Mars",
+        "Mercury",
+        "Saturn"
+      ],
+      "direct": {},
+      "proxy": {},
+      "disposition": "NO_ADMITTED_SHARED_BEHAVIOR_DIRECTION"
+    },
+    {
+      "chapter": 16,
+      "verse": 29,
+      "printed_1928_page": 45,
+      "bodies": [
+        "Mars",
+        "Jupiter",
+        "Venus"
+      ],
+      "direct": {},
+      "proxy": {},
+      "disposition": "NO_ADMITTED_SHARED_BEHAVIOR_DIRECTION"
+    },
+    {
+      "chapter": 16,
+      "verse": 30,
+      "printed_1928_page": 45,
+      "bodies": [
+        "Mars",
+        "Jupiter",
+        "Saturn"
+      ],
+      "direct": {},
+      "proxy": {
+        "compassion": -1
+      },
+      "disposition": "MAPPED_SELECTED_OBSERVABLES"
+    },
+    {
+      "chapter": 16,
+      "verse": 31,
+      "printed_1928_page": 45,
+      "bodies": [
+        "Mars",
+        "Venus",
+        "Saturn"
+      ],
+      "direct": {},
+      "proxy": {},
+      "disposition": "NO_ADMITTED_SHARED_BEHAVIOR_DIRECTION"
+    },
+    {
+      "chapter": 16,
+      "verse": 32,
+      "printed_1928_page": 45,
+      "bodies": [
+        "Mercury",
+        "Jupiter",
+        "Venus"
+      ],
+      "direct": {},
+      "proxy": {},
+      "disposition": "NO_ADMITTED_SHARED_BEHAVIOR_DIRECTION"
+    },
+    {
+      "chapter": 16,
+      "verse": 33,
+      "printed_1928_page": 45,
+      "bodies": [
+        "Mercury",
+        "Jupiter",
+        "Saturn"
+      ],
+      "direct": {},
+      "proxy": {
+        "learning": 1,
+        "pleasure": 1
+      },
+      "disposition": "MAPPED_SELECTED_OBSERVABLES"
+    },
+    {
+      "chapter": 16,
+      "verse": 34,
+      "printed_1928_page": 45,
+      "bodies": [
+        "Mercury",
+        "Venus",
+        "Saturn"
+      ],
+      "direct": {},
+      "proxy": {
+        "deception": 1,
+        "harshness": 1,
+        "aesthetic": 1
+      },
+      "disposition": "MAPPED_SELECTED_OBSERVABLES"
+    },
+    {
+      "chapter": 16,
+      "verse": 35,
+      "printed_1928_page": 45,
+      "bodies": [
+        "Jupiter",
+        "Venus",
+        "Saturn"
+      ],
+      "direct": {},
+      "proxy": {},
+      "disposition": "NO_ADMITTED_SHARED_BEHAVIOR_DIRECTION"
+    }
+  ],
+  "limitations": [
+    "Direct denotes relatively close operational wording, not equivalence or independent validation. Proxy denotes a behavior/ability or context conversion needing confirmation. Both are fixed prior to candidate computation, after reference exposure. Unmapped descriptions and absence of a combination are not negative evidence.",
+    "All named combinations catalogued; no predictions of disease, identity, criminality, hereditary status, partners or mortality. Historical occupation/status descriptions are not automatic behavior predicates.",
+    "Same sidereal sign and circular degree thresholds are modern sensitivity conventions, not uniquely authorized ancient conjunction conditions. Exact isolated groups exclude larger or nonclique linked groups; inclusive alternatives permit subsets.",
+    "No Rahu/Ketu, four-plus chapter, strength, aspect, divisional or dasha outcome is implemented in this bounded family. No school selection from rank."
+  ]
+}

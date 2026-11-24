@@ -104,6 +104,23 @@
         "fixed_arms": 4,
         "frozen_evidence_versions": 2,
         "private_individual_results_published": false
+      },
+      "partial_saravali_combination_grid": {
+        "status": "EXECUTED_DECLARED_FINITE_GRID_ONLY",
+        "evidence_path": "docs/astrohd/saravali_pair_triple_behavior_comparison_20261124.md",
+        "grid_rows": 3506400,
+        "HD_boundary_unknown": 125,
+        "geometry_unknown_with_known_HD_range": [
+          10,
+          19
+        ],
+        "shared_usable_rows": 3506210,
+        "source_configurations": 56,
+        "geometry_arms": 4,
+        "overlap_arms": 4,
+        "mapping_arms": 2,
+        "frozen_evidence_versions": 2,
+        "private_individual_results_published": false
       }
     },
     {
@@ -152,7 +169,7 @@
     "no_personality_rank_from_geometric_rarity": true,
     "old_results_preserved_not_rewritten": true
   },
-  "next_safe_action": "Advance a bounded source-qualified Vedic behavioral scoring experiment from the complete earlier Saravali pair/triple catalogue and existing five-book research, retaining sidereal, combination and qualitative condition alternatives; reuse Chinese two-witness mechanics. Keep Lilly and Ptolemy baselines unchanged, cap related testimony, and distinguish retrospective development from independently approved held-out human validation.",
+  "next_safe_action": "Expand distinct source-grounded Vedic behavioral families using prior five-book witness registers and preserve strength and Moon-rasi/navamsa qualification alternatives. Reuse Chinese two-witness calculation work and evaluate same-row comparative intersections without tuning to exposed reference. Independent human validation remains separate.",
   "provenance": "Based on verified public source evidence and corrected user feedback. Prior conversation completion language is explicitly distinguished from what the Git artifact actually proves.",
   "completed_now_limited_source_motion": {
     "status": "COMPLETE_DECLARED_SOURCE_COMPONENT_ONLY",
