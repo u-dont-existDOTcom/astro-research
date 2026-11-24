@@ -1,0 +1,849 @@
+{
+  "schema": "hd_specific_observable_block_v01",
+  "status": "POST_EXPOSURE_GENERIC_SOURCE_HYPOTHESES",
+  "prior_map_sha256": "1013b185276cd5a3f2c0235cf5726f5a3dd41011cae2eeaad989590450216ac0",
+  "source_urls": [
+    "https://jovianarchive.com/pages/channels-in-human-design-the-life-force",
+    "https://jovianarchive.com/blogs/chart-interpretations-components/logic-and-perfection",
+    "https://jovianarchive.com/pages/understanding-profile-in-human-design",
+    "https://human.design/the-human-design-system/gates",
+    "https://human.design/the-human-design-system/profiles",
+    "https://www.geneticmatrix.com/learn-hub/channels/index.html"
+  ],
+  "source_scope": "Reused complete archived gate/channel/profile/line catalogue, selective live source review of specified themes. Unlisted carrier rows explicitly have no new directions in this bounded block; prior mappings remain untouched. Definitions and directions are modern operational hypotheses, not quotations or empirical findings.",
+  "domains": [
+    "communication",
+    "work",
+    "motivation",
+    "relationship"
+  ],
+  "items": [
+    {
+      "id": "persuasion_capacity",
+      "domain": "communication",
+      "definition": "Reported ability to change another person's understanding or action when deliberately adapting persuasive framing; not eloquence, persuasion frequency, or an independently verified success rate."
+    },
+    {
+      "id": "persuasion_use",
+      "domain": "communication",
+      "definition": "Regularly chooses persuasive framing to obtain uptake rather than simply informing or explaining, across comparable situations."
+    },
+    {
+      "id": "narrative_expression",
+      "domain": "communication",
+      "definition": "Habitually communicates lessons through developed personal-experience stories or narrative rather than only conceptual explanation."
+    },
+    {
+      "id": "projection_expectations",
+      "domain": "communication",
+      "definition": "Repeatedly encounters others assigning broad practical problem-solving expectations beyond an explicitly accepted role; measure others' stated expectations and consequences, not the respondent's self-image."
+    },
+    {
+      "id": "unsolicited_recognition",
+      "domain": "communication",
+      "definition": "Others recurrently recognize a particular aptitude and seek its use without the person first soliciting that opportunity; not whether the person waits to initiate."
+    },
+    {
+      "id": "verbal_group_guidance",
+      "domain": "communication",
+      "definition": "Recurrently influences a group's course through proposals that members accept, distinguished from formal command and mere debating ability."
+    },
+    {
+      "id": "practice_perfection",
+      "domain": "work",
+      "definition": "Regularly repeats a defined skill or pattern to improve its precision or execution after attaining basic competence, distinguished from knowledge acquisition."
+    },
+    {
+      "id": "mastery_as_end",
+      "domain": "work",
+      "definition": "Pursuit of refined skill or mastery is a recurring goal in itself, beyond the immediate functional project or problem."
+    },
+    {
+      "id": "regular_rhythm",
+      "domain": "work",
+      "definition": "Maintains recurring self-chosen daily or weekly rhythms across ordinary circumstances, not merely ability to schedule."
+    },
+    {
+      "id": "burst_rest",
+      "domain": "work",
+      "definition": "Recurrent alternating stretches of very intensive activity and substantially reduced activity; no claim that recovery is excessive or bodily authority determines choices."
+    },
+    {
+      "id": "completion_pull",
+      "domain": "work",
+      "definition": "Unfinished endeavors remain mentally burdensome and motivate closing the cycle even when there is no pressing deadline; distinguish completing useful work from persistence without utility."
+    },
+    {
+      "id": "experiential_revision",
+      "domain": "work",
+      "definition": "Regularly learns what works through attempting, observing failure or feedback, and adapting in practice; distinct from liking novelty, being accident-prone, or general research."
+    },
+    {
+      "id": "novelty_motive",
+      "domain": "motivation",
+      "definition": "Frequently seeks unfamiliar experiences for their novelty itself, distinct from traveling or experimenting for a concrete purpose."
+    },
+    {
+      "id": "status_ladder",
+      "domain": "motivation",
+      "definition": "Recurring desire for advancement in a material or organizational hierarchy, distinct from resources for autonomy and ambitious goals for others."
+    },
+    {
+      "id": "competition_win",
+      "domain": "motivation",
+      "definition": "Winning or outperforming another person is itself a recurrent motivation, distinct from improving competence and enjoying a challenge."
+    },
+    {
+      "id": "meaningful_struggle",
+      "domain": "motivation",
+      "definition": "Recurrently accepts substantial difficulty to pursue a personally meaningful aim and distinguishes worthwhile struggles from pointless ones."
+    },
+    {
+      "id": "resource_control",
+      "domain": "motivation",
+      "definition": "Recurrently seeks control over allocation of material resources in a domain, rather than merely using resources effectively."
+    },
+    {
+      "id": "low_consequence_correction",
+      "domain": "motivation",
+      "definition": "Recurrently feels driven to correct imperfections even with little concrete consequence; distinct from correcting consequential errors."
+    },
+    {
+      "id": "reciprocal_support",
+      "domain": "relationship",
+      "definition": "In ongoing cooperative relationships weighs reciprocal support and fairness of agreed contributions; not general generosity or a requirement for all help to be repaid."
+    },
+    {
+      "id": "selective_disclosure",
+      "domain": "relationship",
+      "definition": "Recurrently withholds or selects disclosure of past personal experiences according to audience and relationship, distinguished from seeking solitude."
+    },
+    {
+      "id": "notice_needs",
+      "domain": "relationship",
+      "definition": "Recurrently notices other people's practical or emotional needs before requests, distinguished from always acting on them or accurately diagnosing hidden motives."
+    },
+    {
+      "id": "mood_social_expression",
+      "domain": "relationship",
+      "definition": "Within similar interpersonal settings, willingness to talk or engage socially varies substantially with mood; not chronic anger, emotional diagnosis, or decision authority."
+    }
+  ],
+  "carriers": [
+    {
+      "kind": "gate",
+      "id": "5",
+      "direct": {
+        "regular_rhythm": 1
+      },
+      "proxy": {},
+      "basis": "Stable recurring habits and tempo, not merely planning."
+    },
+    {
+      "kind": "gate",
+      "id": "7",
+      "direct": {},
+      "proxy": {
+        "verbal_group_guidance": 1
+      },
+      "basis": "Collective guidance is broader than spoken proposals accepted by members."
+    },
+    {
+      "kind": "gate",
+      "id": "8",
+      "direct": {},
+      "proxy": {
+        "unsolicited_recognition": 1
+      },
+      "basis": "Contribution through individuality; social recognition is indirect, not guaranteed."
+    },
+    {
+      "kind": "gate",
+      "id": "12",
+      "direct": {
+        "mood_social_expression": 1
+      },
+      "proxy": {},
+      "basis": "Social speech depends on emotional readiness."
+    },
+    {
+      "kind": "gate",
+      "id": "13",
+      "direct": {},
+      "proxy": {
+        "selective_disclosure": 1,
+        "narrative_expression": 1
+      },
+      "basis": "Listening to accounts and holding memory are not necessarily retelling or selective disclosure."
+    },
+    {
+      "kind": "gate",
+      "id": "14",
+      "direct": {},
+      "proxy": {
+        "resource_control": 1
+      },
+      "basis": "Directing resources toward projects; control as a motive is indirect."
+    },
+    {
+      "kind": "gate",
+      "id": "15",
+      "direct": {
+        "burst_rest": 1
+      },
+      "proxy": {},
+      "basis": "The source gives alternating high activity and inactivity as an illustration; not a fixed cycle period."
+    },
+    {
+      "kind": "gate",
+      "id": "16",
+      "direct": {},
+      "proxy": {
+        "practice_perfection": 1
+      },
+      "basis": "Skill development and experimentation; deliberate repeated practice is qualified in the full channel."
+    },
+    {
+      "kind": "gate",
+      "id": "18",
+      "direct": {},
+      "proxy": {
+        "low_consequence_correction": 1
+      },
+      "basis": "Drive to improve patterns, but consequence-independent correction is a stronger hypothesis."
+    },
+    {
+      "kind": "gate",
+      "id": "19",
+      "direct": {
+        "notice_needs": 1
+      },
+      "proxy": {},
+      "basis": "Awareness of needs, without assuming aid or decision accuracy."
+    },
+    {
+      "kind": "gate",
+      "id": "21",
+      "direct": {
+        "resource_control": 1
+      },
+      "proxy": {},
+      "basis": "Management of a domain and its resources."
+    },
+    {
+      "kind": "gate",
+      "id": "22",
+      "direct": {
+        "mood_social_expression": 1
+      },
+      "proxy": {},
+      "basis": "Openness contingent on mood."
+    },
+    {
+      "kind": "gate",
+      "id": "26",
+      "direct": {
+        "persuasion_capacity": 1
+      },
+      "proxy": {
+        "persuasion_use": 1
+      },
+      "basis": "Promoting causes through persuasive communication; capacity and habitual choice distinct."
+    },
+    {
+      "kind": "gate",
+      "id": "28",
+      "direct": {
+        "meaningful_struggle": 1
+      },
+      "proxy": {},
+      "basis": "Concern with meaningful life and worthwhile difficulty, not the reliability of intuitive risk judgment."
+    },
+    {
+      "kind": "gate",
+      "id": "29",
+      "direct": {},
+      "proxy": {
+        "completion_pull": 1
+      },
+      "basis": "Commitment and persistence, not necessarily burdensome unfinished projects."
+    },
+    {
+      "kind": "gate",
+      "id": "31",
+      "direct": {
+        "verbal_group_guidance": 1
+      },
+      "proxy": {},
+      "basis": "Influence through accepted proposals rather than automatic formal office."
+    },
+    {
+      "kind": "gate",
+      "id": "32",
+      "direct": {},
+      "proxy": {
+        "resource_control": 1
+      },
+      "basis": "Continuity and resource preservation; no prediction of instinctive talent or risk accuracy."
+    },
+    {
+      "kind": "gate",
+      "id": "33",
+      "direct": {
+        "selective_disclosure": 1
+      },
+      "proxy": {},
+      "basis": "Reflective privacy and selective sharing of remembered experience."
+    },
+    {
+      "kind": "gate",
+      "id": "35",
+      "direct": {
+        "novelty_motive": 1
+      },
+      "proxy": {
+        "narrative_expression": 1
+      },
+      "basis": "Desire for varied experiences; later sharing can be conditional."
+    },
+    {
+      "kind": "gate",
+      "id": "36",
+      "direct": {},
+      "proxy": {
+        "novelty_motive": 1
+      },
+      "basis": "Unfamiliar experience is a theme, but novelty as its own motive is indirect."
+    },
+    {
+      "kind": "gate",
+      "id": "37",
+      "direct": {
+        "reciprocal_support": 1
+      },
+      "proxy": {},
+      "basis": "Mutual obligations and affectionate support in close groups."
+    },
+    {
+      "kind": "gate",
+      "id": "38",
+      "direct": {
+        "meaningful_struggle": 1
+      },
+      "proxy": {},
+      "basis": "Resistance in service of purpose, not generalized fighting."
+    },
+    {
+      "kind": "gate",
+      "id": "40",
+      "direct": {
+        "reciprocal_support": 1
+      },
+      "proxy": {
+        "burst_rest": 1
+      },
+      "basis": "Weighing fairness of work and support; rest does not entail disproportionate depletion."
+    },
+    {
+      "kind": "gate",
+      "id": "41",
+      "direct": {},
+      "proxy": {
+        "novelty_motive": 1
+      },
+      "basis": "Imagination of a new experience, not necessarily recurrent action."
+    },
+    {
+      "kind": "gate",
+      "id": "42",
+      "direct": {
+        "completion_pull": 1
+      },
+      "proxy": {},
+      "basis": "The source explicitly describes unfinished commitments burdening attention; do not infer universal completion."
+    },
+    {
+      "kind": "gate",
+      "id": "45",
+      "direct": {
+        "resource_control": 1
+      },
+      "proxy": {
+        "status_ladder": 1,
+        "reciprocal_support": 1
+      },
+      "basis": "Control of collective resources and benefit from exchanges; position and motive differ."
+    },
+    {
+      "kind": "gate",
+      "id": "46",
+      "direct": {},
+      "proxy": {
+        "experiential_revision": 1,
+        "completion_pull": 1
+      },
+      "basis": "Participation through an experience; cannot infer constant experimentation or completion drive."
+    },
+    {
+      "kind": "gate",
+      "id": "48",
+      "direct": {},
+      "proxy": {
+        "practice_perfection": 1
+      },
+      "basis": "Accumulated usable depth; practice motive not asserted without the channel."
+    },
+    {
+      "kind": "gate",
+      "id": "49",
+      "direct": {},
+      "proxy": {
+        "reciprocal_support": 1,
+        "notice_needs": 1
+      },
+      "basis": "Principles and needs of belonging; no authority or rejection prediction."
+    },
+    {
+      "kind": "gate",
+      "id": "50",
+      "direct": {},
+      "proxy": {
+        "notice_needs": 1,
+        "reciprocal_support": 1
+      },
+      "basis": "Responsibility and care for a group, not necessarily spontaneous detection or bargaining."
+    },
+    {
+      "kind": "gate",
+      "id": "51",
+      "direct": {
+        "competition_win": 1
+      },
+      "proxy": {},
+      "basis": "A competitive motive and going first; not decision authority."
+    },
+    {
+      "kind": "gate",
+      "id": "53",
+      "direct": {},
+      "proxy": {
+        "completion_pull": 1
+      },
+      "basis": "Beginnings and cycle pressure; completion itself depends on other conditions."
+    },
+    {
+      "kind": "gate",
+      "id": "54",
+      "direct": {
+        "status_ladder": 1
+      },
+      "proxy": {},
+      "basis": "Seeking material/social advancement through connections, separate from useful achievements."
+    },
+    {
+      "kind": "gate",
+      "id": "55",
+      "direct": {},
+      "proxy": {
+        "mood_social_expression": 1
+      },
+      "basis": "Mood changes may influence expression; no decision wave or clinical attribution."
+    },
+    {
+      "kind": "gate",
+      "id": "56",
+      "direct": {
+        "narrative_expression": 1
+      },
+      "proxy": {},
+      "basis": "Communication through stories and lessons from experience."
+    },
+    {
+      "kind": "gate",
+      "id": "58",
+      "direct": {},
+      "proxy": {
+        "low_consequence_correction": 1
+      },
+      "basis": "Drive to improve; no literal claim about low-importance errors."
+    },
+    {
+      "kind": "gate",
+      "id": "60",
+      "direct": {},
+      "proxy": {
+        "experiential_revision": 1
+      },
+      "basis": "Change within limitations; experimenting and learning are indirect."
+    },
+    {
+      "kind": "channel",
+      "id": "1-8",
+      "direct": {},
+      "proxy": {
+        "unsolicited_recognition": 1
+      },
+      "basis": "Distinctive contribution can attract notice, without requiring external call."
+    },
+    {
+      "kind": "channel",
+      "id": "2-14",
+      "direct": {},
+      "proxy": {
+        "resource_control": 1
+      },
+      "basis": "Resource-directed activity; decision guidance excluded."
+    },
+    {
+      "kind": "channel",
+      "id": "3-60",
+      "direct": {},
+      "proxy": {
+        "experiential_revision": 1
+      },
+      "basis": "Transformation within constraints, not literal trial-error behavior."
+    },
+    {
+      "kind": "channel",
+      "id": "5-15",
+      "direct": {
+        "regular_rhythm": 1
+      },
+      "proxy": {
+        "burst_rest": 1
+      },
+      "basis": "Recurring rhythms with extremes as a secondary theme."
+    },
+    {
+      "kind": "channel",
+      "id": "7-31",
+      "direct": {
+        "verbal_group_guidance": 1
+      },
+      "proxy": {},
+      "basis": "Accepted verbal group direction."
+    },
+    {
+      "kind": "channel",
+      "id": "11-56",
+      "direct": {
+        "narrative_expression": 1
+      },
+      "proxy": {},
+      "basis": "Ideas and lived experience communicated in narrative."
+    },
+    {
+      "kind": "channel",
+      "id": "12-22",
+      "direct": {
+        "mood_social_expression": 1
+      },
+      "proxy": {},
+      "basis": "Expression conditional on mood."
+    },
+    {
+      "kind": "channel",
+      "id": "13-33",
+      "direct": {
+        "selective_disclosure": 1
+      },
+      "proxy": {
+        "narrative_expression": 1
+      },
+      "basis": "Reflective withdrawal and selective disclosure of earlier experience."
+    },
+    {
+      "kind": "channel",
+      "id": "16-48",
+      "direct": {
+        "practice_perfection": 1
+      },
+      "proxy": {
+        "mastery_as_end": 1
+      },
+      "basis": "Mastery through repeated refinement is explicit; an independent mastery motive is a stronger interpretation."
+    },
+    {
+      "kind": "channel",
+      "id": "18-58",
+      "direct": {},
+      "proxy": {
+        "low_consequence_correction": 1
+      },
+      "basis": "Insistent correction/perfection theme; actual trivial-error focus is indirect."
+    },
+    {
+      "kind": "channel",
+      "id": "19-49",
+      "direct": {
+        "notice_needs": 1
+      },
+      "proxy": {
+        "reciprocal_support": 1
+      },
+      "basis": "Sensitivity to needs and conditions of belonging; no authority attribution."
+    },
+    {
+      "kind": "channel",
+      "id": "21-45",
+      "direct": {
+        "resource_control": 1
+      },
+      "proxy": {
+        "status_ladder": 1
+      },
+      "basis": "Material management/control, not necessarily status ambition."
+    },
+    {
+      "kind": "channel",
+      "id": "26-44",
+      "direct": {
+        "persuasion_capacity": 1
+      },
+      "proxy": {
+        "persuasion_use": 1
+      },
+      "basis": "Transmitting value and persuasive skill; no independent accuracy of intuition or deception detection."
+    },
+    {
+      "kind": "channel",
+      "id": "27-50",
+      "direct": {},
+      "proxy": {
+        "notice_needs": 1,
+        "reciprocal_support": 1
+      },
+      "basis": "Care and responsibilities; these two behaviors are not entailed."
+    },
+    {
+      "kind": "channel",
+      "id": "28-38",
+      "direct": {
+        "meaningful_struggle": 1
+      },
+      "proxy": {},
+      "basis": "Worthwhile struggle, not normative risk decisions."
+    },
+    {
+      "kind": "channel",
+      "id": "29-46",
+      "direct": {},
+      "proxy": {
+        "experiential_revision": 1,
+        "completion_pull": 1
+      },
+      "basis": "Learning/continuing through experience, rather than guaranteed completion."
+    },
+    {
+      "kind": "channel",
+      "id": "30-41",
+      "direct": {},
+      "proxy": {
+        "novelty_motive": 1
+      },
+      "basis": "Imagined/desirable experience, not actual frequent novelty-seeking."
+    },
+    {
+      "kind": "channel",
+      "id": "32-54",
+      "direct": {},
+      "proxy": {
+        "status_ladder": 1,
+        "resource_control": 1
+      },
+      "basis": "Material transformation and ambition; specific motive is not always hierarchical."
+    },
+    {
+      "kind": "channel",
+      "id": "35-36",
+      "direct": {
+        "novelty_motive": 1
+      },
+      "proxy": {},
+      "basis": "Seeking variety/new lived experience."
+    },
+    {
+      "kind": "channel",
+      "id": "37-40",
+      "direct": {
+        "reciprocal_support": 1
+      },
+      "proxy": {
+        "burst_rest": 1
+      },
+      "basis": "Mutual obligations and rest; cycle intensity conditional."
+    },
+    {
+      "kind": "channel",
+      "id": "39-55",
+      "direct": {},
+      "proxy": {
+        "mood_social_expression": 1
+      },
+      "basis": "Mood-related interpersonal provocation; no inference about emotion regulation."
+    },
+    {
+      "kind": "channel",
+      "id": "42-53",
+      "direct": {},
+      "proxy": {
+        "completion_pull": 1
+      },
+      "basis": "Cycles beginning, developing and completing; cognitive burden from unfinished matters not explicit."
+    },
+    {
+      "kind": "ordered_profile",
+      "id": "1/3",
+      "direct": {
+        "experiential_revision": 1
+      },
+      "proxy": {},
+      "basis": "Investigation plus experiential trial and error."
+    },
+    {
+      "kind": "ordered_profile",
+      "id": "1/4",
+      "direct": {},
+      "proxy": {
+        "reciprocal_support": 1
+      },
+      "basis": "Stable networks and foundational investigation, not necessarily balancing reciprocal support."
+    },
+    {
+      "kind": "ordered_profile",
+      "id": "2/4",
+      "direct": {
+        "unsolicited_recognition": 1
+      },
+      "proxy": {},
+      "basis": "Natural aptitude recognized by familiar contacts."
+    },
+    {
+      "kind": "ordered_profile",
+      "id": "2/5",
+      "direct": {
+        "unsolicited_recognition": 1,
+        "projection_expectations": 1
+      },
+      "proxy": {},
+      "basis": "External calling and projection of practical competence."
+    },
+    {
+      "kind": "ordered_profile",
+      "id": "3/5",
+      "direct": {
+        "experiential_revision": 1,
+        "projection_expectations": 1
+      },
+      "proxy": {},
+      "basis": "Experiential learning under projected solution expectations."
+    },
+    {
+      "kind": "ordered_profile",
+      "id": "3/6",
+      "direct": {
+        "experiential_revision": 1
+      },
+      "proxy": {},
+      "basis": "Experiential learning; age phases not scored."
+    },
+    {
+      "kind": "ordered_profile",
+      "id": "4/6",
+      "direct": {},
+      "proxy": {
+        "reciprocal_support": 1
+      },
+      "basis": "Networks and developmental perspective, reciprocity only indirect."
+    },
+    {
+      "kind": "ordered_profile",
+      "id": "4/1",
+      "direct": {},
+      "proxy": {
+        "reciprocal_support": 1
+      },
+      "basis": "Network-based opportunities and stable foundation."
+    },
+    {
+      "kind": "ordered_profile",
+      "id": "5/1",
+      "direct": {
+        "projection_expectations": 1
+      },
+      "proxy": {},
+      "basis": "Practical solution projection, investigated foundation."
+    },
+    {
+      "kind": "ordered_profile",
+      "id": "5/2",
+      "direct": {
+        "projection_expectations": 1
+      },
+      "proxy": {
+        "unsolicited_recognition": 1
+      },
+      "basis": "Projected problem-solving expectations; calling out natural aptitude is qualified by self-motivation."
+    },
+    {
+      "kind": "ordered_profile",
+      "id": "6/2",
+      "direct": {},
+      "proxy": {
+        "unsolicited_recognition": 1,
+        "experiential_revision": 1
+      },
+      "basis": "Natural aptitude and developmental experiences; life-stage chronology not scored."
+    },
+    {
+      "kind": "ordered_profile",
+      "id": "6/3",
+      "direct": {
+        "experiential_revision": 1
+      },
+      "proxy": {},
+      "basis": "Continuing adaptation through experience, without age-specific assertions."
+    },
+    {
+      "kind": "line",
+      "id": "2",
+      "direct": {
+        "unsolicited_recognition": 1
+      },
+      "proxy": {},
+      "basis": "Others notice natural aptitude."
+    },
+    {
+      "kind": "line",
+      "id": "3",
+      "direct": {
+        "experiential_revision": 1
+      },
+      "proxy": {},
+      "basis": "Trial and error."
+    },
+    {
+      "kind": "line",
+      "id": "4",
+      "direct": {},
+      "proxy": {
+        "reciprocal_support": 1
+      },
+      "basis": "Network ties do not guarantee fairness-oriented exchanges."
+    },
+    {
+      "kind": "line",
+      "id": "5",
+      "direct": {
+        "projection_expectations": 1
+      },
+      "proxy": {},
+      "basis": "Others project practical problem-solving expectations."
+    }
+  ],
+  "policy": {
+    "admission": "Actual reported observations only, separate broad and narrow admissions, explicit negatives only, context-dependent unresolved responses null. All source directions are positive: noncarrier is not opposite behavior. Do not treat a report of capacity as verified success rate.",
+    "composition": "Fixed equal domain weights within source-specific block; cap each signed item once over carrier union. Compare specific-only and equal mean shared/specific archetype; compare both separately blended with old structural HD score. Correlated block sensitivity, not independent evidence or adopted new weights. All old arms retained.",
+    "exclusions": "No authority, decision strategy or intuition accuracy, no demographic/life-event claims, no new subjective diagnoses or causal assertions. Gate descriptions' conscious-defined scope retained alongside two explicitly experimental alternatives."
+  }
+}

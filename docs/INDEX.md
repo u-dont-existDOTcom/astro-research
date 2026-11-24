@@ -1,5 +1,7 @@
 # Research documentation
 
+- **24 Nov HD source-specific measurement:** [22 generic constructs, exact century score and same-row rival diagnostics, six weighting policies](astrohd/hd_specific_observable_comparison_20261124.md). All prior cross counts replayed; new rivalry is weight-dependent. Personal records and results private.
+
 - **24 Nov complete-catalogue HD expansion:** [Gate, channel and ordered-profile behavioral scoring and full-grid same-row dominance](astrohd/hd_complete_archetype_behavior_comparison_20261124.md). Exact old baseline replay; strict conditional competitors found, across-HD-arm robustness and full-grid reusable non-HD flags. Personal results private.
 
 - **24 Nov contextual HD evidence admission:** [Recover-before-repeat and neutral questionnaire repair; exact full-grid contextual sensitivity](astrohd/contextual_hd_observation_admission_20261124.md). Prior baselines unchanged; personal records private.
