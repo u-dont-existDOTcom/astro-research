@@ -92,6 +92,18 @@
         "frozen_evidence_versions": 2,
         "full_grid_executed": false,
         "private_individual_results_published": false
+      },
+      "partial_lilly_character_grid": {
+        "status": "EXECUTED_DECLARED_FINITE_GRID_ONLY",
+        "evidence_path": "docs/astrohd/lilly_cviii_character_century_comparison_20261124.md",
+        "grid_rows": 3506400,
+        "ranked_rows": 3506275,
+        "boundary_unknown": 125,
+        "historical_variants": 96,
+        "stage_count_checks": 1056,
+        "fixed_arms": 4,
+        "frozen_evidence_versions": 2,
+        "private_individual_results_published": false
       }
     },
     {
@@ -140,7 +152,7 @@
     "no_personality_rank_from_geometric_rarity": true,
     "old_results_preserved_not_rewritten": true
   },
-  "next_safe_action": "Extend the unchanged Lilly CVII/CVIII primary character panel to the complete finite grid with original 96-stage count reconciliation and retained unknowns; do not treat related Western systems as independent confirmations. Improve observation coverage and expand other traditions toward actual scoring; independent held-out human testing remains separate.",
+  "next_safe_action": "Advance a bounded source-qualified Vedic behavioral scoring experiment from the complete earlier Saravali pair/triple catalogue and existing five-book research, retaining sidereal, combination and qualitative condition alternatives; reuse Chinese two-witness mechanics. Keep Lilly and Ptolemy baselines unchanged, cap related testimony, and distinguish retrospective development from independently approved held-out human validation.",
   "provenance": "Based on verified public source evidence and corrected user feedback. Prior conversation completion language is explicitly distinguished from what the Git artifact actually proves.",
   "completed_now_limited_source_motion": {
     "status": "COMPLETE_DECLARED_SOURCE_COMPONENT_ONLY",

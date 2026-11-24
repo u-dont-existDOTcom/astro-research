@@ -1,0 +1,17 @@
+{
+  "schema": "source_bound_active_task_v01",
+  "task_id": "astrohd-lilly-character-century-20261124",
+  "required_repo": "u-dont-existDOTcom/astro-research",
+  "required_branch": "research/lilly-character-century-20261124",
+  "parent_outcome": "OPEN: source-qualified full-universe multi-system behavioral comparison and independent human validation",
+  "bounded_outcome": "Apply both unchanged Lilly CVII/CVIII observation codings and all 96 ordered historical paths, four fixed character arms and an uncertainty envelope to all original finite-grid rows; compare against prior Ptolemy and HD results without selecting a preferred branch",
+  "status": "BOUNDED_SUBTASK_EXECUTED_PARENT_OPEN",
+  "execution": "All 3506400 original timestamps processed, 3506275 ranked, 125 HD boundary abstentions. Both previous panel receipts replayed exactly; 1056 historical source stage counts reconciled; all score and interval counts verified.",
+  "private_boundary": "No personal observations, birth inputs, individual scores, ranks or local private paths published.",
+  "artifacts": [
+    "docs/astrohd/lilly_cviii_character_century_comparison_20261124.md",
+    "tools/astrohd/scripts/compare_lilly_character_century_v01.py",
+    "tools/astrohd/tests/unit/test_compare_lilly_character_century_v01.py"
+  ],
+  "next_action": "Advance a bounded source-grounded Vedic scoring experiment from existing complete Saravali pair/triple source catalogues, preserving source-qualified combination and strength alternatives, and reuse existing Chinese two-witness calculation work. No new human data collection or predictive validation claim."
+}
