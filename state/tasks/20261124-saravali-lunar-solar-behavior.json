@@ -1,0 +1,18 @@
+{
+  "schema": "source_bound_active_task_v01",
+  "task_id": "astrohd-saravali-lunar-solar-behavior-20261124",
+  "required_repo": "u-dont-existDOTcom/astro-research",
+  "required_branch": "research/saravali-lunar-solar-behavior-20261124",
+  "parent_outcome": "OPEN: source-grounded full-universe multi-tradition behavioral comparison and independent human validation",
+  "bounded_outcome": "Score 48 source clauses from Moon-sign and adjacent lunar/solar yogas, both direct/proxy mappings, 16 condition alternatives and five families including a capped conjunction union; both frozen evidence profiles and unchanged HD baseline across the original grid. Replay all four same-sign inclusive conjunction baselines.",
+  "status": "BOUNDED_SUBTASK_EXECUTED_PARENT_OPEN",
+  "execution": "3506400 timestamps; 80 new arms and four replay arms per profile; shared geometry denominator 3506238. Prior baseline ranks and all new score counts reconciled; private receipt verified.",
+  "private_boundary": "All individual results, observations, birth inputs and private receipt paths remain outside public Git.",
+  "artifacts": [
+    "docs/astrohd/saravali_lunar_solar_behavior_comparison_20261124.md",
+    "tools/astrohd/reference/research/saravali_xiii_xiv_xxiii_observable_v01.json",
+    "tools/astrohd/scripts/compare_saravali_lunar_solar_century_v01.py",
+    "tools/astrohd/tests/unit/test_compare_saravali_lunar_solar_century_v01.py"
+  ],
+  "next_action": "Advance Chinese source-grounded BaZi/Zi Wei behavioral scoring using archived verified computation. Preserve all Vedic alternatives and unresolved qualifications; compare on same rows without target tuning."
+}

@@ -1,5 +1,7 @@
 # AstroHD public research recovery — 21 November 2026
 
+**24 November Vedic expansion:** [Moon signs and lunar/solar yoga behavioral comparison](saravali_lunar_solar_behavior_comparison_20261124.md), 48 clauses, 96 selected directions, 80 new arms per coding and four prior baseline replays, full grid with item-capped Vedic union. No stable rank improvement or robust unique reference; strength qualification incomplete. All person-specific results private.
+
 **24 November first bounded Vedic behavioral scoring:** [Full finite-grid Sārāvalī XV/XVI conjunction family](saravali_pair_triple_behavior_comparison_20261124.md) executed, 56 source configurations, 64 selected directions, 32 geometry/overlap/mapping arms under both frozen evidence profiles. Exact original ephemeris verified, separate numerical boundary abstentions and conditional-strength envelopes; no stable discrimination improvement or complete Vedic model. All personal results private.
 
 **24 November Lilly full-grid behavioral comparison:** [Complete finite-grid extension of the frozen CVII/CVIII character panel](lilly_cviii_character_century_comparison_20261124.md), 3,506,400 timestamps, 125 HD abstentions, 96 paths, four fixed arms plus bounds and two observation versions. Prior 1,056 source stage counts and panel results reconciled; selected-panel advantage not reproduced over the whole grid. All individual results private.

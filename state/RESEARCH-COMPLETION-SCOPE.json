@@ -121,6 +121,19 @@
         "mapping_arms": 2,
         "frozen_evidence_versions": 2,
         "private_individual_results_published": false
+      },
+      "partial_saravali_lunar_solar_grid": {
+        "status": "EXECUTED_DECLARED_FINITE_GRID_ONLY",
+        "evidence_path": "docs/astrohd/saravali_lunar_solar_behavior_comparison_20261124.md",
+        "grid_rows": 3506400,
+        "shared_usable_rows": 3506238,
+        "source_clauses": 48,
+        "direct_directions": 32,
+        "proxy_directions": 64,
+        "new_arms_per_coding": 80,
+        "replayed_conjunction_arms_per_coding": 4,
+        "frozen_evidence_versions": 2,
+        "private_individual_results_published": false
       }
     },
     {
@@ -169,7 +182,7 @@
     "no_personality_rank_from_geometric_rarity": true,
     "old_results_preserved_not_rewritten": true
   },
-  "next_safe_action": "Expand distinct source-grounded Vedic behavioral families using prior five-book witness registers and preserve strength and Moon-rasi/navamsa qualification alternatives. Reuse Chinese two-witness calculation work and evaluate same-row comparative intersections without tuning to exposed reference. Independent human validation remains separate.",
+  "next_safe_action": "Advance source-grounded BaZi and Zi Wei behavioral scoring using the earlier verified computational work; preserve Vedic qualification alternatives and compare genuinely same-row cross-system results without choosing a favored school from exposed-reference ranks. Independent held-out human validation remains separate.",
   "provenance": "Based on verified public source evidence and corrected user feedback. Prior conversation completion language is explicitly distinguished from what the Git artifact actually proves.",
   "completed_now_limited_source_motion": {
     "status": "COMPLETE_DECLARED_SOURCE_COMPONENT_ONLY",

@@ -1,0 +1,792 @@
+{
+  "schema": "saravali_xiii_xiv_xxiii_observable_v01",
+  "status": "EXPLORATORY_POST_EXPOSURE_SOURCE_CONDITIONAL_NOT_VALIDATED",
+  "source": {
+    "work": "Saravali XIII.1,4\u20136,8\u201329; XIV.1\u201311; XXIII twelve sign-entry verses and final qualifier",
+    "read_mode": "Public English selected clause reading plus prior source-qualified Sanskrit register reuse; no new facsimile collation. XXIII aspect-specific clauses not scored.",
+    "english_witnesses": [
+      "https://www.astroneemo.net/articles/sraval-kalyana-varma-4.html?start=2",
+      "https://www.astroneemo.net/articles/sraval-kalyana-varma-4.html?start=3",
+      "https://learning.astro-fusion.com/en/books/saravali/chapter/23"
+    ],
+    "prior_source_register_sha256": {
+      "LUNAR_YOGA_SOURCE_VARIANTS_B71.json": "2c5d5a4f50096ee48764c6c02fb2cf863b54c0fe680e03a13d089145473bb9c2",
+      "KEMADRUMA_SOURCE_COLLATION_B73.json": "e862c75c1b2f5623c5c9b5343244307573fe85d992eb22b4d979fa8a030ec5ec",
+      "SARAVALI_SOLAR_YOGA_EXCLUSION_AND_GROUPING_B135.json": "762b23066aa66899552e307d21630ecf9b669dd33bf3e55a73489a88a01f7b8a",
+      "SARAVALI_BPHS_VESI_LEXICAL_SCOPE_B136.json": "80a229539a9191db56a7924ebc400170abf72143559b75bc1ff55e57859ecaef",
+      "SARAVALI_SUN_MOON_RASI_GATES_B113.json": "1fc55403357fe85ecd721b96f9b3f0a70dce20249b3458dd3fd36c9f5b789399",
+      "SARAVALI_NAVAMSA_STRONG_TRANSLATION_B114.json": "52c4947dd0cdaaa3657d6a4fedc50acdc72c65a62057e1a47ee67fb6b480de93"
+    },
+    "limitations": [
+      "B71/B73: Kemadruma OR/AND and aspect semantics conflict. Do not score its adverse claims or infer cancellation from absence. XIII.8\u20139 requires Moon/participating bodies strength and context; XIII.30 ordinal intensity and XIII.31 observed halo not implemented.",
+      "B135: Moon exclusion on both Sun sides vs only second is unresolved; allow twelfth Moon as an explicit alternative, with no invented Moon-specific clause. Node inclusion not adjudicated; both arms exclude nodes.",
+      "B136: XIV.10 requires Sun and planets strength and sign/divisional context; Vesi steadiness and effort wording differs from BPHS. Work is English-witness specific; firmness is proxy.",
+      "B113: XXIII.86 (alternate numbering 88) needs strength of Moon, Moon sign and its lord for FULL effects. B114: Navamsa lord strong vs stronger than Rasi lord unresolved; no override presumed.",
+      "Unscaled condition is conditional only, not actual strength certification. Attenuation envelope admits zero and either direction of conflict; no invented numeric strength multiplier.",
+      "The Capricorn base sign passage mentions both charity and miserliness; the shared giving item is not assigned a direction. Do not use the modern website editorial sign-dignity summaries as source text."
+    ]
+  },
+  "shared_vocabulary_sha256": "84e0f6b14f26bb3985fc0a9355b0200a266b96b87c2d3dfc92c6c85392db0531",
+  "prior_conjunction_map_sha256": "80eeea6ef31ec7a82242cb5ee83c58d049d0b023673ffab8cd4da15362e59beb",
+  "rules": [
+    {
+      "family": "moon_sign",
+      "chapter": 23,
+      "verse": 1,
+      "selector": {
+        "sign": "Aries",
+        "index": 0
+      },
+      "direct": {
+        "change_mind": 1
+      },
+      "proxy": {
+        "sociability": 1
+      },
+      "status": "selected_observables"
+    },
+    {
+      "family": "moon_sign",
+      "chapter": 23,
+      "verse": 8,
+      "selector": {
+        "sign": "Taurus",
+        "index": 1
+      },
+      "direct": {
+        "generosity": 1
+      },
+      "proxy": {
+        "self_restraint": 1,
+        "deliberation": 1
+      },
+      "status": "selected_observables"
+    },
+    {
+      "family": "moon_sign",
+      "chapter": 23,
+      "verse": 16,
+      "selector": {
+        "sign": "Gemini",
+        "index": 2
+      },
+      "direct": {
+        "eloquence": 1,
+        "pleasure": 1,
+        "cheerfulness": 1
+      },
+      "proxy": {
+        "aesthetic": 1
+      },
+      "status": "selected_observables"
+    },
+    {
+      "family": "moon_sign",
+      "chapter": 23,
+      "verse": 23,
+      "selector": {
+        "sign": "Cancer",
+        "index": 3
+      },
+      "direct": {},
+      "proxy": {
+        "learning": 1,
+        "pleasure": 1,
+        "practical": 1
+      },
+      "status": "selected_observables"
+    },
+    {
+      "family": "moon_sign",
+      "chapter": 23,
+      "verse": 30,
+      "selector": {
+        "sign": "Leo",
+        "index": 4
+      },
+      "direct": {
+        "generosity": 1
+      },
+      "proxy": {
+        "harshness": 1
+      },
+      "status": "selected_observables"
+    },
+    {
+      "family": "moon_sign",
+      "chapter": 23,
+      "verse": 37,
+      "selector": {
+        "sign": "Virgo",
+        "index": 5
+      },
+      "direct": {
+        "eloquence": 1
+      },
+      "proxy": {
+        "learning": 1,
+        "faith_practice": 1,
+        "compassion": 1
+      },
+      "status": "selected_observables"
+    },
+    {
+      "family": "moon_sign",
+      "chapter": 23,
+      "verse": 44,
+      "selector": {
+        "sign": "Libra",
+        "index": 6
+      },
+      "direct": {
+        "firmness": -1,
+        "generosity": 1
+      },
+      "proxy": {
+        "work": 1,
+        "faith_practice": 1,
+        "compassion": 1
+      },
+      "status": "selected_observables"
+    },
+    {
+      "family": "moon_sign",
+      "chapter": 23,
+      "verse": 51,
+      "selector": {
+        "sign": "Scorpio",
+        "index": 7
+      },
+      "direct": {
+        "generosity": -1,
+        "work": 1
+      },
+      "proxy": {
+        "harshness": 1
+      },
+      "status": "selected_observables"
+    },
+    {
+      "family": "moon_sign",
+      "chapter": 23,
+      "verse": 58,
+      "selector": {
+        "sign": "Sagittarius",
+        "index": 8
+      },
+      "direct": {
+        "eloquence": 1
+      },
+      "proxy": {
+        "aesthetic": 1
+      },
+      "status": "selected_observables"
+    },
+    {
+      "family": "moon_sign",
+      "chapter": 23,
+      "verse": 65,
+      "selector": {
+        "sign": "Capricorn",
+        "index": 9
+      },
+      "direct": {
+        "anger": -1
+      },
+      "proxy": {
+        "aesthetic": 1,
+        "compassion": -1
+      },
+      "status": "selected_observables",
+      "unscored_internal_conflict": "The English description contains both charity and miserliness; no single direction for giving. Lack of enthusiasm is not equivalent to avoiding work."
+    },
+    {
+      "family": "moon_sign",
+      "chapter": 23,
+      "verse": 72,
+      "selector": {
+        "sign": "Aquarius",
+        "index": 10
+      },
+      "direct": {},
+      "proxy": {},
+      "status": "no_admitted_observable"
+    },
+    {
+      "family": "moon_sign",
+      "chapter": 23,
+      "verse": 79,
+      "selector": {
+        "sign": "Pisces",
+        "index": 11
+      },
+      "direct": {
+        "generosity": 1
+      },
+      "proxy": {
+        "aesthetic": 1,
+        "eloquence": 1,
+        "learning": 1,
+        "faith_practice": 1
+      },
+      "status": "selected_observables"
+    },
+    {
+      "family": "lunar_yoga",
+      "chapter": 13,
+      "verse": 4,
+      "selector": {
+        "yoga": "sunapha"
+      },
+      "direct": {},
+      "proxy": {
+        "learning": 1,
+        "anger": -1
+      },
+      "status": "selected_observables"
+    },
+    {
+      "family": "lunar_yoga",
+      "chapter": 13,
+      "verse": 5,
+      "selector": {
+        "yoga": "anapha"
+      },
+      "direct": {
+        "eloquence": 1,
+        "pleasure": 1
+      },
+      "proxy": {
+        "generosity": 1,
+        "anger": -1
+      },
+      "status": "selected_observables"
+    },
+    {
+      "family": "lunar_yoga",
+      "chapter": 13,
+      "verse": 6,
+      "selector": {
+        "yoga": "durudhura"
+      },
+      "direct": {
+        "generosity": 1
+      },
+      "proxy": {
+        "eloquence": 1
+      },
+      "status": "selected_observables"
+    },
+    {
+      "family": "lunar_yoga",
+      "chapter": 13,
+      "verse": 10,
+      "selector": {
+        "yoga": "sunapha",
+        "body": "Mars"
+      },
+      "direct": {},
+      "proxy": {
+        "harshness": 1,
+        "leadership": 1
+      },
+      "status": "selected_observables"
+    },
+    {
+      "family": "lunar_yoga",
+      "chapter": 13,
+      "verse": 11,
+      "selector": {
+        "yoga": "sunapha",
+        "body": "Mercury"
+      },
+      "direct": {},
+      "proxy": {
+        "learning": 1,
+        "aesthetic": 1,
+        "compassion": 1
+      },
+      "status": "selected_observables"
+    },
+    {
+      "family": "lunar_yoga",
+      "chapter": 13,
+      "verse": 12,
+      "selector": {
+        "yoga": "sunapha",
+        "body": "Jupiter"
+      },
+      "direct": {},
+      "proxy": {
+        "learning": 1
+      },
+      "status": "selected_observables"
+    },
+    {
+      "family": "lunar_yoga",
+      "chapter": 13,
+      "verse": 13,
+      "selector": {
+        "yoga": "sunapha",
+        "body": "Venus"
+      },
+      "direct": {},
+      "proxy": {},
+      "status": "no_admitted_observable"
+    },
+    {
+      "family": "lunar_yoga",
+      "chapter": 13,
+      "verse": 14,
+      "selector": {
+        "yoga": "sunapha",
+        "body": "Saturn"
+      },
+      "direct": {
+        "work": 1
+      },
+      "proxy": {},
+      "status": "selected_observables"
+    },
+    {
+      "family": "lunar_yoga",
+      "chapter": 13,
+      "verse": 15,
+      "selector": {
+        "yoga": "anapha",
+        "body": "Mars"
+      },
+      "direct": {},
+      "proxy": {
+        "anger": 1,
+        "boasting": 1
+      },
+      "status": "selected_observables"
+    },
+    {
+      "family": "lunar_yoga",
+      "chapter": 13,
+      "verse": 16,
+      "selector": {
+        "yoga": "anapha",
+        "body": "Mercury"
+      },
+      "direct": {
+        "eloquence": 1
+      },
+      "proxy": {
+        "aesthetic": 1
+      },
+      "status": "selected_observables"
+    },
+    {
+      "family": "lunar_yoga",
+      "chapter": 13,
+      "verse": 17,
+      "selector": {
+        "yoga": "anapha",
+        "body": "Jupiter"
+      },
+      "direct": {},
+      "proxy": {
+        "sociability": 1,
+        "aesthetic": 1
+      },
+      "status": "selected_observables"
+    },
+    {
+      "family": "lunar_yoga",
+      "chapter": 13,
+      "verse": 18,
+      "selector": {
+        "yoga": "anapha",
+        "body": "Venus"
+      },
+      "direct": {
+        "pleasure": 1
+      },
+      "proxy": {},
+      "status": "selected_observables"
+    },
+    {
+      "family": "lunar_yoga",
+      "chapter": 13,
+      "verse": 19,
+      "selector": {
+        "yoga": "anapha",
+        "body": "Saturn"
+      },
+      "direct": {
+        "reliability": 1
+      },
+      "proxy": {
+        "leadership": 1
+      },
+      "status": "selected_observables"
+    },
+    {
+      "family": "lunar_yoga",
+      "chapter": 13,
+      "verse": 20,
+      "selector": {
+        "yoga": "durudhura",
+        "opposite_pair": [
+          "Mars",
+          "Mercury"
+        ]
+      },
+      "direct": {
+        "deception": 1,
+        "generosity": -1
+      },
+      "proxy": {
+        "leadership": 1
+      },
+      "status": "selected_observables"
+    },
+    {
+      "family": "lunar_yoga",
+      "chapter": 13,
+      "verse": 21,
+      "selector": {
+        "yoga": "durudhura",
+        "opposite_pair": [
+          "Mars",
+          "Jupiter"
+        ]
+      },
+      "direct": {},
+      "proxy": {
+        "anger": 1,
+        "confrontation": 1,
+        "compassion": 1
+      },
+      "status": "selected_observables"
+    },
+    {
+      "family": "lunar_yoga",
+      "chapter": 13,
+      "verse": 22,
+      "selector": {
+        "yoga": "durudhura",
+        "opposite_pair": [
+          "Mars",
+          "Venus"
+        ]
+      },
+      "direct": {},
+      "proxy": {
+        "confrontation": 1
+      },
+      "status": "selected_observables"
+    },
+    {
+      "family": "lunar_yoga",
+      "chapter": 13,
+      "verse": 23,
+      "selector": {
+        "yoga": "durudhura",
+        "opposite_pair": [
+          "Mars",
+          "Saturn"
+        ]
+      },
+      "direct": {},
+      "proxy": {
+        "anger": 1
+      },
+      "status": "selected_observables"
+    },
+    {
+      "family": "lunar_yoga",
+      "chapter": 13,
+      "verse": 24,
+      "selector": {
+        "yoga": "durudhura",
+        "opposite_pair": [
+          "Mercury",
+          "Jupiter"
+        ]
+      },
+      "direct": {
+        "talk": 1
+      },
+      "proxy": {
+        "learning": 1,
+        "aesthetic": 1,
+        "faith_practice": 1
+      },
+      "status": "selected_observables"
+    },
+    {
+      "family": "lunar_yoga",
+      "chapter": 13,
+      "verse": 25,
+      "selector": {
+        "yoga": "durudhura",
+        "opposite_pair": [
+          "Mercury",
+          "Venus"
+        ]
+      },
+      "direct": {
+        "aesthetic": 1
+      },
+      "proxy": {
+        "eloquence": 1
+      },
+      "status": "selected_observables"
+    },
+    {
+      "family": "lunar_yoga",
+      "chapter": 13,
+      "verse": 26,
+      "selector": {
+        "yoga": "durudhura",
+        "opposite_pair": [
+          "Mercury",
+          "Saturn"
+        ]
+      },
+      "direct": {},
+      "proxy": {
+        "learning": -1
+      },
+      "status": "selected_observables"
+    },
+    {
+      "family": "lunar_yoga",
+      "chapter": 13,
+      "verse": 27,
+      "selector": {
+        "yoga": "durudhura",
+        "opposite_pair": [
+          "Jupiter",
+          "Venus"
+        ]
+      },
+      "direct": {},
+      "proxy": {},
+      "status": "no_admitted_observable"
+    },
+    {
+      "family": "lunar_yoga",
+      "chapter": 13,
+      "verse": 28,
+      "selector": {
+        "yoga": "durudhura",
+        "opposite_pair": [
+          "Jupiter",
+          "Saturn"
+        ]
+      },
+      "direct": {},
+      "proxy": {
+        "learning": 1,
+        "eloquence": 1,
+        "anger": -1
+      },
+      "status": "selected_observables"
+    },
+    {
+      "family": "lunar_yoga",
+      "chapter": 13,
+      "verse": 29,
+      "selector": {
+        "yoga": "durudhura",
+        "opposite_pair": [
+          "Venus",
+          "Saturn"
+        ]
+      },
+      "direct": {},
+      "proxy": {
+        "leadership": 1
+      },
+      "status": "selected_observables"
+    },
+    {
+      "family": "solar_yoga",
+      "chapter": 14,
+      "verse": 2,
+      "selector": {
+        "yoga": "vesi"
+      },
+      "direct": {
+        "work": 1
+      },
+      "proxy": {
+        "firmness": 1
+      },
+      "status": "selected_observables"
+    },
+    {
+      "family": "solar_yoga",
+      "chapter": 14,
+      "verse": 6,
+      "selector": {
+        "yoga": "vasi"
+      },
+      "direct": {},
+      "proxy": {
+        "eloquence": 1
+      },
+      "status": "selected_observables"
+    },
+    {
+      "family": "solar_yoga",
+      "chapter": 14,
+      "verse": 11,
+      "selector": {
+        "yoga": "ubhayachari"
+      },
+      "direct": {
+        "firmness": 1,
+        "pleasure": 1
+      },
+      "proxy": {
+        "self_restraint": 1,
+        "learning": 1,
+        "compassion": 1
+      },
+      "status": "selected_observables"
+    },
+    {
+      "family": "solar_yoga",
+      "chapter": 14,
+      "verse": 3,
+      "selector": {
+        "yoga": "vesi",
+        "body": "Jupiter"
+      },
+      "direct": {},
+      "proxy": {
+        "learning": 1,
+        "compassion": 1
+      },
+      "status": "selected_observables"
+    },
+    {
+      "family": "solar_yoga",
+      "chapter": 14,
+      "verse": 3,
+      "selector": {
+        "yoga": "vesi",
+        "body": "Venus"
+      },
+      "direct": {
+        "timidity": 1
+      },
+      "proxy": {},
+      "status": "selected_observables"
+    },
+    {
+      "family": "solar_yoga",
+      "chapter": 14,
+      "verse": 4,
+      "selector": {
+        "yoga": "vesi",
+        "body": "Mercury"
+      },
+      "direct": {
+        "modesty": 1
+      },
+      "proxy": {},
+      "status": "selected_observables"
+    },
+    {
+      "family": "solar_yoga",
+      "chapter": 14,
+      "verse": 4,
+      "selector": {
+        "yoga": "vesi",
+        "body": "Mars"
+      },
+      "direct": {},
+      "proxy": {
+        "compassion": 1
+      },
+      "status": "selected_observables"
+    },
+    {
+      "family": "solar_yoga",
+      "chapter": 14,
+      "verse": 5,
+      "selector": {
+        "yoga": "vesi",
+        "body": "Saturn"
+      },
+      "direct": {
+        "deception": 1
+      },
+      "proxy": {},
+      "status": "selected_observables"
+    },
+    {
+      "family": "solar_yoga",
+      "chapter": 14,
+      "verse": 7,
+      "selector": {
+        "yoga": "vasi",
+        "body": "Jupiter"
+      },
+      "direct": {
+        "reliability": 1
+      },
+      "proxy": {},
+      "status": "selected_observables"
+    },
+    {
+      "family": "solar_yoga",
+      "chapter": 14,
+      "verse": 7,
+      "selector": {
+        "yoga": "vasi",
+        "body": "Venus"
+      },
+      "direct": {},
+      "proxy": {},
+      "status": "no_admitted_observable"
+    },
+    {
+      "family": "solar_yoga",
+      "chapter": 14,
+      "verse": 8,
+      "selector": {
+        "yoga": "vasi",
+        "body": "Mercury"
+      },
+      "direct": {},
+      "proxy": {
+        "eloquence": 1
+      },
+      "status": "selected_observables"
+    },
+    {
+      "family": "solar_yoga",
+      "chapter": 14,
+      "verse": 8,
+      "selector": {
+        "yoga": "vasi",
+        "body": "Mars"
+      },
+      "direct": {},
+      "proxy": {},
+      "status": "no_admitted_observable"
+    },
+    {
+      "family": "solar_yoga",
+      "chapter": 14,
+      "verse": 9,
+      "selector": {
+        "yoga": "vasi",
+        "body": "Saturn"
+      },
+      "direct": {},
+      "proxy": {
+        "practical": 1
+      },
+      "status": "selected_observables"
+    }
+  ]
+}
