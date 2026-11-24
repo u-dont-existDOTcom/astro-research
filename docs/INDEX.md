@@ -1,5 +1,7 @@
 # Research documentation
 
+- **24 Nov same-row multi-tradition comparison:** [Actual cross-system intersections, strict/weak dominance, equal-family sensitivity, and identical-variant both-coding comparison](astrohd/multitradition_same_row_comparison_20261124.md), all 1,117 included marginal pairs reproduced per coding. No personal results published.
+
 - **24 Nov first Chinese finite-grid behavioral comparison:** [BaZi native element temperament and Zi Wei main-star families](astrohd/chinese_bazi_ziwei_behavior_comparison_20261124.md), 108 fixed arms per coding, independently witnessed calendar features and same-row HD/Chinese dominance; no private individual results.
 
 - **24 Nov expanded Sārāvalī comparison:** [Moon-sign, lunar and solar yoga source families and item-capped union with conjunctions](astrohd/saravali_lunar_solar_behavior_comparison_20261124.md). Actual full finite-grid run; both frozen codings and all previous same-sign inclusive-conjunction baselines replayed.

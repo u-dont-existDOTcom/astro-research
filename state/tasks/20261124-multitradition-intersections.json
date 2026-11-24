@@ -1,0 +1,19 @@
+{
+  "schema": "source_bound_active_task_v01",
+  "task_id": "astrohd-multitradition-intersections-20261124",
+  "required_repo": "u-dont-existDOTcom/astro-research",
+  "required_branch": "research/multi-tradition-intersection-20261124",
+  "parent_outcome": "OPEN: fair source-qualified cross-system birth-time comparison and independent human validation",
+  "bounded_outcome": "Actual same-row frozen comparison of 1117 point-score variants per coding, primary Ptolemy/Lilly/Vedic/Chinese groups, HD rank, exact any/every and weak/strict dominance, equal-family average sensitivity, identical-variant both-coding check on entire HD-no-lower cohort.",
+  "status": "BOUNDED_SUBTASK_EXECUTED_PARENT_OPEN",
+  "execution": "3506400 full-grid rows processed, 3505900 common usable; all 1117 prior marginal pairs per coding and HD counts exactly reproduced. Both-coding dominance checked entire HD-eligible cohort and strict survivor sets reconciled. Private output readback verified.",
+  "private_boundary": "All individual scores, personal counts, reference time, candidate grid indices and date hypotheses remain outside public Git.",
+  "artifacts": [
+    "docs/astrohd/multitradition_same_row_comparison_20261124.md",
+    "tools/astrohd/scripts/compare_multitradition_intersections_v01.py",
+    "tools/astrohd/scripts/compare_multitradition_cross_coding_v01.py",
+    "tools/astrohd/tests/unit/test_compare_multitradition_intersections_v01.py",
+    "tools/astrohd/tests/unit/test_compare_multitradition_cross_coding_v01.py"
+  ],
+  "next_action": "Inspect actual private survivor cohorts against frozen item-level evidence and appropriate null controls; improve generic evidence coverage and independent held-out testing, not reference-specific weights. Preserve all source uncertainties and no global uniqueness claim."
+}
