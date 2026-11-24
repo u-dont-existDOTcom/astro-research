@@ -1,0 +1,17 @@
+{
+  "schema": "source_bound_active_task_v01",
+  "task_id": "astrohd-contextual-hd-evidence-20261124",
+  "required_repo": "u-dont-existDOTcom/astro-research",
+  "required_branch": "research/contextual-hd-evidence-20261124",
+  "parent_outcome": "OPEN: fair source-qualified cross-system comparison and independent human validation",
+  "bounded_outcome": "Recover prior context, distinguish genuine direct answers from exact-token observations, document source-neutral questionnaire repairs, and test a separately admitted contextual sensitivity without changing the frozen baseline.",
+  "status": "CONTEXTUAL_EVIDENCE_REVIEW_AND_BOUNDED_COMPARISON_EXECUTED",
+  "execution": "Private raw and adjudicated evidence preserved; original archive and cumulative profile recovered. Full 3506400-row HD comparison with exact previously computed non-HD survivor filtering after subset verification. Private receipts verified. No unqualified new exact response tokens assumed.",
+  "private_boundary": "No personal responses, identities, exact chart times, scores, survivor counts, or private evidence hashes published.",
+  "artifacts": [
+    "docs/astrohd/contextual_hd_observation_admission_20261124.md",
+    "tools/astrohd/scripts/compare_contextual_hd_evidence_v01.py",
+    "tools/astrohd/tests/unit/test_compare_contextual_hd_evidence_v01.py"
+  ],
+  "next_action": "Preserve contextual responses; do not re-ask already answered constructs. Expand source-grounded independent generic observable coverage, version measurement revisions, and test with held-out human evidence. Do not tune to the exposed reference."
+}
