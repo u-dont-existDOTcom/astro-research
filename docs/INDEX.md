@@ -1,5 +1,7 @@
 # Research documentation
 
+- **24 Nov complete Lilly finite-grid character comparison:** [All 96 CVII stage alternatives, four frozen CVIII character arms, both private codings, and earlier source-stage reconciliation](astrohd/lilly_cviii_character_century_comparison_20261124.md). No robust unique chart or independently validated prediction.
+
 - **24 Nov historical condition-policy behavioral comparison:** [Full finite-century transfer of both fixed Ptolemy condition rules, sign baseline, character and family-capped blend, coverage matching and bounds](astrohd/ptolemy_conditioned_character_comparison_20261124.md). Also [first Lilly CVII/CVIII actual conditional character panel](astrohd/lilly_cviii_character_panel_comparison_20261124.md), not yet full grid. Private individual results excluded.
 
 - **23 Nov Ptolemy planetary character comparison:** [15 solitary/allied configurations, 30 source condition clauses, and 384 fixed condition arms across the full finite century](astrohd/ptolemy_planet_character_comparison_20261123.md). Two frozen private codings; separate Mercury/Moon and assumed alliance alternatives; partial source-condition panel pilot. No personal scores published.
