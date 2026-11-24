@@ -161,6 +161,17 @@
         "identical_variant_both_coding_pass_executed": true,
         "prior_marginals_replayed": true,
         "private_individual_results_published": false
+      },
+      "partial_multitradition_survivor_diagnostics": {
+        "status": "EXECUTED_FROZEN_SURVIVOR_AND_CONDITIONAL_CLOCK_CONTROL_DIAGNOSTIC",
+        "evidence_path": "docs/astrohd/multitradition_survivor_diagnostics_20261124.md",
+        "source_grid_rows": 3506400,
+        "point_score_arms_per_coding": 1117,
+        "frozen_evidence_versions": 2,
+        "clock_controls": 64,
+        "prior_survivor_identities_replayed": true,
+        "primary_item_score_replay": true,
+        "private_individual_results_published": false
       }
     },
     {
@@ -209,7 +220,7 @@
     "no_personality_rank_from_geometric_rarity": true,
     "old_results_preserved_not_rewritten": true
   },
-  "next_safe_action": "Inspect actual private cross-tradition survivor cohorts with unchanged source rules and item-level evidence, evaluate null controls and expand genuinely discriminating generic observations; independent held-out human validation remains separate. No global uniqueness claim from HD ceiling or all-variant point intersection.",
+  "next_safe_action": "Recover or obtain missing generic non-authority HD observations from source-version-qualified questions and independently code explicit responses; preserve prior scores and distinguish conditional clock controls from held-out human predictive validation.",
   "provenance": "Based on verified public source evidence and corrected user feedback. Prior conversation completion language is explicitly distinguished from what the Git artifact actually proves.",
   "completed_now_limited_source_motion": {
     "status": "COMPLETE_DECLARED_SOURCE_COMPONENT_ONLY",
