@@ -1,0 +1,18 @@
+{
+  "schema": "source_bound_active_task_v01",
+  "task_id": "astrohd-multitradition-survivor-diagnostics-20261124",
+  "required_repo": "u-dont-existDOTcom/astro-research",
+  "required_branch": "research/survivor-diagnostics-20261124",
+  "parent_outcome": "OPEN: fair source-qualified cross-system birth-time comparison and independent human validation",
+  "bounded_outcome": "Reproduce all certified rival identities, extend universal weak dominance to every included arm in both codings, evaluate 64 HD-maximal clock controls, decompose original rival item contributions, and audit missing generic HD evidence with source-bound question identities.",
+  "status": "BOUNDED_SUBTASK_EXECUTED_PARENT_OPEN",
+  "execution": "All original 3506400 timestamps checked for HD eligibility; all common HD-ceiling candidates rescored under 1117 alternatives per coding. All prior survivor identities reproduced. 64 seeded clock controls compared against the complete eligible common cohort. Primary-family item contribution sums replayed for every prior strict rival. Private receipts and original-question follow-up verified.",
+  "private_boundary": "Individual counts, exact chart times, candidate identities, responses, private evidence identifiers and outputs stay outside public Git.",
+  "artifacts": [
+    "docs/astrohd/multitradition_survivor_diagnostics_20261124.md",
+    "tools/astrohd/scripts/diagnose_multitradition_survivors_v01.py",
+    "tools/astrohd/scripts/trace_multitradition_survivor_items_v01.py",
+    "tools/astrohd/tests/unit/test_diagnose_multitradition_survivors_v01.py"
+  ],
+  "next_action": "Recover or obtain direct evidence for the existing unanswered generic HD questions using version-bound prompts, preserve previous codings and authority exclusion, then test a separately frozen expanded model. Conditional clock controls weaken uniqueness claims. Independent held-out human validation remains separate."
+}

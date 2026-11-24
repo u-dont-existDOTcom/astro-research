@@ -1,5 +1,7 @@
 # AstroHD public research recovery — 21 November 2026
 
+**24 November survivor and clock-control diagnostics:** [Exact all-included-variant noninferiority, arbitrary HD-maximal clock controls and frozen contribution trace](multitradition_survivor_diagnostics_20261124.md). Prior survivors reproduced; controls weaken uniqueness interpretation. Missing HD evidence and question identity collision audited. No new scores or personal records published.
+
 **24 November same-row multi-tradition comparison:** [Exact frozen point-score intersections](multitradition_same_row_comparison_20261124.md), full 3,506,400 clock samples, 1,117 arms per coding, exact prior marginal replay, separate-system dominance and both-coding same-variant pass. No target-selected arm or independently validated uniqueness. Private candidate indices retained privately.
 
 **24 November Chinese expansion:** [BaZi and Zi Wei conditional behavioral comparison](chinese_bazi_ziwei_behavior_comparison_20261124.md), actual entire finite grid, 108 arms per coding, pinned calendar witness parity and archived main-star placement parity; capped union and separate-system dominance, not a complete interpretation or validated prediction. All individual results private.
