@@ -1,0 +1,20 @@
+{
+  "schema": "source_bound_active_task_v01",
+  "task_id": "astrohd-chinese-behavior-20261124",
+  "required_repo": "u-dont-existDOTcom/astro-research",
+  "required_branch": "research/bazi-behavior-20261124",
+  "parent_outcome": "OPEN: source-grounded full-universe multi-tradition behavioral comparison and independent human validation",
+  "bounded_outcome": "Actual BaZi native element temperament and Zi Wei principal-star source comparison; two independent pinned calendar witnesses and archived placement parity; 108 fixed arms per profile across original century; separate scores and capped union, strict and weak same-row HD/Chinese dominance.",
+  "status": "BOUNDED_SUBTASK_EXECUTED_PARENT_OPEN",
+  "execution": "3506400 original rows; 108 arms per coding; 36534 daily calendar comparisons, 1236 Jie term pairs, 240 direct second witness hour formula checks, 512 archived BaZi replay checks and 259200 synthetic Zi Wei placement inputs per scope. Full score reconciliation and private receipt verification.",
+  "private_boundary": "No personal birth inputs, observations, individual scores or private output paths published.",
+  "artifacts": [
+    "docs/astrohd/chinese_bazi_ziwei_behavior_comparison_20261124.md",
+    "tools/astrohd/reference/research/chinese_bazi_ziwei_observable_v01.json",
+    "tools/astrohd/scripts/chinese_calendar_grid_v01.py",
+    "tools/astrohd/scripts/build_chinese_calendar_witness_v01.py",
+    "tools/astrohd/scripts/compare_chinese_behavior_century_v01.py",
+    "tools/astrohd/tests/unit/test_compare_chinese_behavior_century_v01.py"
+  ],
+  "next_action": "Compute genuinely same-row cross-tradition comparisons with unchanged frozen models and common usable coverage. Distinguish strict dominance from HD ceiling ties and average-score ranks. Independent held-out validation remains separate."
+}

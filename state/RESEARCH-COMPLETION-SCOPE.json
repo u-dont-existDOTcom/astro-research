@@ -134,6 +134,22 @@
         "replayed_conjunction_arms_per_coding": 4,
         "frozen_evidence_versions": 2,
         "private_individual_results_published": false
+      },
+      "partial_chinese_grid": {
+        "status": "EXECUTED_DECLARED_FINITE_GRID_ONLY",
+        "evidence_path": "docs/astrohd/chinese_bazi_ziwei_behavior_comparison_20261124.md",
+        "grid_rows": 3506400,
+        "common_usable_rows": 3505937,
+        "element_condition_clauses": 11,
+        "main_star_entries": 14,
+        "direct_directions": 26,
+        "proxy_directions": 41,
+        "arms_per_coding": 108,
+        "frozen_evidence_versions": 2,
+        "daily_calendar_witness_checks": 36534,
+        "jie_term_pairs": 1236,
+        "ziwei_synthetic_placement_inputs_per_scope": 259200,
+        "private_individual_results_published": false
       }
     },
     {
@@ -182,7 +198,7 @@
     "no_personality_rank_from_geometric_rarity": true,
     "old_results_preserved_not_rewritten": true
   },
-  "next_safe_action": "Advance source-grounded BaZi and Zi Wei behavioral scoring using the earlier verified computational work; preserve Vedic qualification alternatives and compare genuinely same-row cross-system results without choosing a favored school from exposed-reference ranks. Independent held-out human validation remains separate.",
+  "next_safe_action": "Compute same-row cross-tradition overlap using frozen HD, Western, Vedic and Chinese models. Separate strict improvement, tied maximum HD, average-score improvement and variant dependence. Retain coverage and uncertainty; no rank-selected schools or independent validation claims.",
   "provenance": "Based on verified public source evidence and corrected user feedback. Prior conversation completion language is explicitly distinguished from what the Git artifact actually proves.",
   "completed_now_limited_source_motion": {
     "status": "COMPLETE_DECLARED_SOURCE_COMPONENT_ONLY",

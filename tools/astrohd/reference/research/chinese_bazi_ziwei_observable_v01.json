@@ -1,0 +1,295 @@
+{
+  "schema": "chinese_bazi_ziwei_observable_v01",
+  "status": "RETROSPECTIVE_CONDITIONAL_NOT_VALIDATION",
+  "source": {
+    "bazi": [
+      "https://zh.wikisource.org/zh-hant/三命通會/卷七#論性情相貌",
+      "https://zh.wikisource.org/wiki/三命通會/卷二"
+    ],
+    "ziwei": [
+      "https://zh.wikisource.org/wiki/紫微斗數全書/卷一",
+      "https://zh.wikisource.org/wiki/紫微斗數全書/卷二"
+    ],
+    "read_mode": "Selected relevant original-language electronic text in Vol II and VII and Vol I/II, not new facsimile collation. Semantic directions are a modern restricted operational interpretation.",
+    "limits": [
+      "San Ming Tong Hui treats flourishing, decline, excess and other configurations differently and says to consider controlling elements, Na Yin in one passage and native day/hour elements without Na Yin in another. This experiment follows only the latter native-element scope; no Na Yin, hidden stems, integrated strength, special configurations or controlling-element substitution. The balanced clause and seasonal state policies are conditional proxies, not actual chart strength. Excess is not inferred from season; no excessive-condition scores admitted.",
+      "Vol II explicitly identifies sixth month Earth flourishing; the other four seasons are assigned by month branch in this finite implementation. An alternative all-four transition-month Earth convention is retained as a researcher sensitivity, not attributed to this exact passage.",
+      "Wood has separate declining and dead clauses. Other elements use explicit deficient clauses only in the weak-as-deficient sensitivity; rest/captive/dead is not assumed equivalent to insufficient in the literal arm.",
+      "Zi Wei: the general star descriptions are conditional, and the original emphasizes palace, co-occurring and supporting stars, brightness, empty palaces and adverse stars. No full strength, transformations, opposite palace borrowing, or condition-dependent birth-outcome assertions; empty principal sets abstain. Ming-only and Ming/Shen union are exploratory scope alternatives. No protected traits, medical, family, sexual, crime, or fate labels are scored.",
+      "Direct means close operational semantics and proxy means more indirect; all were authored after reference exposure but before rank computation. Negative directions are explicit source countertraits, not absent predictions."
+    ]
+  },
+  "elements": [
+    {
+      "element": "wood",
+      "condition": "flourishing",
+      "locator": "旺相",
+      "direct": {
+        "compassion": 1,
+        "generosity": 1
+      },
+      "proxy": {
+        "frankness": 1
+      }
+    },
+    {
+      "element": "wood",
+      "condition": "rest_captive",
+      "locator": "休囚",
+      "direct": {
+        "compassion": -1
+      },
+      "proxy": {
+        "firmness": 1
+      }
+    },
+    {
+      "element": "wood",
+      "condition": "dead",
+      "locator": "死絕",
+      "direct": {
+        "generosity": -1
+      },
+      "proxy": {}
+    },
+    {
+      "element": "fire",
+      "condition": "flourishing",
+      "locator": "旺相",
+      "direct": {
+        "modesty": 1
+      },
+      "proxy": {
+        "anger": 1,
+        "deception": -1
+      }
+    },
+    {
+      "element": "fire",
+      "condition": "deficient",
+      "locator": "不及",
+      "direct": {
+        "deception": 1
+      },
+      "proxy": {
+        "work": -1
+      }
+    },
+    {
+      "element": "earth",
+      "condition": "flourishing",
+      "locator": "旺相",
+      "direct": {
+        "reliability": 1,
+        "faith_practice": 1
+      },
+      "proxy": {
+        "practical": 1,
+        "generosity": 1
+      }
+    },
+    {
+      "element": "earth",
+      "condition": "deficient",
+      "locator": "不及",
+      "direct": {
+        "reliability": -1,
+        "generosity": -1
+      },
+      "proxy": {
+        "harshness": 1
+      }
+    },
+    {
+      "element": "metal",
+      "condition": "flourishing",
+      "locator": "旺相",
+      "direct": {
+        "generosity": 1
+      },
+      "proxy": {
+        "firmness": 1,
+        "risk": 1
+      }
+    },
+    {
+      "element": "metal",
+      "condition": "deficient",
+      "locator": "不及",
+      "direct": {
+        "generosity": -1
+      },
+      "proxy": {
+        "deliberation": 1,
+        "timidity": 1,
+        "harshness": 1
+      }
+    },
+    {
+      "element": "water",
+      "condition": "flourishing",
+      "locator": "旺相",
+      "direct": {
+        "learning": 1,
+        "deception": 1
+      },
+      "proxy": {
+        "inquiry": 1,
+        "eloquence": 1
+      }
+    },
+    {
+      "element": "water",
+      "condition": "deficient",
+      "locator": "不及",
+      "direct": {
+        "change_mind": 1,
+        "timidity": 1
+      },
+      "proxy": {}
+    }
+  ],
+  "main_stars": [
+    {
+      "star": "Zi Wei",
+      "locator": "卷二 命宮 紫微",
+      "direct": {
+        "modesty": 1
+      },
+      "proxy": {
+        "reliability": 1,
+        "frankness": 1
+      }
+    },
+    {
+      "star": "Tian Ji",
+      "locator": "卷一 諸星問答論 天機",
+      "direct": {
+        "faith_practice": 1
+      },
+      "proxy": {
+        "compassion": 1,
+        "invention": 1,
+        "practical": 1
+      }
+    },
+    {
+      "star": "Tai Yang",
+      "locator": "卷一 諸星問答論 太陽",
+      "direct": {},
+      "proxy": {
+        "compassion": 1,
+        "confrontation": -1
+      }
+    },
+    {
+      "star": "Wu Qu",
+      "locator": "卷一 形性賦／諸星問答論 武曲",
+      "direct": {},
+      "proxy": {
+        "firmness": 1
+      }
+    },
+    {
+      "star": "Tian Tong",
+      "locator": "卷一 諸星問答論 天同",
+      "direct": {
+        "modesty": 1
+      },
+      "proxy": {
+        "compassion": 1,
+        "anger": -1,
+        "learning": 1
+      }
+    },
+    {
+      "star": "Lian Zhen",
+      "locator": "卷一 形性賦／諸星問答論 廉貞",
+      "direct": {
+        "confrontation": 1
+      },
+      "proxy": {
+        "anger": 1,
+        "harshness": 1
+      }
+    },
+    {
+      "star": "Tian Fu",
+      "locator": "卷一 諸星問答論 天府",
+      "direct": {},
+      "proxy": {
+        "anger": -1
+      }
+    },
+    {
+      "star": "Tai Yin",
+      "locator": "卷一 諸星問答論 太陰",
+      "direct": {},
+      "proxy": {}
+    },
+    {
+      "star": "Tan Lang",
+      "locator": "卷一 諸星問答論 貪狼",
+      "direct": {
+        "deception": 1
+      },
+      "proxy": {
+        "pleasure": 1,
+        "change_mind": 1
+      }
+    },
+    {
+      "star": "Ju Men",
+      "locator": "卷一 諸星問答論 巨門",
+      "direct": {},
+      "proxy": {
+        "confrontation": 1,
+        "trust_caution": 1,
+        "deception": 1
+      }
+    },
+    {
+      "star": "Tian Xiang",
+      "locator": "卷一 諸星問答論 天相",
+      "direct": {
+        "deception": -1,
+        "compassion": 1
+      },
+      "proxy": {
+        "firmness": 1
+      }
+    },
+    {
+      "star": "Tian Liang",
+      "locator": "卷一 諸星問答論 天梁",
+      "direct": {
+        "modesty": 1
+      },
+      "proxy": {
+        "deception": -1,
+        "anger": -1
+      }
+    },
+    {
+      "star": "Qi Sha",
+      "locator": "卷一 形性賦／諸星問答論 七殺",
+      "direct": {},
+      "proxy": {
+        "risk": 1,
+        "change_mind": 1
+      }
+    },
+    {
+      "star": "Po Jun",
+      "locator": "卷一 形性賦／諸星問答論 破軍",
+      "direct": {
+        "deception": 1,
+        "compassion": -1
+      },
+      "proxy": {
+        "risk": 1,
+        "sociability": -1
+      }
+    }
+  ]
+}
