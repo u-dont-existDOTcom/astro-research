@@ -1,0 +1,19 @@
+{
+  "schema": "source_bound_active_task_v01",
+  "task_id": "astrohd-fixed-model-transfer-20261125",
+  "required_repo": "u-dont-existDOTcom/astro-research",
+  "required_branch": "research/fixed-model-transfer-20261125",
+  "parent_outcome": "OPEN: identify best-fitting fixed interpretations on the development chart, then test transfer to other respondents; universal superiority no longer required",
+  "owner_method_correction": "Development selection among already evaluated generic fixed models is expressly authorized. Freeze selected rules before new transfer evaluation; do not use every-interpretation dominance as acceptance criterion.",
+  "bounded_outcome": "Select existing fixed HD and Western models by tie-aware development rank and execute same pair for a separately assessed previously consented respondent. Retain simple baselines, alternative reported birth records and evidence admission sensitivities.",
+  "status": "EXECUTED_DEVELOPMENT_SELECTION_AND_NEGATIVE_SEPARATE_PERSON_TRANSFER",
+  "execution": "121 HD choices and 1153 Western choices selected from verified prior point-score receipts; full original 3506400 UTC timestamps, 3506275 ranked rows. Exact development ranks and reference scores reproduced; transfer site solar altitudes recalculated; exact birth charts and interval geometry reconciled; prior source-only interview preserved privately.",
+  "private_boundary": "No participant identities, birth data, interview text, scores, ranks, private evidence hashes or locators published.",
+  "artifacts": [
+    "docs/astrohd/fixed_model_development_transfer_20261125.md",
+    "tools/astrohd/scripts/select_fixed_transfer_models_v01.py",
+    "tools/astrohd/scripts/compare_fixed_transfer_models_v01.py",
+    "tools/astrohd/tests/unit/test_fixed_transfer_models_v01.py"
+  ],
+  "next_action": "Retain failed transfer result and unresolved birth-source discrepancy. If continuing model development, specify a small candidate set based only on development evidence and test frozen choices on additional independent cases with comparable observable coverage; do not tune to the tested transfer respondent and call that validation."
+}
