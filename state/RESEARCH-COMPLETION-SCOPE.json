@@ -222,6 +222,18 @@
         "actual_rival_identity_and_item_trace": true,
         "weight_policies": 6,
         "private_individual_results_published": false
+      },
+      "partial_fixed_model_transfer": {
+        "status": "EXECUTED_DEVELOPMENT_SELECTED_FIXED_PAIR_AND_SEPARATE_PERSON_TRANSFER",
+        "evidence_path": "docs/astrohd/fixed_model_development_transfer_20261125.md",
+        "development_HD_choices": 121,
+        "development_Western_choices": 1153,
+        "source_grid_rows": 3506400,
+        "ranked_rows": 3506275,
+        "development_ranks_replayed": true,
+        "universal_interpretation_superiority_required": false,
+        "transfer_validated": false,
+        "private_individual_results_published": false
       }
     },
     {
@@ -270,7 +282,7 @@
     "no_personality_rank_from_geometric_rarity": true,
     "old_results_preserved_not_rewritten": true
   },
-  "next_safe_action": "Assess preexisting independently measured, consented profiles and provenance for held-out evaluation of frozen generic models and nonastrological controls. Preserve all earlier scores, weight sensitivity, and context; do not select weights or answers to favor the exposed reference.",
+  "next_safe_action": "Owner clarified model-selection goal: retain development-selected fixed-pair result and negative separate-person transfer; preserve birth-source ambiguity, source coverage and all previous model versions. Freeze next development-derived candidate hypotheses before testing additional independent cases, rather than requiring universal superiority.",
   "provenance": "Based on verified public source evidence and corrected user feedback. Prior conversation completion language is explicitly distinguished from what the Git artifact actually proves.",
   "completed_now_limited_source_motion": {
     "status": "COMPLETE_DECLARED_SOURCE_COMPONENT_ONLY",

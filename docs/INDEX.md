@@ -1,5 +1,7 @@
 # Research documentation
 
+- **25 Nov development-selected fixed-model transfer:** [Tie-aware model selection and actual separate-person comparison](astrohd/fixed_model_development_transfer_20261125.md). Full-grid selected-pair replay and negative transfer; personal results private. Universal interpretation superiority is no longer the owner objective.
+
 - **24 Nov HD source-specific measurement:** [22 generic constructs, exact century score and same-row rival diagnostics, six weighting policies](astrohd/hd_specific_observable_comparison_20261124.md). All prior cross counts replayed; new rivalry is weight-dependent. Personal records and results private.
 
 - **24 Nov complete-catalogue HD expansion:** [Gate, channel and ordered-profile behavioral scoring and full-grid same-row dominance](astrohd/hd_complete_archetype_behavior_comparison_20261124.md). Exact old baseline replay; strict conditional competitors found, across-HD-arm robustness and full-grid reusable non-HD flags. Personal results private.
