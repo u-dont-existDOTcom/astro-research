@@ -1,5 +1,7 @@
 # Development-selected fixed models and separate-person transfer
 
+**Subsequent clarification:** the reported birth input was explicitly corrected after this historical run; the corrected record, not recency or fit, governs future work. See [behavioral evidence coverage and source identity](transfer_observation_coverage_20261125.md). The original input labels and results remain historical.
+
 25 November 2026. Owner clarified the primary objective: identify the interpretations that fit the known development chart best, then test their transfer to other respondents. Requiring dominance under every interpretation is not the acceptance criterion. Preserve all earlier calculations as historical sensitivity results; do not treat a change of method as correction of old arithmetic.
 
 ## Selection and separation

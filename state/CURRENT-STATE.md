@@ -1,5 +1,11 @@
 # Current research state
 
+## 25 November 2026 — source correction and comparable behavioral coverage
+
+**Root outcome OPEN; owner-directed hold on additional model selection until transfer evidence is sufficiently comparable.** Explicit birth-record correction preserved privately, including time-estimate provenance and superseded historical input status. Actual broad/narrow observation coverage audit on the existing development and transfer evidence, using no chart or rank inputs. Material coverage gaps confirmed; existing interview and later clarifications reviewed. Private supplemental questions prepared and all development-only broader-evidence slots addressed by the packet; responses not yet collected. No new model selection or chart scoring. [Method and audit](../docs/astrohd/transfer_observation_coverage_20261125.md), [task](tasks/20261125-transfer-evidence-coverage.json).
+
+**NEXT:** obtain respondent answers to the prepared neutral supplemental interview, reconcile source-linked observations and participant review, then rerun the frozen pair and evaluate other common-fitting fixed models as two-case development, not independent validation.
+
 ## 25 November 2026 — owner-directed fixed-model selection and separate-person transfer
 
 **Root outcome OPEN; method clarified by owner.** Select the best-fitting existing fixed interpretations on the development chart and test their generalization to other people. Every-interpretation superiority is not required. Verified canonical main includes PR49. From 121 HD and 1,153 Western standalone point-score choices, froze each system's best tie-aware development rank before reading the transfer interview in this run. Actual full-grid fixed-pair comparison, 3,506,400 timestamps and 3,506,275 ranked, exact development reference/ranks reproduced, transfer site solar altitude recomputed for every row, both predeclared birth-input alternatives calculated independently and reconciled with HD cache. Strong development match did not generalize under unchanged rules; original and simple baselines, contextual and narrower evidence, and reported birth-input disagreement retained. Prior exposure precludes pristine holdout claims. Private results and inputs excluded from public Git. [Method](../docs/astrohd/fixed_model_development_transfer_20261125.md), [task](tasks/20261125-fixed-model-transfer.json).

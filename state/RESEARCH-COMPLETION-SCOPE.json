@@ -234,6 +234,12 @@
         "universal_interpretation_superiority_required": false,
         "transfer_validated": false,
         "private_individual_results_published": false
+      },
+      "partial_transfer_evidence_coverage": {
+        "status": "AUDIT_EXECUTED_PENDING_PARTICIPANT_RESPONSES",
+        "evidence_path": "docs/astrohd/transfer_observation_coverage_20261125.md",
+        "additional_model_selection_authorized_now": false,
+        "private_data_published": false
       }
     },
     {
@@ -282,7 +288,7 @@
     "no_personality_rank_from_geometric_rarity": true,
     "old_results_preserved_not_rewritten": true
   },
-  "next_safe_action": "Owner clarified model-selection goal: retain development-selected fixed-pair result and negative separate-person transfer; preserve birth-source ambiguity, source coverage and all previous model versions. Freeze next development-derived candidate hypotheses before testing additional independent cases, rather than requiring universal superiority.",
+  "next_safe_action": "Use the corrected private working birth record. Obtain and adjudicate actual supplemental responses before selecting new common-fitting models; preserve prior results and source qualifications.",
   "provenance": "Based on verified public source evidence and corrected user feedback. Prior conversation completion language is explicitly distinguished from what the Git artifact actually proves.",
   "completed_now_limited_source_motion": {
     "status": "COMPLETE_DECLARED_SOURCE_COMPONENT_ONLY",

@@ -1,5 +1,7 @@
 # AstroHD public research recovery — 21 November 2026
 
+**25 November comparable behavioral evidence:** [Source correction and actual coverage audit](transfer_observation_coverage_20261125.md). Neutral private supplemental questions prepared; answers pending. No additional model selection.
+
 **25 November fixed-model development and transfer:** [Select a fixed pair on development evidence, then test it unchanged on another respondent](fixed_model_development_transfer_20261125.md). Actual full grid, development ranks replayed, negative transfer retained. Universal across-interpretation dominance is not the primary goal. Personal results private.
 
 **24 November source-specific HD observable comparison:** [22 constructs and complete finite-grid sensitivity](hd_specific_observable_comparison_20261124.md), 80 new point choices, exact old/new rival identity and item trace, six weighting policies; conclusions depend on domain weighting. No new personal records or validated predictive claim.

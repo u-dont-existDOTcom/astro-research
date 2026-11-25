@@ -1,0 +1,15 @@
+{
+  "schema": "source_bound_active_task_v01",
+  "task_id": "astrohd-transfer-evidence-coverage-20261125",
+  "parent_outcome": "OPEN: identify fixed interpretations that fit the development and transfer cases, then test on independent respondents",
+  "owner_gate": "Obtain sufficiently detailed comparable behavior evidence before selecting additional models; honor explicit birth-source correction.",
+  "status": "AUDIT_EXECUTED_FOLLOWUP_PREPARED_RESPONSES_PENDING",
+  "execution": "Actual broad/narrow evidence coverage and common-slot audit over four frozen item registries; source correction and pending interview clarification recovered privately. Follow-up targets checked against registry and all development-only broader slots. No new chart score or selection.",
+  "artifacts": [
+    "docs/astrohd/transfer_observation_coverage_20261125.md",
+    "tools/astrohd/scripts/audit_transfer_observation_coverage_v01.py",
+    "tools/astrohd/tests/unit/test_audit_transfer_observation_coverage_v01.py"
+  ],
+  "next_action": "Collect actual participant responses, obtain summary review, assess coverage and rerun original fixed model first. Any subsequent selection using both known cases is development.",
+  "private_boundary": "No identifying evidence, input values, case-level counts, private filenames or individual answers in public Git."
+}
