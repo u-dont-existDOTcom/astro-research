@@ -1,0 +1,22 @@
+{
+  "schema": "source_bound_active_task_v01",
+  "task_id": "astrohd-hd-specific-observables-20261124",
+  "required_repo": "u-dont-existDOTcom/astro-research",
+  "required_branch": "research/hd-specific-observables-20261124",
+  "parent_outcome": "OPEN: fair source-qualified cross-system comparison; empirical predictive validity remains unestablished",
+  "bounded_outcome": "Add source-specific generic observable block, recover private contextual evidence, execute full-grid score and exact same-row comparisons, inspect old/new rival identities and contribution sums, diagnose weighting sensitivity without choosing weights by rank.",
+  "status": "EXECUTED_BOUNDED_COMPARISON_AND_WEIGHT_DIAGNOSTIC",
+  "execution": "22 constructs, four domains, 75 carrier entries, 44 direct and 54 proxy directions, all 118 prior carrier rows accounted for. Full original 3506400 grid; 3505900 common usable. 82 old cross baseline/arm-pair counts replayed exactly; 80 new point choices per coding. Exact old/new six-full-union rival identity and contribution replay. Six weighting policies tested; original baseline reconciled.",
+  "private_boundary": "No private evidence, exact personal chart times, scores, rival dates or counts, private provenance hashes or paths published.",
+  "artifacts": [
+    "docs/astrohd/hd_specific_observable_comparison_20261124.md",
+    "tools/astrohd/reference/research/hd_specific_observable_block_v01.json",
+    "tools/astrohd/scripts/compare_hd_specific_observables_v01.py",
+    "tools/astrohd/scripts/trace_hd_specific_rivals_v01.py",
+    "tools/astrohd/scripts/audit_hd_specific_weight_sensitivity_v01.py",
+    "tools/astrohd/tests/unit/test_compare_hd_specific_observables_v01.py",
+    "tools/astrohd/tests/unit/test_trace_hd_specific_rivals_v01.py",
+    "tools/astrohd/tests/unit/test_audit_hd_specific_weight_sensitivity_v01.py"
+  ],
+  "next_action": "Audit availability and provenance of independently measured, consented preexisting profiles, compare generic frozen score/weight variants and nonastrological controls on held-out cases if available; do not recruit without authorization or tune the exposed reference. Preserve prior strict rival existence and weighting sensitivity."
+}

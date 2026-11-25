@@ -1,5 +1,7 @@
 # AstroHD public research recovery — 21 November 2026
 
+**24 November source-specific HD observable comparison:** [22 constructs and complete finite-grid sensitivity](hd_specific_observable_comparison_20261124.md), 80 new point choices, exact old/new rival identity and item trace, six weighting policies; conclusions depend on domain weighting. No new personal records or validated predictive claim.
+
 **24 November complete-catalogue HD comparison:** [64 gates, 36 channels, 12 ordered profiles and six line abstractions](hd_complete_archetype_behavior_comparison_20261124.md), 20 arms and 40 point-score choices, actual full grid, contextual and original baseline replay, strict conditional rival existence and across-HD-arm robustness. No empirical validity or personal results published.
 
 **24 November contextual evidence and measurement repair:** [Context-qualified observation sensitivity and generic questionnaire defects](contextual_hd_observation_admission_20261124.md). Earlier source coverage recovered, original scores preserved, exact prior cohort filtering with full-grid subset proof. Questionnaire revisions proposed, not deployed.

@@ -206,6 +206,22 @@
         "original_and_contextual_baselines_replayed": true,
         "full_grid_non_hd_flags_retained_privately": true,
         "private_individual_results_published": false
+      },
+      "partial_hd_specific_observable_comparison": {
+        "status": "EXECUTED_SOURCE_SPECIFIC_BLOCK_AND_WEIGHT_DIAGNOSTICS",
+        "evidence_path": "docs/astrohd/hd_specific_observable_comparison_20261124.md",
+        "source_grid_rows": 3506400,
+        "shared_usable_rows": 3505900,
+        "generic_items": 22,
+        "domains": 4,
+        "mapped_carrier_entries": 75,
+        "direct_directions": 44,
+        "proxy_directions": 54,
+        "new_point_choices_per_coding": 80,
+        "old_cross_arm_pair_records_replayed": 82,
+        "actual_rival_identity_and_item_trace": true,
+        "weight_policies": 6,
+        "private_individual_results_published": false
       }
     },
     {
@@ -254,7 +270,7 @@
     "no_personality_rank_from_geometric_rarity": true,
     "old_results_preserved_not_rewritten": true
   },
-  "next_safe_action": "Expand generic source-specific HD behavioral constructs beyond the shared vocabulary, reuse direct evidence without repeating answered questions, and use the verified full-grid non-HD flags for subsequent same-row dominance checks. Do not infer uniqueness from conditional ranks or select target-favorable variants; independent held-out human validation remains separate.",
+  "next_safe_action": "Assess preexisting independently measured, consented profiles and provenance for held-out evaluation of frozen generic models and nonastrological controls. Preserve all earlier scores, weight sensitivity, and context; do not select weights or answers to favor the exposed reference.",
   "provenance": "Based on verified public source evidence and corrected user feedback. Prior conversation completion language is explicitly distinguished from what the Git artifact actually proves.",
   "completed_now_limited_source_motion": {
     "status": "COMPLETE_DECLARED_SOURCE_COMPONENT_ONLY",
